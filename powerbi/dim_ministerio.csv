@@ -1,0 +1,24 @@
+ministerio_id;ministerio;ministerio_corto;es_ministerio;seccion_2024;perfil_gasto_2024;perfil_pct_2024;nivel_contratacion;estudio_dif_pp;estudio_ic95_inferior;estudio_ic95_superior;estudio_distinto_tras_correccion;estudio_dif_oferta_unica_pp;estudio_oferta_unica_distinta
+12;Ministerio de Asuntos Exteriores, Unión Europea y Cooperación;Asuntos Exteriores, Unión Europea y Cooperación;sí;12;transferencias;67,3227;B;-7,9;-13,1;-1,4;no;-4,2;no
+13;Ministerio de la Presidencia, Justicia y Relaciones con las Cortes;Presidencia, Justicia y Relaciones con las Cortes;sí;13;personal;76,0461;B;-4;-9,3;2,3;no;-1,8;no
+14;Ministerio de Defensa;Defensa;sí;14;inversiones;45,7713;A;5,2;2,9;7,3;sí;6,6;sí
+15;Ministerio de Hacienda;Hacienda;sí;15;financiero;80,7142;A;10,5;7,2;13,8;sí;-4,2;sí
+16;Ministerio del Interior;Interior;sí;16;personal;78,8789;A;3,1;-1,2;7,7;no;-10,5;sí
+17;Ministerio de Transportes y Movilidad Sostenible;Transportes y Movilidad Sostenible;sí;17;transferencias;60,7176;A;-7,3;-9,5;-4,8;sí;3,1;no
+18;Ministerio de Educación, Formación Profesional y Deportes;Educación, Formación Profesional y Deportes;sí;18;transferencias;89,0367;C;-6,2;-13,4;1,3;no;1,4;no
+19;Ministerio de Trabajo y Economía Social;Trabajo y Economía Social;sí;19;transferencias;85,6308;A;-11,4;-15,4;-6,3;no;-4,3;no
+20;Ministerio de Industria y Turismo;Industria y Turismo;sí;20;financiero;59,0531;C;9,2;-12,9;29,3;no;-1,3;no
+21;Ministerio de Agricultura, Pesca y Alimentación;Agricultura, Pesca y Alimentación;sí;21;transferencias;68,2026;C;11,6;-10;29,7;no;1,5;no
+22;Ministerio de Política Territorial y Memoria Democrática;Política Territorial y Memoria Democrática;sí;22;personal;57,8415;C;0,7;-11,2;15,9;no;-5,7;no
+23;Ministerio para la Transición Ecológica y el Reto Demográfico;Transición Ecológica y el Reto Demográfico;sí;23;transferencias;80,9086;A;-5,7;-9,8;-1,1;no;-0,9;no
+24;Ministerio de Cultura;Cultura;sí;24;transferencias;82,2226;B;-3,1;-9,6;4,1;no;15,2;sí
+25;Ministerio de Vivienda y Agenda Urbana;Vivienda y Agenda Urbana;sí;25;transferencias;78,9757;C;-3;-11,1;9,4;no;22,1;no
+26;Ministerio de Sanidad;Sanidad;sí;26;transferencias;78,6713;B;-9,8;-14,8;-2,6;no;-15,8;sí
+27;Ministerio de Economía, Comercio y Empresa;Economía, Comercio y Empresa;sí;27;financiero;80,547;B;-8,9;-13,8;-3,4;no;7,6;no
+28;Ministerio de Ciencia, Innovación y Universidades;Ciencia, Innovación y Universidades;sí;28;transferencias;82,9865;A;-3,9;-6,8;-0,8;no;0,1;no
+29;Ministerio de Derechos Sociales, Consumo y Agenda 2030;Derechos Sociales, Consumo y Agenda 2030;sí;29;transferencias;98,9659;C;1,7;-11,8;19,8;no;-9,2;no
+30;Ministerio de Igualdad;Igualdad;sí;30;transferencias;90,2432;C;-17;-21;-1,6;no;0,6;no
+31;Ministerio de Juventud e Infancia;Juventud e Infancia;sí;31;transferencias;94,5811;C;-6,1;-15,1;6,8;no;1;no
+32;Ministerio de Inclusión, Seguridad Social y Migraciones;Inclusión, Seguridad Social y Migraciones;sí;32;transferencias;78,0283;B;0,2;-5,1;5,9;no;-5,6;sí
+33;Ministerio para la Transformación Digital y de la Función Pública;Transformación Digital y de la Función Pública;sí;33;financiero;66,144;C;-0,9;-11,2;10,2;no;2,9;no
+99;AGE · ministerio sin identificar;Ministerio sin identificar (AGE);no;;;;;;;;;;

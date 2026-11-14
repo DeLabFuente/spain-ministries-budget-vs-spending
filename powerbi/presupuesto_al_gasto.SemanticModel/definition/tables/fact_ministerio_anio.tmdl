@@ -1,0 +1,271 @@
+table fact_ministerio_anio
+	lineageTag: f1507e3d-4cbf-4b09-8f20-de2ddc9fb19c
+
+	column ministerio_id
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 50abfd8d-feaf-455f-aece-a397a295c922
+		summarizeBy: none
+		sourceColumn: ministerio_id
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column anio
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: cab8e801-cb1f-4813-acf3-3cfac4c1ca34
+		summarizeBy: none
+		sourceColumn: anio
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column continuidad
+		dataType: string
+		lineageTag: 1fb3ca80-ddc9-411c-b06d-e2526a801ede
+		summarizeBy: none
+		sourceColumn: continuidad
+
+		annotation SummarizationSetBy = Automatic
+
+	column estado_creditos_iniciales
+		dataType: double
+		lineageTag: 516f49be-7f3f-4b1b-be3c-a0f79aed68b2
+		summarizeBy: sum
+		sourceColumn: estado_creditos_iniciales
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column estado_creditos_extraordinarios_suplementos
+		dataType: double
+		lineageTag: cb42353d-154d-448c-94f6-f9ffdf6824e7
+		summarizeBy: sum
+		sourceColumn: estado_creditos_extraordinarios_suplementos
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column estado_ampliaciones
+		dataType: double
+		lineageTag: d1013c34-49a1-490f-aa49-ca40b6b8e91e
+		summarizeBy: sum
+		sourceColumn: estado_ampliaciones
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column estado_transferencias
+		dataType: double
+		lineageTag: 23bd4852-11c0-4678-878e-1910313858e0
+		summarizeBy: sum
+		sourceColumn: estado_transferencias
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column estado_incorporacion_remanentes
+		dataType: double
+		lineageTag: 0eb5cba7-86ee-4915-a0a0-01ac88bfa194
+		summarizeBy: sum
+		sourceColumn: estado_incorporacion_remanentes
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column estado_generaciones_ingresos
+		dataType: double
+		lineageTag: 8e4b9c2f-f1d2-4c05-937a-817b56cb5547
+		summarizeBy: sum
+		sourceColumn: estado_generaciones_ingresos
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column estado_bajas_otras_modificaciones
+		dataType: double
+		lineageTag: d69dafff-6587-42ed-85ce-5aaa1d7c9b9e
+		summarizeBy: sum
+		sourceColumn: estado_bajas_otras_modificaciones
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column estado_modificaciones_netas
+		dataType: double
+		lineageTag: 4befda4c-432f-4514-abb4-c051180696d9
+		summarizeBy: sum
+		sourceColumn: estado_modificaciones_netas
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column estado_creditos_definitivos
+		dataType: double
+		lineageTag: 246060df-95b2-486b-ba09-fd8d82118f75
+		summarizeBy: sum
+		sourceColumn: estado_creditos_definitivos
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column estado_obligaciones
+		dataType: double
+		lineageTag: 1bb27504-12b1-4364-beae-f521bc214495
+		summarizeBy: sum
+		sourceColumn: estado_obligaciones
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column estado_pagos
+		dataType: double
+		lineageTag: 68da7f1b-80c3-4282-920f-07c8fa1a308d
+		summarizeBy: sum
+		sourceColumn: estado_pagos
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column organismos_obligaciones
+		dataType: double
+		lineageTag: 324b052a-c6b7-4c6c-aa61-8bb413ae488c
+		summarizeBy: sum
+		sourceColumn: organismos_obligaciones
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column transferencias_restadas
+		dataType: double
+		lineageTag: 8662da60-1e21-42c7-be7e-09b66422da49
+		summarizeBy: sum
+		sourceColumn: transferencias_restadas
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column transferencias_de_otros_ministerios
+		dataType: double
+		lineageTag: b65dee82-aec2-4219-9384-ba6311229823
+		summarizeBy: sum
+		sourceColumn: transferencias_de_otros_ministerios
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column transferencias_de_sus_organismos_al_estado
+		dataType: double
+		lineageTag: d8aca33c-ac77-4a1b-9825-96be9251081a
+		summarizeBy: sum
+		sourceColumn: transferencias_de_sus_organismos_al_estado
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column gasto_agregado_sin_doble_computo
+		dataType: double
+		lineageTag: ecea292f-f530-484d-8758-9744ea707773
+		summarizeBy: sum
+		sourceColumn: gasto_agregado_sin_doble_computo
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column mrr_creditos_iniciales
+		dataType: double
+		lineageTag: d9badd97-c01c-4cfa-bf7c-f5d78043bad2
+		summarizeBy: sum
+		sourceColumn: mrr_creditos_iniciales
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column mrr_creditos_definitivos
+		dataType: double
+		lineageTag: 2639dbd6-15f9-4f89-b62d-3784c21c6ad0
+		summarizeBy: sum
+		sourceColumn: mrr_creditos_definitivos
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column mrr_obligaciones
+		dataType: double
+		lineageTag: ee2ca50d-0acd-495a-980c-cffcd70e2534
+		summarizeBy: sum
+		sourceColumn: mrr_obligaciones
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column mrr_pagos
+		dataType: double
+		lineageTag: a56554aa-82c8-468b-a770-81aeaa9e15b6
+		summarizeBy: sum
+		sourceColumn: mrr_pagos
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition fact_ministerio_anio = m
+		mode: import
+		source =
+				let
+				    Origen = Csv.Document(File.Contents(RutaProyecto & "powerbi\fact_ministerio_anio.csv"), [Delimiter = ";", Encoding = 65001, QuoteStyle = QuoteStyle.None]),
+				    Encabezados = Table.PromoteHeaders(Origen, [PromoteAllScalars = true]),
+				    Tipos = Table.TransformColumnTypes(Encabezados, {
+				        {"ministerio_id", Int64.Type}, {"anio", Int64.Type}, {"continuidad", type text},
+				        {"estado_creditos_iniciales", type number},
+				        {"estado_creditos_extraordinarios_suplementos", type number},
+				        {"estado_ampliaciones", type number},
+				        {"estado_transferencias", type number},
+				        {"estado_incorporacion_remanentes", type number},
+				        {"estado_generaciones_ingresos", type number},
+				        {"estado_bajas_otras_modificaciones", type number},
+				        {"estado_modificaciones_netas", type number},
+				        {"estado_creditos_definitivos", type number},
+				        {"estado_obligaciones", type number},
+				        {"estado_pagos", type number},
+				        {"organismos_obligaciones", type number},
+				        {"transferencias_restadas", type number},
+				        {"transferencias_de_otros_ministerios", type number},
+				        {"transferencias_de_sus_organismos_al_estado", type number},
+				        {"gasto_agregado_sin_doble_computo", type number},
+				        {"mrr_creditos_iniciales", type number},
+				        {"mrr_creditos_definitivos", type number},
+				        {"mrr_obligaciones", type number},
+				        {"mrr_pagos", type number}
+				    }, "es-ES")
+				in
+				    Tipos
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+

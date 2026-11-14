@@ -1,0 +1,148 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
+  "name": "bf5bffa367cf4d4b7bbe",
+  "position": {
+    "x": 1230,
+    "y": 200,
+    "z": 6000,
+    "height": 860,
+    "width": 660,
+    "tabOrder": 6000
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_mrr_programa"
+                    }
+                  },
+                  "Property": "programa"
+                }
+              },
+              "queryRef": "fact_mrr_programa.programa",
+              "nativeQueryRef": "programa"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_mrr_programa"
+                    }
+                  },
+                  "Property": "programa_nombre"
+                }
+              },
+              "queryRef": "fact_mrr_programa.programa_nombre",
+              "nativeQueryRef": "programa_nombre"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Medidas"
+                    }
+                  },
+                  "Property": "MRR programa: definitivos"
+                }
+              },
+              "queryRef": "_Medidas.MRR programa: definitivos",
+              "nativeQueryRef": "MRR programa: definitivos"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Medidas"
+                    }
+                  },
+                  "Property": "MRR programa: obligaciones"
+                }
+              },
+              "queryRef": "_Medidas.MRR programa: obligaciones",
+              "nativeQueryRef": "MRR programa: obligaciones"
+            }
+          ]
+        }
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Programas del Mecanismo'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true,
+    "objects": {
+      "columnFormatting": [
+        {
+          "properties": {
+            "labelDisplayUnits": {
+              "expr": {
+                "Literal": {
+                  "Value": "1000000D"
+                }
+              }
+            },
+            "labelPrecision": {
+              "expr": {
+                "Literal": {
+                  "Value": "0L"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "_Medidas.MRR programa: definitivos"
+          }
+        },
+        {
+          "properties": {
+            "labelDisplayUnits": {
+              "expr": {
+                "Literal": {
+                  "Value": "1000000D"
+                }
+              }
+            },
+            "labelPrecision": {
+              "expr": {
+                "Literal": {
+                  "Value": "0L"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "_Medidas.MRR programa: obligaciones"
+          }
+        }
+      ]
+    }
+  }
+}

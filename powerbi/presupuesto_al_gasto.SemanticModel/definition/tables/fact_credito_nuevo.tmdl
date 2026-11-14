@@ -1,0 +1,92 @@
+table fact_credito_nuevo
+	lineageTag: 087c02b3-1bd1-5c29-b371-60a6a23ae31a
+
+	column anio
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: d679ef9a-26aa-5f86-bdfa-3f1c2ceb7da4
+		summarizeBy: none
+		sourceColumn: anio
+
+		annotation SummarizationSetBy = Automatic
+
+	column mecanismo
+		dataType: string
+		lineageTag: 1e8691c7-037d-59d6-a7f9-30601e8fce5f
+		summarizeBy: none
+		sourceColumn: mecanismo
+
+		annotation SummarizationSetBy = Automatic
+
+	column grupo
+		dataType: string
+		lineageTag: 77aed995-9cb6-59f4-a9f3-325cd6455c97
+		summarizeBy: none
+		sourceColumn: grupo
+
+		annotation SummarizationSetBy = Automatic
+
+	column lineas
+		dataType: int64
+		formatString: 0
+		lineageTag: 50d14d4e-6ac0-5211-9575-7933a3c2c5f9
+		summarizeBy: none
+		sourceColumn: lineas
+
+		annotation SummarizationSetBy = Automatic
+
+	column creditos_iniciales
+		dataType: double
+		lineageTag: 3d0b2f6f-3245-523f-accc-df8ec2b6145f
+		summarizeBy: none
+		sourceColumn: creditos_iniciales
+
+		annotation SummarizationSetBy = Automatic
+
+	column creditos_definitivos
+		dataType: double
+		lineageTag: 08856212-4154-5fb3-ad52-6189e454b9f1
+		summarizeBy: none
+		sourceColumn: creditos_definitivos
+
+		annotation SummarizationSetBy = Automatic
+
+	column obligaciones
+		dataType: double
+		lineageTag: 4d4bc05f-4cbe-5f3f-8230-2b8a9f2eaf50
+		summarizeBy: none
+		sourceColumn: obligaciones
+
+		annotation SummarizationSetBy = Automatic
+
+	column creditos_definitivos_sin_cap8
+		dataType: double
+		lineageTag: 0d8eb6c6-0695-5328-919f-767061086a24
+		summarizeBy: none
+		sourceColumn: creditos_definitivos_sin_cap8
+
+		annotation SummarizationSetBy = Automatic
+
+	column obligaciones_sin_cap8
+		dataType: double
+		lineageTag: 9b413cbd-3a89-527f-aa86-9bf934d8cbe0
+		summarizeBy: none
+		sourceColumn: obligaciones_sin_cap8
+
+		annotation SummarizationSetBy = Automatic
+
+	partition fact_credito_nuevo = m
+		mode: import
+		source =
+				let
+				    Origen = Csv.Document(File.Contents(RutaProyecto & "powerbi\fact_credito_nuevo.csv"), [Delimiter = ";", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Encabezados = Table.PromoteHeaders(Origen, [PromoteAllScalars = true]),
+				    Tipos = Table.TransformColumnTypes(Encabezados, {{"anio", Int64.Type}, {"mecanismo", type text}, {"grupo", type text}, {"lineas", Int64.Type}, {"creditos_iniciales", type number}, {"creditos_definitivos", type number}, {"obligaciones", type number}, {"creditos_definitivos_sin_cap8", type number}, {"obligaciones_sin_cap8", type number}}, "es-ES")
+				in
+				    Tipos
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+

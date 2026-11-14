@@ -1,0 +1,1559 @@
+ministerio_id;anio;programa;programa_nombre;creditos_iniciales;creditos_definitivos;obligaciones
+21;2020;000X;Transferencias internas;290349220;314118391,05;313009520,03
+21;2020;411M;Dirección y Servicios Generales de Agricultura, Pesca y Alimentación;84782860;96838540,44;85945096,06
+21;2020;412C;Competitividad y calidad de la producción y los mercados agrarios;49748290;70414037,47;67450607,19
+21;2020;412D;Competitividad y calidad de la sanidad agraria;42013440;44078079,48;41650148,65
+21;2020;412M;Regulación de los mercados agrarios;36926400;15455696,09;15171950,02
+21;2020;413A;Competitividad industria agroalimentaria y calidad alimentaria;32555400;29962764,02;26448409,2
+21;2020;414A;Gestión de recursos hídricos para el regadío;59726570;57105319,67;34070984,62
+21;2020;414B;Desarrollo del medio rural;135945020;122904331,7;118069780,61
+21;2020;415A;Protección de los recursos pesqueros y desarrollo sostenible;19032250;17951726,75;15717276,4
+21;2020;415B;Mejora de estructuras y mercados pesqueros;42878240;81012679,28;51748683,09
+21;2020;416A;Previsión de riesgos en las producciones agrarias y pesqueras;1500;1500;0
+21;2020;417A;Desarrollo de la política forestal;122194460;110627109,39;90188193,8
+21;2021;000X;Transferencias y libramientos internos;341492320;339015446,48;338240940,26
+21;2021;410B;Desarrollo del Medio Rural y Recursos Hídricos para el Regadío. Mecanismo de Recuperación y Resilien;270800000;271051324,56;270354279,7
+21;2021;410C;Competitividad y Calidad de la Producción y los Mercados Agrarios. Mecanismo de Recuperación y Resil;114800000;115358752,72;115358752,72
+21;2021;410D;Competitividad y Calidad de la Sanidad Agraria. Mecanismo de Recuperación y Resiliencia;3000000;3189292,37;2542505,75
+21;2021;410E;Protección de los Recursos Pesqueros y Desarrollo Sostenible. Mecanismo de Recuperación y Resilienci;8900000;7900630,35;3475252,72
+21;2021;410F;Mejora de las Estructuras y Mercados Pesqueros. Mecanismo de Recuperación y Resiliencia;9000000;9000000;7222100
+21;2021;411M;Dirección y Servicios Generales de Agricultura, Pesca y Alimentación;90693760;106234385,62;98350441,82
+21;2021;412C;Competitividad y calidad de la producción y los mercados agrarios;48934050;51003806,34;49953709,07
+21;2021;412D;Competitividad y calidad de la sanidad agraria;45858730;47906113,24;45086203,17
+21;2021;412M;Regulación de los mercados agrarios;50908840;48518840;48504063,99
+21;2021;413A;Competitividad industria agroalimentaria y calidad alimentaria;31310630;30935404,2;27705229,51
+21;2021;414A;Gestión de recursos hídricos para el regadío, caminos naturales y otras infraestructuras rurales;61157330;58662061,95;54413048,14
+21;2021;414B;Desarrollo del medio rural;126181000;152695770,15;150364888,56
+21;2021;415A;Protección de los recursos pesqueros y desarrollo sostenible;18606290;18201818;17120597,75
+21;2021;415B;Mejora de estructuras y mercados pesqueros;45280050;43641101,87;41515073,34
+21;2021;416A;Previsión de riesgos en las producciones agrarias y pesqueras;1500;1500;0
+21;2022;000X;Transferencias y libramientos internos;348140700;577495606,23;576183388,62
+21;2022;24WA;C23.I01 Empleo Joven;0;416125,32;44552,43
+21;2022;411M;Dirección y Servicios Generales de Agricultura, Pesca y Alimentación;94182020;116939530,81;91539685,99
+21;2022;412C;Competitividad y calidad de la producción y los mercados agrarios;50983300;194826555,43;193538338,45
+21;2022;412D;Competitividad y calidad de la sanidad agraria;46967980;52992882,36;49351628,22
+21;2022;412M;Regulación de los mercados agrarios;50408840;18910150,34;18856914,69
+21;2022;413A;Competitividad industria agroalimentaria y calidad alimentaria;31719880;36052879,52;30565646,37
+21;2022;414A;Gestión de recursos hídricos para el regadío, caminos naturales y otras infraestructuras rurales;63378660;60573876,33;52171478,53
+21;2022;414B;Desarrollo del medio rural;179397870;177837254,15;174067932,17
+21;2022;415A;Protección de los recursos pesqueros y desarrollo sostenible;20557550;18956350,23;17426266,91
+21;2022;415B;Mejora de estructuras y mercados pesqueros;50577330;112971494,34;60932317,3
+21;2022;416A;Previsión de riesgos en las producciones agrarias y pesqueras;1500;1500;0
+21;2022;41CA;C03.I01 Plan para la mejora de la eficiencia y la sostenibilidad en regadíos;303000000;303000000;303000000
+21;2022;41CB;C03.I02 Plan de Impulso de la sostenibilidad y competitividad de la agricultura y la ganadería (I):;3810710;4457496,62;617226,65
+21;2022;41CC;C03.I03 Plan de Impulso de la sostenibilidad y competitividad de la agricultura y la ganadería (II):;12700000;12700000;12700000
+21;2022;41CD;C03.I04 Plan de Impulso de la sostenibilidad y competitividad de la agricultura y la ganadería (III);101841250;101841250;101841247,28
+21;2022;41CE;C03.I05 Estrategia de Digitalización del sector Agroalimentario y Forestal y del Medio Rural: Desarr;14798040;15495084,86;11632971,99
+21;2022;41CF;C03.I06 Plan de impulso a la sostenibilidad, investigación, innovación y digitalización del sector p;7000000;8050450,93;2111146,65
+21;2022;41CG;C03.I07 Plan de impulso a la sostenibilidad, investigación, innovación y digitalización del sector p;5450000;8824926,7;4639023,86
+21;2022;41CH;C03.I08 Plan de impulso a la sostenibilidad, investigación, innovación y digitalización del sector p;5000000;5000000;4069149,41
+21;2022;41CI;C03.I09 Plan de impulso a la sostenibilidad, investigación, innovación y digitalización del sector p;4000000;5777900;3786256,8
+21;2022;41CJ;C03.I10 Plan de impulso a la sostenibilidad, investigación, innovación y digitalización del sector p;36000000;26000000;24696806,04
+21;2023;000X;Transferencias y libramientos internos;359574450;1350270676,02;1347329740,37
+21;2023;24WA;C23.I01 Empleo Joven;0;1050493,45;517645,91
+21;2023;411M;Dirección y Servicios Generales de Agricultura, Pesca y Alimentación;137456330;200743510,26;190738287,82
+21;2023;412C;Competitividad y calidad de la producción y los mercados agrarios;58454270;63604650,27;62832644,07
+21;2023;412D;Competitividad y calidad de la sanidad agraria;46690500;53221374,58;49207972,13
+21;2023;412M;Regulación de los mercados agrarios;30408840;26608840;26608840
+21;2023;413A;Competitividad industria agroalimentaria y calidad alimentaria;34387250;34215225,21;31124507,42
+21;2023;414A;Gestión de recursos hídricos para el regadío, caminos naturales y otras infraestructuras rurales;157022570;152831875,27;146381143,93
+21;2023;414B;Desarrollo del medio rural;189238090;190219485,5;183303031,62
+21;2023;415A;Protección de los recursos pesqueros y desarrollo sostenible;24370640;23173636,29;22321745,64
+21;2023;415B;Mejora de estructuras y mercados pesqueros;62344160;205819379,93;169194007,56
+21;2023;416A;Previsión de riesgos en las producciones agrarias y pesqueras;1500;1500;0
+21;2023;41CA;C03.I01 Plan para la mejora de la eficiencia y la sostenibilidad en regadíos;270750000;207750000;207750000
+21;2023;41CB;C03.I02 Plan de Impulso de la sostenibilidad y competitividad de la agricultura y la ganadería (I):;25040000;34709565,75;1663156,47
+21;2023;41CC;C03.I03 Plan de Impulso de la sostenibilidad y competitividad de la agricultura y la ganadería (II):;12700000;11436152,31;11436152,31
+21;2023;41CD;C03.I04 Plan de Impulso de la sostenibilidad y competitividad de la agricultura y la ganadería (III);102400000;104789108;104789108
+21;2023;41CE;C03.I05 Estrategia de Digitalización del sector Agroalimentario y Forestal y del Medio Rural: Desarr;12400000;16262112,87;11866935,91
+21;2023;41CF;C03.I06 Plan de impulso a la sostenibilidad, investigación, innovación y digitalización del sector p;1250000;6841043,39;2887820,64
+21;2023;41CG;C03.I07 Plan de impulso a la sostenibilidad, investigación, innovación y digitalización del sector p;3400000;6755702,39;4255627,68
+21;2023;41CH;C03.I08 Plan de impulso a la sostenibilidad, investigación, innovación y digitalización del sector p;5000000;5735970,87;1310225,51
+21;2023;41CI;C03.I09 Plan de impulso a la sostenibilidad, investigación, innovación y digitalización del sector p;4000000;5858701,71;2383641,65
+21;2023;41CJ;C03.I10 Plan de impulso a la sostenibilidad, investigación, innovación y digitalización del sector p;8000000;1303193,96;1303193,96
+21;2023;41CL;C3.I12 PLAN PARA LA MEJORA DE LA EFICIENCIA Y LA SOSTENIBILIDAD EN REGADÍOS;0;260000000;259997836,36
+21;2024;000X;Transferencias y libramientos internos;341038310;461191580,5;460931382,73
+21;2024;24WA;C23.I01 Empleo Joven;0;511140,99;349415,87
+21;2024;411M;Dirección y Servicios Generales de Agricultura, Pesca y Alimentación;135896330;130340871,12;126810052,38
+21;2024;412C;Competitividad y calidad de la producción y los mercados agrarios;58454270;58800439,19;57941813,33
+21;2024;412D;Competitividad y calidad de la sanidad agraria;46690500;70239415,38;68049778,1
+21;2024;412M;Regulación de los mercados agrarios;30408840;16413828,13;16413828,13
+21;2024;413A;Competitividad industria agroalimentaria y calidad alimentaria;34387250;28991147,85;26841375,32
+21;2024;414A;Gestión de recursos hídricos para el regadío, caminos naturales y otras infraestructuras rurales;157022570;146871650,96;141791415,85
+21;2024;414B;Desarrollo del medio rural;189238090;187938122,08;181870275,33
+21;2024;415A;Protección de los recursos pesqueros y desarrollo sostenible;24370640;23888364,88;22957693,42
+21;2024;415B;Mejora de estructuras y mercados pesqueros;62344160;57594942,82;51428725,57
+21;2024;416A;Previsión de riesgos en las producciones agrarias y pesqueras;1500;1500;0
+21;2024;41CB;C03.I02 Plan de Impulso de la sostenibilidad y competitividad de la agricultura y la ganadería (I):;0;33046409,28;7581916,14
+21;2024;41CD;C03.I04 Plan de Impulso de la sostenibilidad y competitividad de la agricultura y la ganadería (III);0;6335554,2;6335554,2
+21;2024;41CE;C03.I05 Estrategia de Digitalización del sector Agroalimentario y Forestal y del Medio Rural: Desarr;0;4395176,96;1485698,07
+21;2024;41CF;C03.I06 Plan de impulso a la sostenibilidad, investigación, innovación y digitalización del sector p;0;3853580,33;3713561,23
+21;2024;41CG;C03.I07 Plan de impulso a la sostenibilidad, investigación, innovación y digitalización del sector p;0;2264838,49;1762987,32
+21;2024;41CH;C03.I08 Plan de impulso a la sostenibilidad, investigación, innovación y digitalización del sector p;0;4425745,36;3361460,13
+21;2024;41CI;C03.I09 Plan de impulso a la sostenibilidad, investigación, innovación y digitalización del sector p;0;2992933,43;1469989,04
+21;2024;46LB;C12.I02 Programa de impulso de la Competitividad y Sostenibilidad Industrial. I+D+i+Digitalización;0;20000000;0
+21;2024;929D;Contingencias asociadas a la Depresión Aislada en Niveles Altos (DANA) de 2024;0;62525000;55475882,05
+12;2020;000X;Transferencias internas;287507980;272480642,68;272480642,68
+12;2020;141M;Dirección y Servicios Generales de Asuntos Exteriores, Unión Europea y Cooperación;64411380;65809800,12;60843053,22
+12;2020;142A;Acción del Estado en el exterior;790916790;790086489,91;740035892,87
+12;2020;142B;Acción Diplomática ante la Unión Europea;21244020;20751615,65;19093827,29
+12;2020;143A;Cooperación para el desarrollo;229391990;242757816,65;32738819,32
+12;2020;144A;Cooperación, promoción y difusión cultural en el exterior;1203510;997740,96;948341,68
+12;2020;467G;Investigación y desarrollo de la Sociedad de la Información;1886660;1730155,84;1618521,8
+12;2021;000X;Transferencias y libramientos internos;363183680;413976254,45;364972914,45
+12;2021;140A;Política Exterior. Mecanismo de Recuperación y Resiliencia;78614230;78614230;0
+12;2021;141M;Dirección y Servicios Generales de Asuntos Exteriores, Unión Europea y Cooperación;82888970;82755698,53;67237700,38
+12;2021;142A;Acción del Estado en el exterior;816834410;822375560,58;763538535,38
+12;2021;142B;Acción Diplomática ante la Unión Europea;21412890;21661866,38;19982601,55
+12;2021;143A;Cooperación para el desarrollo;292989740;293001646,23;77771904,87
+12;2021;467G;Investigación y desarrollo de la Sociedad de la Información;1759660;1947136;1775368,38
+12;2022;000X;Transferencias y libramientos internos;481922400;497963864,85;465908194,3
+12;2022;141M;Dirección y Servicios Generales de Asuntos Exteriores, Unión Europea y Cooperación;77665210;71106187,27;56073587,33
+12;2022;142A;Acción del Estado en el exterior;853995020;869374655,86;854210742,29
+12;2022;142B;Acción Diplomática ante la Unión Europea;26219200;25901352,94;23108866,96
+12;2022;143A;Cooperación para el desarrollo;295081820;296496925,65;86305833,45
+12;2022;14KB;C11.I02 Proyectos tractores de digitalización de la Administración General del Estado. Política exte;21626000;78771000;8425548,19
+12;2022;467G;Investigación y desarrollo de la Sociedad de la Información;1759660;1714160;1637666,07
+12;2023;000X;Transferencias y libramientos internos;690820540;720495740,96;677373387,64
+12;2023;141M;Dirección y Servicios Generales de Asuntos Exteriores, Unión Europea y Cooperación;96370910;81613075,71;61317583,1
+12;2023;142A;Acción del Estado en el exterior;868277010;883795044,63;856082206,07
+12;2023;142B;Acción Diplomática ante la Unión Europea;29384730;30563173,59;26806690,22
+12;2023;143A;Cooperación para el desarrollo;299413640;299190162,82;67382010,12
+12;2023;14KB;C11.I02 Proyectos tractores de digitalización de la Administración General del Estado. Política exte;22974000;93319451,81;9095698,32
+12;2023;467G;Investigación y desarrollo de la Sociedad de la Información;1759660;1559660;1270659,87
+12;2024;000X;Transferencias y libramientos internos;664535540;728760885,98;702559635,92
+12;2024;141M;Dirección y Servicios Generales de Asuntos Exteriores, Unión Europea y Cooperación;95878530;74669115,42;64380311,8
+12;2024;142A;Acción del Estado en el exterior;855757360;878530511,27;822703453,89
+12;2024;142B;Acción Diplomática ante la Unión Europea;24399750;25045946,52;23670903,01
+12;2024;143A;Cooperación para el desarrollo;298861640;302226201,92;65317877,11
+12;2024;14KB;C11.I02 Proyectos tractores de digitalización de la Administración General del Estado. Política exte;0;83989226,01;23610918,2
+12;2024;467G;Investigación y desarrollo de la Sociedad de la Información;1759660;1759660;1139891,45
+28;2020;000X;Transferencias internas;1461427320;1483231820,58;1482611769,58
+28;2020;322C;Enseñanzas universitarias;92737930;92510572,6;90766783,27
+28;2020;323M;Becas y ayudas a estudiantes;1265210;965210;0
+28;2020;461M;Dirección y Servicios Generales de Ciencia, Innovación y Universidades;5935780;24500976,13;21592819,91
+28;2020;463A;Investigación científica;101850190;106775190;84489792,55
+28;2020;463B;Fomento y coordinación de la investigación científica y técnica;2338920620;2292144685,22;419693905,19
+28;2020;467C;Investigación y desarrollo tecnológico-industrial;1063474360;1136733485,13;492471236,62
+28;2021;000X;Transferencias y libramientos internos;1893131770;1835683916,24;1735503463,89
+28;2021;321O;Dirección y Servicios Generales de Universidades;8059400;8710374,02;6571128,69
+28;2021;322C;Enseñanzas universitarias;96935060;97127868,62;94721859,98
+28;2021;323M;Becas y ayudas a estudiantes;959100;959100;443400
+28;2021;460A;Investigación, Desarrollo e Innovación. Mecanismo de Recuperación y Resiliencia;203900000;203900000;203900000
+28;2021;460D;Fomento y coordinación de la investigación científica y técnica. Mecanismo de Recuperación y Resilie;224733000;250226992,63;250075983,64
+28;2021;460E;Investigación y desarrollo tecnológico-industrial. Mecanismo de Recuperación y Resiliencia;436860000;469710000;469710000
+28;2021;461M;Dirección y Servicios Generales de Ciencia e Innovación;36614700;31014744,06;23155452,79
+28;2021;463A;Investigación científica;117674330;122301253;82854077,34
+28;2021;463B;Fomento y coordinación de la investigación científica y técnica;2178303610;2172330994;364276521,94
+28;2021;467C;Investigación y desarrollo tecnológico-industrial;1297509420;1299290582;497733906,08
+28;2022;000X;Transferencias y libramientos internos;2468962710;2624532008,46;2293869990,18
+28;2022;321O;Dirección y Servicios Generales de Universidades;11144910;11192865,78;9149319,98
+28;2022;322C;Enseñanzas universitarias;98910670;112257176,36;110804921,48
+28;2022;323M;Becas y ayudas a estudiantes;959100;959100;447150
+28;2022;461M;Dirección y Servicios Generales de Ciencia e Innovación;32107980;34726757,88;19860429
+28;2022;463A;Investigación científica;128930190;128906061;97676261,02
+28;2022;463B;Fomento y coordinación de la investigación científica y técnica;2151461200;2073133310,75;395602149,23
+28;2022;467C;Investigación y desarrollo tecnológico-industrial;1329805580;1331416626,39;714563587,01
+28;2022;46QA;C17.I01 Planes Complementarios con CCAA;130374000;130374000;130374000
+28;2022;46QB;C17.I02 Fortalecimiento de las capacidades, infraestructuras y equipamientos de los agentes del SECT;72360000;63762728,99;63375360
+28;2022;46QC;C17.I03 Nuevos proyectos I+D+I Publico Privados, Interdisciplinares, Pruebas de concepto y concesión;210000000;210000000;210000000
+28;2022;46QE;C17.I05 Reforma de capacidades del sistema nacional de ciencia, tecnología e innovación: Transferenc;111260000;111260000;111260000
+28;2022;46QF;C17.I06 Reforma de capacidades del sistema nacional de ciencia, tecnología e innovación: Salud;36685000;36685000;36685000
+28;2022;46QG;C17.I07 Reforma de capacidades del sistema nacional de ciencia, tecnología e innovación: Medioambien;23596000;23596000;23596000
+28;2022;46QI;C17.I09 Reforma de capacidades del sistema nacional de ciencia, tecnología e innovación: Sector aero;120000000;120000000;120000000
+28;2022;46UD;C21.I04 Formación y capacitación del personal docente e investigador;125020000;125020000;125020000
+28;2022;46UE;C21.I05 Mejora de infraestructuras digitales, el equipamiento, las tecnologías, la docencia y la eva;22030000;22030000;22030000
+28;2023;000X;Transferencias y libramientos internos;2516412340;2769820242,08;2152335167,88
+28;2023;24WA;C23.I01 Empleo Joven;0;965081,76;106366,65
+28;2023;321O;Dirección y Servicios Generales de Universidades;15811520;15151228,77;9471477,84
+28;2023;322C;Enseñanzas universitarias;105715290;106385580,15;98566681,04
+28;2023;323M;Becas y ayudas a estudiantes;1029100;1029100;15200
+28;2023;32UF;C21.I06 PLAN PARA EL DESARROLLO DE MICROCREDENCIALES UNIVERSITARIAS;0;49500000;49500000
+28;2023;461M;Dirección y Servicios Generales de Ciencia e Innovación;57662290;57872129,1;21756979,45
+28;2023;463A;Investigación científica;155596580;156905089,08;85474445,02
+28;2023;463B;Fomento y coordinación de la investigación científica y técnica;2249654900;2131602093,55;456476170,17
+28;2023;467C;Investigación y desarrollo tecnológico-industrial;1487455580;1497435524,32;767696622,68
+28;2023;46OE;C15.I05 Despliegue de infraestructuras digitales transfronterizas. I+D+i+Digitalización;100000000;0;0
+28;2023;46PR;C16.R01 Estrategia Nacional de IA;0;32000000;15990
+28;2023;46QA;C17.I01 Planes Complementarios con CCAA;32600000;0;0
+28;2023;46QB;C17.I02 Fortalecimiento de las capacidades, infraestructuras y equipamientos de los agentes del SECT;0;46517368,99;43380000
+28;2023;46QC;C17.I03 Nuevos proyectos I+D+I Publico Privados, Interdisciplinares, Pruebas de concepto y concesión;100000000;160000000;160000000
+28;2023;46QE;C17.I05 Reforma de capacidades del sistema nacional de ciencia, tecnología e innovación: Transferenc;41680000;41680000;41680000
+28;2023;46QF;C17.I06 Reforma de capacidades del sistema nacional de ciencia, tecnología e innovación: Salud;230000000;175000000;175000000
+28;2023;46QI;C17.I09 Reforma de capacidades del sistema nacional de ciencia, tecnología e innovación: Sector aero;240000000;140000000;140000000
+28;2023;46QJ;C17.I10 PRÉSTAMOS EN LOS PERTE DE SALUD DE VANGUARDIA Y AEROESPACIAL;0;570000000;543000000
+28;2023;46UD;C21.I04 Formación y capacitación del personal docente e investigador;120520000;120520000;102628550
+28;2023;46UE;C21.I05 Mejora de infraestructuras digitales, el equipamiento, las tecnologías, la docencia y la eva;8530000;8530000;8530000
+28;2024;000X;Transferencias y libramientos internos;2518227340;2381776452,51;1980778432,35
+28;2024;24WA;C23.I01 Empleo Joven;0;858715,11;651462,2
+28;2024;322C;Enseñanzas universitarias;105715290;172080740,97;160082335,7
+28;2024;323M;Becas y ayudas a estudiantes;1029100;1029100;0
+28;2024;461M;Dirección y Servicios Generales de Ciencia, Innovación y Universidades;57627290;43445332,25;27268458,44
+28;2024;463A;Investigación científica;155596580;171153312,92;120467780,11
+28;2024;463B;Fomento y coordinación de la investigación científica y técnica;2249293690;1753217275,57;703726467,73
+28;2024;467C;Investigación y desarrollo tecnológico-industrial;1487455580;1476363628,03;653220524,03
+28;2024;46OE;C15.I05 Despliegue de infraestructuras digitales transfronterizas. I+D+i+Digitalización;100000000;0;0
+28;2024;46PR;C16.R01 Estrategia Nacional de IA;0;71984010;40022772,77
+28;2024;46QA;C17.I01 Planes Complementarios con CCAA;32600000;0;0
+28;2024;46QB;C17.I02 Fortalecimiento de las capacidades, infraestructuras y equipamientos de los agentes del SECT;0;164242825;160458835
+28;2024;46QC;C17.I03 Nuevos proyectos I+D+I Publico Privados, Interdisciplinares, Pruebas de concepto y concesión;100000000;84000000;84000000
+28;2024;46QE;C17.I05 Reforma de capacidades del sistema nacional de ciencia, tecnología e innovación: Transferenc;41680000;0;0
+28;2024;46QF;C17.I06 Reforma de capacidades del sistema nacional de ciencia, tecnología e innovación: Salud;230000000;0;0
+28;2024;46QI;C17.I09 Reforma de capacidades del sistema nacional de ciencia, tecnología e innovación: Sector aero;240000000;0;0
+28;2024;46QJ;C17.I10 PRÉSTAMOS EN LOS PERTE DE SALUD DE VANGUARDIA Y AEROESPACIAL;0;27000000;0
+28;2024;46UD;C21.I04 Formación y capacitación del personal docente e investigador;120520000;17891450;2788026
+28;2024;46UE;C21.I05 Mejora de infraestructuras digitales, el equipamiento, las tecnologías, la docencia y la eva;8530000;0;0
+28;2024;929D;Contingencias asociadas a la Depresión Aislada en Niveles Altos (DANA) de 2024;0;2011500;353400
+24;2020;000X;Transferencias internas;483652240;509140195,31;483521978,15
+24;2020;144A;Cooperación, promoción y difusión cultural en el exterior;3912250;3724370;1981695,08
+24;2020;331M;Dirección y Servicios Generales de Cultura y Deporte;25954310;25665793,82;22204803,09
+24;2020;332A;Archivos;20054890;20499808,09;18213981,56
+24;2020;332B;Bibliotecas;5852300;5957300;3811125,97
+24;2020;333A;Museos;54437800;63072749;58249900,83
+24;2020;333B;Exposiciones;2196780;3362780;1954290,13
+24;2020;334A;Promoción y cooperación cultural;9477970;8840746,5;8044621,13
+24;2020;334B;Promoción del libro y publicaciones culturales;8228430;12210430;7017572,42
+24;2020;334C;Fomento de las industrias culturales;14078600;33988600;22925401,34
+24;2020;337B;Conservación y restauración de bienes culturales;24496520;21054323;11806172,02
+24;2020;337C;Protección del Patrimonio Histórico;8344240;7366565,49;6108522,66
+24;2021;000X;Transferencias y libramientos internos;632590360;650198639,83;580850206,66
+24;2021;140A;Política Exterior. Mecanismo de Recuperación y Resiliencia;1250000;1250000;0
+24;2021;144A;Cooperación, promoción y difusión cultural en el exterior;3839250;3525703,64;2734808,67
+24;2021;330A;Cultura. Mecanismo de Recuperación y Resiliencia;56635000;56535000;11084237,75
+24;2021;331M;Dirección y Servicios Generales de Cultura y Deporte;31729690;73333712,39;68322768,19
+24;2021;332A;Archivos;20349550;21453547,64;19876853,18
+24;2021;332B;Bibliotecas;7018300;7400455,2;4959638,84
+24;2021;333A;Museos;62222160;77705582,57;74808387,66
+24;2021;333B;Exposiciones;2124150;2296707;1882289,63
+24;2021;334A;Promoción y cooperación cultural;27416330;12406364,81;11492572,18
+24;2021;334B;Promoción del libro y publicaciones culturales;12599400;11324557,88;10838989,15
+24;2021;334C;Fomento de las industrias culturales;15988600;15811600;4621134,75
+24;2021;337B;Conservación y restauración de bienes culturales;22760020;20089126,01;12014183,94
+24;2021;337C;Protección del Patrimonio Histórico;8727010;10836637,85;10131649,05
+24;2022;000X;Transferencias y libramientos internos;701777950;847081913,74;678029388,71
+24;2022;144A;Cooperación, promoción y difusión cultural en el exterior;4182850;4282850;2815266,47
+24;2022;14XA;C24.I01 Impulso de la competitividad de las industrias culturales. Política Exterior;1000000;2000000;920094,48
+24;2022;14YA;C25.I01 PROGRAMA DE FOMENTO, MODERNIZACIÓN Y DIGITALIZACIÓN DEL SECTOR AUDIOVISUAL. POLÍTICA EXTERIO;850000;850000;17726,5
+24;2022;24WA;C23.I01 Empleo Joven;0;426666,24;103433
+24;2022;331M;Dirección y Servicios Generales de Cultura y Deporte;245934960;258784109,51;171278078,38
+24;2022;332A;Archivos;25315970;23902812,86;20061252,45
+24;2022;332B;Bibliotecas;7118360;6005466;4047381,69
+24;2022;333A;Museos;78919080;83355430,49;74426173,89
+24;2022;333B;Exposiciones;1522680;1525680;1039083,69
+24;2022;334A;Promoción y cooperación cultural;28797720;30229890;28469314,46
+24;2022;334B;Promoción del libro y publicaciones culturales;13879690;13011780;7258782,57
+24;2022;334C;Fomento de las industrias culturales;15640270;15688270;3594669,63
+24;2022;337B;Conservación y restauración de bienes culturales;21411640;33121640;24383116,16
+24;2022;337C;Protección del Patrimonio Histórico;9088660;15332957,34;12475995,26
+24;2022;33SC;C19.I03 Competencias digitales para el empleo. Cultura;75000000;54871137,66;39144165
+24;2022;33XA;C24.I01 Impulso de la competitividad de las industrias culturales. Cultura;23014000;44157750;34900200,37
+24;2022;33XB;C24.I02 Dinamización de la cultura a lo largo del territorio;69176300;63466300;61807563,41
+24;2022;33XC;C24.I03 Digitalización e impulso de los grandes servicios culturales. Cultura;7650000;11222295,61;6003680,9
+24;2022;33YA;C25.I01 Programa de fomento, modernización y digitalización del sector audiovisual. Cultura;8000000;8000000;0
+24;2022;43ND;C14.I04 Actuaciones especiales en el ámbito de la competitividad.;0;4720040;0
+24;2023;000X;Transferencias y libramientos internos;858824240;1064628069,75;832538321,73
+24;2023;144A;Cooperación, promoción y difusión cultural en el exterior;4099260;4276260;3159693,98
+24;2023;14XA;C24.I01 Impulso de la competitividad de las industrias culturales. Política Exterior;1000000;3000000;161268,94
+24;2023;14YA;C25.I01 Programa de fomento, modernización y digitalización del sector audiovisual. Política Exterio;850000;850000;0
+24;2023;24WA;C23.I01 Empleo Joven;0;1949770,76;1380808,3
+24;2023;331M;Dirección y Servicios Generales de Cultura y Deporte;45823730;43235811,52;35948981,21
+24;2023;332A;Archivos;26353030;27164961,44;22488248,72
+24;2023;332B;Bibliotecas;7153470;6946070;3813825,98
+24;2023;333A;Museos;86566360;92598360;82408190,28
+24;2023;333B;Exposiciones;1594290;1612590;1296180,26
+24;2023;334A;Promoción y cooperación cultural;289114240;254616177,77;168569794,75
+24;2023;334B;Promoción del libro y publicaciones culturales;13892060;14185260;12283394,99
+24;2023;334C;Fomento de las industrias culturales;17172290;17355290;11184212,26
+24;2023;337B;Conservación y restauración de bienes culturales;38901930;39067429,37;16675881,71
+24;2023;337C;Protección del Patrimonio Histórico;13896610;23326985,17;21015797,95
+24;2023;33SC;C19.I03 Competencias digitales para el empleo. Cultura;75000000;65552712;46281657
+24;2023;33XA;C24.I01 Impulso de la competitividad de las industrias culturales. Cultura;12446000;21059011,87;11681613,04
+24;2023;33XB;C24.I02 Dinamización de la cultura a lo largo del territorio;18000700;14247433,59;12410450,19
+24;2023;33XC;C24.I03 Digitalización e impulso de los grandes servicios culturales. Cultura;6279000;11819627,65;6843032,48
+24;2023;33YA;C25.I01 Programa de fomento, modernización y digitalización del sector audiovisual. Cultura;8000000;16000000;7994449,12
+24;2023;43ND;C14.I04 Actuaciones especiales en el ámbito de la competitividad.;0;5320040;0
+24;2024;000X;Transferencias y libramientos internos;499735010;601829760,89;563348739,13
+24;2024;144A;Cooperación, promoción y difusión cultural en el exterior;3972560;4838312,97;3730944,54
+24;2024;14XA;C24.I01 Impulso de la competitividad de las industrias culturales. Política Exterior;0;2351661,52;2088707,98
+24;2024;14YA;C25.I01 Programa de fomento, modernización y digitalización del sector audiovisual. Política Exterio;0;850000;850000
+24;2024;24WA;C23.I01 Empleo Joven;0;1826738,98;1452525,02
+24;2024;331M;Dirección y Servicios Generales de Cultura;45474010;44704058,52;39121035,57
+24;2024;332A;Archivos;26353030;27247314,01;24841204,51
+24;2024;332B;Bibliotecas;7083470;6968470;4696181,19
+24;2024;333A;Museos;86566360;90624670;83851167,36
+24;2024;333B;Exposiciones;1594290;2398290;2303774,31
+24;2024;334A;Promoción y cooperación cultural;289024240;271401124,18;175804476,36
+24;2024;334B;Promoción del libro y publicaciones culturales;13892060;14737303,71;12850437,77
+24;2024;334C;Fomento de las industrias culturales;17172290;17393290;10328287,33
+24;2024;337B;Conservación y restauración de bienes culturales;38791930;32784712,85;14298797,7
+24;2024;337C;Protección del Patrimonio Histórico;13796610;23325655,9;22161908,64
+24;2024;33SC;C19.I03 Competencias digitales para el empleo. Cultura;0;14335106;12335106
+24;2024;33XA;C24.I01 Impulso de la competitividad de las industrias culturales. Cultura;0;10783173,31;5321720,3
+24;2024;33XB;C24.I02 Dinamización de la cultura a lo largo del territorio;0;2162429,25;127381,6
+24;2024;33XC;C24.I03 Digitalización e impulso de los grandes servicios culturales. Cultura;0;3177136,83;1858776,19
+24;2024;33YA;C25.I01 Programa de fomento, modernización y digitalización del sector audiovisual. Cultura;0;13000000;7981910,8
+24;2024;43ND;C14.I04 Actuaciones especiales en el ámbito de la competitividad.;0;5320040;1673713,83
+24;2024;929D;Contingencias asociadas a la Depresión Aislada en Niveles Altos (DANA) de 2024;0;2500000;1800000
+14;2020;000X;Transferencias internas;375708440;364164673,89;363448073,89
+14;2020;121M;Administración y Servicios Generales de Defensa;1187440830;1552543696,58;1511667170,7
+14;2020;121N;Formación del Personal de las Fuerzas Armadas;413085140;428450127,6;418808691,56
+14;2020;121O;Personal en reserva;526213650;541568650;535862056,57
+14;2020;122A;Modernización de las Fuerzas Armadas;78323170;229464590;221646301,48
+14;2020;122B;Programas especiales de modernización;2164477000;1872977000;1869196692,85
+14;2020;122M;Gastos Operativos de las Fuerzas Armadas;2629413080;3264269300,6;3226031668,58
+14;2020;122N;Apoyo Logístico;1189918740;1114224004,1;1095413885
+14;2020;312A;Asistencia hospitalaria en las Fuerzas Armadas;150158340;194609010,4;190496089,86
+14;2020;464A;Investigación y estudios de las Fuerzas Armadas;22475620;23758231,73;22688641,5
+14;2020;931P;Control interno y Contabilidad Pública;178260;174020;88559,63
+14;2021;000X;Transferencias y libramientos internos;361545840;373379080,97;373379080,97
+14;2021;120A;Defensa. Mecanismo de Recuperación y Resiliencia;25000000;20000000;1578339,96
+14;2021;121M;Administración y Servicios Generales de Defensa;1550852740;2159770004,06;2135618952,99
+14;2021;121N;Formación del Personal de las Fuerzas Armadas;439691020;506876680,58;497771909,6
+14;2021;121O;Personal en reserva;556928540;559186265;559186265
+14;2021;122A;Modernización de las Fuerzas Armadas;264069320;398742723,32;393256725,67
+14;2021;122B;Programas especiales de modernización;2341589330;2352589330;2352468711,72
+14;2021;122M;Gastos Operativos de las Fuerzas Armadas;2696512350;3121542667,17;3100502327,09
+14;2021;122N;Apoyo Logístico;993621110;1130749815,38;1123496415,51
+14;2021;312A;Asistencia hospitalaria en las Fuerzas Armadas;151586740;205802392,68;200795956,78
+14;2021;464A;Investigación y estudios de las Fuerzas Armadas;30440930;24378692,98;23881629,96
+14;2021;931P;Control interno y Contabilidad Pública;94020;34020;29333,98
+14;2022;000X;Transferencias y libramientos internos;382492070;437007547,67;437007547,67
+14;2022;121M;Administración y Servicios Generales de Defensa;2239186940;2440149842,59;2368780975,73
+14;2022;121N;Formación del Personal de las Fuerzas Armadas;452731600;502172330,91;490545507,89
+14;2022;121O;Personal en reserva;572006410;585106410;583772558,83
+14;2022;122A;Modernización de las Fuerzas Armadas;326868710;1586696431,01;1578595730,33
+14;2022;122B;Programas especiales de modernización;2848007580;2451507580;2421210778,72
+14;2022;122M;Gastos Operativos de las Fuerzas Armadas;2254933590;3539531589,83;3495404966,57
+14;2022;122N;Apoyo Logístico;865013580;1647087758,66;1626060201,46
+14;2022;12KB;C11.I02 Proyectos tractores de digitalización de la Administración General del Estado. Defensa;15000000;33421660,04;27418372,03
+14;2022;12SC;C19.I03 Competencias digitales para el empleo. Defensa;3000000;3000000;2377383,69
+14;2022;312A;Asistencia hospitalaria en las Fuerzas Armadas;160232760;225403691,81;219628414,19
+14;2022;31RA;C18.I01 Plan de inversión en equipos de alta tecnología en el Sistema Nacional de Salud. Sanidad;0;1110732,47;281882,39
+14;2022;41CJ;C03.I10 Plan de impulso a la sostenibilidad, investigación, innovación y digitalización del sector p;0;10000000;0
+14;2022;42KD;C11.I04 PLAN DE TRANSICIÓN ENERGÉTICA EN LA ADMINISTRACIÓN GENERAL DEL ESTADO;0;101433313,41;8434819,68
+14;2022;45DD;C04.I04 Gestión forestal sostenible;0;30000;0
+14;2022;464A;Investigación y estudios de las Fuerzas Armadas;35733790;32166370,18;27265297
+14;2022;46OB;C15.I02 Refuerzo de conectividad en centros de referencia, motores socioeconómicos y proyectos tract;0;115288000;0
+14;2022;46OE;C15.I05 Despliegue de infraestructuras digitales transfronterizas. I+D+i+Digitalización;0;17300000;0
+14;2022;49OF;C15.I06 Despliegue del 5G: redes, cambio tecnológico e innovación;0;55687182;0
+14;2022;931P;Control interno y Contabilidad Pública;62130;38130;24722,36
+14;2023;000X;Transferencias y libramientos internos;393692130;571504874,17;571504874,17
+14;2023;121M;Administración y Servicios Generales de Defensa;2536909040;2726270534,47;2647214619,71
+14;2023;121N;Formación del Personal de las Fuerzas Armadas;494328150;538596142;525352765,44
+14;2023;121O;Personal en reserva;579999370;597999370;593021949,73
+14;2023;122A;Modernización de las Fuerzas Armadas;340881040;1134092183,35;1119677908,79
+14;2023;122B;Programas especiales de modernización;4901716300;3602344458,21;3589400228,79
+14;2023;122M;Gastos Operativos de las Fuerzas Armadas;2305563400;3851826796,81;3782708635,11
+14;2023;122N;Apoyo Logístico;891810830;1382883979,47;1362250347,56
+14;2023;12KB;C11.I02 Proyectos tractores de digitalización de la Administración General del Estado. Defensa;0;6003288,01;3944282,97
+14;2023;12SC;C19.I03 Competencias digitales para el empleo. Defensa;11000000;11622616,31;6446546,91
+14;2023;24WA;C23.I01 Empleo Joven;0;4945890,56;448396,79
+14;2023;312A;Asistencia hospitalaria en las Fuerzas Armadas;178236750;299829220,52;262007116,2
+14;2023;31RA;C18.I01 Plan de inversión en equipos de alta tecnología en el Sistema Nacional de Salud. Sanidad;0;828850,01;828850
+14;2023;41CJ;C03.I10 Plan de impulso a la sostenibilidad, investigación, innovación y digitalización del sector p;0;18000000;0
+14;2023;42KD;C11.I04 Plan de Transición Energética en la Administración General del Estado;156645330;249507823,73;93729040,5
+14;2023;45DD;C04.I04 Gestión forestal sostenible;0;4460000;359975
+14;2023;464A;Investigación y estudios de las Fuerzas Armadas;36333080;56633080;50687029,52
+14;2023;46OA;C15.I01 Favorecer la vertebración territorial mediante despliegue de redes: Extensión de la banda an;0;3850000;0
+14;2023;46OB;C15.I02 Refuerzo de conectividad en centros de referencia, motores socioeconómicos y proyectos tract;0;116588000;77575326,26
+14;2023;46OE;C15.I05 Despliegue de infraestructuras digitales transfronterizas. I+D+i+Digitalización;0;17300000;6232511,62
+14;2023;49OF;C15.I06 Despliegue del 5G: redes, cambio tecnológico e innovación;0;55680483,48;6746800,16
+14;2023;931P;Control interno y Contabilidad Pública;62130;43363,12;33813,12
+14;2024;000X;Transferencias y libramientos internos;393692130;422957195,54;422957195,54
+14;2024;121M;Administración y Servicios Generales de Defensa;2536909040;3014856759,48;2965248572,92
+14;2024;121N;Formación del Personal de las Fuerzas Armadas;494328150;572895570,49;569012711,81
+14;2024;121O;Personal en reserva;579999370;596099370;595871064,34
+14;2024;122A;Modernización de las Fuerzas Armadas;340881040;1529879034,3;1500906881,88
+14;2024;122B;Programas especiales de modernización;4901716300;3245753934;3241561650,74
+14;2024;122M;Gastos Operativos de las Fuerzas Armadas;2305563400;3859073360,02;3793182959,91
+14;2024;122N;Apoyo Logístico;891810830;1316382904,46;1300155613,32
+14;2024;12KB;C11.I02 Proyectos tractores de digitalización de la Administración General del Estado. Defensa;0;2059005,04;1638622,92
+14;2024;12KF;C11.I06 Instrumento de resiliencia y seguridad. Defensa;0;159592890;0
+14;2024;12SC;C19.I03 Competencias digitales para el empleo. Defensa;11000000;16176069,4;11110926,15
+14;2024;24WA;C23.I01 Empleo Joven;0;10664256,79;4010673,05
+14;2024;312A;Asistencia hospitalaria en las Fuerzas Armadas;178236750;278997541,19;268454778,72
+14;2024;41CJ;C03.I10 Plan de impulso a la sostenibilidad, investigación, innovación y digitalización del sector p;0;18000000;12750000
+14;2024;42KD;C11.I04 Plan de Transición Energética en la Administración General del Estado;156645330;150534825,77;87261833,11
+14;2024;456C;Protección y mejora del medio natural;0;102083333,33;102083333,33
+14;2024;45DD;C04.I04 Gestión forestal sostenible;0;6757922,06;0
+14;2024;464A;Investigación y estudios de las Fuerzas Armadas;36333080;37612903,98;28762400
+14;2024;46OA;C15.I01 Favorecer la vertebración territorial mediante despliegue de redes: Extensión de la banda an;0;3845038,65;2166121,62
+14;2024;46OB;C15.I02 Refuerzo de conectividad en centros de referencia, motores socioeconómicos y proyectos tract;0;38948470,32;27270485
+14;2024;46OE;C15.I05 Despliegue de infraestructuras digitales transfronterizas. I+D+i+Digitalización;0;29689919,16;7374611,99
+14;2024;49OF;C15.I06 Despliegue del 5G: redes, cambio tecnológico e innovación;0;58633683,32;27399638,32
+14;2024;929D;Contingencias asociadas a la Depresión Aislada en Niveles Altos (DANA) de 2024;0;110762271,53;16654372,56
+14;2024;931P;Control interno y Contabilidad Pública;62130;33268,2;31653,51
+29;2021;000X;Transferencias y libramientos internos;2545577470;2545577470;2545577470
+29;2021;230A;Servicios sociales y promoción social. Mecanismo de Recuperación y Resiliencia;916850000;916850000;830489816,32
+29;2021;231F;Otros servicios sociales del Estado;289433480;558283507,2;484271181,76
+29;2021;231G;Atención a la infancia y a las familias;34679130;40146658;37139013,01
+29;2021;232F;Derechos de los animales;4597660;4600188;1475106,69
+29;2021;239N;Dirección y Servicios Generales de Derechos Sociales y Agenda 2030;32086880;27437915,96;13813536,52
+29;2021;492O;Protección y promoción de los derechos de los consumidores y usuarios;13710860;13646106,64;10345051,41
+29;2021;496M;Regulación del juego;6801600;6622536,72;5187258,56
+29;2021;498M;Dirección y Servicios Generales de Consumo;10227430;11468259,21;6958623,08
+29;2021;921Y;Agenda 2030;22833430;18451769;16892374,91
+29;2022;000X;Transferencias y libramientos internos;3100869270;3106746112,86;3104179685,52
+29;2022;231F;Otros servicios sociales del Estado;359820040;654793949,88;648798618,14
+29;2022;231G;Atención a la infancia y a las familias;42312230;42797909;40840066,06
+29;2022;232F;Derechos de los animales;6080610;6133256;2924443,76
+29;2022;239N;Dirección y Servicios Generales de Derechos Sociales y Agenda 2030;31046110;30815259,41;15646829,33
+29;2022;23VA;C22.I01 Plan de apoyos y cuidados de larga duración: desinstitucionalización, equipamientos y tecnol;725955190;739805419,85;674561177,26
+29;2022;23VB;C22.I02 Plan de Modernización de los Servicios Sociales: Transformación tecnológica, innovación, for;275591950;336591898,23;212423265,28
+29;2022;23VC;C22.I03 Plan España País Accesible.;58795680;52363599,57;32570319,27
+29;2022;46SA;C19.I01 Competencias digitales transversales. I+D+i+Digitalización;0;50000000;0
+29;2022;492O;Protección y promoción de los derechos de los consumidores y usuarios;14973950;15223750;12420240,56
+29;2022;496M;Regulación del juego;11296950;11339450;6906432,22
+29;2022;498M;Dirección y Servicios Generales de Consumo;12635540;12490849,94;9770835,16
+29;2022;49KB;C11.I02 Proyectos tractores de digitalización de la Administración General del Estado. Otras Actuaci;5048680;5048680;1296728,2
+29;2022;49MD;C13.I04 Apoyo al comercio. Otras Actuaciones de Carácter Económico;748990;748990;128588,69
+29;2022;921Y;Agenda 2030;23129790;23152158;21509438,54
+29;2023;000X;Transferencias y libramientos internos;3721544990;3725551218,03;3722437208,9
+29;2023;231F;Otros servicios sociales del Estado;349588580;631327447,08;628056728,16
+29;2023;231G;Atención a la infancia y a las familias;43992440;64919073,56;61333665,44
+29;2023;232F;Derechos de los animales;7481710;7501273;5243284,52
+29;2023;239N;Dirección y Servicios Generales de Derechos Sociales y Agenda 2030;30491380;30719438,25;18558122,71
+29;2023;23VA;C22.I01 Plan de apoyos y cuidados de larga duración: desinstitucionalización, equipamientos y tecnol;819755380;879745086,52;64997700,06
+29;2023;23VB;C22.I02 Plan de Modernización de los Servicios Sociales: Transformación tecnológica, innovación, for;279744680;387507804,54;111310368,27
+29;2023;23VC;C22.I03 Plan España País Accesible.;41442800;46842800;5542238,92
+29;2023;31KB;C11.I02 Proyectos tractores de digitalización de la Administración General del Estado. Sanidad;0;2150000;0
+29;2023;46SA;C19.I01 Competencias digitales transversales. I+D+i+Digitalización;97000000;147000000;51994731,59
+29;2023;492O;Protección y promoción de los derechos de los consumidores y usuarios;17559780;17773997,06;13551029,58
+29;2023;496M;Regulación del juego;12364600;12367500;7221614,38
+29;2023;498M;Dirección y Servicios Generales de Consumo;15568590;15570376,46;10383362,61
+29;2023;49KB;C11.I02 Proyectos tractores de digitalización de la Administración General del Estado. Otras Actuaci;3219930;6436192,77;1280159,31
+29;2023;49MD;C13.I04 Apoyo al comercio. Otras Actuaciones de Carácter Económico;0;620389,95;614380,55
+29;2023;921Y;Agenda 2030;24978170;24934630;22265240,72
+29;2024;000X;Transferencias y libramientos internos;3691988950;3692908096,87;3691991817,86
+29;2024;231F;Otros servicios sociales del Estado;450953450;774931959,16;719391261,3
+29;2024;231G;Atención a la infancia y a las familias;3112980;3164637,99;2327253,73
+29;2024;232F;Derechos de los animales;7481710;7389123;5484080,68
+29;2024;239N;Dirección y Servicios Generales de Derechos Sociales y Agenda 2030;29585960;33365295,87;23201850,99
+29;2024;23VA;C22.I01 Plan de apoyos y cuidados de larga duración: desinstitucionalización, equipamientos y tecnol;0;818093850,58;698410276,91
+29;2024;23VB;C22.I02 Plan de Modernización de los Servicios Sociales: Transformación tecnológica, innovación, for;0;259343760,17;210975140,86
+29;2024;23VC;C22.I03 Plan España País Accesible.;0;34506688,58;26926182,58
+29;2024;31KB;C11.I02 Proyectos tractores de digitalización de la Administración General del Estado. Sanidad;0;1522146,77;1522146,77
+29;2024;492O;Protección y promoción de los derechos de los consumidores y usuarios;17559780;18418831,25;13975576,06
+29;2024;496M;Regulación del juego;12364600;13179566;8002112,21
+29;2024;498M;Dirección y Servicios Generales de Consumo;3934240;1848726;1199848,4
+29;2024;49KB;C11.I02 Proyectos tractores de digitalización de la Administración General del Estado. Otras Actuaci;0;4106298,94;3153515,98
+29;2024;921Y;Agenda 2030;24644970;24644970;20904632,28
+29;2024;929D;Contingencias asociadas a la Depresión Aislada en Niveles Altos (DANA) de 2024;0;56090000;39101575
+27;2020;000X;Transferencias internas;217054220;216590749,17;216590749,17
+27;2020;467G;Investigación y desarrollo de la Sociedad de la Información;89299350;82939901,54;10556734,4
+27;2020;467I;Innovación tecnológica de las telecomunicaciones;552954440;542925423,33;248720568,6
+27;2020;491M;Ordenación y promoción de las telecomunicaciones y de la Sociedad de la Información;29117690;37488386,83;31202842,32
+27;2020;493M;Dirección, control y gestión de seguros;15704700;15573906,42;14063911,25
+27;2020;923O;Gestión de la Deuda y de la Tesorería del Estado;26255840;30552176,95;28743896,91
+27;2020;923P;Relaciones con Instituciones Financieras Multilaterales;428789060;428266641,84;426535449,41
+27;2020;923Q;Dirección y Servicios Generales de Economía y Empresa;43961000;47068815,28;42621724,22
+27;2020;931M;Previsión y política económica;7913220;213428061,31;211527371,05
+27;2021;000X;Transferencias y libramientos internos;217817650;217052261,34;217052261,34
+27;2021;460A;Investigación, Desarrollo e Innovación. Mecanismo de Recuperación y Resiliencia;1102400000;822400000;736000000
+27;2021;460B;Investigación y desarrollo de la Sociedad de la Información. Mecanismo de Recuperación y Resiliencia;336000000;330800000;132634554,26
+27;2021;460C;Innovación tecnológica de las telecomunicaciones. Mecanismo de Recuperación y Resiliencia;1793200000;2073200000;1817549122
+27;2021;467G;Investigación y desarrollo de la Sociedad de la Información;147004900;141991935,08;68893290,86
+27;2021;467I;Innovación tecnológica de las telecomunicaciones;391837500;384659010,89;120656413,35
+27;2021;490A;Otras actuaciones de carácter económico. Mecanismo de Recuperación y Resiliencia;419300000;404300000;292449080,16
+27;2021;491M;Ordenación y promoción de las telecomunicaciones y de la Sociedad de la Información;35316930;43269024,96;41194233,19
+27;2021;493M;Dirección, control y gestión de seguros;16372230;15991993,39;15346498,8
+27;2021;920A;Servicios de carácter general. Mecanismo de Recuperación y Resiliencia;2590000;2590000;115357,69
+27;2021;920B;Servicios de carácter general de la Secretaría de Estado de Economía y Apoyo a la Empresa. Mecanismo;200000;200000;0
+27;2021;923O;Gestión de la Deuda y de la Tesorería del Estado;25941520;37117326,22;33577765,74
+27;2021;923P;Relaciones con Instituciones Financieras Multilaterales;427553390;427787174;420912704,92
+27;2021;923Q;Dirección y Servicios Generales de Asuntos Económicos y Transformación Digital;51372450;50599876,65;46554259,39
+27;2021;931M;Previsión y política económica;155485600;3155820126,88;3153002766,06
+27;2022;000X;Transferencias y libramientos internos;220581980;219793710,4;219382669,8
+27;2022;24WA;C23.I01 Empleo Joven;0;763767,72;0
+27;2022;467G;Investigación y desarrollo de la Sociedad de la Información;154639850;150834453,25;70934485,12
+27;2022;467I;Innovación tecnológica de las telecomunicaciones;277522880;276829430,53;139193631,2
+27;2022;46KA;C11.I01 Modernización de la Administración General del Estado. I+D+i+Digitalización;386100000;539592718,74;263837627,51
+27;2022;46LA;C12.I01 Espacios de datos sectoriales (contribución a proyectos tractores de digitalización de los s;100000000;100000000;0
+27;2022;46MA;C13.I01 Emprendimiento. I+D+i+Digitalización;78000000;78000000;78000000
+27;2022;46MC;C13.I03 Digitalización e Innovación I. I+D+i+Digitalización;1559000000;1509000000;1388000000
+27;2022;46NB;C14.I02 Programa de digitalización e inteligencia para destinos y sector turístico. I+D+i+Digitaliza;40000000;40000000;0
+27;2022;46OA;C15.I01 Favorecer la vertebración territorial mediante despliegue de redes: Extensión de la banda an;256000000;288700000;244607771,49
+27;2022;46OB;C15.I02 Refuerzo de conectividad en centros de referencia, motores socioeconómicos y proyectos tract;150000000;35417000;31082000
+27;2022;46OC;C15.I03 Bonos de conectividad para PYMES y colectivos vulnerables;40000000;60000000;9451000
+27;2022;46OD;C15.I04 Renovación y sostenibilidad de infraestructuras;40000000;40000000;38768000
+27;2022;46OE;C15.I05 Despliegue de infraestructuras digitales transfronterizas. I+D+i+Digitalización;250000000;255000000;115809550,18
+27;2022;46OG;"C15.I07 Ciberseguridad: Fortalecimiento de las capacidades de ciudadanos, PYMES y profesionales; e I";182780000;182780000;182780000
+27;2022;46PR;C16.R01 Estrategia Nacional de IA;113800000;175800000;155000000
+27;2022;46RF;C18.I06 Data lake Sanitario;35000000;35000000;0
+27;2022;46SA;C19.I01 Competencias digitales transversales. I+D+i+Digitalización;36000000;36000000;36000000
+27;2022;46SD;C19.I04 Profesionales digitales;5000000;5000000;5000000
+27;2022;46UE;C21.I05 Mejora de infraestructuras digitales, el equipamiento, las tecnologías, la docencia y la eva;14000000;14000000;14000000
+27;2022;491M;Ordenación y promoción de las telecomunicaciones y de la Sociedad de la Información;34886470;36940698,71;31599197,76
+27;2022;493M;Dirección, control y gestión de seguros;19407360;19303028,06;16406910,82
+27;2022;49OF;C15.I06 Despliegue del 5G: redes, cambio tecnológico e innovación;600000000;552833220;31633220
+27;2022;49OR;C15.R01 Reforma del marco normativo de telecomunicaciones: Ley General, instrumentos regulatorios e;0;850000;850000
+27;2022;49OS;C15.R02 Hoja de ruta 5G: Gestión y asignación del espectro, reducción de cargas al despliegue, Ley d;31300000;22867385,65;450006,45
+27;2022;923O;Gestión de la Deuda y de la Tesorería del Estado;58107050;183798245,82;176990073,69
+27;2022;923P;Relaciones con Instituciones Financieras Multilaterales;419079220;419079220;411740056,48
+27;2022;923Q;Dirección y Servicios Generales de Asuntos Económicos y Transformación Digital;54466070;60131725,52;53388101,22
+27;2022;92KA;C11.I01 Modernización de la Administración General del Estado. Servicios de carácter general;1900000;2130486,32;1292862,7
+27;2022;92KC;C11.I03 Transformación Digital y Modernización de la AGE. Servicios de carácter general;0;820654,13;0
+27;2022;931M;Previsión y política económica;83934530;83939367,2;79314800,79
+27;2023;000X;Transferencias y libramientos internos;221723020;222001817,34;222001817,34
+27;2023;24WA;C23.I01 Empleo Joven;0;1484353,08;538935,57
+27;2023;467G;Investigación y desarrollo de la Sociedad de la Información;90646670;86432249,11;65240319,84
+27;2023;467I;Innovación tecnológica de las telecomunicaciones;204803490;200377574,93;94413754,78
+27;2023;46KA;C11.I01 Modernización de la Administración General del Estado. I+D+i+Digitalización;233393170;477130988,23;204844448,87
+27;2023;46LA;C12.I01 Espacios de datos sectoriales (contribución a proyectos tractores de digitalización de los s;400000000;400000000;22504500
+27;2023;46MA;C13.I01 Emprendimiento. I+D+i+Digitalización;60000000;161000000;120096853
+27;2023;46MC;C13.I03 Digitalización e Innovación I. I+D+i+Digitalización;1322000000;1443000000;1141000000
+27;2023;46NB;C14.I02 Programa de digitalización e inteligencia para destinos y sector turístico. I+D+i+Digitaliza;100000000;14634850;13824850
+27;2023;46OA;C15.I01 Favorecer la vertebración territorial mediante despliegue de redes: Extensión de la banda an;256000000;253612015,51;210686680,7
+27;2023;46OB;C15.I02 Refuerzo de conectividad en centros de referencia, motores socioeconómicos y proyectos tract;155000000;68555000;25497000
+27;2023;46OC;C15.I03 Bonos de conectividad para PYMES y colectivos vulnerables;10000000;60549000;53343160
+27;2023;46OD;C15.I04 Renovación y sostenibilidad de infraestructuras;20000000;21232000;5459600
+27;2023;46OE;C15.I05 Despliegue de infraestructuras digitales transfronterizas. I+D+i+Digitalización;1350000000;347720488,56;182632244,3
+27;2023;46OG;"C15.I07 Ciberseguridad: Fortalecimiento de las capacidades de ciudadanos, PYMES y profesionales; e I";131620000;137000000;129000000
+27;2023;46OH;C15.I08. PERTE Chip: Fortalecimiento del ecosistema científico y tecnológico. Incremento de las cap;0;350000000;0
+27;2023;46PR;C16.R01 Estrategia Nacional de IA;86600000;171950000;121423898
+27;2023;46RF;C18.I06 Data lake Sanitario;65000000;99999957;377676,02
+27;2023;46SA;C19.I01 Competencias digitales transversales. I+D+i+Digitalización;26000000;26000000;3000000
+27;2023;46SD;C19.I04 Profesionales digitales;5000000;5000000;0
+27;2023;46UE;C21.I05 Mejora de infraestructuras digitales, el equipamiento, las tecnologías, la docencia y la eva;10000000;10000000;10000000
+27;2023;491M;Ordenación y promoción de las telecomunicaciones y de la Sociedad de la Información;37661880;37677442,22;34173650,62
+27;2023;493M;Dirección, control y gestión de seguros;19064580;19056430,35;16519755,39
+27;2023;49OF;C15.I06 Despliegue del 5G: redes, cambio tecnológico e innovación;570000000;1141414862,09;524985620,93
+27;2023;49OI;C15.I09 PERTE CHIP: INCREMENTO DE LAS CAPACIDADES DE LA INDUSTRIA FABLESS Y DE FABRICACIÓN;0;800000000;800000000
+27;2023;49OS;C15.R02 Hoja de ruta 5G: Gestión y asignación del espectro, reducción de cargas al despliegue, Ley d;31000000;356978,13;329344,1
+27;2023;923O;Gestión de la Deuda y de la Tesorería del Estado;63103430;100967730,03;90706904,33
+27;2023;923P;Relaciones con Instituciones Financieras Multilaterales;519834660;524272490,49;518609212,07
+27;2023;923Q;Dirección y Servicios Generales de Asuntos Económicos y Transformación Digital;78642260;76701271,53;59602522,63
+27;2023;92KA;C11.I01 Modernización de la Administración General del Estado. Servicios de carácter general;2606830;3444453,62;1622037,77
+27;2023;931M;Previsión y política económica;20682640;21033380,42;18015305,53
+27;2023;94KC;C11.I03 Transformación Digital y Modernización de las CCAA y EELL. Transferencias a otras AA.PP.;0;70000000;0
+27;2024;000X;Transferencias y libramientos internos;221723020;221544790,72;221236962,98
+27;2024;24WA;C23.I01 Empleo Joven;0;1356284,26;530896,39
+27;2024;431A;Promoción comercial e internacionalización de la empresa;409450620;406891285;179903687,1
+27;2024;431N;Ordenación del comercio exterior;9832450;9241337,49;7344329,78
+27;2024;431O;Ordenación y modernización de las estructuras comerciales;10604070;10757091,18;8989527,22
+27;2024;43MD;C13.I04 Apoyo al Comercio;123150000;1736939,96;777383,73
+27;2024;43ME;C13.I05 Internacionalización. PYMES;1042350000;13909292,51;293147,3
+27;2024;43MF;C13.I06 FONDOS ICO DE APOYO A EMPRESAS. COMERCIO, TURISMO Y PYMES;0;408000000;408000000
+27;2024;43MH;C13 I08 FONDO DE COINVERSIÓN (FOCO);0;950000000;950000000
+27;2024;43ND;C14.I04 Actuaciones especiales en el ámbito de la competitividad.;0;1866175,63;864888,26
+27;2024;45MF;C13.I06 FONDOS ICO DE APOYO A EMPRESAS. INFRAESTRUCTURAS Y ECOSISTEMAS RESILIENTES;0;1100000000;1100000000
+27;2024;493M;Dirección, control y gestión de seguros;18938420;19386247,51;17420636,28
+27;2024;923O;Gestión de la Deuda y de la Tesorería del Estado;61192030;145836211,27;138010061,48
+27;2024;923P;Relaciones con Instituciones Financieras Multilaterales;519834660;529843846,62;484673120,43
+27;2024;923Q;Dirección y Servicios Generales de Economía, Comercio y Empresa;69595040;62762964,13;54814323,61
+27;2024;92KA;C11.I01 Modernización de la Administración General del Estado. Servicios de carácter general;2606830;1857227,18;1559699,7
+27;2024;931M;Previsión y política económica;20307860;22195166,22;21552318,71
+27;2024;93MM;C13.I13 FONDO DE RESILIENCIA AUTONÓMICA;0;1500000000;1500000000
+18;2020;000X;Transferencias internas;16107060;10525060;9883480
+18;2020;144B;Cooperación, promoción y difusión educativa en el exterior;11265210;8668591,39;7032839,76
+18;2020;321M;Dirección y Servicios Generales de Educación y Formación Profesional;49793090;58122521,86;52453923,21
+18;2020;321N;Formación permanente del profesorado de Educación;2703210;1243373,69;844299,03
+18;2020;322A;Educación Infantil y Primaria;155723770;181714806,18;180004747,24
+18;2020;322B;Educación Secundaria, Formación Profesional y Escuelas Oficiales de Idiomas;419165710;751569962,21;449002400,33
+18;2020;322E;Enseñanzas artísticas;3563340;3943383,94;3827988,27
+18;2020;322F;Educación en el exterior;97568470;106563086,8;103782424,63
+18;2020;322G;Educación compensatoria;4536500;4043868,17;3283594,18
+18;2020;322L;Inversiones en centros educativos y otras actividades educativas;84395720;38319114,49;30494987,9
+18;2020;323M;Becas y ayudas a estudiantes;1534945140;1705370191,95;1704349570,1
+18;2020;463A;Investigación científica;278030;0;0
+18;2021;000X;Transferencias y libramientos internos;19070560;20027240;18090110,01
+18;2021;140B;Cooperación, promoción y difusión educativa en el exterior. Mecanismo de Recuperación y Resiliencia;569830;569830;283200,5
+18;2021;144B;Cooperación, promoción y difusión educativa en el exterior;11301740;11246740;6891170,72
+18;2021;240B;Formación Profesional para el Empleo. Mecanismo de Recuperación y Resiliencia;49000000;49000000;24500000
+18;2021;241B;Formación Profesional para el Empleo;925001720;916591757,18;746219378,78
+18;2021;320A;Educación Infantil y Primaria. Mecanismo de Recuperación y Resiliencia;201726090;201726090;200790000
+18;2021;320B;Educación Secundaria, Formación Profesional y Escuelas Oficiales de Idiomas. Mecanismo de Recuperaci;556095980;556095980;463963099,99
+18;2021;320G;Educación Compensatoria. Mecanismo de Recuperación y Resiliencia;30557270;30557270;29989400
+18;2021;320L;Inversiones en centros educativos y otras actividades educativas. Mecanismo de Recuperación y Resili;1001600000;994838000;991595248,75
+18;2021;320N;Formación permanente del profesorado de Educación. Mecanismo de Recuperación y Resiliencia;13000000;13000000;12119527,59
+18;2021;321M;Dirección y Servicios Generales de Educación y Formación Profesional;65079080;61282251,24;53555659,92
+18;2021;321N;Formación permanente del profesorado de Educación;3889550;1255030;410627,68
+18;2021;322A;Educación Infantil y Primaria;188141970;191821474,17;190133343,17
+18;2021;322B;Educación Secundaria, Formación Profesional y Escuelas Oficiales de Idiomas;420630250;416406225,56;164363092,91
+18;2021;322E;Enseñanzas artísticas;4044290;4324785,8;4049178,41
+18;2021;322F;Educación en el exterior;107119140;109403899,79;105320843,57
+18;2021;322G;Educación compensatoria;4239310;3797057,1;2805242,32
+18;2021;322L;Inversiones en centros educativos y otras actividades educativas;45932620;44599729,96;34185947,29
+18;2021;323M;Becas y ayudas a estudiantes;2050345610;2121774880,75;2121176889,38
+18;2022;000X;Transferencias y libramientos internos;19070560;19204931,45;18697272,23
+18;2022;144B;Cooperación, promoción y difusión educativa en el exterior;11167550;10706477,86;8260339,53
+18;2022;14SB;C19.I02 Transformación Digital de la Educación. Política Exterior;434060;720689,5;311054,7
+18;2022;241B;Formación Profesional para el Empleo;1151250700;1144116328,55;1028213633,69
+18;2022;24TA;C20.I01 Reskilling y upskilling de la población activa ligado a cualificaciones profesionales. Fomen;49000000;49000000;24500000
+18;2022;321M;Dirección y Servicios Generales de Educación y Formación Profesional;62647730;56889870,55;52046340,84
+18;2022;321N;Formación permanente del profesorado de Educación;2097440;1831840;687662,21
+18;2022;322A;Educación Infantil y Primaria;192624230;198515959,11;197759326,25
+18;2022;322B;Educación Secundaria, Formación Profesional y Escuelas Oficiales de Idiomas;618674050;607765669,63;168039615,64
+18;2022;322E;Enseñanzas artísticas;4258750;4306760;4069432,62
+18;2022;322F;Educación en el exterior;111410970;115754412,21;112660575,33
+18;2022;322G;Educación compensatoria;4143760;3516040;2924707,66
+18;2022;322L;Inversiones en centros educativos y otras actividades educativas;56324990;93524015,32;69144942,45
+18;2022;323M;Becas y ayudas a estudiantes;2149592370;2612511957,62;2611152054,6
+18;2022;32SA;C19.I01 Competencias digitales transversales. Educación;42000000;42000000;29420700
+18;2022;32SB;C19.I02 Transformación Digital de la Educación. Educación;341567000;342725357,41;285752872,76
+18;2022;32TA;C20.I01 Reskilling y upskilling de la población activa ligado a cualificaciones profesionales. Educa;422849000;438213500;270768413,73
+18;2022;32TB;C20.I02 Transformación Digital de la Formación Profesional;93700000;93700000;46438005
+18;2022;32TC;C20.I03 Innovación e internacionalización de la formación profesional;209666000;233621026,44;217699431,09
+18;2022;32TR;C20.R01 Plan de modernización de la Formación Profesional;200000;200000;145170,93
+18;2022;32UA;C21.I01 Creación de plazas del Primer Ciclo de Educación Infantil de titularidad pública (prioritari;333820000;333990000;323337155
+18;2022;32UB;C21.I02 Programa de Orientación, Avance y Enriquecimiento Educativo en centros de especial complejid;120000000;120816756,58;119701180,01
+18;2022;32UC;C21.I03 Creación de Unidades de Acompañamiento y Orientación Personal y Familiar del alumnado educat;39000000;39158283,92;38950899,28
+18;2022;32US;C21.R02 Diseño y aplicación de nuevo modelo curricular por competencias clave, priorizando aprendiza;1400000;1653852,21;475067,26
+18;2023;000X;Transferencias y libramientos internos;22070560;23273560;15342002,36
+18;2023;144B;Cooperación, promoción y difusión educativa en el exterior;11304280;10592451,41;8037323,51
+18;2023;14SB;C19.I02 Transformación Digital de la Educación. Política Exterior;324110;437462,8;113352,8
+18;2023;241B;Formación Profesional para el Empleo;1178386260;1171386260;791777284,17
+18;2023;24TA;C20.I01 Reskilling y upskilling de la población activa ligado a cualificaciones profesionales. Fomen;73500000;98000000;49000000
+18;2023;24WA;C23.I01 Empleo Joven;0;130370,76;21964,33
+18;2023;321M;Dirección y Servicios Generales de Educación y Formación Profesional;85450710;60461739,41;54788541,28
+18;2023;321N;Formación permanente del profesorado de Educación;1847440;1613589,66;1108596,76
+18;2023;322A;Educación Infantil y Primaria;194695380;205604643,17;203088470,17
+18;2023;322B;Educación Secundaria, Formación Profesional y Escuelas Oficiales de Idiomas;584398500;583923195,66;144729428,49
+18;2023;322E;Enseñanzas artísticas;4757970;4768145,95;4281098,08
+18;2023;322F;Educación en el exterior;110332490;119821298,75;117655083,68
+18;2023;322G;Educación compensatoria;4144070;3460043,72;2820701,66
+18;2023;322L;Inversiones en centros educativos y otras actividades educativas;396706440;437738277,98;431310710,67
+18;2023;323M;Becas y ayudas a estudiantes;2549784100;2642345326,2;2641263184,88
+18;2023;32SA;C19.I01 Competencias digitales transversales. Educación;42000000;42000000;32850887,88
+18;2023;32SB;C19.I02 Transformación Digital de la Educación. Educación;59804010;63350529,47;1761358,47
+18;2023;32TA;C20.I01 Reskilling y upskilling de la población activa ligado a cualificaciones profesionales. Educa;438800420;353525945,02;192948060
+18;2023;32TB;C20.I02 Transformación Digital de la Formación Profesional;143059870;160231882,8;60393019,8
+18;2023;32TC;C20.I03 Innovación e internacionalización de la formación profesional;193203230;305200809,81;270240433,77
+18;2023;32TR;C20.R01 Plan de modernización de la Formación Profesional;400000;454797,15;380253,07
+18;2023;32UA;C21.I01 Creación de plazas del Primer Ciclo de Educación Infantil de titularidad pública (prioritari;136210000;146862843;142464043
+18;2023;32UB;C21.I02 Programa de Orientación, Avance y Enriquecimiento Educativo en centros de especial complejid;120626500;121400374,76;120135331,16
+18;2023;32UC;C21.I03 Creación de Unidades de Acompañamiento y Orientación Personal y Familiar del alumnado educat;55934920;56142304,64;55547488,54
+18;2023;32US;C21.R02 Diseño y aplicación de nuevo modelo curricular por competencias clave, priorizando aprendiza;400000;1578784,95;1062762,98
+18;2024;000X;Transferencias y libramientos internos;346404450;338062105,07;279000685,03
+18;2024;144B;Cooperación, promoción y difusión educativa en el exterior;11243250;11084739,15;8197636,91
+18;2024;14SB;C19.I02 Transformación Digital de la Educación. Política Exterior;324110;620390;239744,33
+18;2024;241B;Formación Profesional para el Empleo;1178386260;1171386260;908511650,19
+18;2024;24TA;C20.I01 Reskilling y upskilling de la población activa ligado a cualificaciones profesionales. Fomen;73500000;49000000;42570689,51
+18;2024;24WA;C23.I01 Empleo Joven;0;108406,43;74200,47
+18;2024;321M;Dirección y Servicios Generales de Educación, Formación Profesional y Deportes;84675710;62568522,03;55431344,19
+18;2024;321N;Formación permanente del profesorado de Educación;1847440;1547440;769482,94
+18;2024;322A;Educación Infantil y Primaria;194695380;221401271;216643752,29
+18;2024;322B;Educación Secundaria, Formación Profesional y Escuelas Oficiales de Idiomas;583748500;599531052,54;156660981,95
+18;2024;322E;Enseñanzas artísticas;4757970;4888076,61;4664411,1
+18;2024;322F;Educación en el exterior;110156670;127752165,16;123957778,42
+18;2024;322G;Educación compensatoria;4144070;3749622,93;2861409,47
+18;2024;322L;Inversiones en centros educativos y otras actividades educativas;396706440;375359580,62;345028005,16
+18;2024;323M;Becas y ayudas a estudiantes;2549784100;2633831743,78;2632574176,51
+18;2024;32SA;C19.I01 Competencias digitales transversales. Educación;42000000;21525150;2719500
+18;2024;32SB;C19.I02 Transformación Digital de la Educación. Educación;59804010;61494065,98;1347616,03
+18;2024;32TA;C20.I01 Reskilling y upskilling de la población activa ligado a cualificaciones profesionales. Educa;438800420;184161910,02;79467170,79
+18;2024;32TB;C20.I02 Transformación Digital de la Formación Profesional;143059870;45658193;41486500
+18;2024;32TC;C20.I03 Innovación e internacionalización de la formación profesional;193203230;182701606,04;119250731,36
+18;2024;32TR;C20.R01 Plan de modernización de la Formación Profesional;400000;452744,08;0
+18;2024;32UA;C21.I01 Creación de plazas del Primer Ciclo de Educación Infantil de titularidad pública (prioritari;136210000;119598468,61;47239720
+18;2024;32UB;C21.I02 Programa de Orientación, Avance y Enriquecimiento Educativo en centros de especial complejid;120626500;3274194,63;1222212,91
+18;2024;32UC;C21.I03 Creación de Unidades de Acompañamiento y Orientación Personal y Familiar del alumnado educat;55934920;2706791,52;526107,91
+18;2024;32US;C21.R02 Diseño y aplicación de nuevo modelo curricular por competencias clave, priorizando aprendiza;400000;843206,24;140657,35
+18;2024;929D;Contingencias asociadas a la Depresión Aislada en Niveles Altos (DANA) de 2024;0;600000;600000
+15;2020;000X;Transferencias internas;1071868430;1478241745,12;1477149745,11
+15;2020;219N;Gestión de pensiones de Clases Pasivas;5808820;5953633,1;5707106,84
+15;2020;231G;Atención a la infancia y a las familias;4300000;4300000;1600000
+15;2020;337B;Conservación y restauración de bienes culturales;7644890;7644890;7644890
+15;2020;422A;Incentivos regionales a la localización industrial;59852770;59885001;59764985,28
+15;2020;467G;Investigación y desarrollo de la Sociedad de la Información;7569940;6469488;4899975,09
+15;2020;496M;Regulación del juego;6511790;6537641,88;6268379,15
+15;2020;922N;Coordinación y relaciones financieras con los Entes Territoriales;17508285550;17508415213,35;16777780653,77
+15;2020;923A;Gestión del Patrimonio del Estado;184155490;166655220,73;149350941,91
+15;2020;923M;Dirección y Servicios Generales de Hacienda;1024789540;12124147627,66;12103819093,1
+15;2020;931N;Política presupuestaria;55932580;61085761,2;55288870,06
+15;2020;931O;Política tributaria;5582740;5912698;5663606,94
+15;2020;931P;Control interno y Contabilidad Pública;84331120;86852876,93;83373791,27
+15;2020;932M;Gestión del catastro inmobiliario;110456590;103534796,39;99074172,6
+15;2020;932N;Resolución de reclamaciones económico-administrativas;29351130;31206513,36;30400582,17
+15;2021;000X;Transferencias y libramientos internos;1125349960;1549365712,61;1549365712,61
+15;2021;337B;Conservación y restauración de bienes culturales;7644890;7644890;7644890
+15;2021;422A;Incentivos regionales a la localización industrial;59871250;78267587,97;78003542,15
+15;2021;467G;Investigación y desarrollo de la Sociedad de la Información;11014420;10126080;5324166,36
+15;2021;920A;Servicios de carácter general. Mecanismo de Recuperación y Resiliencia;0;350000;0
+15;2021;922N;Coordinación y relaciones financieras con los Entes Territoriales;30508470300;30508395156;14034474404,45
+15;2021;923A;Gestión del Patrimonio del Estado;182703160;169341282,3;152242929,85
+15;2021;923M;Dirección y Servicios Generales de Hacienda;1160018850;1137103836,19;874924160,65
+15;2021;931N;Política presupuestaria;60123180;74874457,86;60035238,75
+15;2021;931O;Política tributaria;6183440;6023970;5645626,61
+15;2021;931P;Control interno y Contabilidad Pública;86174820;89198039,23;85888557,95
+15;2021;932M;Gestión del catastro inmobiliario;105360980;100422356;97559012,93
+15;2021;932N;Resolución de reclamaciones económico-administrativas;31573640;30873316,59;29710907,11
+15;2022;000X;Transferencias y libramientos internos;1258256440;1678502684,31;1672186212,02
+15;2022;337B;Conservación y restauración de bienes culturales;7644890;7644890;7644890
+15;2022;422A;Incentivos regionales a la localización industrial;94238790;113741988,06;113578018,19
+15;2022;42KD;C11.I04 PLAN DE TRANSICIÓN ENERGÉTICA EN LA ADMINISTRACIÓN GENERAL DEL ESTADO;0;18387042,01;18387042,01
+15;2022;467G;Investigación y desarrollo de la Sociedad de la Información;12698000;12628000;6989957
+15;2022;46KA;C11.I01 Modernización de la Administración General del Estado. I+D+i+Digitalización;0;39500000;39500000
+15;2022;921N;Dirección y organización de la Administración Pública;19543500;18860821,04;17350440,84
+15;2022;922N;Coordinación y relaciones financieras con los Entes Territoriales;21008461790;21008640734;9378055464,59
+15;2022;923A;Gestión del Patrimonio del Estado;267337300;234883220,56;189370138,01
+15;2022;923M;Dirección y Servicios Generales de Hacienda y Función Pública;1124164400;9418043506,71;6400701494,02
+15;2022;92KC;C11.I03 Transformación Digital y Modernización de la AGE. Servicios de carácter general;4950720;8630016,79;1938208,99
+15;2022;931N;Política presupuestaria;65712860;87925226,91;82513933,29
+15;2022;931O;Política tributaria;5942390;6130288;5925329,74
+15;2022;931P;Control interno y Contabilidad Pública;90300320;92819069,83;90483818,9
+15;2022;932M;Gestión del catastro inmobiliario;111468490;104623829;102604453,07
+15;2022;932N;Resolución de reclamaciones económico-administrativas;30476430;31553930,64;31050507,42
+15;2022;93KE;C11.I05 Transformación de la Administración para la Ejecución del PRR. Administración Financiera y T;617000;917000;230363,08
+15;2022;94KC;C11.I03 Transformación Digital y Modernización de las CCAA y EELL. Transferencias a otras AA.PP.;239072260;239072260;239072254,83
+15;2023;000X;Transferencias y libramientos internos;1434431760;1818300744,69;1811364845,9
+15;2023;337B;Conservación y restauración de bienes culturales;8027140;8027140;8027140
+15;2023;422A;Incentivos regionales a la localización industrial;144055260;144121260;105772960,14
+15;2023;42KD;C11.I04 Plan de Transición Energética en la Administración General del Estado;30410760;30410760;30410757,37
+15;2023;467G;Investigación y desarrollo de la Sociedad de la Información;14851760;17348059,69;11658879,49
+15;2023;46KA;C11.I01 Modernización de la Administración General del Estado. I+D+i+Digitalización;0;1390000;743758,42
+15;2023;921N;Dirección y organización de la Administración Pública;21147240;20961899;18211959,85
+15;2023;922N;Coordinación y relaciones financieras con los Entes Territoriales;16008898700;15387318093,33;12320992052,87
+15;2023;923A;Gestión del Patrimonio del Estado;226782290;206092393,25;168461017,3
+15;2023;923M;Dirección y Servicios Generales de Hacienda y Función Pública;1091279320;3961287029,6;3491184340,86
+15;2023;92KC;C11.I03 Transformación Digital y Modernización de la AGE. Servicios de carácter general;3315100;10006907,8;3670546,53
+15;2023;931N;Política presupuestaria;81527730;105784155,89;88366312,09
+15;2023;931O;Política tributaria;5969210;6657870;6467653,06
+15;2023;931P;Control interno y Contabilidad Pública;92289020;96484414;93481323,72
+15;2023;932M;Gestión del catastro inmobiliario;114037930;109599446;106416990,78
+15;2023;932N;Resolución de reclamaciones económico-administrativas;31297260;32760020;32046316,65
+15;2023;93KE;C11.I05 Transformación de la Administración para la Ejecución del PRTR. Administración Financiera y;467000;467000;41697,18
+15;2023;94KC;C11.I03 Transformación Digital y Modernización de las CCAA y EELL. Transferencias a otras AA.PP.;221300000;221300000;221299999,84
+15;2024;000X;Transferencias y libramientos internos;1400525490;1827736177,14;1823939410,56
+15;2024;337B;Conservación y restauración de bienes culturales;8027140;8667655;8667655
+15;2024;422A;Incentivos regionales a la localización industrial;144055260;144453760;111328930,7
+15;2024;42KD;C11.I04 Plan de Transición Energética en la Administración General del Estado;30410760;0;0
+15;2024;467G;Investigación y desarrollo de la Sociedad de la Información;14851760;18434829,51;13503351,36
+15;2024;46KA;C11.I01 Modernización de la Administración General del Estado. I+D+i+Digitalización;0;7756241,58;1574991,73
+15;2024;922N;Coordinación y relaciones financieras con los Entes Territoriales;16008898700;14009741800;13010233891,71
+15;2024;923A;Gestión del Patrimonio del Estado;226782290;287736346,5;272389266,53
+15;2024;923M;Dirección y Servicios Generales de Hacienda y Función Pública;1089651470;3610136968,28;3515965676,52
+15;2024;929D;Contingencias asociadas a la Depresión Aislada en Niveles Altos (DANA) de 2024;0;936290000;936290000
+15;2024;931N;Política presupuestaria;77089230;115320320,86;98608584,49
+15;2024;931O;Política tributaria;5969210;6514610;6373590,64
+15;2024;931P;Control interno y Contabilidad Pública;92289020;100320359,48;97780273,57
+15;2024;932M;Gestión del catastro inmobiliario;114037930;111527696;108897200,85
+15;2024;932N;Resolución de reclamaciones económico-administrativas;31297260;33560960;32937609,68
+15;2024;93KE;C11.I05 Transformación de la Administración para la Ejecución del PRTR. Administración Financiera y;467000;590000;22870
+30;2021;000X;Transferencias y libramientos internos;12534490;12670490;12534490
+30;2021;230A;Servicios sociales y promoción social. Mecanismo de Recuperación y Resiliencia;48589900;48453900;33147956,99
+30;2021;232B;Igualdad de oportunidades entre mujeres y hombres;201395650;200443326,14;191448688,05
+30;2021;232C;Actuaciones para la prevención integral de la violencia de género;180121060;198334605,13;189247789,24
+30;2021;232D;Igualdad de trato y diversidad;1820080;2853506,96;1395249,6
+30;2021;232M;Dirección y Servicios Generales de Igualdad;6963250;9042565,04;6085780,57
+30;2022;000X;Transferencias y libramientos internos;14768380;14730313,45;14590313,45
+30;2022;232B;Igualdad de oportunidades entre mujeres y hombres;201297670;199984620,54;194119991,2
+30;2022;232C;Actuaciones para la prevención integral de la violencia de género;209182580;208389811,11;195428261,26
+30;2022;232D;Igualdad de trato y diversidad;4236080;5549129,46;3098031,12
+30;2022;232M;Dirección y Servicios Generales de Igualdad;11199450;11161222,03;7591122,65
+30;2022;23VC;C22.I03 Plan España País Accesible.;0;29950;0
+30;2022;23VD;C22.I04 Plan España te protege contra la violencia machista.;75553850;90859793,01;79528827,49
+30;2022;24WA;C23.I01 Empleo Joven;0;196523,28;0
+30;2023;000X;Transferencias y libramientos internos;19007450;19468512,97;19451506,81
+30;2023;232B;Igualdad de oportunidades entre mujeres y hombres;204100470;204128470;198466734,08
+30;2023;232C;Actuaciones para la prevención integral de la violencia de género;259741890;258536269,92;242850938,51
+30;2023;232D;Igualdad de trato y diversidad;7345670;7357670;5590173,41
+30;2023;232M;Dirección y Servicios Generales de Igualdad;14770720;14706737,12;8957831,6
+30;2023;23VC;C22.I03 Plan España País Accesible.;0;20159,81;20159,81
+30;2023;23VD;C22.I04 Plan España te protege contra la violencia machista.;59353850;70684815,52;62443629,12
+30;2023;24WA;C23.I01 Empleo Joven;0;407394,6;167043,32
+30;2024;000X;Transferencias y libramientos internos;18907450;19348210;19348210
+30;2024;232B;Igualdad de oportunidades entre mujeres y hombres;204080470;287559991,49;195760567,15
+30;2024;232C;Actuaciones para la prevención integral de la violencia de género;259716890;270442607,8;258054860,23
+30;2024;232D;Igualdad de trato y diversidad;6926170;7370573,38;6480996,55
+30;2024;232M;Dirección y Servicios Generales de Igualdad;13300720;10614013,19;8977997,39
+30;2024;23VD;C22.I04 Plan España te protege contra la violencia machista.;0;5025057,18;2962428,66
+30;2024;24WA;C23.I01 Empleo Joven;0;240351,28;182683,79
+30;2024;929D;Contingencias asociadas a la Depresión Aislada en Niveles Altos (DANA) de 2024;0;672614,33;374476,93
+32;2021;000X;Transferencias y libramientos internos;42142351200;47154351200;47131608621,25
+32;2021;143A;Cooperación para el desarrollo;781990;781990;649072,92
+32;2021;212M;Pensiones no contributivas y prestaciones asistenciales;5181020;5181020;4797355,78
+32;2021;219N;Gestión de pensiones de Clases Pasivas;4875380;4718506,33;4245680,11
+32;2021;230A;Servicios sociales y promoción social. Mecanismo de Recuperación y Resiliencia;183674000;183674000;56008354,8
+32;2021;231B;Acciones en favor de los emigrantes;60968450;57668450;52966747,4
+32;2021;231G;Atención a la infancia y a las familias;2500000;2500000;950000
+32;2021;231H;Acciones en favor de los inmigrantes;424199340;503988507;476511744,82
+32;2021;232E;Análisis y definición de objetivos y políticas de Inclusión;1919730;1878700,73;996384,1
+32;2021;291M;Dirección y Servicios Generales de la Inclusión, de la Seguridad Social y de la Migración;38443010;38614930,02;29614652,02
+32;2022;000X;Transferencias y libramientos internos;39833863290;40238254092,84;40179368684,92
+32;2022;212M;Pensiones no contributivas y prestaciones asistenciales;4608540;4608540;4039538,81
+32;2022;219N;Gestión de pensiones de Clases Pasivas;4899300;4899300;4534742,77
+32;2022;231B;Acciones en favor de los emigrantes;60502190;60502190;54732429,32
+32;2022;231G;Atención a la infancia y a las familias;1800000;1800000;1800000
+32;2022;231H;Acciones en favor de los inmigrantes;570201700;1712196195,96;1480995682,19
+32;2022;232E;Análisis y definición de objetivos y políticas de Inclusión;2483830;2649342,95;1659257,87
+32;2022;23VE;C22.I05 Incremento de la capacidad y eficiencia del sistema de acogida de solicitantes de asilo;61000000;61650286,66;3356033,48
+32;2022;23VV;C22.R05 Mejorar el sistema de prestaciones económicas no contributivas de la Administración General;2835360;2835360;1189650,85
+32;2022;23WG;C23.I07 Fomento del crecimiento inclusivo mediante la vinculación de las políticas de inclusión soci;97164640;174588336,59;146047357,77
+32;2022;291M;Dirección y Servicios Generales de la Inclusión, de la Seguridad Social y de la Migración;45206150;51905441,8;37951585,17
+32;2022;29KB;C11.I02 Proyectos tractores de digitalización de la Administración General del Estado. Gestión y Adm;16650000;26667639,4;9763166,94
+32;2023;000X;Transferencias y libramientos internos;44902475670;45542320110,14;45362862381,24
+32;2023;212A;Pensiones no contributivas y prestaciones asistenciales;4100000;4100000;3203489,46
+32;2023;219N;Gestión de pensiones de Clases Pasivas;4967040;4973328,27;4380834,13
+32;2023;231B;Acciones en favor de los emigrantes;60502190;60955357,27;55321409,73
+32;2023;231G;Atención a la infancia y a las familias;1800000;1800000;900000
+32;2023;231H;Acciones en favor de los inmigrantes;750626820;908716060,16;632310712,23
+32;2023;232E;Análisis y definición de objetivos y políticas de Inclusión;2751840;2825002,65;1953784,54
+32;2023;23VE;C22.I05 Incremento de la capacidad y eficiencia del sistema de acogida de solicitantes de asilo;142976000;142976000;4949573,35
+32;2023;23VV;C22.R05 Mejorar el sistema de prestaciones económicas no contributivas de la Administración General;0;16197,2;9335,72
+32;2023;23WG;C23.I07 Fomento del crecimiento inclusivo mediante la vinculación de las políticas de inclusión soci;27724050;27707852,8;8256998,87
+32;2023;24WA;C23.I01 Empleo Joven;0;293494,92;0
+32;2023;291M;Dirección y Servicios Generales de la Inclusión, de la Seguridad Social y de la Migración;70390270;55999865,97;35532314,01
+32;2023;29KB;C11.I02 Proyectos tractores de digitalización de la Administración General del Estado. Gestión y Adm;14700000;11705599,69;5075749,56
+32;2024;000X;Transferencias y libramientos internos;44726975670;48530301669,34;48396032983,54
+32;2024;212A;Pensiones no contributivas y prestaciones asistenciales;4100000;2577332,86;2577271,31
+32;2024;219N;Gestión de pensiones de Clases Pasivas;4967040;4863061,94;4740511,31
+32;2024;231B;Acciones en favor de los emigrantes;60502190;60268105,73;52759776,28
+32;2024;231G;Atención a la infancia y a las familias;1800000;1800000;500000
+32;2024;231H;Acciones en favor de los inmigrantes;745412850;1028600500,9;811679223,26
+32;2024;232E;Análisis y definición de objetivos y políticas de Inclusión;2751840;2181645,92;2004009,49
+32;2024;23VE;C22.I05 Incremento de la capacidad y eficiencia del sistema de acogida de solicitantes de asilo;0;130648884,9;4143292,34
+32;2024;23VF;C22.I06 FONDO DE IMPACTO SOCIAL (FIS);0;200000000;200000000
+32;2024;23VV;C22.R05 Mejorar el sistema de prestaciones económicas no contributivas de la Administración General;0;6861,48;3947,76
+32;2024;23WG;C23.I07 Fomento del crecimiento inclusivo mediante la vinculación de las políticas de inclusión soci;0;24549723,91;1511408
+32;2024;291M;Dirección y Servicios Generales de la Inclusión, de la Seguridad Social y de la Migración;67098630;49852256,54;34318653,43
+32;2024;29KB;C11.I02 Proyectos tractores de digitalización de la Administración General del Estado. Gestión y Adm;0;10651280,13;2307377,47
+32;2024;929D;Contingencias asociadas a la Depresión Aislada en Niveles Altos (DANA) de 2024;0;724710000;724710000
+20;2020;000X;Transferencias internas;68159180;65658463,74;65658463,74
+20;2020;421M;Dirección y Servicios Generales de Industria, Comercio y Turismo;69259090;63866220,82;50155271,99
+20;2020;421O;Calidad y seguridad industrial;3506710;3556710;2930520,2
+20;2020;422B;Desarrollo industrial;59919980;514284530;263459785,66
+20;2020;422M;Reconversión y reindustrialización;871454980;831209680;259807148,03
+20;2020;431A;Promoción comercial e internacionalización de la empresa;400482340;401480943,68;268499743,85
+20;2020;431N;Ordenación del comercio exterior;9076640;6744640;6063633,25
+20;2020;431O;Ordenación y modernización de las estructuras comerciales;9517820;9077391,89;8195523,55
+20;2020;432A;Coordinación y promoción del turismo;246862700;248491200;28662545,15
+20;2020;433M;Apoyo a la pequeña y mediana empresa;144958620;200093423;182437376,05
+20;2020;464B;Apoyo a la innovación tecnológica en el sector de la defensa;467610000;442610000;378420854
+20;2020;467C;Investigación y desarrollo tecnológico-industrial;396179700;294780000;166283730
+20;2020;921U;Publicaciones;91940;241252,36;137269,74
+20;2021;000X;Transferencias y libramientos internos;69559180;69559180;69559180
+20;2021;420A;Industria y Energía. Mecanismo de Recuperación y Resiliencia;232795000;13795000;10420760,53
+20;2021;421M;Dirección y Servicios Generales de Industria, Comercio y Turismo;66164330;79807805,03;67953870,06
+20;2021;421O;Calidad y seguridad industrial;3581210;3581210;3371751,27
+20;2021;422B;Desarrollo industrial;180181880;294040880;272171231,75
+20;2021;422M;Reconversión y reindustrialización;705564760;705566760;655261519,47
+20;2021;430A;Comercio, Turismo y PYMES. Mecanismo de Recuperación y Resiliencia;1289200000;1288648470;132787328,27
+20;2021;431A;Promoción comercial e internacionalización de la empresa;404366360;404214785,78;278663104,26
+20;2021;431N;Ordenación del comercio exterior;6878610;6958610;6370752,55
+20;2021;431O;Ordenación y modernización de las estructuras comerciales;9502650;1010018650;1008848285,03
+20;2021;432A;Coordinación y promoción del turismo;158258180;162319280;29899865,17
+20;2021;433M;Apoyo a la pequeña y mediana empresa;266597750;142368770;120496253,77
+20;2021;460A;Investigación, Desarrollo e Innovación. Mecanismo de Recuperación y Resiliencia;184600000;404151530;1959441,75
+20;2021;464B;Apoyo a la innovación tecnológica en el sector de la defensa;676548070;676548070;646358381
+20;2021;467C;Investigación y desarrollo tecnológico-industrial;606500000;742728980;192923660,18
+20;2021;921U;Publicaciones;208640;257938,45;171820,31
+20;2022;000X;Transferencias y libramientos internos;80122630;195037167,24;194976629,62
+20;2022;421M;Dirección y Servicios Generales de Industria, Comercio y Turismo;68373640;76003695,87;65974222,28
+20;2022;421O;Calidad y seguridad industrial;3691760;3691760;3488578,38
+20;2022;422B;Desarrollo industrial;276638860;343548589,28;322104796,85
+20;2022;422M;Reconversión y reindustrialización;707073700;676010470,72;673351861,42
+20;2022;42LB;C12.I02 Programa de impulso de la Competitividad y Sostenibilidad Industrial e I+D+i;2594749980;1358521000;3390608
+20;2022;42MA;C13.I01 Emprendimiento. Industria;5000000;7279491,15;2570840,36
+20;2022;42ME;C13.I05 Internacionalización. Industria;1500000;679311,32;17121,5
+20;2022;431A;Promoción comercial e internacionalización de la empresa;406080610;408992293,01;283975499,45
+20;2022;431N;Ordenación del comercio exterior;7280200;7310200;6393729,91
+20;2022;431O;Ordenación y modernización de las estructuras comerciales;10010990;10962490;9661585,9
+20;2022;432A;Coordinación y promoción del turismo;163398470;55050144;30949868,82
+20;2022;433M;Apoyo a la pequeña y mediana empresa;285735830;145775830;125272750,75
+20;2022;43MA;C13.I01 Emprendimiento. PYMES;37300000;39761381,95;32666738,99
+20;2022;43MB;C13.I02 Crecimiento. PYMES;183000000;183000000;183000000
+20;2022;43MC;C13.I03 Digitalización e Innovación I. PYMES;67586000;87586000;85257860,94
+20;2022;43MD;C13.I04 Apoyo al Comercio;122600000;199346611,52;121903843,57
+20;2022;43ME;C13.I05 Internacionalización. PYMES;85505000;88297218,49;86314680,65
+20;2022;43NA;C14.I01 Transformación del modelo turístico hacia la sostenibilidad.;766700000;1382864087;653716179,71
+20;2022;43NB;C14.I02 Programa de digitalización e inteligencia para destinos y sector turístico. Comercio, Turism;45000000;70000000;0
+20;2022;43NC;C14.I03 Estrategias de resiliencia turística para territorios extrapeninsulares.;110000000;220000000;26000000
+20;2022;43ND;C14.I04 Actuaciones especiales en el ámbito de la competitividad.;552300000;626499885,86;305950059,87
+20;2022;464B;Apoyo a la innovación tecnológica en el sector de la defensa;708200000;1082279586;1029926285
+20;2022;467C;Investigación y desarrollo tecnológico-industrial;677835760;1840202980;228854252
+20;2022;46LB;C12.I02 Programa de impulso de la Competitividad y Sostenibilidad Industrial. I+D+i+Digitalización;182090000;196280207,43;21524233,12
+20;2022;46NB;C14.I02 Programa de digitalización e inteligencia para destinos y sector turístico. I+D+i+Digitaliza;115000000;48320000;6201965,26
+20;2022;921U;Publicaciones;208640;247192,69;147319,78
+20;2023;000X;Transferencias y libramientos internos;101074110;115819920;101074110
+20;2023;24WA;C23.I01 Empleo Joven;0;372285,84;1691,52
+20;2023;421M;Dirección y Servicios Generales de Industria, Comercio y Turismo;77936820;98929665,04;80688706,2
+20;2023;421O;Calidad y seguridad industrial;3775880;3821880;3686956,84
+20;2023;422B;Desarrollo industrial;334401780;856138602,58;794413139,02
+20;2023;422M;Reconversión y reindustrialización;652774860;653407824;650129971,63
+20;2023;42LB;C12.I02 Programa de impulso de la Competitividad y Sostenibilidad Industrial e I+D+i;1000000000;0;0
+20;2023;42MA;C13.I01 Emprendimiento. Industria;3000000;6419487,25;3036336,06
+20;2023;42ME;C13.I05 Internacionalización. Industria;1000000;655580,68;88330
+20;2023;431A;Promoción comercial e internacionalización de la empresa;410175330;436827944,49;300093089,78
+20;2023;431N;Ordenación del comercio exterior;10361570;10445570;9537175,87
+20;2023;431O;Ordenación y modernización de las estructuras comerciales;10604070;12288470;11172201,82
+20;2023;432A;Coordinación y promoción del turismo;167559940;17700720;7801793
+20;2023;433M;Apoyo a la pequeña y mediana empresa;142460390;137032005;118785764,91
+20;2023;43MA;C13.I01 Emprendimiento. PYMES;44800000;51894642,96;45342205,08
+20;2023;43MB;C13.I02 Crecimiento. PYMES;198000000;198000000;198000000
+20;2023;43MC;C13.I03 Digitalización e Innovación I. PYMES;65000000;67328139,06;52400476,86
+20;2023;43MD;C13.I04 Apoyo al Comercio;123150000;211711507,95;206988948,93
+20;2023;43ME;C13.I05 Internacionalización. PYMES;1041350000;700664919,61;76340546,76
+20;2023;43NA;C14.I01 Transformación del modelo turístico hacia la sostenibilidad.;497000000;1226147907,29;1207276262,04
+20;2023;43NB;C14.I02 Programa de digitalización e inteligencia para destinos y sector turístico. Comercio, Turism;10000000;80000000;0
+20;2023;43NC;C14.I03 Estrategias de resiliencia turística para territorios extrapeninsulares.;64000000;194000000;194000000
+20;2023;43ND;C14.I04 Actuaciones especiales en el ámbito de la competitividad.;197400000;458830275,99;87165146,33
+20;2023;464B;Apoyo a la innovación tecnológica en el sector de la defensa;1601150140;1601150140;1470960449
+20;2023;467C;Investigación y desarrollo tecnológico-industrial;278894960;837140380;216375208,3
+20;2023;46LB;C12.I02 Programa de impulso de la Competitividad y Sostenibilidad Industrial. I+D+i+Digitalización;2898670000;3106575328,71;1314444344,28
+20;2023;46NB;C14.I02 Programa de digitalización e inteligencia para destinos y sector turístico. I+D+i+Digitaliza;42000000;252743043,51;37056187,5
+20;2023;46SC;C19.I03 Competencias digitales para el empleo. I+D+i+Digitalización;54000000;54000000;0
+20;2023;46ÑE;C31.I05 Ayudas del Programa de impulso a la competitividad y sostenibilidad industrial (en forma de;0;500000000;0
+20;2023;46ÑG;C31.I06 Préstamos del Programa de impulso a la competitividad y sostenibilidad industrial.;0;500000000;0
+20;2023;921U;Publicaciones;180000;200563,84;151345,26
+20;2024;000X;Transferencias y libramientos internos;101074110;108810700;83995415,76
+20;2024;24WA;C23.I01 Empleo Joven;0;33054,19;32948,76
+20;2024;421M;Dirección y Servicios Generales de Industria y Turismo;67297230;69489734,45;53054664,31
+20;2024;421O;Calidad y seguridad industrial;3775880;3867880;3670362,48
+20;2024;422B;Desarrollo industrial;334350810;330951872,41;311531095,11
+20;2024;422M;Reconversión y reindustrialización;652774860;172710930;172390238,3
+20;2024;42AB;C01.I02 Plan de incentivos a la instalación de puntos de recarga, a la adquisición de vehículos eléc;0;63700000;0
+20;2024;42LB;C12.I02 Programa de impulso de la Competitividad y Sostenibilidad Industrial e I+D+i;1000000000;0;0
+20;2024;42MA;C13.I01 Emprendimiento. Industria;3000000;0;0
+20;2024;432A;Coordinación y promoción del turismo;166860140;11044149,61;5817493,69
+20;2024;433M;Apoyo a la pequeña y mediana empresa;142320090;117957010,75;98863251,57
+20;2024;43MA;C13.I01 Emprendimiento. PYMES;44800000;1771942,13;1771942,13
+20;2024;43MB;C13.I02 Crecimiento. PYMES;198000000;0;0
+20;2024;43MC;C13.I03 Digitalización e Innovación I. PYMES;65000000;14792582,5;5552539,66
+20;2024;43ML;C13.I12 FONDO DE EMPRENDIMIENTO DE LA PEQUEÑA Y MEDIANA EMPRESA;0;101000000;101000000
+20;2024;43NA;C14.I01 Transformación del modelo turístico hacia la sostenibilidad.;497000000;20842987,77;15248637,16
+20;2024;43NB;C14.I02 Programa de digitalización e inteligencia para destinos y sector turístico. Comercio, Turism;10000000;95060488,82;23158361,95
+20;2024;43NC;C14.I03 Estrategias de resiliencia turística para territorios extrapeninsulares.;64000000;0;0
+20;2024;43ND;C14.I04 Actuaciones especiales en el ámbito de la competitividad.;197400000;356586982,13;145709813,8
+20;2024;464B;Apoyo a la innovación tecnológica en el sector de la defensa;1601150140;1601150140;1412974695
+20;2024;467C;Investigación y desarrollo tecnológico-industrial;278840000;599340000;239117555
+20;2024;46LB;C12.I02 Programa de impulso de la Competitividad y Sostenibilidad Industrial. I+D+i+Digitalización;2898670000;1581531300,43;968384041,47
+20;2024;46LD;C12.I04 PERTE CHIP. FORTALECIMIENTO DE LA CADENA DE VALOR DE LA INDUSTRIA DE LOS SEMICONDUCTORES;0;200000000;0
+20;2024;46LF;C12.I06 RÉGIMEN DE SUBVENCIONES PARA PROYECTOS ESTRATÉGICOS EN LA CADENA DE VALOR VEHICULOS ELECTRIC;0;250000000;250000000
+20;2024;46LG;C12.I07 RÉGIMEN DE SUBV.PROYECTOS ESTRATÉGICOS CADENA VALOR VEHICULOS ELEC. Y AGROALIMENTA PRÉSTAMOS;0;1200000000;1200000000
+20;2024;46NB;C14.I02 Programa de digitalización e inteligencia para destinos y sector turístico. I+D+i+Digitaliza;42000000;229098829,1;35910382,79
+20;2024;46SC;C19.I03 Competencias digitales para el empleo. I+D+i+Digitalización;54000000;54000000;54000000
+20;2024;46ÑE;C31.I05 Ayudas del Programa de impulso a la competitividad y sostenibilidad industrial (en forma de;0;589800000;210714452,36
+20;2024;46ÑF;C31.I06 PROGRAMA DE IMPULSO A LA COMPETITIVIDAD Y SOSTENIBILIDAD INDUSTRIAL;0;430000000;430000000
+20;2024;46ÑG;C31.I07 INVERSIÓN PARA SUBVENCIONAR LA DESCARBONIZACIÓN INDUSTRIAL (PRÉSTAMOS);0;550000000;929209
+20;2024;46ÑH;C31.I08 RÉGIMEN DE SUBVENCIONES PARA LOS PROYECTOS DE DESCARBONIZACIÓN (PRÉSTAMOS);0;348000000;348000000
+20;2024;921U;Publicaciones;180000;177249,65;126098,74
+20;2024;929D;Contingencias asociadas a la Depresión Aislada en Niveles Altos (DANA) de 2024;0;400503837,23;350410000
+31;2024;000X;Transferencias y libramientos internos;12558860;12601047,8;12601047,8
+31;2024;231G;Atención a la infancia y a las familias;41382660;96448560;94381966,07
+31;2024;232N;Dirección y Servicios Generales de Juventud e Infancia;9921020;9847718,31;7055598,27
+31;2024;46SA;C19.I01 Competencias digitales transversales. I+D+i+Digitalización;97000000;174131928,41;98269223,84
+22;2020;000X;Transferencias internas;14347930;14316731,71;14316731,71
+22;2020;467G;Investigación y desarrollo de la Sociedad de la Información;45832660;51495066,55;49915407,84
+22;2020;921M;Dirección y Servicios Generales de Política Territorial y Función Pública;9259160;16816718;16199452,56
+22;2020;921N;Dirección y organización de la Administración Pública;24745790;21437249,7;20628582,32
+22;2020;921P;Administración periférica del Estado;248707360;284276003,36;272198677,55
+22;2020;922M;Organización territorial del Estado y desarrollo de sus sistemas de colaboración;13122700;12481668,92;12056516,53
+22;2020;942A;Cooperación económica local del Estado;37268170;187871379,66;91376374,08
+22;2021;000X;Transferencias y libramientos internos;22075520;25098275,36;21685685,36
+22;2021;920A;Servicios de carácter general. Mecanismo de Recuperación y Resiliencia;237470000;214807410;118307458,09
+22;2021;921M;Dirección y Servicios Generales de Política Territorial y Función Pública;28808520;24865827,08;19897398,93
+22;2021;921N;Dirección y organización de la Administración Pública;19123130;19386196;18104869,79
+22;2021;921P;Administración General del Estado en el Territorio;266017520;292825527,95;277818479,71
+22;2021;922M;Organización territorial del Estado y desarrollo de sus sistemas de colaboración;10339460;10624042,79;9871074,1
+22;2021;942A;Cooperación económica local del Estado;35398480;101850234,17;85956927,78
+22;2022;000X;Transferencias y libramientos internos;0;129852,19;129852,19
+22;2022;24WA;C23.I01 Empleo Joven;0;7648829,88;0
+22;2022;42KD;C11.I04 PLAN DE TRANSICIÓN ENERGÉTICA EN LA ADMINISTRACIÓN GENERAL DEL ESTADO;0;2892821,03;0
+22;2022;921M;Dirección y Servicios Generales de Política Territorial;38054090;17934304,71;15561379,55
+22;2022;921P;Administración General del Estado en el Territorio;272889810;301736197,44;282000429,32
+22;2022;922M;Organización territorial del Estado y desarrollo de sus sistemas de colaboración;10885320;11775333,76;11258732,55
+22;2022;92KC;C11.I03 Transformación Digital y Modernización de la AGE. Servicios de carácter general;2000000;2000000;1313129,1
+22;2022;942A;Cooperación económica local del Estado;36399590;200995815,67;186268190,61
+22;2022;94KC;C11.I03 Transformación Digital y Modernización de las CCAA y EELL. Transferencias a otras AA.PP.;149700000;207719467,93;44700851,56
+22;2023;000X;Transferencias y libramientos internos;0;217593,64;217593,64
+22;2023;24WA;C23.I01 Empleo Joven;0;10161316,24;5170027,39
+22;2023;42KD;C11.I04 Plan de Transición Energética en la Administración General del Estado;6521850;9287677,34;19466,06
+22;2023;921M;Dirección y Servicios Generales de Política Territorial;41363670;35830436,87;15168502,86
+22;2023;921P;Administración General del Estado en el Territorio;285864800;305425529,93;288163415,98
+22;2023;922M;Organización territorial del Estado y desarrollo de sus sistemas de colaboración;11759090;12898578;12588609,18
+22;2023;92KC;C11.I03 Transformación Digital y Modernización de la AGE. Servicios de carácter general;2000000;3488774,78;1800458,27
+22;2023;942A;Cooperación económica local del Estado;58439330;88141349,35;68038681,88
+22;2023;94KC;C11.I03 Transformación Digital y Modernización de las CCAA y EELL. Transferencias a otras AA.PP.;183680530;275897242,49;83927913,38
+22;2024;000X;Transferencias y libramientos internos;0;48240;7500
+22;2024;24WA;C23.I01 Empleo Joven;0;5319167,59;3442081,41
+22;2024;42KD;C11.I04 Plan de Transición Energética en la Administración General del Estado;0;9194953,51;1838589,33
+22;2024;921M;Dirección y Servicios Generales de Política Territorial y Memoria Democrática;41363670;30775723;20377832,57
+22;2024;921P;Administración General del Estado en el Territorio;285864800;316667148,74;292908734,27
+22;2024;922M;Organización territorial del Estado y desarrollo de sus sistemas de colaboración;11759090;13580241;13042903,79
+22;2024;925M;Memoria democrática;13952000;12621178;8184051,21
+22;2024;929D;Contingencias asociadas a la Depresión Aislada en Niveles Altos (DANA) de 2024;0;186375,8;179560,66
+22;2024;92KC;C11.I03 Transformación Digital y Modernización de la AGE. Servicios de carácter general;0;3065155,62;979561,63
+22;2024;942A;Cooperación económica local del Estado;58439330;102648931,17;77768265,47
+22;2024;94KC;C11.I03 Transformación Digital y Modernización de las CCAA y EELL. Transferencias a otras AA.PP.;0;197696932,29;46139638,69
+26;2020;000X;Transferencias internas;1846957470;2154161785,69;2149754065,69
+26;2020;231A;Plan Nacional sobre Drogas;14868220;46508434,84;32837788,08
+26;2020;231F;Otros servicios sociales del Estado;238558770;792413207,83;772287543
+26;2020;231G;Atención a la infancia y a las familias;5938780;12302664,15;11028832,21
+26;2020;311M;Dirección y Servicios Generales de Sanidad, Consumo y Bienestar Social;49566910;60013281,99;45440548,04
+26;2020;311O;Políticas de Salud y Ordenación Profesional;9024450;7139301,5;4985285,28
+26;2020;313A;Prestaciones sanitarias y farmacia;9304690;1717536085,9;1577787944,06
+26;2020;313B;Salud pública, sanidad exterior y calidad;37640690;58019223,3;38586518,45
+26;2020;492O;Protección y promoción de los derechos de los consumidores y usuarios;13737350;12687173,93;11276074,94
+26;2021;000X;Transferencias y libramientos internos;356043530;381123303,79;334885383,79
+26;2021;230A;Servicios sociales y promoción social. Mecanismo de Recuperación y Resiliencia;4350000;4350000;0
+26;2021;230B;Servicios sociales y promoción social. Ayuda a la Recuperación para la Cohesión y los Territorios de;13200000;13200000;0
+26;2021;231A;Plan Nacional sobre Drogas;15083950;62845268,24;32782797,69
+26;2021;310A;Sanidad. Mecanismo de Recuperación y Resiliencia;480994690;479877517,68;438910451,58
+26;2021;310B;Sanidad. Ayuda a la Recuperación para la Cohesión y los Territorios de Europa (REACT-EU);2422800000;2416965000;1455615285,6
+26;2021;311M;Dirección y Servicios Generales de Sanidad;25443230;23872331,86;18453382,88
+26;2021;311O;Políticas de Salud y Ordenación Profesional;7710650;7232808,11;5266646,36
+26;2021;313A;Prestaciones sanitarias y farmacia;45183210;154529231,25;152117122,88
+26;2021;313B;Salud pública, sanidad exterior y calidad;36407620;52526011,57;40687726,13
+26;2021;313E;Salud Digital, Información e Innovación del Sistema Nacional de Salud;14085760;236837388,98;232162051,77
+26;2022;000X;Transferencias y libramientos internos;344003370;399000410,1;378501851,96
+26;2022;143A;Cooperación para el desarrollo;292820940;292820940;292820940
+26;2022;231A;Plan Nacional sobre Drogas;15107340;54233287,28;34509990,42
+26;2022;23RB;C18.I02 Acciones para reforzar la prevención y promoción de la Salud. Servicios Sociales y Promoción;4350000;8700000;6600000
+26;2022;23VC;C22.I03 Plan España País Accesible.;0;45000;0
+26;2022;310B;Sanidad. Ayuda a la Recuperación para la Cohesión y los Territorios de Europa (REACT-EU);733000000;1460734457,69;1277973546,13
+26;2022;311M;Dirección y Servicios Generales de Sanidad;29944500;28791120,69;23238241,53
+26;2022;311O;Políticas de Salud y Ordenación Profesional;7762720;7362680;5367994,42
+26;2022;313A;Prestaciones sanitarias y farmacia;117319600;459417921,93;451640830,84
+26;2022;313B;Salud pública, sanidad exterior y calidad;682539360;691200042,69;657386352,13
+26;2022;313E;Salud Digital, Información e Innovación del Sistema Nacional de Salud;26431430;24380965,49;20020208,85
+26;2022;31KB;C11.I02 Proyectos tractores de digitalización de la Administración General del Estado. Sanidad;65765660;85360066,11;36995832,77
+26;2022;31KC;C11.I03 Transformación Digital y Modernización de la AGE, CCAA y EELL. Sanidad;70000000;70000000;0
+26;2022;31RA;C18.I01 Plan de inversión en equipos de alta tecnología en el Sistema Nacional de Salud. Sanidad;396100000;394132159,53;393931841,27
+26;2022;31RB;C18.I02 Acciones para reforzar la prevención y promoción de la Salud. Sanidad;16000000;24925000;22689196,08
+26;2022;31RC;C18.I03 Aumento de capacidades de respuesta ante crisis sanitarias. Sanidad;14750000;17283452,82;8105500,82
+26;2022;31RD;C18.I04 Formación de profesionales sanitarios y recursos para compartir conocimiento;4635000;5865000;3659720
+26;2022;31RE;C18.I05 Plan para la racionalización del consumo de productos farmacéuticos y fomento de la sostenib;6985000;12340000;651649,84
+26;2022;31SC;C19.I03 Competencias digitales para el empleo. Sanidad;1000000;1000000;0
+26;2023;000X;Transferencias y libramientos internos;334296870;378216613,12;351151032,89
+26;2023;143A;Cooperación para el desarrollo;200000000;200000000;62115495
+26;2023;231A;Plan Nacional sobre Drogas;15717040;49073090,22;32844991,11
+26;2023;23RB;C18.I02 Acciones para reforzar la prevención y promoción de la Salud. Servicios Sociales y Promoción;0;2004073,32;2004073,32
+26;2023;23VC;C22.I03 Plan España País Accesible.;0;40312,53;40312,53
+26;2023;310B;Sanidad. Ayuda a la Recuperación para la Cohesión y los Territorios de Europa (REACT-EU);1116000000;1117393208,96;561282769,16
+26;2023;311M;Dirección y Servicios Generales de Sanidad;40424270;31319641,91;22443765,64
+26;2023;311O;Políticas de Salud y Ordenación Profesional;7805720;60283720;56021025,3
+26;2023;313A;Prestaciones sanitarias y farmacia;147769300;227234574;209853116,85
+26;2023;313B;Salud pública, sanidad exterior y calidad;717513710;665381185,08;616595878,62
+26;2023;313E;Salud Digital, Información e Innovación del Sistema Nacional de Salud;30055380;30026384,38;22371360,85
+26;2023;31KB;C11.I02 Proyectos tractores de digitalización de la Administración General del Estado. Sanidad;65651650;111865883,34;44682296,8
+26;2023;31KC;C11.I03 Transformación Digital y Modernización de la AGE, CCAA y EELL. Sanidad;130000000;130000000;0
+26;2023;31RA;C18.I01 Plan de inversión en equipos de alta tecnología en el Sistema Nacional de Salud. Sanidad;200320;200320;200318,26
+26;2023;31RB;C18.I02 Acciones para reforzar la prevención y promoción de la Salud. Sanidad;13950000;15870000;15682564,67
+26;2023;31RC;C18.I03 Aumento de capacidades de respuesta ante crisis sanitarias. Sanidad;7400000;13482221,33;7190567,23
+26;2023;31RD;C18.I04 Formación de profesionales sanitarios y recursos para compartir conocimiento;74275000;75708785,6;4675710,78
+26;2023;31RE;C18.I05 Plan para la racionalización del consumo de productos farmacéuticos y fomento de la sostenib;106960000;114354073,3;8120236,44
+26;2023;31SC;C19.I03 Competencias digitales para el empleo. Sanidad;2000000;3000000;0
+26;2024;000X;Transferencias y libramientos internos;315391470;418265073,55;406589114,99
+26;2024;231A;Plan Nacional sobre Drogas;15111840;54980316,15;37368538,88
+26;2024;311M;Dirección y Servicios Generales de Sanidad;40038930;40521764,24;27396811,15
+26;2024;311O;Políticas de Salud y Ordenación Profesional;7805720;27251720;19045574,28
+26;2024;313A;Prestaciones sanitarias y farmacia;147492300;208458465,86;167655826,74
+26;2024;313B;Salud pública, sanidad exterior y calidad;717153090;528935842,68;419598818,59
+26;2024;313E;Salud Digital, Información e Innovación del Sistema Nacional de Salud;28965880;127355554,64;112187725,56
+26;2024;31KB;C11.I02 Proyectos tractores de digitalización de la Administración General del Estado. Sanidad;0;66167500,96;42530738,74
+26;2024;31KC;C11.I03 Transformación Digital y Modernización de la AGE, CCAA y EELL. Sanidad;0;124530688,18;107909343,7
+26;2024;31RC;C18.I03 Aumento de capacidades de respuesta ante crisis sanitarias. Sanidad;0;9276036,93;1368782,68
+26;2024;31RD;C18.I04 Formación de profesionales sanitarios y recursos para compartir conocimiento;0;50853913,91;49828472,54
+26;2024;31RE;C18.I05 Plan para la racionalización del consumo de productos farmacéuticos y fomento de la sostenib;0;59594982,25;46767757,24
+26;2024;31SC;C19.I03 Competencias digitales para el empleo. Sanidad;0;967163,9;483581,96
+19;2020;000X;Transferencias internas;13288042990;36461473365,55;36206893405,74
+19;2020;143A;Cooperación para el desarrollo;1573430;1459430;931170,06
+19;2020;212M;Pensiones no contributivas y prestaciones asistenciales;8198170;5720010,21;5436242,17
+19;2020;231B;Acciones en favor de los emigrantes;59367420;54403016,15;51449770,83
+19;2020;231H;Acciones en favor de los inmigrantes;318095340;386675655,58;381023508,63
+19;2020;241N;Desarrollo del trabajo autónomo, de la economía social y de la responsabilidad social de las empresa;11164660;10964660;8805994,93
+19;2020;291M;Dirección y Servicios Generales de Seguridad Social y Protección Social;13946347000;30455413850,27;30442197379,38
+19;2020;494M;Administración de las relaciones laborales y condiciones de trabajo;13693730;13773730;9548637,2
+19;2021;000X;Transferencias y libramientos internos;6129119280;6185034533,63;5698017755,91
+19;2021;143A;Cooperación para el desarrollo;829570;890570;664468,5
+19;2021;240A;Fomento del Empleo. Mecanismo de Recuperación y Resiliencia;4010000;4010000;0
+19;2021;241N;Desarrollo del trabajo autónomo, de la economía social y de la responsabilidad social de las empresa;15020370;15071905;9218895,25
+19;2021;280A;Gestión y administración de Trabajo y Economía Social. Mecanismo de Recuperación y Resiliencia;12800000;12800000;970279,45
+19;2021;281M;Dirección y Servicios Generales de Trabajo y Economía Social;91350440;101785875,18;88360870,93
+19;2021;494M;Administración de las relaciones laborales y condiciones de trabajo;13693730;11363032,4;5318121,16
+19;2022;000X;Transferencias y libramientos internos;2101757680;2512513055,12;1995549651,76
+19;2022;143A;Cooperación para el desarrollo;1067040;1299672;1192712,55
+19;2022;241N;Desarrollo del trabajo autónomo, de la economía social y de la responsabilidad social de las empresa;15188080;15268980;11952577,41
+19;2022;24KB;C11.I02 Proyectos tractores de digitalización de la Administración General del Estado. Fomento del E;3291100;1188630,39;757153,69
+19;2022;281M;Dirección y Servicios Generales de Trabajo y Economía Social;104369780;113910921,41;95023778,73
+19;2022;28KB;C11.I02 Proyectos tractores de digitalización de la Administración General del Estado. Gestión y Adm;5170000;12584759,89;7605139,84
+19;2022;28WF;C23.I06 Plan integral de impulso a la Economía Social para la generación de un tejido económico incl;33400000;33400000;18029
+19;2022;42KD;C11.I04 PLAN DE TRANSICIÓN ENERGÉTICA EN LA ADMINISTRACIÓN GENERAL DEL ESTADO;0;9492000;0
+19;2022;494M;Administración de las relaciones laborales y condiciones de trabajo;13614970;13526018;8174454,03
+19;2023;000X;Transferencias y libramientos internos;840807570;1335341188,88;880849308,31
+19;2023;143A;Cooperación para el desarrollo;1193980;1201074,41;1006712,09
+19;2023;241N;Desarrollo del trabajo autónomo, de la economía social y de la responsabilidad social de las empresa;16650640;16701462,28;13395546,46
+19;2023;24KB;C11.I02 Proyectos tractores de digitalización de la Administración General del Estado. Fomento del E;4041050;4472526,7;2096048,99
+19;2023;281M;Dirección y Servicios Generales de Trabajo y Economía Social;119936630;122985120,46;106825608,62
+19;2023;28KB;C11.I02 Proyectos tractores de digitalización de la Administración General del Estado. Gestión y Adm;6931850;11911470,05;6076106,17
+19;2023;28WF;C23.I06 Plan integral de impulso a la Economía Social para la generación de un tejido económico incl;66600000;99981971;9493622,57
+19;2023;42KD;C11.I04 Plan de Transición Energética en la Administración General del Estado;88740000;98232000;0
+19;2023;494M;Administración de las relaciones laborales y condiciones de trabajo;13065850;37538270,33;32653728,2
+19;2024;000X;Transferencias y libramientos internos;326975410;717058917,62;520418471,92
+19;2024;143A;Cooperación para el desarrollo;1193980;1193980;1045202,12
+19;2024;241N;Desarrollo de la economía social y de la responsabilidad social de las empresas;9811480;10402657,07;8049628,82
+19;2024;241O;Desarrollo del trabajo autónomo;6839160;7101160;2502369,75
+19;2024;24KB;C11.I02 Proyectos tractores de digitalización de la Administración General del Estado. Fomento del E;0;2927167,71;1328764,64
+19;2024;281M;Dirección y Servicios Generales de Trabajo y Economía Social;118902740;145544675,61;101455675,91
+19;2024;28KB;C11.I02 Proyectos tractores de digitalización de la Administración General del Estado. Gestión y Adm;0;12181077,71;4875469,17
+19;2024;28WF;C23.I06 Plan integral de impulso a la Economía Social para la generación de un tejido económico incl;0;90488348,43;2265352,66
+19;2024;42KD;C11.I04 Plan de Transición Energética en la Administración General del Estado;0;98232000;1943982,58
+19;2024;494M;Administración de las relaciones laborales y condiciones de trabajo;13065850;35475199,11;32479153,31
+17;2020;000X;Transferencias internas;32437170;32418641,59;30418641,59
+17;2020;261N;Promoción, administración y ayudas para rehabilitación y acceso a vivienda;450652670;551725834,15;550829432,99
+17;2020;261O;Ordenación y fomento de la edificación;29409100;72126070,13;55795696,6
+17;2020;261P;Urbanismo y política del suelo;1480610;1480610;1305744,4
+17;2020;441M;Subvenciones y apoyo al transporte terrestre;1247491970;1240259796,58;1209711696,99
+17;2020;441N;Subvenciones y apoyo al transporte marítimo;128689650;159218600,91;151839982,74
+17;2020;441O;Subvenciones y apoyo al transporte aéreo;393585920;612438743,5;610516658,89
+17;2020;441P;Subvenciones al transporte extrapeninsular de mercancías;75247030;75752635,27;72044051,58
+17;2020;451N;Dirección y Servicios Generales de Fomento;917686230;1011295782,56;998144462,82
+17;2020;453A;Infraestructura del transporte ferroviario;400730000;407867022,33;394160009,79
+17;2020;453B;Creación de infraestructura de carreteras;1456244890;1440477196,86;1132039769,51
+17;2020;453C;Conservación y explotación de carreteras;807538490;1059764601,18;1006064774,9
+17;2020;453M;Ordenación e inspección del transporte terrestre;21443830;20862293,14;19999306,26
+17;2020;453O;Comisión de Investigación de Accidentes Ferroviarios;390840;444329,34;403647,7
+17;2020;454M;Regulación y seguridad del tráfico marítimo;41175190;33225159,44;31626647,24
+17;2020;454O;Comisión de Investigación de Accidentes e Incidentes Marítimos;584670;576373,5;519179,78
+17;2020;455M;Regulación y supervisión de la aviación civil;8485370;9217367,79;8428362,42
+17;2020;455O;Comisión de Investigación de Accidentes e Incidentes de Aviación Civil;1468080;1435044,92;1406518,78
+17;2020;467G;Investigación y desarrollo de la Sociedad de la Información;980000;979954,91;979954,91
+17;2020;491N;Servicio postal universal;120790000;60790000;60533345,7
+17;2020;495A;Desarrollo y aplicación de la información geográfica española;24097240;24400522,47;23092332,29
+17;2020;497M;Salvamento y lucha contra la contaminación en la mar;152535000;163594428,27;163594428,27
+17;2021;000X;Transferencias y libramientos internos;27056810;95140581,47;95140581,47
+17;2021;260A;Acceso a la vivienda y fomento de la edificación. Mecanismo de Recuperación y Resiliencia;1651000000;1651000000;1250416000
+17;2021;261N;Promoción, administración y ayudas para rehabilitación y acceso a vivienda;570768270;572383796,74;571998346,21
+17;2021;261O;Ordenación y fomento de la edificación;29610690;78725567,43;56783153,76
+17;2021;261P;Urbanismo y política del suelo;1866420;1916420;1519497,16
+17;2021;441M;Subvenciones y apoyo al transporte terrestre;1709773410;1823126540,72;1812285912,56
+17;2021;441N;Subvenciones y apoyo al transporte marítimo;167185180;158721180;157300821,91
+17;2021;441O;Subvenciones y apoyo al transporte aéreo;664085920;487688313,87;484385412,92
+17;2021;441P;Subvenciones al transporte extrapeninsular de mercancías;77247030;77247030;67091934,35
+17;2021;450A;Infraestructuras. Mecanismo de Recuperación y Resiliencia;3301346190;3301346190;3160398358,58
+17;2021;451N;Dirección y Servicios Generales de Transportes, Movilidad y Agenda Urbana;526851560;528252012,81;473490969,76
+17;2021;453A;Infraestructura del transporte ferroviario;1668887920;1653580053,64;1635566204,49
+17;2021;453B;Creación de infraestructura de carreteras;1259186780;1484620092,94;1295034771,83
+17;2021;453C;Conservación y explotación de carreteras;1084348300;1180624400,41;1123743038,49
+17;2021;453M;Ordenación e inspección del transporte terrestre;23296180;21733578,2;20728290,7
+17;2021;453O;Comisión de Investigación de Accidentes Ferroviarios;561610;511610;341800,04
+17;2021;454M;Regulación y seguridad del tráfico marítimo;34948620;33999772,63;32182306,82
+17;2021;454O;Comisión de Investigación de Accidentes e Incidentes Marítimos;660120;680120;598475,28
+17;2021;455M;Regulación y supervisión de la aviación civil;10598640;10678883,74;9663083,16
+17;2021;455O;Comisión de Investigación de Accidentes e Incidentes de Aviación Civil;1622270;1720282,49;1637237,51
+17;2021;460A;Investigación, Desarrollo e Innovación. Mecanismo de Recuperación y Resiliencia;30000000;30000000;5604362,97
+17;2021;467G;Investigación y desarrollo de la Sociedad de la Información;980000;938526,97;938526,81
+17;2021;491N;Servicio postal universal;111521000;56521000;56137690,65
+17;2021;495A;Desarrollo y aplicación de la información geográfica española;26925630;26599713,25;25002444,96
+17;2021;497M;Salvamento y lucha contra la contaminación en la mar;164199390;168203392,2;168088773
+17;2022;000X;Transferencias y libramientos internos;43619020;141627113,37;141627113,36
+17;2022;261N;Promoción, administración y ayudas para rehabilitación y acceso a vivienda;771485510;823315602,31;822224066,3
+17;2022;261O;Ordenación y fomento de la edificación;32458180;63414037,38;39037911,85
+17;2022;261P;Urbanismo y política del suelo;2326370;2102665,96;1580669,05
+17;2022;26BA;C02.I01 Programa de rehabilitación para la recuperación económica y social en entornos residenciales;1389000000;1389000000;676616625
+17;2022;26BB;C02.I02 Programa de construcción de viviendas en alquiler social en edificios energéticamente eficie;500000000;500000000;500000000
+17;2022;26BE;C02.I05 Programa de rehabilitación sostenible y digital de edificios públicos;600000000;1000584000;706771186,07
+17;2022;441M;Subvenciones y apoyo al transporte terrestre;1825862450;2567613646,77;2549466542,25
+17;2022;441N;Subvenciones y apoyo al transporte marítimo;167185180;218809263,41;218579083,7
+17;2022;441O;Subvenciones y apoyo al transporte aéreo;653268620;750198620;746374260,58
+17;2022;441P;Subvenciones al transporte extrapeninsular de mercancías;74279240;85324692,78;84515793,9
+17;2022;451N;Dirección y Servicios Generales de Transportes, Movilidad y Agenda Urbana;666185100;683469393,16;673550855,41
+17;2022;453A;Infraestructura del transporte ferroviario;1396159750;1372286387,79;1275691104,53
+17;2022;453B;Creación de infraestructura de carreteras;1532979010;2767556976,66;2731143623,27
+17;2022;453C;Conservación y explotación de carreteras;1201239810;1358487244,87;1295247714,32
+17;2022;453M;Ordenación e inspección del transporte terrestre;23522620;32309867,88;30895013,59
+17;2022;453O;Comisión de Investigación de Accidentes Ferroviarios;605530;522530;335666,59
+17;2022;454M;Regulación y seguridad del tráfico marítimo;37110450;35423737,69;32616908,58
+17;2022;454O;Comisión de Investigación de Accidentes e Incidentes Marítimos;655300;784588,02;697775,03
+17;2022;455M;Regulación y supervisión de la aviación civil;10333020;10354635,69;8869643,69
+17;2022;455O;Comisión de Investigación de Accidentes e Incidentes de Aviación Civil;1717500;1780105,03;1672874,2
+17;2022;45AA;C01.I01 Zonas de bajas emisiones y transformación del transporte urbano y metropolitano. Infraestruc;1121236300;1121236300;751330023
+17;2022;45AC;C01.I03 Actuaciones de mejora de la calidad y fiabilidad en el servicio de Cercanías.;615421480;615421480;615421480
+17;2022;45DA;C04.I01 Digitalización y conocimientos del patrimonio natural;0;2950860,71;1047168,75
+17;2022;45EB;C05.I02 Seguimiento y restauración de ecosistemas fluviales, recuperación de acuíferos y mitigación;0;0;0
+17;2022;45FA;C06.I01 Red nacional de transporte: Corredores europeos.;635436920;635436920;635436920
+17;2022;45FB;C06.I02 Red Transeuropea de Transporte. Otras actuaciones. Infraestructuras y Ecosistemas Resiliente;457824750;453301539,98;343200267,91
+17;2022;45FC;C06.I03 Intermodalidad y logística;209778830;214302040,02;200595978,23
+17;2022;45FD;C06.I04 Programa de apoyo para un transporte sostenible y digital;307500000;307500000;178510853,97
+17;2022;45SC;C19.I03 Competencias digitales para el empleo. Transportes y Movilidad.;11000000;11000000;0
+17;2022;467G;Investigación y desarrollo de la Sociedad de la Información;980000;583514,73;514588,61
+17;2022;46AA;C01.I01 Zonas de bajas emisiones y transformación del transporte urbano y metropolitano. I+D+i+Digit;2970080;2970080;2181968,48
+17;2022;46FB;C06.I02 Red Transeuropea de Transporte. Otras actuaciones. I+D+i+Digitalización;24478040;27827589,62;19998735,94
+17;2022;491N;Servicio postal universal;110790000;798438,34;795447,61
+17;2022;495A;Desarrollo y aplicación de la información geográfica española;27865430;28660270,66;27231738,43
+17;2022;497M;Salvamento y lucha contra la contaminación en la mar;169810000;170393813,17;170329765,52
+17;2023;000X;Transferencias y libramientos internos;140843520;273732182,42;273732182,42
+17;2023;261N;Promoción, administración y ayudas para rehabilitación y acceso a vivienda;959526750;1509439817,72;1492305031,67
+17;2023;261O;Ordenación y fomento de la edificación;30471820;31677973,64;21635061,9
+17;2023;261P;Urbanismo y política del suelo;7002080;6211135,41;6071578,78
+17;2023;26BA;C02.I01 Programa de rehabilitación para la recuperación económica y social en entornos residenciales;1980000000;2692383375;384329355
+17;2023;26BB;C02.I02 Programa de construcción de viviendas en alquiler social en edificios energéticamente eficie;500000000;500000000;294830782
+17;2023;26BE;C02.I05 Programa de rehabilitación sostenible y digital de edificios públicos;0;293812813,93;288737872,07
+17;2023;441M;Subvenciones y apoyo al transporte terrestre;2605592090;3616116349,24;3393540887,79
+17;2023;441N;Subvenciones y apoyo al transporte marítimo;183948920;344804153,46;271986883,37
+17;2023;441O;Subvenciones y apoyo al transporte aéreo;573860050;951235492,32;950713007,48
+17;2023;441P;Subvenciones al transporte extrapeninsular de mercancías;84279240;93466839,81;92149747,93
+17;2023;451N;Dirección y Servicios Generales de Transportes, Movilidad y Agenda Urbana;444842210;375166405,58;369252857,64
+17;2023;453A;Infraestructura del transporte ferroviario;1733244110;1607867310,27;1148151108,43
+17;2023;453B;Creación de infraestructura de carreteras;1599547100;2205363142,61;2119873477,36
+17;2023;453C;Conservación y explotación de carreteras;1211931910;1431518619,39;1397291579,34
+17;2023;453M;Ordenación e inspección del transporte terrestre;24320790;22526244,67;21177683,91
+17;2023;453O;Comisión de Investigación de Accidentes Ferroviarios;516150;471150;276217,37
+17;2023;454M;Regulación y seguridad del tráfico marítimo;36868810;35354482,88;34712409,74
+17;2023;454O;Comisión de Investigación de Accidentes e Incidentes Marítimos;2687180;2938851,94;2912801,46
+17;2023;455M;Regulación y supervisión de la aviación civil;10541280;9604085,93;9193268,12
+17;2023;455O;Comisión de Investigación de Accidentes e Incidentes de Aviación Civil;1762850;1635656,57;1608817,46
+17;2023;45AA;C01.I01 Zonas de bajas emisiones y transformación del transporte urbano y metropolitano. Infraestruc;987148530;1015913308,24;420548326,16
+17;2023;45AC;C01.I03 Actuaciones de mejora de la calidad y fiabilidad en el servicio de Cercanías.;358989770;358989770;358989770
+17;2023;45DA;C04.I01 Digitalización y conocimientos del patrimonio natural;0;16194082,52;4829675,2
+17;2023;45FA;C06.I01 Red nacional de transporte: Corredores europeos.;236816020;236816020;236816020
+17;2023;45FB;C06.I02 Red Transeuropea de Transporte. Otras actuaciones. Infraestructuras y Ecosistemas Resiliente;514984740;514984740;297792068,48
+17;2023;45FC;C06.I03 Intermodalidad y logística;316681120;316681120;304949115,04
+17;2023;45FD;C06.I04 Programa de apoyo para un transporte sostenible y digital;132000000;132000000;53196786,59
+17;2023;45SC;C19.I03 Competencias digitales para el empleo. Transportes y Movilidad.;11500000;22000000;4225748,64
+17;2023;467G;Investigación y desarrollo de la Sociedad de la Información;980000;330660,54;243559,3
+17;2023;46AA;C01.I01 Zonas de bajas emisiones y transformación del transporte urbano y metropolitano. I+D+i+Digit;2580170;2902530;2470830,89
+17;2023;46FB;C06.I02 Red Transeuropea de Transporte. Otras actuaciones. I+D+i+Digitalización;30284540;30284540;23195763,46
+17;2023;495A;Desarrollo y aplicación de la información geográfica española;32630420;32023267,69;31077965,38
+17;2023;497M;Salvamento y lucha contra la contaminación en la mar;189760000;190247145,42;190247145,42
+17;2024;000X;Transferencias y libramientos internos;139943520;142066155,78;142066155,78
+17;2024;441M;Subvenciones y apoyo al transporte terrestre;2604241890;3635867970,24;3613326062,06
+17;2024;441N;Subvenciones y apoyo al transporte marítimo;183948920;214412165,37;214328209,01
+17;2024;441O;Subvenciones y apoyo al transporte aéreo;573860050;761137725,19;760739801,17
+17;2024;441P;Subvenciones al transporte extrapeninsular de mercancías;84279240;105825268,26;105188453,44
+17;2024;451N;Dirección y Servicios Generales de Transportes y Movilidad Sostenible;439055610;365503065,88;357112417,66
+17;2024;453A;Infraestructura del transporte ferroviario;1733244110;1557605362,95;1545993588,46
+17;2024;453B;Creación de infraestructura de carreteras;1593547100;1235511263,63;1202781476,55
+17;2024;453C;Conservación y explotación de carreteras;1208409410;1542118606,24;1523959808,23
+17;2024;453M;Ordenación e inspección del transporte terrestre;24304790;22938222,99;21169952,12
+17;2024;453O;Comisión de Investigación de Accidentes Ferroviarios;516150;516150;317670,66
+17;2024;454M;Regulación y seguridad del tráfico marítimo;36829510;36569687,87;34560133,59
+17;2024;454O;Comisión de Investigación de Accidentes e Incidentes Marítimos;2687180;650180;524830,59
+17;2024;455M;Regulación y supervisión de la aviación civil;10310280;9973079,5;9541095,86
+17;2024;455O;Comisión de Investigación de Accidentes e Incidentes de Aviación Civil;1762850;1770350;1573520,18
+17;2024;45AA;C01.I01 Zonas de bajas emisiones y transformación del transporte urbano y metropolitano. Infraestruc;987148530;700540927,54;369397810,79
+17;2024;45AC;C01.I03 Actuaciones de mejora de la calidad y fiabilidad en el servicio de Cercanías.;358989770;362458770;36252270
+17;2024;45DA;C04.I01 Digitalización y conocimientos del patrimonio natural;0;11364407,32;4631353,6
+17;2024;45FA;C06.I01 Red nacional de transporte: Corredores europeos.;236816020;236816020;8264490
+17;2024;45FB;C06.I02 Red Transeuropea de Transporte. Otras actuaciones. Infraestructuras y Ecosistemas Resiliente;514984740;653691730,21;134023804,36
+17;2024;45FC;C06.I03 Intermodalidad y logística;316681120;321221817,67;181999649,69
+17;2024;45FD;C06.I04 Programa de apoyo para un transporte sostenible y digital;132000000;226554144,25;39314318,51
+17;2024;45SC;C19.I03 Competencias digitales para el empleo. Transportes y Movilidad.;11500000;18774251,36;4143170,82
+17;2024;467G;Investigación y desarrollo de la Sociedad de la Información;980000;284950,29;236373,06
+17;2024;46AA;C01.I01 Zonas de bajas emisiones y transformación del transporte urbano y metropolitano. I+D+i+Digit;2580170;3423667,21;2179691,95
+17;2024;46FB;C06.I02 Red Transeuropea de Transporte. Otras actuaciones. I+D+i+Digitalización;30284540;30790162,02;26347680,23
+17;2024;495A;Desarrollo y aplicación de la información geográfica española;32630420;35672727,77;33308991
+17;2024;497M;Salvamento y lucha contra la contaminación en la mar;189760000;189859143,92;189859143,92
+17;2024;929D;Contingencias asociadas a la Depresión Aislada en Niveles Altos (DANA) de 2024;0;50000;5638,7
+25;2024;000X;Transferencias y libramientos internos;900000;900000;900000
+25;2024;261M;Dirección y Servicios Generales de Vivienda y Agenda Urbana;4254000;17246299;9441461,56
+25;2024;261N;Promoción, administración y ayudas para rehabilitación y acceso a vivienda;959516750;949462186,41;881211901,79
+25;2024;261O;Ordenación y fomento de la edificación;30441820;30864969,37;14093144,55
+25;2024;261P;Urbanismo y política del suelo;6722080;5685434,66;2090714,35
+25;2024;261Q;POLÍTICAS Y FONDOS EUROPEOS EN EL ÁMBITO RESIDENCIAL;0;1690000;0
+25;2024;261R;LA CASA DE LA ARQUITECTURA;0;677861,4;141164,33
+25;2024;261S;GESTIÓN DE DATOS EN MATERIA DE PROGRAMACIÓN Y PLANIFICACIÓN ESTATAL DE LA VIVIENDA;0;808735,3;183106,02
+25;2024;261T;INNOVACIÓN Y SOSTENIBILIDAD EN LA EDIFICACIÓN;0;60000;3364,9
+25;2024;26BA;C02.I01 Programa de rehabilitación para la recuperación económica y social en entornos residenciales;1980000000;763128961,86;353083495,12
+25;2024;26BB;C02.I02 Programa de construcción de viviendas en alquiler social en edificios energéticamente eficie;500000000;205169218;106050630,56
+25;2024;26BG;C02.I07 Línea de préstamos ICO para el impulso de la vivienda social;0;2200000000;0
+13;2020;000X;Transferencias internas;97708390;97531698,55;97501698,55
+13;2020;111N;Dirección y Servicios Generales de Justicia;50237040;59187722,22;56066277,78
+13;2020;112A;Tribunales de Justicia y Ministerio Fiscal;1628201680;1715608995,18;1677553262,01
+13;2020;113M;Registros vinculados con la Fe Pública;33115740;31825623,54;30664843,83
+13;2020;232B;Igualdad de oportunidades entre mujeres y hombres;1233060;3165704;2819942,49
+13;2020;232C;Actuaciones para la prevención integral de la violencia de género;159508500;160848269,06;155131742,3
+13;2020;232D;Igualdad de trato y diversidad;1348170;1474930;882269
+13;2020;467G;Investigación y desarrollo de la Sociedad de la Información;604820;600645,33;598912,68
+13;2020;911Q;Apoyo a la gestión administrativa de la Jefatura del Estado;6182900;7169402;7061793,08
+13;2020;912M;Presidencia del Gobierno;35941950;42471529,68;39453842,14
+13;2020;912O;Relaciones con las Cortes Generales, Secretariado del Gobierno y apoyo a la Alta Dirección;30638240;35785929,45;33386114,67
+13;2020;921Q;Cobertura informativa;68451490;70684941;68826697,57
+13;2020;921S;Asesoramiento y defensa de los intereses del Estado;34247820;33279444,44;32293689,79
+13;2021;000X;Transferencias y libramientos internos;90581010;90588510;90014310
+13;2021;110A;Justicia. Mecanismo de Recuperación y Resiliencia;27174070;98941070;98100610,08
+13;2021;111N;Dirección y Servicios Generales de Justicia;75718760;75312424,85;42654753,46
+13;2021;112A;Tribunales de Justicia y Ministerio Fiscal;1824643880;1823971696,45;1746131081,08
+13;2021;113M;Registros vinculados con la Fe Pública;34822460;35576256,63;29627588,7
+13;2021;467G;Investigación y desarrollo de la Sociedad de la Información;1564820;1564820;1393227,51
+13;2021;911Q;Apoyo a la gestión administrativa de la Jefatura del Estado;7130220;7718104;7350603,31
+13;2021;912M;Presidencia del Gobierno;47443960;48727952,01;42753881,15
+13;2021;912O;Relaciones con las Cortes Generales, Secretariado del Gobierno y apoyo a la Alta Dirección;35513470;34838439,71;31524927,69
+13;2021;921Q;Cobertura informativa;77850950;76656987,99;72828295,74
+13;2021;921S;Asesoramiento y defensa de los intereses del Estado;42058990;52696183,51;47467659,48
+13;2021;925M;Memoria democrática;11356530;11252572;6947623,94
+13;2022;000X;Transferencias y libramientos internos;101228770;111333050,55;109816070,38
+13;2022;111N;Dirección y Servicios Generales de Justicia;108688390;49153375,4;42703327,64
+13;2022;112A;Tribunales de Justicia y Ministerio Fiscal;1838836140;1910319733,82;1871105853,09
+13;2022;113M;Registros vinculados con la Fe Pública;35542090;34187941,89;30876116,99
+13;2022;11KB;C11.I02 Proyectos tractores de digitalización de la Administración General del Estado. Justicia;208170000;199501806,92;198384934,4
+13;2022;42KD;C11.I04 PLAN DE TRANSICIÓN ENERGÉTICA EN LA ADMINISTRACIÓN GENERAL DEL ESTADO;0;9508653;2301851,55
+13;2022;467G;Investigación y desarrollo de la Sociedad de la Información;1564820;1564820;1548541,9
+13;2022;911Q;Apoyo a la gestión administrativa de la Jefatura del Estado;7229480;8102992,42;7662316,86
+13;2022;912M;Presidencia del Gobierno;51392590;55772229,49;49206313,15
+13;2022;912O;Relaciones con las Cortes Generales, Secretariado del Gobierno y apoyo a la Alta Dirección;37348050;35296735,56;31575122,08
+13;2022;921Q;Cobertura informativa;79285780;77285803,24;74042166,22
+13;2022;921S;Asesoramiento y defensa de los intereses del Estado;42798720;54037979,11;51615595,95
+13;2022;925M;Memoria democrática;11826300;11889279,47;7554092,91
+13;2023;000X;Transferencias y libramientos internos;119511400;119610229,05;119424657,93
+13;2023;111N;Dirección y Servicios Generales de Justicia;135356340;83804689,33;48632789,67
+13;2023;112A;Tribunales de Justicia y Ministerio Fiscal;1963188440;2011770162,39;1962864097,68
+13;2023;113M;Registros vinculados con la Fe Pública;36669010;35306717,41;32761246,67
+13;2023;11KB;C11.I02 Proyectos tractores de digitalización de la Administración General del Estado. Justicia;56153540;57270412,52;55390767,55
+13;2023;42KD;C11.I04 Plan de Transición Energética en la Administración General del Estado;49708270;49708270;2273749,33
+13;2023;467G;Investigación y desarrollo de la Sociedad de la Información;1582630;1582630;1549856,65
+13;2023;911Q;Apoyo a la gestión administrativa de la Jefatura del Estado;7775830;8173276;8130859,73
+13;2023;912M;Presidencia del Gobierno;133875170;135944153,45;80290822,76
+13;2023;912O;Relaciones con las Cortes Generales, Secretariado del Gobierno y apoyo a la Alta Dirección;48351990;43843980,1;35746289,03
+13;2023;921Q;Cobertura informativa;78385600;78541312,39;74538642,3
+13;2023;921S;Asesoramiento y defensa de los intereses del Estado;44657510;64953076,3;58330584,4
+13;2023;925M;Memoria democrática;13952000;13830452;6739221,22
+13;2024;000X;Transferencias y libramientos internos;118161200;124258780,75;119346197,79
+13;2024;111N;Dirección y Servicios Generales de Justicia;134941340;56161345,27;44134473,74
+13;2024;112A;Tribunales de Justicia y Ministerio Fiscal;1963188440;2151508156,78;2119237952,87
+13;2024;113M;Registros vinculados con la Fe Pública;36669010;37523597,91;34718202,33
+13;2024;11KB;C11.I02 Proyectos tractores de digitalización de la Administración General del Estado. Justicia;0;26260311,26;24366598,04
+13;2024;42KD;C11.I04 Plan de Transición Energética en la Administración General del Estado;0;47385790,25;32357909,1
+13;2024;467G;Investigación y desarrollo de la Sociedad de la Información;1582630;1576110,66;1324936,53
+13;2024;911Q;Apoyo a la gestión administrativa de la Jefatura del Estado;7775830;8716925,06;8572079,14
+13;2024;912M;Presidencia del Gobierno;55594400;79102670,28;69963507,1
+13;2024;912O;Relaciones con las Cortes Generales, Secretariado del Gobierno y apoyo a la Alta Dirección;48341990;41186306,47;37720192
+13;2024;921Q;Cobertura informativa;78363600;78258486,53;75372616,39
+13;2024;921S;Asesoramiento y defensa de los intereses del Estado;44657510;69865760,7;63622532,79
+13;2024;929D;Contingencias asociadas a la Depresión Aislada en Niveles Altos (DANA) de 2024;0;79943,81;56354,21
+16;2020;000X;Transferencias internas;2022720;2234819,68;2202665,57
+16;2020;131M;Dirección y Servicios Generales de Seguridad y Protección Civil;66451290;63440300,8;44762626,3
+16;2020;131N;Formación de Fuerzas y Cuerpos de Seguridad del Estado;141337070;151878439,12;141268693,92
+16;2020;131O;Fuerzas y Cuerpos en reserva;382440700;342571352,54;338889666,77
+16;2020;131P;Derecho de asilo y apátridas;6404530;12761496,25;10532619,92
+16;2020;132A;Seguridad ciudadana;5771694510;6742002810,96;6615048264,7
+16;2020;132C;Actuaciones policiales en materia de droga;76349430;100761130,57;97561085,64
+16;2020;133A;Centros e Instituciones Penitenciarias;1160426940;1231114224,13;1189654386,41
+16;2020;134M;Protección Civil;14545480;28998029,39;22539449,76
+16;2020;924M;Elecciones y Partidos Políticos;62866690;164840671,77;123150797,01
+16;2021;000X;Transferencias y libramientos internos;2119450;2119450;2105140,93
+16;2021;110A;Justicia. Mecanismo de Recuperación y Resiliencia;0;9000000;0
+16;2021;130A;Seguridad Ciudadana. Mecanismo de Recuperación y Resiliencia;6250000;12250000;1861,59
+16;2021;131M;Dirección y Servicios Generales de Seguridad y Protección Civil;182237850;68586284,83;45398775,95
+16;2021;131N;Formación de Fuerzas y Cuerpos de Seguridad del Estado;174056730;163617395,5;144125768,25
+16;2021;131O;Fuerzas y Cuerpos en reserva;335508030;321476971,33;319316354,13
+16;2021;131P;Derecho de asilo y apátridas;12728670;14394376,72;11111023,22
+16;2021;132A;Seguridad ciudadana;6778015820;7058825220,31;6910188964,07
+16;2021;132C;Actuaciones policiales en materia de droga;96373850;106490843,49;102556642,19
+16;2021;133A;Centros e Instituciones Penitenciarias;1241589790;1253273424,44;1199177084,8
+16;2021;134M;Protección Civil;14946710;43490283,41;35600440,7
+16;2021;924M;Elecciones y Partidos Políticos;62908390;121994700,46;116931691,61
+16;2022;000X;Transferencias y libramientos internos;6146300;8545856,9;8477706,23
+16;2022;11KB;C11.I02 Proyectos tractores de digitalización de la Administración General del Estado. Justicia;0;8647255,05;8285367,34
+16;2022;131M;Dirección y Servicios Generales de Seguridad y Protección Civil;210674400;71610053,93;46124899,39
+16;2022;131N;Formación de Fuerzas y Cuerpos de Seguridad del Estado;177303110;163335727,12;151413971,57
+16;2022;131O;Fuerzas y Cuerpos en reserva;336716290;321680723,69;319188152,79
+16;2022;131P;Derecho de asilo y apátridas;16126710;17170350,42;11440688,65
+16;2022;132A;Seguridad ciudadana;7101478870;7533562202,17;7386083959,84
+16;2022;132C;Actuaciones policiales en materia de droga;102407490;112874162,96;108200857,98
+16;2022;133A;Centros e Instituciones Penitenciarias;1272262380;1248135070,12;1204122821,48
+16;2022;134M;Protección Civil;16950260;77422447,24;49468585,51
+16;2022;13KB;C11.I02 Proyectos tractores de digitalización de la Administración General del Estado. Seguridad Ciu;21250000;27498138,41;11151523,26
+16;2022;13SC;C19.I03 Competencias digitales para el empleo. Seguridad Ciudadana e Instituciones Penitenciarias;19000000;19000000;900164,89
+16;2022;23VC;C22.I03 Plan España País Accesible.;0;767929,98;0
+16;2022;24WA;C23.I01 Empleo Joven;0;3412461,48;173518,89
+16;2022;42KD;C11.I04 PLAN DE TRANSICIÓN ENERGÉTICA EN LA ADMINISTRACIÓN GENERAL DEL ESTADO;0;148672638,14;10272730,7
+16;2022;49OR;C15.R01 Reforma del marco normativo de telecomunicaciones: Ley General, instrumentos regulatorios e;0;6000000;3300999,79
+16;2022;924M;Elecciones y Partidos Políticos;81690090;91502717,74;83174732,32
+16;2023;000X;Transferencias y libramientos internos;6146300;6221141,53;6126614,15
+16;2023;131M;Dirección y Servicios Generales de Seguridad y Protección Civil;442583550;74080095,16;52275703,69
+16;2023;131N;Formación de Fuerzas y Cuerpos de Seguridad del Estado;174908670;159259405,37;150556961,27
+16;2023;131O;Fuerzas y Cuerpos en reserva;304720150;316329849,55;314275467,6
+16;2023;131P;Derecho de asilo y apátridas;16202480;16326417,55;11846901,18
+16;2023;132A;Seguridad ciudadana;7414305100;7901293673,79;7712285264,79
+16;2023;132C;Actuaciones policiales en materia de droga;108468890;119026362,68;115792823,79
+16;2023;133A;Centros e Instituciones Penitenciarias;1326257790;1401695082,8;1350277480,41
+16;2023;134M;Protección Civil;16749710;47403134,46;19950038,77
+16;2023;13KB;C11.I02 Proyectos tractores de digitalización de la Administración General del Estado. Seguridad Ciu;22500000;38846615,15;14448870,15
+16;2023;13SC;C19.I03 Competencias digitales para el empleo. Seguridad Ciudadana e Instituciones Penitenciarias;11000000;25885493,08;14535202,02
+16;2023;23VC;C22.I03 Plan España País Accesible.;0;224789,61;220133,49
+16;2023;24WA;C23.I01 Empleo Joven;0;4411882,31;652413,97
+16;2023;42KD;C11.I04 Plan de Transición Energética en la Administración General del Estado;196124690;334524597,44;111365031,44
+16;2023;924M;Elecciones y Partidos Políticos;461567980;539104310,58;505311885,53
+16;2024;000X;Transferencias y libramientos internos;6146300;6140981,9;6081041,81
+16;2024;131M;Dirección y Servicios Generales de Seguridad y Protección Civil;442583550;72029822,97;60969734,52
+16;2024;131N;Formación de Fuerzas y Cuerpos de Seguridad del Estado;174908670;185100620,5;176355948,95
+16;2024;131O;Fuerzas y Cuerpos en reserva;304720150;317863410,97;317078773,96
+16;2024;131P;Derecho de asilo y apátridas;16202480;16133363,54;12508063,16
+16;2024;132A;Seguridad ciudadana;7401642430;8117455561,93;7958236028,11
+16;2024;132C;Actuaciones policiales en materia de droga;108468890;124764519,34;122053557,43
+16;2024;133A;Centros e Instituciones Penitenciarias;1326257790;1480988459,64;1421183062,14
+16;2024;134M;Protección Civil;16749710;23403498,46;13842746,34
+16;2024;13KB;C11.I02 Proyectos tractores de digitalización de la Administración General del Estado. Seguridad Ciu;0;24343483,55;6959514,09
+16;2024;13SC;C19.I03 Competencias digitales para el empleo. Seguridad Ciudadana e Instituciones Penitenciarias;0;14556836,35;5416394,76
+16;2024;24WA;C23.I01 Empleo Joven;0;8955739,81;4780252,02
+16;2024;42KD;C11.I04 Plan de Transición Energética en la Administración General del Estado;0;223571648,98;92093526
+16;2024;49OF;C15.I06 Despliegue del 5G: redes, cambio tecnológico e innovación;0;3630000;0
+16;2024;924M;Elecciones y Partidos Políticos;461567980;472792049,78;415162903,67
+16;2024;929D;Contingencias asociadas a la Depresión Aislada en Niveles Altos (DANA) de 2024;0;221765744,68;82396955,09
+33;2024;000X;Transferencias y libramientos internos;33906270;50040695,44;47832553,26
+33;2024;24WA;C23.I01 Empleo Joven;0;1564522,9;0
+33;2024;461N;Dirección y Servicios Generales de Transformación Digital;31047970;34112415,8;23204663,28
+33;2024;467G;Investigación y desarrollo de la Sociedad de la Información;88706060;89966912,69;57234216,33
+33;2024;467I;Innovación tecnológica de las telecomunicaciones;204073490;201080577,11;124293185,79
+33;2024;46KA;C11.I01 Modernización de la Administración General del Estado. I+D+i+Digitalización;233393170;271638167,84;103678117,54
+33;2024;46KF;C11.I06 INSTRUMENTO D RESILIENCIA Y SEGURIDAD. I+D+I+DIGITALIZACION;0;371818190;0
+33;2024;46LA;C12.I01 Espacios de datos sectoriales (contribución a proyectos tractores de digitalización de los s;400000000;377495502,8;146215162,8
+33;2024;46MA;C13.I01 Emprendimiento. I+D+i+Digitalización;60000000;27165968;5418938
+33;2024;46MC;C13.I03 Digitalización e Innovación I. I+D+i+Digitalización;1322000000;314723339;299847195,68
+33;2024;46MG;C13.I07 FONDO PARA ESCALAR STARTUPS TECNOLOGICAS: NEXT TECH;0;1700000000;1700000000
+33;2024;46NB;C14.I02 Programa de digitalización e inteligencia para destinos y sector turístico. I+D+i+Digitaliza;100000000;810000;810000
+33;2024;46OA;C15.I01 Favorecer la vertebración territorial mediante despliegue de redes: Extensión de la banda an;256000000;35461188,51;19906659,52
+33;2024;46OB;C15.I02 Refuerzo de conectividad en centros de referencia, motores socioeconómicos y proyectos tract;155000000;29370000;5360458,59
+33;2024;46OC;C15.I03 Bonos de conectividad para PYMES y colectivos vulnerables;10000000;7205840;1146560,55
+33;2024;46OD;C15.I04 Renovación y sostenibilidad de infraestructuras;20000000;15772400;0
+33;2024;46OE;C15.I05 Despliegue de infraestructuras digitales transfronterizas. I+D+i+Digitalización;1350000000;146464322,85;146444607,85
+33;2024;46OG;"C15.I07 Ciberseguridad: Fortalecimiento de las capacidades de ciudadanos, PYMES y profesionales; e I";131620000;8000000;8000000
+33;2024;46OH;C15.I08. PERTE Chip: Fortalecimiento del ecosistema científico y tecnológico. Incremento de las cap;0;420900000;386840948,03
+33;2024;46PR;C16.R01 Estrategia Nacional de IA;86600000;108778037,81;92469658,89
+33;2024;46RF;C18.I06 Data lake Sanitario;65000000;99622280,98;24947008,85
+33;2024;46SA;C19.I01 Competencias digitales transversales. I+D+i+Digitalización;26000000;10276322,94;0
+33;2024;46SD;C19.I04 Profesionales digitales;5000000;5000000;5000000
+33;2024;46UE;C21.I05 Mejora de infraestructuras digitales, el equipamiento, las tecnologías, la docencia y la eva;10000000;0;0
+33;2024;46YB;C25.I02 INFORMACIÓN EN ESPAÑOL Y LENGUAS COOFICIALES. PERTE NUEVA ECONOMÍA DE LA LENGUA. PRÉSTAMOS;0;19500000;19500000
+33;2024;46YC;C25.I03 FONDO SPAIN AUDIOVISUAL HUB. PERTE NUEVA ECONOMÍA DE LA LENGUA;0;550733644,86;550733644,86
+33;2024;491M;Ordenación y promoción de las telecomunicaciones y de la Sociedad de la Información;37503940;38727995,2;35513420,23
+33;2024;49OF;C15.I06 Despliegue del 5G: redes, cambio tecnológico e innovación;570000000;764081596,71;592708277,69
+33;2024;49OI;C15.I09 PERTE CHIP: INCREMENTO DE LAS CAPACIDADES DE LA INDUSTRIA FABLESS Y DE FABRICACIÓN;0;1641527305,14;1641527305,14
+33;2024;49OS;C15.R02 Hoja de ruta 5G: Gestión y asignación del espectro, reducción de cargas al despliegue, Ley d;31000000;0;0
+33;2024;921N;Dirección y organización de la Administración Pública;20518240;18337514,51;16367438,2
+33;2024;92KC;C11.I03 Transformación Digital y Modernización de la AGE. Servicios de carácter general;3315100;3866273,69;1636384,52
+33;2024;94KC;C11.I03 Transformación Digital y Modernización de las CCAA y EELL. Transferencias a otras AA.PP.;221300000;64464065,29;527762,93
+23;2020;000X;Transferencias internas;4248891160;4116250910,64;4090680153,2
+23;2020;423N;Explotación minera;8486580;8423382,35;7393833,6
+23;2020;425A;Normativa y desarrollo energético;535231370;557961163,37;538390292,32
+23;2020;451O;Dirección y Servicios Generales para la Transición Ecológica;51300720;64634242,03;57436032,13
+23;2020;452A;Gestión e infraestructuras del agua;316747740;262573985,14;200601835,08
+23;2020;452M;Normativa y ordenación territorial de los recursos hídricos;69616870;84149870;69006891,13
+23;2020;456A;Calidad del agua;125613640;66263213,96;45456587,96
+23;2020;456B;Protección y mejora del medio ambiente;20692430;18646715;17912395,44
+23;2020;456C;Protección y mejora del medio natural;16265460;11555004,41;9793043,8
+23;2020;456D;Actuación en la costa;98684630;80006115;63206338,67
+23;2020;456M;Actuaciones para la prevención de la contaminación y el cambio climático;27888690;78992218,4;78733442,97
+23;2020;921P;Administración periférica del Estado;0;10445,07;0
+23;2021;000X;Transferencias y libramientos internos;4188648140;5244772094,74;5208678240,07
+23;2021;420B;Transición energética. Mecanismo de Recuperación y Resiliencia;5300000000;4949183000;4949183000
+23;2021;423N;Explotación minera;14304340;4335945,18;3703013,25
+23;2021;425A;Normativa y desarrollo energético;543671310;644165344,53;330022338,27
+23;2021;450B;Ecosistemas resilientes. Mecanismo de Recuperación y Resiliencia;601440000;688190000;684989547,27
+23;2021;450C;Preservación de los recursos hídricos. Mecanismo de Recuperación y Resiliencia;148999990;277411068,77;277411068,77
+23;2021;450D;Preservación de costas. Mecanismo de Recuperación y Resiliencia;144030000;33266669,77;33266669,77
+23;2021;450F;Estrategia de Economía Circular. Mecanismo de Recuperación y Resiliencia;500000000;500000000;499578042,57
+23;2021;451O;Dirección y Servicios Generales para la Transición Ecológica y el Reto Demográfico;62392690;1987554809,83;1926520111,66
+23;2021;452A;Gestión e infraestructuras del agua;260879320;224538278,93;181189170,06
+23;2021;452M;Normativa y ordenación territorial de los recursos hídricos;70476300;70417650;29003085,14
+23;2021;456A;Calidad del agua;142662850;112404841,52;81781873,05
+23;2021;456B;Protección y mejora del medio ambiente;18641980;19942425;18941086,85
+23;2021;456C;Protección y mejora del medio natural;151854610;145189619,82;119217670,59
+23;2021;456D;Actuación en la costa;92418790;89019436,9;53915288,13
+23;2021;456E;Reto demográfico y lucha contra la despoblación;19011620;18386620;12051229,26
+23;2021;456M;Actuaciones para la prevención de la contaminación y el cambio climático;27282970;30243995;29502886,81
+23;2021;490A;Otras actuaciones de carácter económico. Mecanismo de Recuperación y Resiliencia;20750000;2418984,62;2418984,62
+23;2022;000X;Transferencias y libramientos internos;4330120530;12537171398,76;12535633185,76
+23;2022;24WA;C23.I01 Empleo Joven;0;2716758,52;0
+23;2022;423N;Explotación minera;14477600;14481575,27;13224966,63
+23;2022;425A;Normativa y desarrollo energético;581575810;790201646,81;530077003,53
+23;2022;42AB;C01.I02 Plan de incentivos a la instalación de puntos de recarga, a la adquisición de vehículos eléc;445000000;445000000;445000000
+23;2022;42BD;C02.I04 Programa de regeneración y reto demográfico;350000000;350000000;350000000
+23;2022;42GA;C07.I01 Desarrollo de energías renovables innovadoras, integradas en la edificación y en los proceso;435000000;435000000;435000000
+23;2022;42GB;C07.I02 Energía sostenible en las islas;175000000;175000000;175000000
+23;2022;42GT;C07.R03 Desarrollo de las comunidades energéticas;20000000;0;0
+23;2022;42HA;C08.I01 Despliegue del almacenamiento energético;289000000;320252591,07;320252591,07
+23;2022;42HB;C08.I02 Digitalización de las redes;0;148000000;148000000
+23;2022;42HC;C08.I03 Nuevos modelos de negocio en la transición energética;62000000;100000000;100000000
+23;2022;42IA;C09.I01 Hidrógeno renovable: un proyecto país;555000000;555000000;555000000
+23;2022;42KD;C11.I04 PLAN DE TRANSICIÓN ENERGÉTICA EN LA ADMINISTRACIÓN GENERAL DEL ESTADO;434697000;15973407,35;15973407,35
+23;2022;451O;Dirección y Servicios Generales para la Transición Ecológica y el Reto Demográfico;81357930;417082794,19;406172739,2
+23;2022;452A;Gestión e infraestructuras del agua;236479760;264999329,81;215397231,63
+23;2022;452M;Normativa y ordenación territorial de los recursos hídricos;109647340;205596900;165544309,72
+23;2022;456A;Calidad del agua;249682040;170511764,27;147206538,88
+23;2022;456B;Protección y mejora del medio ambiente;16749840;19938441;18634264,36
+23;2022;456C;Protección y mejora del medio natural;174645420;173009211,64;152739917,79
+23;2022;456D;Actuación en la costa;98277000;101625046;95303506,38
+23;2022;456E;Reto demográfico y lucha contra la despoblación;55798570;51468038,74;30257936,86
+23;2022;456M;Actuaciones para la prevención de la contaminación y el cambio climático;19895910;19896810;18455296,72
+23;2022;45DA;C04.I01 Digitalización y conocimientos del patrimonio natural;32782000;58206277,17;56731714,32
+23;2022;45DB;C04.I02 Conservación de la biodiversidad terrestre marina;45530000;40520195,96;34400314,77
+23;2022;45DC;C04.I03 Restauración de ecosistemas e infraestructura verde;95654160;101005063,13;100676034,2
+23;2022;45DD;C04.I04 Gestión forestal sostenible;133134000;121613980,95;120982476,69
+23;2022;45EA;C05.I01 Materialización de actuaciones de depuración, saneamiento, eficiencia, ahorro, reutilización;254000000;255000000;255000000
+23;2022;45EB;C05.I02 Seguimiento y restauración de ecosistemas fluviales, recuperación de acuíferos y mitigación;339453750;221710195,47;221210195,47
+23;2022;45EC;C05.I03 Transición digital en el sector del agua. Infraestructuras y Ecosistemas Resilientes.;105000000;225000000;225000000
+23;2022;45ED;C05.I04 Adaptación de la costa al cambio climático e implementación de las Estrategias Marinas y de;95000000;95000000;95000000
+23;2022;45LC;C12.I03 Plan de apoyo a la implementación de la normativa de residuos y al fomento de la economía ci;300000000;300421935,67;298741505,86
+23;2022;49EC;C05.I03 Transición digital en el sector del agua. Otras actuaciones de carácter económico.;59690430;59690430;59690430
+23;2023;000X;Transferencias y libramientos internos;4331979070;4456380710,61;3102733598,83
+23;2023;24WA;C23.I01 Empleo Joven;0;3864842,39;680852,18
+23;2023;423N;Explotación minera;14409040;13915397,37;3839875,23
+23;2023;425A;Normativa y desarrollo energético;825966420;814585092,17;323133282,1
+23;2023;42AB;C01.I02 Plan de incentivos a la instalación de puntos de recarga, a la adquisición de vehículos eléc;455000000;340000000;340000000
+23;2023;42BC;C02.I03 Programa de rehabilitación energética de edificios (PREE);300000000;0;0
+23;2023;42BD;C02.I04 Programa de regeneración y reto demográfico;225000000;225000000;225000000
+23;2023;42GA;C07.I01 Desarrollo de energías renovables innovadoras, integradas en la edificación y en los proceso;780000000;480000000;430000000
+23;2023;42GB;C07.I02 Energía sostenible en las islas;25000000;25000000;25000000
+23;2023;42HA;C08.I01 Despliegue del almacenamiento energético;93747410;93747410;93747408,93
+23;2023;42HB;C08.I02 Digitalización de las redes;150000000;150000000;150000000
+23;2023;42HC;C08.I03 Nuevos modelos de negocio en la transición energética;56000000;56000000;56000000
+23;2023;42IA;C09.I01 Hidrógeno renovable: un proyecto país;672817000;372817000;372817000
+23;2023;42KD;C11.I04 Plan de Transición Energética en la Administración General del Estado;1346600;1346600;1346592,65
+23;2023;42ÑA;C31.I01 Autoconsumo renovable, almacenamiento detrás del contador y comunidades energéticas.;0;500000000;500000000
+23;2023;42ÑB;C31.I02 Esquema para apoyar la producción y consumo de hidrógeno renovable.;0;915000000;915000000
+23;2023;42ÑC;C31.I03 Esquema para apoyar la cadena de valor de las energías renovables y el almacenamiento.;0;400000000;400000000
+23;2023;451O;Dirección y Servicios Generales para la Transición Ecológica y el Reto Demográfico;121835160;522104963,33;496178635,19
+23;2023;452A;Gestión e infraestructuras del agua;297696510;304501328,68;215050642,87
+23;2023;452M;Normativa y ordenación territorial de los recursos hídricos;396494970;396580872,97;374106924,98
+23;2023;456A;Calidad del agua;214257420;202277104,63;159701499,73
+23;2023;456B;Protección y mejora del medio ambiente;25174880;25012902,38;21395359,26
+23;2023;456C;Protección y mejora del medio natural;224737420;228551464,61;155777691,04
+23;2023;456D;Actuación en la costa;96655450;101088285,36;90777973,4
+23;2023;456E;Reto demográfico y lucha contra la despoblación;71645080;71625522,39;38422646,51
+23;2023;456M;Actuaciones para la prevención de la contaminación y el cambio climático;28647150;28086845,38;27118357,98
+23;2023;45DA;C04.I01 Digitalización y conocimientos del patrimonio natural;48339060;35523232,29;13031034,65
+23;2023;45DB;C04.I02 Conservación de la biodiversidad terrestre marina;72680610;112143028,8;78483896,71
+23;2023;45DC;C04.I03 Restauración de ecosistemas e infraestructura verde;82610100;90948456,2;82257681,86
+23;2023;45DD;C04.I04 Gestión forestal sostenible;91006410;87207914,26;61259837,11
+23;2023;45EA;C05.I01 Materialización de actuaciones de depuración, saneamiento, eficiencia, ahorro, reutilización;187000000;197600000;197600000
+23;2023;45EB;C05.I02 Seguimiento y restauración de ecosistemas fluviales, recuperación de acuíferos y mitigación;492980190;498249891;498249891
+23;2023;45EC;C05.I03 Transición digital en el sector del agua. Infraestructuras y Ecosistemas Resilientes.;370000000;359400000;359400000
+23;2023;45ED;C05.I04 Adaptación de la costa al cambio climático e implementación de las Estrategias Marinas y de;136733330;136733330;136733330
+23;2023;45LC;C12.I03 Plan de apoyo a la implementación de la normativa de residuos y al fomento de la economía ci;250000000;251680429,72;201629924,59
+23;2023;45SA;C19.I01 Competencias digitales transversales. Transición Ecológica;90000000;90000000;69000000
+23;2023;49EC;C05.I03 Transición digital en el sector del agua. Otras actuaciones de carácter económico.;83457320;83457320;83457320
+23;2024;000X;Transferencias y libramientos internos;4331979070;3692363893,65;3547458637,06
+23;2024;24WA;C23.I01 Empleo Joven;0;4915705,21;2282007,19
+23;2024;423N;Explotación minera;14409040;14357059,87;8282562,31
+23;2024;425A;Normativa y desarrollo energético;825966420;814438332,64;367747291,63
+23;2024;42AB;C01.I02 Plan de incentivos a la instalación de puntos de recarga, a la adquisición de vehículos eléc;455000000;0;0
+23;2024;42BC;C02.I03 Programa de rehabilitación energética de edificios (PREE);300000000;0;0
+23;2024;42BD;C02.I04 Programa de regeneración y reto demográfico;225000000;0;0
+23;2024;42GA;C07.I01 Desarrollo de energías renovables innovadoras, integradas en la edificación y en los proceso;780000000;0;0
+23;2024;42GB;C07.I02 Energía sostenible en las islas;25000000;0;0
+23;2024;42HA;C08.I01 Despliegue del almacenamiento energético;93747410;0;0
+23;2024;42HB;C08.I02 Digitalización de las redes;150000000;0;0
+23;2024;42HC;C08.I03 Nuevos modelos de negocio en la transición energética;56000000;0;0
+23;2024;42IA;C09.I01 Hidrógeno renovable: un proyecto país;672817000;0;0
+23;2024;42KD;C11.I04 Plan de Transición Energética en la Administración General del Estado;1346600;0;0
+23;2024;42ÑA;C31.I01 Autoconsumo renovable, almacenamiento detrás del contador y comunidades energéticas.;0;165693420;165693413
+23;2024;42ÑB;C31.I02 Esquema para apoyar la producción y consumo de hidrógeno renovable.;0;685000000;685000000
+23;2024;42ÑC;C31.I03 Esquema para apoyar la cadena de valor de las energías renovables y el almacenamiento.;0;600000000;600000000
+23;2024;42ÑD;C31.I04 INFRAESTRUCTURAS ELÉCTRICAS;0;368316920;0
+23;2024;451O;Dirección y Servicios Generales para la Transición Ecológica y el Reto Demográfico;113240450;497232929,79;479279262,56
+23;2024;452A;Gestión e infraestructuras del agua;296196510;281391143,4;175001337,54
+23;2024;452M;Normativa y ordenación territorial de los recursos hídricos;396494970;396598179,76;396551160,97
+23;2024;456A;Calidad del agua;213257420;201559152,34;164201300,02
+23;2024;456B;Protección y mejora del medio ambiente;25174880;17813301,03;16114559,25
+23;2024;456C;Protección y mejora del medio natural;224737420;209687930,36;161548606,63
+23;2024;456D;Actuación en la costa;96655450;80466593,55;70577182,72
+23;2024;456E;Reto demográfico y lucha contra la despoblación;71645080;67241182,08;29048731,85
+23;2024;456M;Actuaciones para la prevención de la contaminación y el cambio climático;28647150;27624518,86;27208752,66
+23;2024;45DA;C04.I01 Digitalización y conocimientos del patrimonio natural;48339060;22492206,21;7487135,97
+23;2024;45DB;C04.I02 Conservación de la biodiversidad terrestre marina;72680610;46859132,09;6276799,01
+23;2024;45DC;C04.I03 Restauración de ecosistemas e infraestructura verde;82610100;48290774,34;1702274,52
+23;2024;45DD;C04.I04 Gestión forestal sostenible;91006410;42090183,03;7947865,99
+23;2024;45EA;C05.I01 Materialización de actuaciones de depuración, saneamiento, eficiencia, ahorro, reutilización;187000000;189400000;189400000
+23;2024;45EB;C05.I02 Seguimiento y restauración de ecosistemas fluviales, recuperación de acuíferos y mitigación;492980190;194740000;194740000
+23;2024;45EC;C05.I03 Transición digital en el sector del agua. Infraestructuras y Ecosistemas Resilientes.;370000000;405600000;405600000
+23;2024;45ED;C05.I04 Adaptación de la costa al cambio climático e implementación de las Estrategias Marinas y de;136733330;0;0
+23;2024;45EE;C05.I05 RECUPERACIÓN DE ACUÍFEROS CON RECURSOS ALTERNATIVOS;0;1247366160;623683080
+23;2024;45EF;C05.I06 DIGITALIZACIÓN USOS DEL AGUA;0;735000000;0
+23;2024;45LC;C12.I03 Plan de apoyo a la implementación de la normativa de residuos y al fomento de la economía ci;250000000;350050511,9;349091908,93
+23;2024;45LE;C12.I05 ESQUEMA DE AYUDAS PARA SECTORES CLAVE DE LA ECONOMÍA CIRCULAR;0;250000000;250000000
+23;2024;45SA;C19.I01 Competencias digitales transversales. Transición Ecológica;90000000;21000000;0
+23;2024;49EC;C05.I03 Transición digital en el sector del agua. Otras actuaciones de carácter económico.;83457320;0;0
+23;2024;929D;Contingencias asociadas a la Depresión Aislada en Niveles Altos (DANA) de 2024;0;4529000;3418425,66

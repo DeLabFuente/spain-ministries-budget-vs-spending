@@ -1,0 +1,85 @@
+relationship 9205803e-0f26-41f1-af7b-e68abe616760
+	joinOnDateBehavior: datePartOnly
+	fromColumn: fact_contratacion_mes.fecha_mes
+	toColumn: LocalDateTable_93e799ad-bae5-4c6a-bb24-89443b2b4968.Date
+
+relationship AutoDetected_c3807b73-3245-4fca-a498-71b62d1f0986
+	fromColumn: fact_contratacion_mes.ministerio_id
+	toColumn: dim_ministerio.ministerio_id
+
+relationship AutoDetected_9d17c049-715c-4452-bcfd-cd9da149655a
+	fromColumn: fact_ministerio_anio.anio
+	toColumn: dim_anio.anio
+
+relationship AutoDetected_2ddcc6db-b707-4b93-ab0a-05fa4037afbc
+	fromColumn: fact_capitulo.anio
+	toColumn: dim_anio.anio
+
+relationship AutoDetected_1b6cf23f-3391-4c8a-8485-ae81db927539
+	fromColumn: fact_programa.anio
+	toColumn: dim_anio.anio
+
+relationship AutoDetected_01c35170-9f28-430a-92fa-2a5de577dcaa
+	fromColumn: fact_mrr_programa.anio
+	toColumn: dim_anio.anio
+
+relationship AutoDetected_2ea423a8-fc7a-4622-8ac3-b2b3f2476ecc
+	fromColumn: fact_ingresos_organismos.anio
+	toColumn: dim_anio.anio
+
+relationship AutoDetected_109d2b5a-7b98-43b9-a537-11f2c2f2ab32
+	fromColumn: fact_contratacion_mes.anio
+	toColumn: dim_anio.anio
+
+relationship AutoDetected_0d80debd-c07c-4681-a460-a0bcd336fc09
+	fromColumn: fact_capitulo.capitulo
+	toColumn: dim_capitulo.capitulo
+
+relationship AutoDetected_09622b09-e532-418d-a17b-9795e7599c53
+	fromColumn: fact_mrr_programa.capitulo
+	toColumn: dim_capitulo.capitulo
+
+relationship 01e7121d-616b-5d44-97b4-92757a251747
+	fromColumn: dim_grupo.ministerio_id
+	toColumn: dim_ministerio.ministerio_id
+
+relationship 9c0a268d-f2f0-514d-b4a3-ec2e43f9b45b
+	fromColumn: dim_grupo.anio
+	toColumn: dim_anio.anio
+
+relationship 2b812e4b-a7db-56f5-a2c4-dce194bad480
+	fromColumn: fact_catastrofe.anio
+	toColumn: dim_anio.anio
+
+relationship 5156f933-5994-5742-9b24-50838ddf5e38
+	fromColumn: fact_catastrofe_destino.anio
+	toColumn: dim_anio.anio
+
+relationship 19f864d7-f29e-5072-9cb9-5d3ab5511e26
+	fromColumn: fact_credito_nuevo.anio
+	toColumn: dim_anio.anio
+
+relationship 77cb405e-c491-557f-8579-6c1ee9e5351a
+	fromColumn: fact_contratacion_gasto.anio
+	toColumn: dim_anio.anio
+
+relationship 395373fc-4ffe-5b2c-b62d-9f90def34f71
+	fromColumn: fact_concentracion.anio
+	toColumn: dim_anio.anio
+
+relationship 7bbf281e-b468-5902-8b4a-7a480a7bdfba
+	fromColumn: fact_ejecucion.anio
+	toColumn: dim_anio.anio
+
+relationship 39899278-7be5-59b8-a1e3-e6a00912609a
+	fromColumn: fact_bdns.anio
+	toColumn: dim_anio.anio
+
+relationship e4ef03e7-8ee5-561f-ba24-730b1731189c
+	fromColumn: fact_bdns_instrumento.anio
+	toColumn: dim_anio.anio
+
+relationship 2dd7fae9-eb49-528b-8086-dcfe0f1168be
+	fromColumn: fact_mensual.anio
+	toColumn: dim_anio.anio
+

@@ -1,0 +1,216 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
+  "name": "c985ee9fbf964b4e91ef",
+  "position": {
+    "x": 980,
+    "y": 740,
+    "z": 10000,
+    "height": 320,
+    "width": 910,
+    "tabOrder": 10000
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "dim_gobierno"
+                    }
+                  },
+                  "Property": "presidente_real_decreto"
+                }
+              },
+              "queryRef": "dim_gobierno.presidente_real_decreto",
+              "nativeQueryRef": "presidente_real_decreto",
+              "displayName": "Nombramiento"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "dim_gobierno"
+                    }
+                  },
+                  "Property": "nombrado_el"
+                }
+              },
+              "queryRef": "dim_gobierno.nombrado_el",
+              "nativeQueryRef": "nombrado_el",
+              "displayName": "Desde"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "dim_gobierno"
+                    }
+                  },
+                  "Property": "hasta"
+                }
+              },
+              "queryRef": "dim_gobierno.hasta",
+              "nativeQueryRef": "hasta",
+              "displayName": "Hasta"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "dim_gobierno"
+                    }
+                  },
+                  "Property": "dias_mandato"
+                }
+              },
+              "queryRef": "dim_gobierno.dias_mandato",
+              "nativeQueryRef": "dias_mandato",
+              "displayName": "Días de mandato"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "dim_gobierno"
+                    }
+                  },
+                  "Property": "dias_en_funciones"
+                }
+              },
+              "queryRef": "dim_gobierno.dias_en_funciones",
+              "nativeQueryRef": "dias_en_funciones",
+              "displayName": "En funciones"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "dim_gobierno"
+                    }
+                  },
+                  "Property": "dias_presupuesto_prorrogado"
+                }
+              },
+              "queryRef": "dim_gobierno.dias_presupuesto_prorrogado",
+              "nativeQueryRef": "dias_presupuesto_prorrogado",
+              "displayName": "Con presupuesto prorrogado"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "dim_gobierno"
+                    }
+                  },
+                  "Property": "leyes_pge_publicadas_en_el_mandato"
+                }
+              },
+              "queryRef": "dim_gobierno.leyes_pge_publicadas_en_el_mandato",
+              "nativeQueryRef": "leyes_pge_publicadas_en_el_mandato",
+              "displayName": "Leyes de presupuestos publicadas"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "dim_gobierno"
+                  }
+                },
+                "Property": "presidente_real_decreto"
+              }
+            },
+            "direction": "Ascending"
+          }
+        ]
+      }
+    },
+    "objects": {
+      "total": [
+        {
+          "properties": {
+            "totals": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "values": [
+        {
+          "properties": {
+            "wordWrap": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "11D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "columnHeaders": [
+        {
+          "properties": {
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "11D"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Los cuatro Gobiernos del periodo'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

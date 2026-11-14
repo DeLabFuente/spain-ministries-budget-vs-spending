@@ -1,0 +1,193 @@
+table dim_anio
+	lineageTag: 78116216-b30c-4db8-b0a0-6a71451d6322
+
+	column anio
+		dataType: int64
+		formatString: 0
+		lineageTag: c01a0e74-d625-481a-951f-58172f32cf3f
+		summarizeBy: none
+		sourceColumn: anio
+
+		annotation SummarizationSetBy = Automatic
+
+	column presupuesto
+		dataType: string
+		lineageTag: b4dcfb15-265e-4745-a4db-f7c9d10bf834
+		summarizeBy: none
+		sourceColumn: presupuesto
+
+		annotation SummarizationSetBy = Automatic
+
+	column dato_estado
+		dataType: string
+		lineageTag: f3923e77-9703-4dda-b5e9-a053909ad1f0
+		summarizeBy: none
+		sourceColumn: dato_estado
+
+		annotation SummarizationSetBy = Automatic
+
+	column hay_organismos
+		dataType: string
+		lineageTag: f7f32d6f-988a-41f9-aa07-de4251ad9345
+		summarizeBy: none
+		sourceColumn: hay_organismos
+
+		annotation SummarizationSetBy = Automatic
+
+	column hay_mecanismo
+		dataType: string
+		lineageTag: bf82f3dc-f296-49a5-9993-430e1ec8921f
+		summarizeBy: none
+		sourceColumn: hay_mecanismo
+
+		annotation SummarizationSetBy = Automatic
+
+	column contratacion
+		dataType: string
+		lineageTag: 8e91343c-35fe-408b-8847-ff901eaf9de8
+		summarizeBy: none
+		sourceColumn: contratacion
+
+		annotation SummarizationSetBy = Automatic
+
+	column comparable_22
+		dataType: string
+		lineageTag: d098408b-ebb5-4c01-9183-a2b176a8cd46
+		summarizeBy: none
+		sourceColumn: comparable_22
+
+		annotation SummarizationSetBy = Automatic
+
+	column ipc_media_base2021
+		dataType: double
+		lineageTag: d7191425-7ce7-539e-8026-fab4f0b83cc0
+		summarizeBy: none
+		sourceColumn: ipc_media_base2021
+
+		annotation SummarizationSetBy = Automatic
+
+	column factor_2025
+		dataType: double
+		lineageTag: ee2d5114-557a-5924-b937-7e15278fec11
+		summarizeBy: none
+		sourceColumn: factor_2025
+
+		annotation SummarizationSetBy = Automatic
+
+	column deflactor_pib_2020
+		dataType: double
+		lineageTag: d2af39cd-2d6f-5d39-bb75-ba924f1fa4a1
+		summarizeBy: none
+		sourceColumn: deflactor_pib_2020
+
+		annotation SummarizationSetBy = Automatic
+
+	column factor_pib
+		dataType: double
+		lineageTag: ddd4fa3d-c9a2-5db3-abbc-06a96b191a99
+		summarizeBy: none
+		sourceColumn: factor_pib
+
+		annotation SummarizationSetBy = Automatic
+
+	column deflactor_aapp_2020
+		dataType: double
+		lineageTag: 2c2b6a30-fae8-59a4-8eab-e3d39b9c6a4b
+		summarizeBy: none
+		sourceColumn: deflactor_aapp_2020
+
+		annotation SummarizationSetBy = Automatic
+
+	column factor_aapp
+		dataType: double
+		lineageTag: 41dc1fd1-bf88-5ad4-9f44-646d49879acf
+		summarizeBy: none
+		sourceColumn: factor_aapp
+
+		annotation SummarizationSetBy = Automatic
+
+	column dias_anio
+		dataType: int64
+		formatString: 0
+		lineageTag: 109c863f-4ed0-57e7-82bb-698a66b84742
+		summarizeBy: none
+		sourceColumn: dias_anio
+
+		annotation SummarizationSetBy = Automatic
+
+	column dias_prorrogado
+		dataType: int64
+		formatString: 0
+		lineageTag: 4ad85039-ce7c-5947-82ac-4245209d0a99
+		summarizeBy: none
+		sourceColumn: dias_prorrogado
+
+		annotation SummarizationSetBy = Automatic
+
+	column dias_presupuesto_propio
+		dataType: int64
+		formatString: 0
+		lineageTag: eeabb38c-278d-5ad7-9b11-c8ffe59a26c6
+		summarizeBy: none
+		sourceColumn: dias_presupuesto_propio
+
+		annotation SummarizationSetBy = Automatic
+
+	column pct_prorrogado
+		dataType: double
+		isHidden
+		lineageTag: 830d9b15-b9af-5b96-8dde-5400ff320aa8
+		summarizeBy: none
+		sourceColumn: pct_prorrogado
+
+		annotation SummarizationSetBy = Automatic
+
+	column dias_en_funciones
+		dataType: int64
+		formatString: 0
+		lineageTag: 8f3fc0c4-b710-52d6-8ab5-93bf1cc003f8
+		summarizeBy: none
+		sourceColumn: dias_en_funciones
+
+		annotation SummarizationSetBy = Automatic
+
+	column dias_en_funciones_y_prorrogado
+		dataType: int64
+		formatString: 0
+		lineageTag: 98dd6f7a-48b1-589a-b589-51fef21397d8
+		summarizeBy: none
+		sourceColumn: dias_en_funciones_y_prorrogado
+
+		annotation SummarizationSetBy = Automatic
+
+	column situacion_presupuesto
+		dataType: string
+		lineageTag: b0771338-51f6-5e0b-ac7f-29b1ca20a505
+		summarizeBy: none
+		sourceColumn: situacion_presupuesto
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dim_anio = m
+		mode: import
+		source =
+				let
+				    Origen = Csv.Document(File.Contents(RutaProyecto & "powerbi\dim_anio.csv"), [Delimiter = ";", Encoding = 65001, QuoteStyle = QuoteStyle.None]),
+				    Encabezados = Table.PromoteHeaders(Origen, [PromoteAllScalars = true]),
+				    Tipos = Table.TransformColumnTypes(Encabezados, {
+				        {"anio", Int64.Type}, {"presupuesto", type text}, {"dato_estado", type text},
+				        {"hay_organismos", type text}, {"hay_mecanismo", type text},
+				        {"contratacion", type text}, {"comparable_22", type text},
+				        {"dias_anio", Int64.Type}, {"dias_prorrogado", Int64.Type}, {"dias_presupuesto_propio", Int64.Type}, {"pct_prorrogado", type number}, {"dias_en_funciones", Int64.Type}, {"dias_en_funciones_y_prorrogado", Int64.Type}, {"situacion_presupuesto", type text}
+				    }, "es-ES"),
+				    Defl = Table.PromoteHeaders(Csv.Document(File.Contents(RutaProyecto & "powerbi\deflactor.csv"), [Delimiter = ";", Encoding = 65001, QuoteStyle = QuoteStyle.None]), [PromoteAllScalars = true]),
+				    DeflTipos = Table.TransformColumnTypes(Table.SelectColumns(Defl, {"anio", "ipc_media_base2021", "factor_2025", "deflactor_pib_2020", "factor_pib", "deflactor_aapp_2020", "factor_aapp"}), {{"anio", Int64.Type}, {"ipc_media_base2021", type number}, {"factor_2025", type number}, {"deflactor_pib_2020", type number}, {"factor_pib", type number}, {"deflactor_aapp_2020", type number}, {"factor_aapp", type number}}, "es-ES"),
+				    Unido = Table.NestedJoin(Tipos, {"anio"}, DeflTipos, {"anio"}, "d", JoinKind.LeftOuter),
+				    Resultado = Table.ExpandTableColumn(Unido, "d", {"ipc_media_base2021", "factor_2025", "deflactor_pib_2020", "factor_pib", "deflactor_aapp_2020", "factor_aapp"})
+				in
+				    Resultado
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+

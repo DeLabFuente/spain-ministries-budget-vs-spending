@@ -1,0 +1,11 @@
+anio;ejercicio_cerrado;fecha_corte;dias_anio;dias_prorrogado;pct_prorrogado;dias_con_ley_propia;situacion;entrada_en_vigor_ley_del_anio;etiqueta_en_fichas
+2017;sí;;365;179;49,0;186;prorrogado hasta la entrada en vigor de la ley del año;2017-06-29;aprobado
+2018;sí;;365;185;50,7;180;prorrogado hasta la entrada en vigor de la ley del año;2018-07-05;aprobado
+2019;sí;;365;365;100,0;0;prorrogado todo el año;;prorrogado
+2020;sí;;366;366;100,0;0;prorrogado todo el año;;prorrogado
+2021;sí;;365;0;0,0;365;presupuesto propio todo el año;2021-01-01;aprobado
+2022;sí;;365;0;0,0;365;presupuesto propio todo el año;2022-01-01;aprobado
+2023;sí;;365;0;0,0;365;presupuesto propio todo el año;2023-01-01;aprobado
+2024;sí;;366;366;100,0;0;prorrogado todo el año;;prorrogado
+2025;sí;;365;365;100,0;0;prorrogado todo el año;;prorrogado
+2026;no;2026-11-10;314;314;100,0;0;prorrogado todo el año;;

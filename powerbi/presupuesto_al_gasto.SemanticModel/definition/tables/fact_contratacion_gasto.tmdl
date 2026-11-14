@@ -1,0 +1,172 @@
+table fact_contratacion_gasto
+	lineageTag: bd8eef9e-07ac-5411-87fe-437ee0e22ca0
+
+	column ministerio
+		dataType: string
+		lineageTag: 2e2c2248-2e64-55fd-8a1f-0701f1bbeab9
+		summarizeBy: none
+		sourceColumn: ministerio
+
+		annotation SummarizationSetBy = Automatic
+
+	column anio
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 6b2b95bc-a1ef-556d-ba8d-73fd29360ea2
+		summarizeBy: none
+		sourceColumn: anio
+
+		annotation SummarizationSetBy = Automatic
+
+	column continuidad
+		dataType: string
+		lineageTag: c34d40cf-c41c-5d78-a1b4-abfd3f8df875
+		summarizeBy: none
+		sourceColumn: continuidad
+
+		annotation SummarizationSetBy = Automatic
+
+	column nivel_contratacion
+		dataType: string
+		lineageTag: 76a5cf42-543f-5954-b656-53fca606a9e7
+		summarizeBy: none
+		sourceColumn: nivel_contratacion
+
+		annotation SummarizationSetBy = Automatic
+
+	column composicion
+		dataType: string
+		lineageTag: 2d443715-5ee7-5e27-ac16-42eebc436617
+		summarizeBy: none
+		sourceColumn: composicion
+
+		annotation SummarizationSetBy = Automatic
+
+	column gasto_agregado
+		dataType: double
+		lineageTag: 2176c981-4b31-5c88-8026-455a78071536
+		summarizeBy: none
+		sourceColumn: gasto_agregado
+
+		annotation SummarizationSetBy = Automatic
+
+	column personal
+		dataType: double
+		lineageTag: 1f3a695d-170b-5235-8f60-c7a7ca201fc1
+		summarizeBy: none
+		sourceColumn: personal
+
+		annotation SummarizationSetBy = Automatic
+
+	column compras_inversiones
+		dataType: double
+		lineageTag: 8e50fe84-87e3-50d3-a644-a1c3cc170962
+		summarizeBy: none
+		sourceColumn: compras_inversiones
+
+		annotation SummarizationSetBy = Automatic
+
+	column prestamos_aportaciones
+		dataType: double
+		lineageTag: 067d2fea-3171-5096-aeb6-89d3f1c3bd8e
+		summarizeBy: none
+		sourceColumn: prestamos_aportaciones
+
+		annotation SummarizationSetBy = Automatic
+
+	column transferencias_y_resto
+		dataType: double
+		lineageTag: 05ae177e-ce24-525a-a8ed-52943c3419a7
+		summarizeBy: none
+		sourceColumn: transferencias_y_resto
+
+		annotation SummarizationSetBy = Automatic
+
+	column pct_compras_inversiones
+		dataType: double
+		lineageTag: 1ca64655-977c-5c17-b4b5-f5135192bf39
+		summarizeBy: none
+		sourceColumn: pct_compras_inversiones
+
+		annotation SummarizationSetBy = Automatic
+
+	column adjudicaciones
+		dataType: int64
+		formatString: 0
+		lineageTag: ca530a1b-db78-5bcc-b5ad-453e810a5d7f
+		summarizeBy: none
+		sourceColumn: adjudicaciones
+
+		annotation SummarizationSetBy = Automatic
+
+	column licitaciones_ordinario
+		dataType: double
+		lineageTag: 8efa921c-5868-57c2-96bc-67019c4023dc
+		summarizeBy: none
+		sourceColumn: licitaciones_ordinario
+
+		annotation SummarizationSetBy = Automatic
+
+	column menores_ordinario
+		dataType: double
+		lineageTag: 22dfb1c2-587b-5f33-9292-1f8353f40357
+		summarizeBy: none
+		sourceColumn: menores_ordinario
+
+		annotation SummarizationSetBy = Automatic
+
+	column contratacion_ordinaria
+		dataType: double
+		lineageTag: ea8b8022-3ee5-58de-933f-aa3b65fcbec7
+		summarizeBy: none
+		sourceColumn: contratacion_ordinaria
+
+		annotation SummarizationSetBy = Automatic
+
+	column programas_especiales
+		dataType: double
+		lineageTag: 063ab89b-8a8c-51fb-a270-9d41d1b6cfd7
+		summarizeBy: none
+		sourceColumn: programas_especiales
+
+		annotation SummarizationSetBy = Automatic
+
+	column adjudicado_total
+		dataType: double
+		lineageTag: 00de943d-f6b2-54f1-a10c-d691fbd57c84
+		summarizeBy: none
+		sourceColumn: adjudicado_total
+
+		annotation SummarizationSetBy = Automatic
+
+	column pct_ordinaria_sobre_gasto
+		dataType: double
+		lineageTag: cdcab222-3d4e-5f55-ad12-19bc6387b9c7
+		summarizeBy: none
+		sourceColumn: pct_ordinaria_sobre_gasto
+
+		annotation SummarizationSetBy = Automatic
+
+	column pct_adjudicado_sobre_compras_inversiones
+		dataType: double
+		lineageTag: 1a5ea434-0ae5-5928-972a-7e4758342996
+		summarizeBy: none
+		sourceColumn: pct_adjudicado_sobre_compras_inversiones
+
+		annotation SummarizationSetBy = Automatic
+
+	partition fact_contratacion_gasto = m
+		mode: import
+		source =
+				let
+				    Origen = Csv.Document(File.Contents(RutaProyecto & "powerbi\fact_contratacion_gasto.csv"), [Delimiter = ";", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Encabezados = Table.PromoteHeaders(Origen, [PromoteAllScalars = true]),
+				    Tipos = Table.TransformColumnTypes(Encabezados, {{"ministerio", type text}, {"anio", Int64.Type}, {"continuidad", type text}, {"nivel_contratacion", type text}, {"composicion", type text}, {"gasto_agregado", type number}, {"personal", type number}, {"compras_inversiones", type number}, {"prestamos_aportaciones", type number}, {"transferencias_y_resto", type number}, {"pct_compras_inversiones", type number}, {"adjudicaciones", Int64.Type}, {"licitaciones_ordinario", type number}, {"menores_ordinario", type number}, {"contratacion_ordinaria", type number}, {"programas_especiales", type number}, {"adjudicado_total", type number}, {"pct_ordinaria_sobre_gasto", type number}, {"pct_adjudicado_sobre_compras_inversiones", type number}}, "es-ES")
+				in
+				    Tipos
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+

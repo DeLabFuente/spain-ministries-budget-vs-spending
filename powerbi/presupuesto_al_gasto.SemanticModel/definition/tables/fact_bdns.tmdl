@@ -1,0 +1,134 @@
+table fact_bdns
+	lineageTag: 0971e928-9fe0-5765-ba52-9a57c33aa38b
+
+	column anio
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: ce804a49-2e53-5ccd-a567-c7e82dc67181
+		summarizeBy: none
+		sourceColumn: anio
+
+		annotation SummarizationSetBy = Automatic
+
+	column ministerio
+		dataType: string
+		lineageTag: 0dc3824b-dc1b-5c53-91c5-443dbeb9a31f
+		summarizeBy: none
+		sourceColumn: ministerio
+
+		annotation SummarizationSetBy = Automatic
+
+	column continuidad
+		dataType: string
+		lineageTag: c3065bf7-8e7b-576a-97e4-de8c2b9faba8
+		summarizeBy: none
+		sourceColumn: continuidad
+
+		annotation SummarizationSetBy = Automatic
+
+	column concesiones
+		dataType: int64
+		formatString: 0
+		lineageTag: 2a7229cc-3509-5fea-a247-5811ad126fc8
+		summarizeBy: none
+		sourceColumn: concesiones
+
+		annotation SummarizationSetBy = Automatic
+
+	column concesiones_sin_importe
+		dataType: int64
+		formatString: 0
+		lineageTag: dbc211da-0e6b-5e00-af88-28219d539d28
+		summarizeBy: none
+		sourceColumn: concesiones_sin_importe
+
+		annotation SummarizationSetBy = Automatic
+
+	column subvenciones_y_ayudas_directas
+		dataType: double
+		lineageTag: 66b07a4b-910f-5858-b105-bf541eb50800
+		summarizeBy: none
+		sourceColumn: subvenciones_y_ayudas_directas
+
+		annotation SummarizationSetBy = Automatic
+
+	column concesiones_ayudas_directas
+		dataType: int64
+		formatString: 0
+		lineageTag: c0cf31fd-51cc-5b93-aafb-977eaa472b05
+		summarizeBy: none
+		sourceColumn: concesiones_ayudas_directas
+
+		annotation SummarizationSetBy = Automatic
+
+	column prestamos
+		dataType: double
+		lineageTag: dadd8ad6-10df-5955-a7cc-c4e39efa7a24
+		summarizeBy: none
+		sourceColumn: prestamos
+
+		annotation SummarizationSetBy = Automatic
+
+	column garantias
+		dataType: double
+		lineageTag: e46b8795-947b-51d1-b83b-332f2a66c48f
+		summarizeBy: none
+		sourceColumn: garantias
+
+		annotation SummarizationSetBy = Automatic
+
+	column ventajas_fiscales
+		dataType: double
+		lineageTag: 32124c49-5230-5735-a10f-36c5b9fadf83
+		summarizeBy: none
+		sourceColumn: ventajas_fiscales
+
+		annotation SummarizationSetBy = Automatic
+
+	column importe_total_leido
+		dataType: double
+		lineageTag: 0015c2f1-4c74-5b25-9eff-200b5247c6cf
+		summarizeBy: none
+		sourceColumn: importe_total_leido
+
+		annotation SummarizationSetBy = Automatic
+
+	column obligaciones_cap4_cap7_estado
+		dataType: double
+		lineageTag: 310be89f-0efa-5939-8753-d904be68e586
+		summarizeBy: none
+		sourceColumn: obligaciones_cap4_cap7_estado
+
+		annotation SummarizationSetBy = Automatic
+
+	column pct_ayudas_directas_sobre_cap4_cap7
+		dataType: double
+		lineageTag: a2f71b65-a4da-5e5d-8a0e-31eedac462e0
+		summarizeBy: none
+		sourceColumn: pct_ayudas_directas_sobre_cap4_cap7
+
+		annotation SummarizationSetBy = Automatic
+
+	column importe_completo
+		dataType: string
+		lineageTag: bcf2ed16-8b43-5ce5-8774-d0b71c79612a
+		summarizeBy: none
+		sourceColumn: importe_completo
+
+		annotation SummarizationSetBy = Automatic
+
+	partition fact_bdns = m
+		mode: import
+		source =
+				let
+				    Origen = Csv.Document(File.Contents(RutaProyecto & "powerbi\fact_bdns.csv"), [Delimiter = ";", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Encabezados = Table.PromoteHeaders(Origen, [PromoteAllScalars = true]),
+				    Tipos = Table.TransformColumnTypes(Encabezados, {{"anio", Int64.Type}, {"ministerio", type text}, {"continuidad", type text}, {"concesiones", Int64.Type}, {"concesiones_sin_importe", Int64.Type}, {"subvenciones_y_ayudas_directas", type number}, {"concesiones_ayudas_directas", Int64.Type}, {"prestamos", type number}, {"garantias", type number}, {"ventajas_fiscales", type number}, {"importe_total_leido", type number}, {"obligaciones_cap4_cap7_estado", type number}, {"pct_ayudas_directas_sobre_cap4_cap7", type number}, {"importe_completo", type text}}, "es-ES")
+				in
+				    Tipos
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+

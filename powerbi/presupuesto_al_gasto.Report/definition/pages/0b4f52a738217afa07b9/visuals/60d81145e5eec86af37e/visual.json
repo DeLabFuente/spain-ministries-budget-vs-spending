@@ -1,0 +1,249 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
+  "name": "60d81145e5eec86af37e",
+  "position": {
+    "x": 30,
+    "y": 640,
+    "z": 6000,
+    "height": 420,
+    "width": 930,
+    "tabOrder": 6000
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_contratacion_gasto"
+                    }
+                  },
+                  "Property": "ministerio"
+                }
+              },
+              "queryRef": "fact_contratacion_gasto.ministerio",
+              "nativeQueryRef": "ministerio"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_contratacion_gasto"
+                    }
+                  },
+                  "Property": "nivel_contratacion"
+                }
+              },
+              "queryRef": "fact_contratacion_gasto.nivel_contratacion",
+              "nativeQueryRef": "nivel_contratacion"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Medidas"
+                    }
+                  },
+                  "Property": "Contratación y gasto: gasto agregado"
+                }
+              },
+              "queryRef": "_Medidas.Contratación y gasto: gasto agregado",
+              "nativeQueryRef": "Contratación y gasto: gasto agregado"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Medidas"
+                    }
+                  },
+                  "Property": "Contratación y gasto: compras e inversiones"
+                }
+              },
+              "queryRef": "_Medidas.Contratación y gasto: compras e inversiones",
+              "nativeQueryRef": "Contratación y gasto: compras e inversiones"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Medidas"
+                    }
+                  },
+                  "Property": "Contratación y gasto: adjudicado ordinario"
+                }
+              },
+              "queryRef": "_Medidas.Contratación y gasto: adjudicado ordinario",
+              "nativeQueryRef": "Contratación y gasto: adjudicado ordinario"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Medidas"
+                    }
+                  },
+                  "Property": "Contratación y gasto: programas especiales"
+                }
+              },
+              "queryRef": "_Medidas.Contratación y gasto: programas especiales",
+              "nativeQueryRef": "Contratación y gasto: programas especiales"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Medidas"
+                    }
+                  },
+                  "Property": "Contratación y gasto: % adjudicado total sobre compras e inversiones"
+                }
+              },
+              "queryRef": "_Medidas.Contratación y gasto: % adjudicado total sobre compras e inversiones",
+              "nativeQueryRef": "Contratación y gasto: % adjudicado total sobre compras e inversiones"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "_Medidas"
+                  }
+                },
+                "Property": "Contratación y gasto: gasto agregado"
+              }
+            },
+            "direction": "Descending"
+          }
+        ]
+      }
+    },
+    "objects": {
+      "columnFormatting": [
+        {
+          "properties": {
+            "labelDisplayUnits": {
+              "expr": {
+                "Literal": {
+                  "Value": "1000000D"
+                }
+              }
+            },
+            "labelPrecision": {
+              "expr": {
+                "Literal": {
+                  "Value": "0L"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "_Medidas.Contratación y gasto: gasto agregado"
+          }
+        },
+        {
+          "properties": {
+            "labelDisplayUnits": {
+              "expr": {
+                "Literal": {
+                  "Value": "1000000D"
+                }
+              }
+            },
+            "labelPrecision": {
+              "expr": {
+                "Literal": {
+                  "Value": "0L"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "_Medidas.Contratación y gasto: compras e inversiones"
+          }
+        },
+        {
+          "properties": {
+            "labelDisplayUnits": {
+              "expr": {
+                "Literal": {
+                  "Value": "1000000D"
+                }
+              }
+            },
+            "labelPrecision": {
+              "expr": {
+                "Literal": {
+                  "Value": "0L"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "_Medidas.Contratación y gasto: adjudicado ordinario"
+          }
+        },
+        {
+          "properties": {
+            "labelDisplayUnits": {
+              "expr": {
+                "Literal": {
+                  "Value": "1000000D"
+                }
+              }
+            },
+            "labelPrecision": {
+              "expr": {
+                "Literal": {
+                  "Value": "0L"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "_Medidas.Contratación y gasto: programas especiales"
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Gasto, compras e inversiones y lo adjudicado en la Plataforma de Contratación'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

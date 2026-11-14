@@ -1,0 +1,232 @@
+table fact_contratacion_mes
+	lineageTag: 90e9285a-e148-4a3b-9031-62dc9fcb4d11
+
+	column ministerio_id
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 6fe1411e-e688-4250-b44b-cc151e8f52fc
+		summarizeBy: none
+		sourceColumn: ministerio_id
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column anio
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: fca4f989-2c3c-488d-a16d-1f20954ea44e
+		summarizeBy: none
+		sourceColumn: anio
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column mes
+		dataType: int64
+		formatString: 0
+		lineageTag: 650f141f-b859-496d-9156-c3baa7f5e6cc
+		summarizeBy: sum
+		sourceColumn: mes
+
+		annotation SummarizationSetBy = Automatic
+
+	column fecha_mes
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 7233dc63-2d62-4b9c-9fa9-d53a1c6ebb79
+		summarizeBy: none
+		sourceColumn: fecha_mes
+
+		variation Variation
+			isDefault
+			relationship: 9205803e-0f26-41f1-af7b-e68abe616760
+			defaultHierarchy: LocalDateTable_93e799ad-bae5-4c6a-bb24-89443b2b4968.'Jerarquía de fechas'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column nov_dic
+		dataType: string
+		lineageTag: 62bcbc41-1cef-40dc-9524-e15641578177
+		summarizeBy: none
+		sourceColumn: nov_dic
+
+		annotation SummarizationSetBy = Automatic
+
+	column procedimiento
+		dataType: string
+		lineageTag: 0deb239a-f168-42b3-9bfd-cd518e758af2
+		summarizeBy: none
+		sourceColumn: procedimiento
+
+		annotation SummarizationSetBy = Automatic
+
+	column tipo_contrato
+		dataType: string
+		lineageTag: 7a3f0f9e-7e6d-4271-97b7-98b41aed91b6
+		summarizeBy: none
+		sourceColumn: tipo_contrato
+
+		annotation SummarizationSetBy = Automatic
+
+	column n_adjudicaciones
+		dataType: int64
+		formatString: 0
+		lineageTag: f131ca71-e8b1-43a1-86da-1cc44c7b7b42
+		summarizeBy: sum
+		sourceColumn: n_adjudicaciones
+
+		annotation SummarizationSetBy = Automatic
+
+	column importe_con_iva_eur
+		dataType: double
+		lineageTag: 5cd3cb9d-5c10-474f-919b-f873beada7b8
+		summarizeBy: sum
+		sourceColumn: importe_con_iva_eur
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column n_programa_especial
+		dataType: int64
+		formatString: 0
+		lineageTag: 01d24765-b594-49d9-b916-a7c3d951ec10
+		summarizeBy: sum
+		sourceColumn: n_programa_especial
+
+		annotation SummarizationSetBy = Automatic
+
+	column importe_programa_especial_eur
+		dataType: double
+		lineageTag: 20b9934e-b3ca-420e-b081-db57a9e12c43
+		summarizeBy: sum
+		sourceColumn: importe_programa_especial_eur
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column n_menor_importe_atipico
+		dataType: int64
+		formatString: 0
+		lineageTag: c1432492-6bfb-4447-942a-54d8b3cc3120
+		summarizeBy: sum
+		sourceColumn: n_menor_importe_atipico
+
+		annotation SummarizationSetBy = Automatic
+
+	column importe_menor_atipico_eur
+		dataType: double
+		lineageTag: f53bbc01-cc00-4076-a9e8-ad7a49b6d9df
+		summarizeBy: sum
+		sourceColumn: importe_menor_atipico_eur
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column n_ordinario
+		dataType: int64
+		formatString: 0
+		lineageTag: 67acb9c3-68b5-4dc6-b1ae-28675053a7b1
+		summarizeBy: sum
+		sourceColumn: n_ordinario
+
+		annotation SummarizationSetBy = Automatic
+
+	column importe_ordinario_eur
+		dataType: double
+		lineageTag: e40df19a-a336-4f26-b2d7-a25ec079b392
+		summarizeBy: sum
+		sourceColumn: importe_ordinario_eur
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column n_con_ofertas
+		dataType: int64
+		formatString: 0
+		lineageTag: 27b1170f-fd1d-461e-afe3-c73cf28cbad9
+		summarizeBy: sum
+		sourceColumn: n_con_ofertas
+
+		annotation SummarizationSetBy = Automatic
+
+	column n_oferta_unica
+		dataType: int64
+		formatString: 0
+		lineageTag: 00ac5862-a397-457a-bb53-f8ef2ad8c9e4
+		summarizeBy: sum
+		sourceColumn: n_oferta_unica
+
+		annotation SummarizationSetBy = Automatic
+
+	column n_negociado_sin_publicidad
+		dataType: int64
+		formatString: 0
+		lineageTag: 4e152a2a-3b81-41ac-8f47-86f7e0ee25be
+		summarizeBy: sum
+		sourceColumn: n_negociado_sin_publicidad
+
+		annotation SummarizationSetBy = Automatic
+
+	column n_urgente_o_emergencia
+		dataType: int64
+		formatString: 0
+		lineageTag: 326d63cd-c46c-4c98-b5bb-54592d3d435f
+		summarizeBy: sum
+		sourceColumn: n_urgente_o_emergencia
+
+		annotation SummarizationSetBy = Automatic
+
+	column n_con_baja
+		dataType: int64
+		formatString: 0
+		lineageTag: e8f7b413-6cee-488c-8f1c-70ca7dc4bdcc
+		summarizeBy: sum
+		sourceColumn: n_con_baja
+
+		annotation SummarizationSetBy = Automatic
+
+	column suma_baja
+		dataType: double
+		lineageTag: 0ee44198-b2ab-4b7b-8096-3d06280a97fd
+		summarizeBy: sum
+		sourceColumn: suma_baja
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition fact_contratacion_mes = m
+		mode: import
+		source =
+				let
+				    Origen = Csv.Document(File.Contents(RutaProyecto & "powerbi\fact_contratacion_mes.csv"), [Delimiter = ";", Encoding = 65001, QuoteStyle = QuoteStyle.None]),
+				    Encabezados = Table.PromoteHeaders(Origen, [PromoteAllScalars = true]),
+				    Tipos = Table.TransformColumnTypes(Encabezados, {
+				        {"ministerio_id", Int64.Type}, {"anio", Int64.Type}, {"mes", Int64.Type},
+				        {"fecha_mes", type date}, {"nov_dic", type text},
+				        {"procedimiento", type text}, {"tipo_contrato", type text},
+				        {"n_adjudicaciones", Int64.Type}, {"importe_con_iva_eur", type number},
+				        {"n_programa_especial", Int64.Type}, {"importe_programa_especial_eur", type number},
+				        {"n_menor_importe_atipico", Int64.Type}, {"importe_menor_atipico_eur", type number},
+				        {"n_ordinario", Int64.Type}, {"importe_ordinario_eur", type number},
+				        {"n_con_ofertas", Int64.Type}, {"n_oferta_unica", Int64.Type},
+				        {"n_negociado_sin_publicidad", Int64.Type}, {"n_urgente_o_emergencia", Int64.Type},
+				        {"n_con_baja", Int64.Type}, {"suma_baja", type number}
+				    }, "es-ES")
+				in
+				    Tipos
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+

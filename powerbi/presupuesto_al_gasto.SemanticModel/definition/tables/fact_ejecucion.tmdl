@@ -1,0 +1,187 @@
+table fact_ejecucion
+	lineageTag: 10eedb6b-06da-5b78-bb78-f4db10397b28
+
+	column anio
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: bd8eb8da-ed2f-5ecd-8a1d-390d27783aba
+		summarizeBy: none
+		sourceColumn: anio
+
+		annotation SummarizationSetBy = Automatic
+
+	column ministerio
+		dataType: string
+		lineageTag: 46bdc375-ce8e-56c4-b366-14f0621ebd4f
+		summarizeBy: none
+		sourceColumn: ministerio
+
+		annotation SummarizationSetBy = Automatic
+
+	column presupuesto
+		dataType: string
+		lineageTag: e9f5b7b1-99be-559c-94f0-9646c26ab495
+		summarizeBy: none
+		sourceColumn: presupuesto
+
+		annotation SummarizationSetBy = Automatic
+
+	column dato
+		dataType: string
+		lineageTag: 88af7694-dfb3-5954-a58e-78be6b3b618b
+		summarizeBy: none
+		sourceColumn: dato
+
+		annotation SummarizationSetBy = Automatic
+
+	column continuidad
+		dataType: string
+		lineageTag: 70c10795-5743-5fca-8240-8f26cec60e5c
+		summarizeBy: none
+		sourceColumn: continuidad
+
+		annotation SummarizationSetBy = Automatic
+
+	column comparable
+		dataType: string
+		lineageTag: 58fe6671-58ce-523f-8919-bf023737e4e9
+		summarizeBy: none
+		sourceColumn: comparable
+
+		annotation SummarizationSetBy = Automatic
+
+	column creditos_iniciales
+		dataType: double
+		lineageTag: dd1bd6b7-290e-5094-93f5-296ce3dbaa4f
+		summarizeBy: none
+		sourceColumn: creditos_iniciales
+
+		annotation SummarizationSetBy = Automatic
+
+	column creditos_extraordinarios_suplementos
+		dataType: double
+		lineageTag: 66b5d372-e097-5f68-a8cd-7a113fcd8c52
+		summarizeBy: none
+		sourceColumn: creditos_extraordinarios_suplementos
+
+		annotation SummarizationSetBy = Automatic
+
+	column ampliaciones
+		dataType: double
+		lineageTag: a8832090-9b22-5fbf-8f5a-55505e583edc
+		summarizeBy: none
+		sourceColumn: ampliaciones
+
+		annotation SummarizationSetBy = Automatic
+
+	column transferencias
+		dataType: double
+		lineageTag: af336a40-c208-568a-b968-3ee6c094fb7b
+		summarizeBy: none
+		sourceColumn: transferencias
+
+		annotation SummarizationSetBy = Automatic
+
+	column incorporacion_remanentes
+		dataType: double
+		lineageTag: 370b20c9-efad-5b85-98ad-8ec200036d7b
+		summarizeBy: none
+		sourceColumn: incorporacion_remanentes
+
+		annotation SummarizationSetBy = Automatic
+
+	column generaciones_ingresos
+		dataType: double
+		lineageTag: 3cfcdf53-2d6d-5c0f-be46-42085c795e26
+		summarizeBy: none
+		sourceColumn: generaciones_ingresos
+
+		annotation SummarizationSetBy = Automatic
+
+	column bajas_otras_modificaciones
+		dataType: double
+		lineageTag: 36c12ec0-88e7-5127-bf6b-e625335b279f
+		summarizeBy: none
+		sourceColumn: bajas_otras_modificaciones
+
+		annotation SummarizationSetBy = Automatic
+
+	column creditos_definitivos
+		dataType: double
+		lineageTag: 3372aeb4-f211-502b-8914-f8795d2e95b7
+		summarizeBy: none
+		sourceColumn: creditos_definitivos
+
+		annotation SummarizationSetBy = Automatic
+
+	column obligaciones
+		dataType: double
+		lineageTag: eac8bcc1-bd91-554f-a021-6b7048151f12
+		summarizeBy: none
+		sourceColumn: obligaciones
+
+		annotation SummarizationSetBy = Automatic
+
+	column pagos
+		dataType: double
+		lineageTag: 308db9ce-a439-5916-a0f7-3de94167c91c
+		summarizeBy: none
+		sourceColumn: pagos
+
+		annotation SummarizationSetBy = Automatic
+
+	column pendiente_de_pago
+		dataType: double
+		lineageTag: 24700ae1-4d72-5476-8b93-850f106bf199
+		summarizeBy: none
+		sourceColumn: pendiente_de_pago
+
+		annotation SummarizationSetBy = Automatic
+
+	column sin_reconocer
+		dataType: double
+		lineageTag: 7241abd6-bc00-51c1-8abb-792b8276a416
+		summarizeBy: none
+		sourceColumn: sin_reconocer
+
+		annotation SummarizationSetBy = Automatic
+
+	column mrr_sin_reconocer
+		dataType: double
+		lineageTag: ecdbbc36-85df-572f-99ab-af0debc11e3d
+		summarizeBy: none
+		sourceColumn: mrr_sin_reconocer
+
+		annotation SummarizationSetBy = Automatic
+
+	column incorporacion_anio_siguiente
+		dataType: double
+		lineageTag: b76ec84f-ac6b-54ab-8c80-7423c546bb47
+		summarizeBy: none
+		sourceColumn: incorporacion_anio_siguiente
+
+		annotation SummarizationSetBy = Automatic
+
+	column sin_incorporar
+		dataType: double
+		lineageTag: b0050e80-fe4b-5980-8974-e6b7a0cb70c1
+		summarizeBy: none
+		sourceColumn: sin_incorporar
+
+		annotation SummarizationSetBy = Automatic
+
+	partition fact_ejecucion = m
+		mode: import
+		source =
+				let
+				    Origen = Csv.Document(File.Contents(RutaProyecto & "powerbi\fact_ejecucion.csv"), [Delimiter = ";", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Encabezados = Table.PromoteHeaders(Origen, [PromoteAllScalars = true]),
+				    Tipos = Table.TransformColumnTypes(Encabezados, {{"anio", Int64.Type}, {"ministerio", type text}, {"presupuesto", type text}, {"dato", type text}, {"continuidad", type text}, {"comparable", type text}, {"creditos_iniciales", type number}, {"creditos_extraordinarios_suplementos", type number}, {"ampliaciones", type number}, {"transferencias", type number}, {"incorporacion_remanentes", type number}, {"generaciones_ingresos", type number}, {"bajas_otras_modificaciones", type number}, {"creditos_definitivos", type number}, {"obligaciones", type number}, {"pagos", type number}, {"pendiente_de_pago", type number}, {"sin_reconocer", type number}, {"mrr_sin_reconocer", type number}, {"incorporacion_anio_siguiente", type number}, {"sin_incorporar", type number}}, "es-ES")
+				in
+				    Tipos
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+

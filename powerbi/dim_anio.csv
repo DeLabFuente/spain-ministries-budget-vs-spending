@@ -1,0 +1,11 @@
+anio;presupuesto;dato_estado;hay_organismos;hay_mecanismo;contratacion;comparable_22;dias_anio;dias_prorrogado;dias_presupuesto_propio;pct_prorrogado;dias_en_funciones;dias_en_funciones_y_prorrogado;situacion_presupuesto
+2017;aprobado;definitivo (liquidación);sí;no;completo;no;365;179;186;49;0;0;Prorrogado hasta el 28/06/2017 y presupuesto propio desde el 29/06/2017
+2018;aprobado;definitivo (liquidación);sí;no;completo;no;365;185;180;50,7;0;0;Prorrogado hasta el 04/07/2018 y presupuesto propio desde el 05/07/2018
+2019;prorrogado;definitivo (liquidación);sí;no;completo;no;365;365;0;100;247;247;Prorrogado todo el año
+2020;prorrogado;definitivo (liquidación);sí;no;completo;no;366;366;0;100;6;6;Prorrogado todo el año
+2021;aprobado;definitivo (liquidación);sí;sí;completo;no;365;0;365;0;0;0;Presupuesto propio todo el año
+2022;aprobado;definitivo (liquidación);sí;sí;completo;no;365;0;365;0;0;0;Presupuesto propio todo el año
+2023;aprobado;definitivo (liquidación);sí;sí;completo;no;365;0;365;0;115;0;Presupuesto propio todo el año
+2024;prorrogado;definitivo (liquidación);sí;sí;completo;sí;366;366;0;100;0;0;Prorrogado todo el año
+2025;prorrogado;provisional (mensual de diciembre);no;sí;completo;sí;365;365;0;100;0;0;Prorrogado todo el año
+2026;prorrogado;sin datos (año en curso);no;no;incompleto (hasta 23/10/2026);no;314;314;0;100;0;0;Prorrogado todo el año

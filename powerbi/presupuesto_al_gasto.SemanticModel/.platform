@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "presupuesto_al_gasto"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "8f746972-094c-4434-9450-55a10891ed2d"
+  }
+}

@@ -1,0 +1,132 @@
+table dim_gobierno
+	lineageTag: eef4bc46-82ae-5a9a-8bac-a9414338412f
+
+	column orden
+		dataType: int64
+		formatString: 0
+		lineageTag: acaa797c-83f9-58aa-8f2a-b288cbfe5834
+		summarizeBy: none
+		sourceColumn: orden
+
+		annotation SummarizationSetBy = Automatic
+
+	column gobierno
+		dataType: string
+		lineageTag: b2e48706-c23b-5a6a-9e53-8e2c5a46e551
+		summarizeBy: none
+		sourceColumn: gobierno
+		sortByColumn: orden
+
+		annotation SummarizationSetBy = Automatic
+
+	column presidente_real_decreto
+		dataType: string
+		lineageTag: 144216cc-1426-5acd-9511-5ecd02a129b7
+		summarizeBy: none
+		sourceColumn: presidente_real_decreto
+		sortByColumn: orden
+
+		annotation SummarizationSetBy = Automatic
+
+	column nombrado_el
+		dataType: string
+		lineageTag: 396bdf43-ddf1-52a0-b37b-b90d4de6d38a
+		summarizeBy: none
+		sourceColumn: nombrado_el
+		sortByColumn: orden
+
+		annotation SummarizationSetBy = Automatic
+
+	column en_funciones_desde
+		dataType: string
+		lineageTag: 29b33c9c-0a33-5705-b4f4-d186bc7a9309
+		summarizeBy: none
+		sourceColumn: en_funciones_desde
+		sortByColumn: orden
+
+		annotation SummarizationSetBy = Automatic
+
+	column hasta
+		dataType: string
+		lineageTag: 05319bf6-4b59-5594-a065-28e6890e5120
+		summarizeBy: none
+		sourceColumn: hasta
+		sortByColumn: orden
+
+		annotation SummarizationSetBy = Automatic
+
+	column motivo_del_fin
+		dataType: string
+		lineageTag: c1633bc9-19a3-50fa-99b2-2befd4d740df
+		summarizeBy: none
+		sourceColumn: motivo_del_fin
+
+		annotation SummarizationSetBy = Automatic
+
+	column dias_mandato
+		dataType: int64
+		formatString: 0
+		lineageTag: d423c35c-9ddd-55ad-98fe-b5317e0e1b88
+		summarizeBy: none
+		sourceColumn: dias_mandato
+
+		annotation SummarizationSetBy = Automatic
+
+	column dias_en_funciones
+		dataType: int64
+		formatString: 0
+		lineageTag: f39818e0-9ebb-51f0-b357-1a5fc09f528a
+		summarizeBy: none
+		sourceColumn: dias_en_funciones
+
+		annotation SummarizationSetBy = Automatic
+
+	column dias_presupuesto_prorrogado
+		dataType: int64
+		formatString: 0
+		lineageTag: b924651b-766a-53ba-86d3-8b588e7acbae
+		summarizeBy: none
+		sourceColumn: dias_presupuesto_prorrogado
+
+		annotation SummarizationSetBy = Automatic
+
+	column pct_prorrogado
+		dataType: double
+		formatString: 0.0
+		lineageTag: a05607d9-a3db-5726-9abc-7ff4ae255e39
+		summarizeBy: none
+		sourceColumn: pct_prorrogado
+
+		annotation SummarizationSetBy = Automatic
+
+	column dias_en_funciones_con_presupuesto_prorrogado
+		dataType: int64
+		formatString: 0
+		lineageTag: f7836519-9bc4-5405-8c51-b2df4458b5d3
+		summarizeBy: none
+		sourceColumn: dias_en_funciones_con_presupuesto_prorrogado
+
+		annotation SummarizationSetBy = Automatic
+
+	column leyes_pge_publicadas_en_el_mandato
+		dataType: string
+		lineageTag: 75596713-c1a5-573b-95ce-2493485cdb82
+		summarizeBy: none
+		sourceColumn: leyes_pge_publicadas_en_el_mandato
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dim_gobierno = m
+		mode: import
+		source =
+				let
+				    Origen = Csv.Document(File.Contents(RutaProyecto & "powerbi\dim_gobierno.csv"), [Delimiter = ";", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Encabezados = Table.PromoteHeaders(Origen, [PromoteAllScalars = true]),
+				    Tipos = Table.TransformColumnTypes(Encabezados, {{"orden", Int64.Type}, {"gobierno", type text}, {"presidente_real_decreto", type text}, {"nombrado_el", type text}, {"en_funciones_desde", type text}, {"hasta", type text}, {"motivo_del_fin", type text}, {"dias_mandato", Int64.Type}, {"dias_en_funciones", Int64.Type}, {"dias_presupuesto_prorrogado", Int64.Type}, {"pct_prorrogado", type number}, {"dias_en_funciones_con_presupuesto_prorrogado", Int64.Type}, {"leyes_pge_publicadas_en_el_mandato", type text}}, "es-ES")
+				in
+				    Tipos
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+

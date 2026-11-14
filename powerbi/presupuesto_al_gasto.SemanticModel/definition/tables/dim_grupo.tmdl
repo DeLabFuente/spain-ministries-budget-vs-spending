@@ -1,0 +1,95 @@
+table dim_grupo
+	lineageTag: f408cb90-d5df-58a9-8edc-896315c832ea
+
+	column anio
+		dataType: int64
+		formatString: 0
+		lineageTag: eabe0d81-5fe7-5063-95f9-cd02ad84f6f6
+		summarizeBy: none
+		sourceColumn: anio
+
+		annotation SummarizationSetBy = Automatic
+
+	column ministerio_id
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: ac0cfee1-2b4f-51c6-8f28-825fc2f0d36e
+		summarizeBy: none
+		sourceColumn: ministerio_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column grupo_id
+		dataType: string
+		isHidden
+		lineageTag: a66dd296-8dc3-5a0b-9bbd-a6562e82e984
+		summarizeBy: none
+		sourceColumn: grupo_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column ministerio_entonces
+		dataType: string
+		lineageTag: bf9d23eb-0a20-5731-b47c-e991ffdd5782
+		summarizeBy: none
+		sourceColumn: ministerio_entonces
+
+		annotation SummarizationSetBy = Automatic
+
+	column secciones_entonces
+		dataType: string
+		lineageTag: 915c72b7-5e52-56e6-875a-21a8bc33d299
+		summarizeBy: none
+		sourceColumn: secciones_entonces
+
+		annotation SummarizationSetBy = Automatic
+
+	column compuesto_por
+		dataType: string
+		lineageTag: c091e65b-4893-5de9-9057-258d94daaf95
+		summarizeBy: none
+		sourceColumn: compuesto_por
+
+		annotation SummarizationSetBy = Automatic
+
+	column existia
+		dataType: string
+		lineageTag: b3d2f3cb-d8d3-51c0-a97c-95d76aecc734
+		summarizeBy: none
+		sourceColumn: existia
+
+		annotation SummarizationSetBy = Automatic
+
+	column relacion
+		dataType: string
+		lineageTag: fcfcebcb-29b7-5ba0-bc37-eb5712fb5b7e
+		summarizeBy: none
+		sourceColumn: relacion
+
+		annotation SummarizationSetBy = Automatic
+
+	column incluir_estado
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 767d98f1-4140-5283-b053-e171240936f2
+		summarizeBy: none
+		sourceColumn: incluir_estado
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dim_grupo = m
+		mode: import
+		source =
+				let
+				    Origen = Csv.Document(File.Contents(RutaProyecto & "powerbi\dim_grupo.csv"), [Delimiter = ";", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Encabezados = Table.PromoteHeaders(Origen, [PromoteAllScalars = true]),
+				    Tipos = Table.TransformColumnTypes(Encabezados, {{"anio", Int64.Type}, {"ministerio_id", Int64.Type}, {"grupo_id", type text}, {"ministerio_entonces", type text}, {"secciones_entonces", type text}, {"compuesto_por", type text}, {"existia", type text}, {"relacion", type text}, {"incluir_estado", Int64.Type}}, "es-ES")
+				in
+				    Tipos
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+

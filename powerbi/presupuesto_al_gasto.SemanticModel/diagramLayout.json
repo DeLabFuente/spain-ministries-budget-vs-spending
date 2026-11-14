@@ -1,0 +1,321 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 698.31192676829926,
+            "y": 660.45874342937771
+          },
+          "nodeIndex": "dim_anio",
+          "nodeLineageTag": "78116216-b30c-4db8-b0a0-6a71451d6322",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 50,
+            "y": 512.70440493407591
+          },
+          "nodeIndex": "dim_capitulo",
+          "nodeLineageTag": "bcf98bd0-1c67-4cd3-97cf-cca84d7867ca",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 698.66666029726832,
+            "y": 227.29733442812858
+          },
+          "nodeIndex": "dim_ministerio",
+          "nodeLineageTag": "316ace17-a5c1-42fe-ab20-51bbaa58b797",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 337.02248343327813,
+            "y": 685.57187428309692
+          },
+          "nodeIndex": "fact_capitulo",
+          "nodeLineageTag": "94acafdd-bbcf-4a28-b5f8-22b94d97deb4",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 689.36922386644164,
+            "y": 961.88512488756828
+          },
+          "nodeIndex": "fact_contratacion_mes",
+          "nodeLineageTag": "90e9285a-e148-4a3b-9031-62dc9fcb4d11",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 828.34244440691123,
+            "y": -50
+          },
+          "nodeIndex": "fact_ingresos_organismos",
+          "nodeLineageTag": "c729177a-cf9c-4648-b64a-901ad030da0c",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1150.801934902127,
+            "y": 267.44777794004085
+          },
+          "nodeIndex": "fact_ministerio_anio",
+          "nodeLineageTag": "f1507e3d-4cbf-4b09-8f20-de2ddc9fb19c",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 412.12473526691542,
+            "y": 332.28955691797478
+          },
+          "nodeIndex": "fact_mrr_programa",
+          "nodeLineageTag": "81c0bdcd-2c69-4fb0-a529-0a3a2c8c8da8",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1093.9389946054007,
+            "y": 620.897125328602
+          },
+          "nodeIndex": "fact_programa",
+          "nodeLineageTag": "531550b3-d53a-493f-af9e-8a1f13b67380",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1384.801934902127,
+            "y": 603.94256244378414
+          },
+          "nodeIndex": "_Medidas",
+          "nodeLineageTag": "1bc0c374-fe3c-4fd8-8fab-da390f3e4783",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1618.801934902127,
+            "y": 591.94256244378414
+          },
+          "nodeIndex": "Pasos",
+          "nodeLineageTag": "0a9cb54a-a866-59bd-8f87-10ca862ce2b2",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1852.801934902127,
+            "y": 507.94256244378414
+          },
+          "nodeIndex": "dim_grupo",
+          "nodeLineageTag": "f408cb90-d5df-58a9-8edc-896315c832ea",
+          "size": {
+            "height": 296,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 2086.801934902127,
+            "y": 591.94256244378414
+          },
+          "nodeIndex": "Euros",
+          "nodeLineageTag": "1de265d8-13dd-5f01-95f4-2f55d0325d3b",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 2320.801934902127,
+            "y": 505.94256244378414
+          },
+          "nodeIndex": "dim_gobierno",
+          "nodeLineageTag": "eef4bc46-82ae-5a9a-8bac-a9414338412f",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 2554.801934902127,
+            "y": 505.94256244378414
+          },
+          "nodeIndex": "fact_bdns",
+          "nodeLineageTag": "0971e928-9fe0-5765-ba52-9a57c33aa38b",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 2838.801934902127,
+            "y": 531.94256244378414
+          },
+          "nodeIndex": "fact_bdns_instrumento",
+          "nodeLineageTag": "6736c6e1-7b60-533c-b26d-9fd2b7b6d041",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 3122.801934902127,
+            "y": 505.94256244378414
+          },
+          "nodeIndex": "fact_catastrofe",
+          "nodeLineageTag": "65360631-9825-53c8-b08d-d8b93150a5fb",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 3406.801934902127,
+            "y": 543.94256244378414
+          },
+          "nodeIndex": "fact_catastrofe_destino",
+          "nodeLineageTag": "6ae079cd-0cb2-5d78-8ed0-1a32e9e6403e",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 3690.801934902127,
+            "y": 505.94256244378414
+          },
+          "nodeIndex": "fact_concentracion",
+          "nodeLineageTag": "c5a40171-5663-56f3-8201-78e3b00b9dc9",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 3974.801934902127,
+            "y": 505.94256244378414
+          },
+          "nodeIndex": "fact_contratacion_gasto",
+          "nodeLineageTag": "bd8eef9e-07ac-5411-87fe-437ee0e22ca0",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 4258.801934902127,
+            "y": 507.94256244378414
+          },
+          "nodeIndex": "fact_credito_nuevo",
+          "nodeLineageTag": "087c02b3-1bd1-5c29-b371-60a6a23ae31a",
+          "size": {
+            "height": 296,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 4542.801934902127,
+            "y": 505.94256244378414
+          },
+          "nodeIndex": "fact_ejecucion",
+          "nodeLineageTag": "10eedb6b-06da-5b78-bb78-f4db10397b28",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 4826.801934902127,
+            "y": 505.94256244378414
+          },
+          "nodeIndex": "fact_mensual",
+          "nodeLineageTag": "7469d2e2-060e-59b7-81c6-7e99a534358f",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "Todas las tablas",
+      "zoomValue": 30,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "Todas las tablas",
+  "defaultDiagram": "Todas las tablas"
+}

@@ -1,0 +1,23 @@
+ministerio_actual;anios_entonces;anios_por_encima_de_100_entonces;pct_minimo_entonces;pct_maximo_entonces;pct_acumulado_entonces;sistematico_entonces;anios_actual;anios_por_encima_de_100_actual;pct_acumulado_actual;sistematico_actual;pct_nominal_entonces_2017_2025;pct_real_entonces_2017_2025;pct_nominal_entonces_2019_2025;pct_real_entonces_2019_2025;pct_real_actual_2019_2025;pct_nominal_entonces_2021_2025;pct_real_entonces_2021_2025;pct_real_actual_2021_2025
+Ministerio de Agricultura, Pesca y Alimentación;7;5;89,12;183,78;125,36;no;7;5;125,36;no;;;91,78;64,93;64,93;23,27;9,51;9,51
+Ministerio de Asuntos Exteriores, Unión Europea y Cooperación;9;0;76,27;93,70;83,76;no;9;0;83,76;no;61,45;33,52;62,34;39,61;39,61;40,42;24,75;24,75
+Ministerio de Ciencia, Innovación y Universidades;9;0;48,38;65,07;56,50;no;3;0;56,15;menos de 5 años comparables;11,54;-7,76;85,68;59,68;;25,61;11,59;
+Ministerio de Cultura;9;0;85,12;99,57;93,65;no;2;0;97,36;menos de 5 años comparables;-67,07;-72,77;71,78;47,72;;27,69;13,44;
+Ministerio de Defensa;9;9;108,22;146,61;119,69;sí;9;9;119,69;sí;113,10;76,24;96,81;69,25;69,25;74,75;55,24;55,24
+Ministerio de Derechos Sociales, Consumo y Agenda 2030;9;8;86,46;208,66;115,98;no;2;2;127,27;menos de 5 años comparables;123,42;84,77;102,74;74,35;;34,85;19,80;
+Ministerio de Economía, Comercio y Empresa;9;3;48,38;203,06;90,37;no;2;2;201,49;menos de 5 años comparables;19,58;-1,11;359,44;295,10;;-29,23;-37,13;
+Ministerio de Educación, Formación Profesional y Deportes;9;1;70,20;106,93;86,18;no;2;0;72,77;menos de 5 años comparables;49,79;23,87;113,55;83,65;;-8,61;-18,81;
+Ministerio de Hacienda;9;2;25,50;153,07;78,78;no;5;2;73,33;no;-52,34;-60,59;79,28;54,17;54,17;-45,71;-51,77;-51,77
+Ministerio de Igualdad;9;4;95,33;110,45;103,61;no;5;0;96,13;no;-79,82;-83,31;-77,62;-80,76;;10,94;-1,44;-1,44
+Ministerio de Inclusión, Seguridad Social y Migraciones;9;7;99,20;242,73;118,21;no;5;5;109,09;sí;128,07;88,62;93,73;66,60;;14,75;1,94;1,94
+Ministerio de Industria y Turismo;9;1;54,50;118,45;78,69;no;2;1;97,94;menos de 5 años comparables;107,48;71,58;558,18;466,01;;185,26;153,41;
+Ministerio de Juventud e Infancia;9;8;86,46;208,66;112,46;no;2;2;157,90;menos de 5 años comparables;-87,57;-89,72;-88,72;-90,30;;-92,50;-93,33;
+Ministerio de Política Territorial y Memoria Democrática;9;5;80,58;549,25;121,58;no;2;2;331,13;menos de 5 años comparables;-7,10;-23,17;427,25;353,41;;309,59;263,87;
+Ministerio de Sanidad;9;6;67,02;208,66;111,93;no;5;2;93,33;no;-48,22;-57,18;-53,02;-59,60;;-54,44;-59,53;-59,53
+Ministerio de Trabajo y Economía Social;9;4;90,88;242,73;133,34;no;5;2;96,54;no;-97,35;-97,81;-97,75;-98,07;;-89,03;-90,26;-90,26
+Ministerio de Transportes y Movilidad Sostenible;9;3;88,06;105,87;97,50;no;2;1;96,36;menos de 5 años comparables;120,84;82,64;106,98;77,99;;-8;-18,27;
+Ministerio de Vivienda y Agenda Urbana;9;3;39,27;137,21;96,98;no;2;1;88,26;menos de 5 años comparables;-8,24;-24,11;-14;-26,04;;-61,77;-66,04;
+Ministerio de la Presidencia, Justicia y Relaciones con las Cortes;9;4;92,47;112,21;100,59;no;2;2;108,94;menos de 5 años comparables;14,75;-5,10;29,74;11,57;;25,90;11,84;
+Ministerio del Interior;9;5;98,81;111,73;103,62;no;9;5;103,62;no;54,96;28,15;30,24;12,01;12,01;25,41;11,41;11,41
+Ministerio para la Transformación Digital y de la Función Pública;9;3;72,41;138,53;96,92;no;2;2;113,73;menos de 5 años comparables;32,98;9,98;485,02;403,10;;-9,89;-19,95;
+Ministerio para la Transición Ecológica y el Reto Demográfico;9;2;79,06;179,90;104,54;no;5;2;108,10;no;430,30;338,57;82,52;56,96;;-37,86;-44,79;-44,79

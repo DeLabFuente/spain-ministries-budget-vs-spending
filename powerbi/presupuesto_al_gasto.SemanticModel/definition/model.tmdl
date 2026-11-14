@@ -1,0 +1,43 @@
+model Model
+	culture: es-ES
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: es-ES
+	valueFilterBehavior: independent
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_QueryOrder = ["RutaProyecto","dim_ministerio","dim_anio","dim_capitulo","fact_ministerio_anio","fact_capitulo","fact_programa","fact_mrr_programa","fact_ingresos_organismos","fact_contratacion_mes","dim_grupo","dim_gobierno","fact_catastrofe","fact_catastrofe_destino","fact_credito_nuevo","fact_contratacion_gasto","fact_concentracion","fact_ejecucion","fact_bdns","fact_bdns_instrumento","fact_mensual","_Medidas"]
+
+annotation PBI_ProTooling = ["DaxQueryView_Desktop","DevMode"]
+
+ref table dim_ministerio
+ref table dim_anio
+ref table dim_capitulo
+ref table fact_ministerio_anio
+ref table fact_capitulo
+ref table fact_programa
+ref table fact_mrr_programa
+ref table fact_ingresos_organismos
+ref table fact_contratacion_mes
+ref table DateTableTemplate_04f8256c-43ce-4da8-ade7-fe75b29a82b0
+ref table LocalDateTable_93e799ad-bae5-4c6a-bb24-89443b2b4968
+ref table _Medidas
+ref table Pasos
+ref table dim_grupo
+ref table Euros
+ref table dim_gobierno
+ref table fact_catastrofe
+ref table fact_catastrofe_destino
+ref table fact_credito_nuevo
+ref table fact_contratacion_gasto
+ref table fact_concentracion
+ref table fact_ejecucion
+ref table fact_bdns
+ref table fact_bdns_instrumento
+ref table fact_mensual
+
+ref cultureInfo es-ES
+

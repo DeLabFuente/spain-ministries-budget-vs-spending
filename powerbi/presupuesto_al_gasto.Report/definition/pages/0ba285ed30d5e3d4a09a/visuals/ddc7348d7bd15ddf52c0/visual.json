@@ -1,0 +1,306 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
+  "name": "ddc7348d7bd15ddf52c0",
+  "position": {
+    "x": 30,
+    "y": 128,
+    "z": 2000,
+    "height": 1092,
+    "width": 1860,
+    "tabOrder": 2000
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Perímetro",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "fontFamily": "Segoe UI",
+                      "color": "#14233B",
+                      "fontWeight": "bold"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Estado: liquidación de la IGAE 2017-2024 y mensual de diciembre de 2025 (provisional). Organismos: liquidación de organismos 2017-2024. Contratación: línea base de la Plataforma de Contratación del Sector Público, solo la Administración General del Estado; sociedades, fundaciones y consorcios quedan fuera.",
+                    "textStyle": {
+                      "fontSize": "15pt",
+                      "fontFamily": "Segoe UI",
+                      "color": "#1F2933"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Doble cómputo",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "fontFamily": "Segoe UI",
+                      "color": "#14233B",
+                      "fontWeight": "bold"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "El gasto agregado suma Estado y organismos y resta todas las transferencias del Estado a los organismos del ministerio, vengan de la sección que vengan. El gasto se cuenta en el ministerio que paga, así que la suma de los 22 no cuenta nada dos veces.",
+                    "textStyle": {
+                      "fontSize": "15pt",
+                      "fontFamily": "Segoe UI",
+                      "color": "#1F2933"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Años comparables",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "fontFamily": "Segoe UI",
+                      "color": "#14233B",
+                      "fontWeight": "bold"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Cada año se muestran los ministerios que existían entonces. Al elegir un ministerio actual en un año en que no existía, o en que compartía ministerio con otros, se ve el ministerio de entonces completo (tabla dim_grupo, script 13 y REGISTRO B15). Cuando no existía, se toma el ministerio que tenía el grueso de sus competencias; la Función Pública de Transformación Digital queda en su ministerio de cada año. La contratación usa siempre el perímetro actual de los órganos. 2024 y 2025 son los dos años con los 22 ministerios actuales y el mismo presupuesto prorrogado. 2017-2019 no tienen detalle por aplicación.",
+                    "textStyle": {
+                      "fontSize": "15pt",
+                      "fontFamily": "Segoe UI",
+                      "color": "#1F2933"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Presupuesto prorrogado y Gobierno en funciones",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "fontFamily": "Segoe UI",
+                      "color": "#14233B",
+                      "fontWeight": "bold"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "La página 3 cuenta los días de cada año con presupuesto prorrogado y con el Gobierno en funciones, con ambos extremos incluidos y, en 2026, hasta el 10/11/2026. Las fechas salen de las normas del BOE que recoge datos/calendario_fuentes.csv (script 17). En 2017 el presupuesto estuvo prorrogado hasta el 28/06 y en 2018 hasta el 04/07; esos dos años aparecen como «aprobado» en el resto del informe. En 2019 y 2020 estuvo prorrogado todo el año, y también en 2024, 2025 y 2026. Es un calendario: no mide cuánto gasto cambia por estar en prórroga o en funciones.",
+                    "textStyle": {
+                      "fontSize": "15pt",
+                      "fontFamily": "Segoe UI",
+                      "color": "#1F2933"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Euros corrientes y constantes",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "fontFamily": "Segoe UI",
+                      "color": "#14233B",
+                      "fontWeight": "bold"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Con el selector «Euros» los importes del presupuesto y de los organismos se pasan a euros de 2025 con uno de tres índices del INE: el IPC (100 M€ de 2017 = 124,7 M€ de 2025), el deflactor del PIB (125,7) o el deflactor del consumo final de las Administraciones Públicas (120,9). La página 8 los compara. Los porcentajes no cambian dentro de un mismo año. La contratación se queda en euros corrientes, porque se compara por cuotas. Script 14 y REGISTRO B16.",
+                    "textStyle": {
+                      "fontSize": "15pt",
+                      "fontFamily": "Segoe UI",
+                      "color": "#1F2933"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Páginas 9 a 14",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "fontFamily": "Segoe UI",
+                      "color": "#14233B",
+                      "fontWeight": "bold"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Recogen los apartados 7 a 13, 16 y 17 de preguntas.md con tablas propias (script 30). Van siempre en euros corrientes, no pasan por el selector «Euros» y usan el ministerio actual, como el texto de esos apartados. Las cifras salen de los CSV de datos/ y se comprueban en datos/controles_powerbi_apartados.csv.",
+                    "textStyle": {
+                      "fontSize": "15pt",
+                      "fontFamily": "Segoe UI",
+                      "color": "#1F2933"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Avisos",
+                    "textStyle": {
+                      "fontSize": "20pt",
+                      "fontFamily": "Segoe UI",
+                      "color": "#14233B",
+                      "fontWeight": "bold"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "2025 es provisional. 2026 está incompleto en contratación (hasta el 23/10). Una diferencia no es una irregularidad. Las anomalías de la fuente y todos nuestros ajustes están anotados en REGISTRO.md; las fuentes, en datos/LEEME.md.",
+                    "textStyle": {
+                      "fontSize": "15pt",
+                      "fontFamily": "Segoe UI",
+                      "color": "#1F2933"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true,
+    "visualContainerObjects": {
+      "background": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#FFFFFF'"
+                    }
+                  }
+                }
+              }
+            },
+            "transparency": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "border": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#D5DBE3'"
+                    }
+                  }
+                }
+              }
+            },
+            "radius": {
+              "expr": {
+                "Literal": {
+                  "Value": "4D"
+                }
+              }
+            },
+            "width": {
+              "expr": {
+                "Literal": {
+                  "Value": "1D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "padding": [
+        {
+          "properties": {
+            "left": {
+              "expr": {
+                "Literal": {
+                  "Value": "24D"
+                }
+              }
+            },
+            "top": {
+              "expr": {
+                "Literal": {
+                  "Value": "20D"
+                }
+              }
+            },
+            "right": {
+              "expr": {
+                "Literal": {
+                  "Value": "24D"
+                }
+              }
+            },
+            "bottom": {
+              "expr": {
+                "Literal": {
+                  "Value": "20D"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,943 @@
+table _Medidas
+	lineageTag: 1bc0c374-fe3c-4fd8-8fab-da390f3e4783
+
+	measure Iniciales =
+			VAR _k = SELECTEDVALUE ( Euros[orden], 1 )
+			VAR _grupos = SUMMARIZE ( dim_grupo, dim_grupo[anio], dim_grupo[grupo_id] )
+			VAR _pares =
+			    CALCULATETABLE (
+			        SUMMARIZE ( dim_grupo, dim_grupo[anio], dim_grupo[ministerio_id] ),
+			        REMOVEFILTERS ( dim_ministerio ), REMOVEFILTERS ( dim_grupo ),
+			        TREATAS ( _grupos, dim_grupo[anio], dim_grupo[grupo_id] ),
+			        dim_grupo[incluir_estado] = 1
+			    )
+			RETURN
+			    CALCULATE ( SUMX ( fact_ministerio_anio, fact_ministerio_anio[estado_creditos_iniciales] * SWITCH ( _k, 2, RELATED ( dim_anio[factor_2025] ), 3, RELATED ( dim_anio[factor_pib] ), 4, RELATED ( dim_anio[factor_aapp] ), 1 ) ), TREATAS ( _pares, fact_ministerio_anio[anio], fact_ministerio_anio[ministerio_id] ) )
+		formatString: #,0\ €
+		displayFolder: 1 Presupuesto
+		lineageTag: 770fce1a-a8b3-41ba-a90e-24a144009ef1
+
+	measure 'Créditos extraordinarios y suplementos' =
+			VAR _k = SELECTEDVALUE ( Euros[orden], 1 )
+			VAR _grupos = SUMMARIZE ( dim_grupo, dim_grupo[anio], dim_grupo[grupo_id] )
+			VAR _pares =
+			    CALCULATETABLE (
+			        SUMMARIZE ( dim_grupo, dim_grupo[anio], dim_grupo[ministerio_id] ),
+			        REMOVEFILTERS ( dim_ministerio ), REMOVEFILTERS ( dim_grupo ),
+			        TREATAS ( _grupos, dim_grupo[anio], dim_grupo[grupo_id] ),
+			        dim_grupo[incluir_estado] = 1
+			    )
+			RETURN
+			    CALCULATE ( SUMX ( fact_ministerio_anio, fact_ministerio_anio[estado_creditos_extraordinarios_suplementos] * SWITCH ( _k, 2, RELATED ( dim_anio[factor_2025] ), 3, RELATED ( dim_anio[factor_pib] ), 4, RELATED ( dim_anio[factor_aapp] ), 1 ) ), TREATAS ( _pares, fact_ministerio_anio[anio], fact_ministerio_anio[ministerio_id] ) )
+		formatString: #,0\ €
+		displayFolder: 1 Presupuesto
+		lineageTag: a1aa85ad-a65f-452d-9a05-e4ccfa1e9456
+
+	measure Ampliaciones =
+			VAR _k = SELECTEDVALUE ( Euros[orden], 1 )
+			VAR _grupos = SUMMARIZE ( dim_grupo, dim_grupo[anio], dim_grupo[grupo_id] )
+			VAR _pares =
+			    CALCULATETABLE (
+			        SUMMARIZE ( dim_grupo, dim_grupo[anio], dim_grupo[ministerio_id] ),
+			        REMOVEFILTERS ( dim_ministerio ), REMOVEFILTERS ( dim_grupo ),
+			        TREATAS ( _grupos, dim_grupo[anio], dim_grupo[grupo_id] ),
+			        dim_grupo[incluir_estado] = 1
+			    )
+			RETURN
+			    CALCULATE ( SUMX ( fact_ministerio_anio, fact_ministerio_anio[estado_ampliaciones] * SWITCH ( _k, 2, RELATED ( dim_anio[factor_2025] ), 3, RELATED ( dim_anio[factor_pib] ), 4, RELATED ( dim_anio[factor_aapp] ), 1 ) ), TREATAS ( _pares, fact_ministerio_anio[anio], fact_ministerio_anio[ministerio_id] ) )
+		formatString: #,0\ €
+		displayFolder: 1 Presupuesto
+		lineageTag: 619bcb34-66a8-4686-bf43-7ee8b11bb018
+
+	measure 'Transferencias de crédito' =
+			VAR _k = SELECTEDVALUE ( Euros[orden], 1 )
+			VAR _grupos = SUMMARIZE ( dim_grupo, dim_grupo[anio], dim_grupo[grupo_id] )
+			VAR _pares =
+			    CALCULATETABLE (
+			        SUMMARIZE ( dim_grupo, dim_grupo[anio], dim_grupo[ministerio_id] ),
+			        REMOVEFILTERS ( dim_ministerio ), REMOVEFILTERS ( dim_grupo ),
+			        TREATAS ( _grupos, dim_grupo[anio], dim_grupo[grupo_id] ),
+			        dim_grupo[incluir_estado] = 1
+			    )
+			RETURN
+			    CALCULATE ( SUMX ( fact_ministerio_anio, fact_ministerio_anio[estado_transferencias] * SWITCH ( _k, 2, RELATED ( dim_anio[factor_2025] ), 3, RELATED ( dim_anio[factor_pib] ), 4, RELATED ( dim_anio[factor_aapp] ), 1 ) ), TREATAS ( _pares, fact_ministerio_anio[anio], fact_ministerio_anio[ministerio_id] ) )
+		formatString: #,0\ €
+		displayFolder: 1 Presupuesto
+		lineageTag: 25c2c9ef-4493-4559-bc4d-0d7458277ad0
+
+	measure Remanentes =
+			VAR _k = SELECTEDVALUE ( Euros[orden], 1 )
+			VAR _grupos = SUMMARIZE ( dim_grupo, dim_grupo[anio], dim_grupo[grupo_id] )
+			VAR _pares =
+			    CALCULATETABLE (
+			        SUMMARIZE ( dim_grupo, dim_grupo[anio], dim_grupo[ministerio_id] ),
+			        REMOVEFILTERS ( dim_ministerio ), REMOVEFILTERS ( dim_grupo ),
+			        TREATAS ( _grupos, dim_grupo[anio], dim_grupo[grupo_id] ),
+			        dim_grupo[incluir_estado] = 1
+			    )
+			RETURN
+			    CALCULATE ( SUMX ( fact_ministerio_anio, fact_ministerio_anio[estado_incorporacion_remanentes] * SWITCH ( _k, 2, RELATED ( dim_anio[factor_2025] ), 3, RELATED ( dim_anio[factor_pib] ), 4, RELATED ( dim_anio[factor_aapp] ), 1 ) ), TREATAS ( _pares, fact_ministerio_anio[anio], fact_ministerio_anio[ministerio_id] ) )
+		formatString: #,0\ €
+		displayFolder: 1 Presupuesto
+		lineageTag: ca354b93-4544-4f30-8c37-39f0d6c6ba17
+
+	measure Generaciones =
+			VAR _k = SELECTEDVALUE ( Euros[orden], 1 )
+			VAR _grupos = SUMMARIZE ( dim_grupo, dim_grupo[anio], dim_grupo[grupo_id] )
+			VAR _pares =
+			    CALCULATETABLE (
+			        SUMMARIZE ( dim_grupo, dim_grupo[anio], dim_grupo[ministerio_id] ),
+			        REMOVEFILTERS ( dim_ministerio ), REMOVEFILTERS ( dim_grupo ),
+			        TREATAS ( _grupos, dim_grupo[anio], dim_grupo[grupo_id] ),
+			        dim_grupo[incluir_estado] = 1
+			    )
+			RETURN
+			    CALCULATE ( SUMX ( fact_ministerio_anio, fact_ministerio_anio[estado_generaciones_ingresos] * SWITCH ( _k, 2, RELATED ( dim_anio[factor_2025] ), 3, RELATED ( dim_anio[factor_pib] ), 4, RELATED ( dim_anio[factor_aapp] ), 1 ) ), TREATAS ( _pares, fact_ministerio_anio[anio], fact_ministerio_anio[ministerio_id] ) )
+		formatString: #,0\ €
+		displayFolder: 1 Presupuesto
+		lineageTag: e8ea82d7-81ad-480f-adc2-7933208fd1a2
+
+	measure 'Bajas y otras' =
+			VAR _k = SELECTEDVALUE ( Euros[orden], 1 )
+			VAR _grupos = SUMMARIZE ( dim_grupo, dim_grupo[anio], dim_grupo[grupo_id] )
+			VAR _pares =
+			    CALCULATETABLE (
+			        SUMMARIZE ( dim_grupo, dim_grupo[anio], dim_grupo[ministerio_id] ),
+			        REMOVEFILTERS ( dim_ministerio ), REMOVEFILTERS ( dim_grupo ),
+			        TREATAS ( _grupos, dim_grupo[anio], dim_grupo[grupo_id] ),
+			        dim_grupo[incluir_estado] = 1
+			    )
+			RETURN
+			    CALCULATE ( SUMX ( fact_ministerio_anio, fact_ministerio_anio[estado_bajas_otras_modificaciones] * SWITCH ( _k, 2, RELATED ( dim_anio[factor_2025] ), 3, RELATED ( dim_anio[factor_pib] ), 4, RELATED ( dim_anio[factor_aapp] ), 1 ) ), TREATAS ( _pares, fact_ministerio_anio[anio], fact_ministerio_anio[ministerio_id] ) )
+		formatString: #,0\ €
+		displayFolder: 1 Presupuesto
+		lineageTag: 40c43aaa-68c7-4c21-9660-6e63a7c45dac
+
+	measure Modificaciones =
+			VAR _k = SELECTEDVALUE ( Euros[orden], 1 )
+			VAR _grupos = SUMMARIZE ( dim_grupo, dim_grupo[anio], dim_grupo[grupo_id] )
+			VAR _pares =
+			    CALCULATETABLE (
+			        SUMMARIZE ( dim_grupo, dim_grupo[anio], dim_grupo[ministerio_id] ),
+			        REMOVEFILTERS ( dim_ministerio ), REMOVEFILTERS ( dim_grupo ),
+			        TREATAS ( _grupos, dim_grupo[anio], dim_grupo[grupo_id] ),
+			        dim_grupo[incluir_estado] = 1
+			    )
+			RETURN
+			    CALCULATE ( SUMX ( fact_ministerio_anio, fact_ministerio_anio[estado_modificaciones_netas] * SWITCH ( _k, 2, RELATED ( dim_anio[factor_2025] ), 3, RELATED ( dim_anio[factor_pib] ), 4, RELATED ( dim_anio[factor_aapp] ), 1 ) ), TREATAS ( _pares, fact_ministerio_anio[anio], fact_ministerio_anio[ministerio_id] ) )
+		formatString: #,0\ €
+		displayFolder: 1 Presupuesto
+		lineageTag: 41ea1c6c-30eb-4c60-a798-a0339dfaaf1e
+
+	measure Definitivos =
+			VAR _k = SELECTEDVALUE ( Euros[orden], 1 )
+			VAR _grupos = SUMMARIZE ( dim_grupo, dim_grupo[anio], dim_grupo[grupo_id] )
+			VAR _pares =
+			    CALCULATETABLE (
+			        SUMMARIZE ( dim_grupo, dim_grupo[anio], dim_grupo[ministerio_id] ),
+			        REMOVEFILTERS ( dim_ministerio ), REMOVEFILTERS ( dim_grupo ),
+			        TREATAS ( _grupos, dim_grupo[anio], dim_grupo[grupo_id] ),
+			        dim_grupo[incluir_estado] = 1
+			    )
+			RETURN
+			    CALCULATE ( SUMX ( fact_ministerio_anio, fact_ministerio_anio[estado_creditos_definitivos] * SWITCH ( _k, 2, RELATED ( dim_anio[factor_2025] ), 3, RELATED ( dim_anio[factor_pib] ), 4, RELATED ( dim_anio[factor_aapp] ), 1 ) ), TREATAS ( _pares, fact_ministerio_anio[anio], fact_ministerio_anio[ministerio_id] ) )
+		formatString: #,0\ €
+		displayFolder: 1 Presupuesto
+		lineageTag: 68283805-fc2a-466b-a013-50e119973b79
+
+	measure Obligaciones =
+			VAR _k = SELECTEDVALUE ( Euros[orden], 1 )
+			VAR _grupos = SUMMARIZE ( dim_grupo, dim_grupo[anio], dim_grupo[grupo_id] )
+			VAR _pares =
+			    CALCULATETABLE (
+			        SUMMARIZE ( dim_grupo, dim_grupo[anio], dim_grupo[ministerio_id] ),
+			        REMOVEFILTERS ( dim_ministerio ), REMOVEFILTERS ( dim_grupo ),
+			        TREATAS ( _grupos, dim_grupo[anio], dim_grupo[grupo_id] ),
+			        dim_grupo[incluir_estado] = 1
+			    )
+			RETURN
+			    CALCULATE ( SUMX ( fact_ministerio_anio, fact_ministerio_anio[estado_obligaciones] * SWITCH ( _k, 2, RELATED ( dim_anio[factor_2025] ), 3, RELATED ( dim_anio[factor_pib] ), 4, RELATED ( dim_anio[factor_aapp] ), 1 ) ), TREATAS ( _pares, fact_ministerio_anio[anio], fact_ministerio_anio[ministerio_id] ) )
+		formatString: #,0\ €
+		displayFolder: 1 Presupuesto
+		lineageTag: aa20714a-c4db-44b3-9e50-bd3c5d8cc5c3
+
+	measure Pagos =
+			VAR _k = SELECTEDVALUE ( Euros[orden], 1 )
+			VAR _grupos = SUMMARIZE ( dim_grupo, dim_grupo[anio], dim_grupo[grupo_id] )
+			VAR _pares =
+			    CALCULATETABLE (
+			        SUMMARIZE ( dim_grupo, dim_grupo[anio], dim_grupo[ministerio_id] ),
+			        REMOVEFILTERS ( dim_ministerio ), REMOVEFILTERS ( dim_grupo ),
+			        TREATAS ( _grupos, dim_grupo[anio], dim_grupo[grupo_id] ),
+			        dim_grupo[incluir_estado] = 1
+			    )
+			RETURN
+			    CALCULATE ( SUMX ( fact_ministerio_anio, fact_ministerio_anio[estado_pagos] * SWITCH ( _k, 2, RELATED ( dim_anio[factor_2025] ), 3, RELATED ( dim_anio[factor_pib] ), 4, RELATED ( dim_anio[factor_aapp] ), 1 ) ), TREATAS ( _pares, fact_ministerio_anio[anio], fact_ministerio_anio[ministerio_id] ) )
+		formatString: #,0\ €
+		displayFolder: 1 Presupuesto
+		lineageTag: 6a28d5ff-3aea-4fe4-a848-f53ec7bd6b8e
+
+	measure 'Sin gastar' = [Definitivos] - [Obligaciones]
+		formatString: #,0\ €
+		displayFolder: 1 Presupuesto
+		lineageTag: 57b385f3-bb4c-4666-8639-4b7a633c5b69
+
+	measure '% obligaciones sobre iniciales' = DIVIDE ( [Obligaciones], [Iniciales] )
+		formatString: 0.0\ %;-0.0\ %;0.0\ %
+		displayFolder: 1 Presupuesto
+		lineageTag: 07226b25-dfbe-4665-bbab-e921a0b6270c
+
+	measure '% ejecución' = DIVIDE ( [Obligaciones], [Definitivos] )
+		formatString: 0.0\ %;-0.0\ %;0.0\ %
+		displayFolder: 1 Presupuesto
+		lineageTag: d0c7f837-4958-4b2b-951b-5a143207ec51
+
+	measure '% modificaciones sobre iniciales' = DIVIDE ( [Modificaciones], [Iniciales] )
+		formatString: 0.0\ %;-0.0\ %;0.0\ %
+		displayFolder: 1 Presupuesto
+		lineageTag: ed452576-ae14-4fa2-9207-be6b30c12830
+
+	measure '% pagado' = DIVIDE ( [Pagos], [Obligaciones] )
+		formatString: 0.0\ %;-0.0\ %;0.0\ %
+		displayFolder: 1 Presupuesto
+		lineageTag: d1220936-64ba-406f-aea6-db085ddbbab0
+
+	measure Continuidad = SELECTEDVALUE ( dim_grupo[existia] )
+		displayFolder: 1 Presupuesto
+		lineageTag: 102e4f8b-62f9-4d6d-bc81-e9df41c1af50
+
+	measure 'Organismos: obligaciones' =
+			VAR _k = SELECTEDVALUE ( Euros[orden], 1 )
+			VAR _grupos = SUMMARIZE ( dim_grupo, dim_grupo[anio], dim_grupo[grupo_id] )
+			VAR _pares =
+			    CALCULATETABLE (
+			        SUMMARIZE ( dim_grupo, dim_grupo[anio], dim_grupo[ministerio_id] ),
+			        REMOVEFILTERS ( dim_ministerio ), REMOVEFILTERS ( dim_grupo ),
+			        TREATAS ( _grupos, dim_grupo[anio], dim_grupo[grupo_id] )
+			    )
+			RETURN
+			    CALCULATE ( SUMX ( fact_ministerio_anio, fact_ministerio_anio[organismos_obligaciones] * SWITCH ( _k, 2, RELATED ( dim_anio[factor_2025] ), 3, RELATED ( dim_anio[factor_pib] ), 4, RELATED ( dim_anio[factor_aapp] ), 1 ) ), TREATAS ( _pares, fact_ministerio_anio[anio], fact_ministerio_anio[ministerio_id] ) )
+		formatString: #,0\ €
+		displayFolder: 2 Organismos y gasto agregado
+		lineageTag: fccfa34a-a174-4f4e-9162-f0ed3ebebc97
+
+	measure 'Transferencias del Estado restadas' =
+			VAR _k = SELECTEDVALUE ( Euros[orden], 1 )
+			VAR _grupos = SUMMARIZE ( dim_grupo, dim_grupo[anio], dim_grupo[grupo_id] )
+			VAR _pares =
+			    CALCULATETABLE (
+			        SUMMARIZE ( dim_grupo, dim_grupo[anio], dim_grupo[ministerio_id] ),
+			        REMOVEFILTERS ( dim_ministerio ), REMOVEFILTERS ( dim_grupo ),
+			        TREATAS ( _grupos, dim_grupo[anio], dim_grupo[grupo_id] )
+			    )
+			RETURN
+			    CALCULATE ( SUMX ( fact_ministerio_anio, fact_ministerio_anio[transferencias_restadas] * SWITCH ( _k, 2, RELATED ( dim_anio[factor_2025] ), 3, RELATED ( dim_anio[factor_pib] ), 4, RELATED ( dim_anio[factor_aapp] ), 1 ) ), TREATAS ( _pares, fact_ministerio_anio[anio], fact_ministerio_anio[ministerio_id] ) )
+		formatString: #,0\ €
+		displayFolder: 2 Organismos y gasto agregado
+		lineageTag: 52619109-8d34-44a3-ab1e-95e0b6378dd1
+
+	measure 'De ellas, de otros ministerios' =
+			VAR _k = SELECTEDVALUE ( Euros[orden], 1 )
+			VAR _grupos = SUMMARIZE ( dim_grupo, dim_grupo[anio], dim_grupo[grupo_id] )
+			VAR _pares =
+			    CALCULATETABLE (
+			        SUMMARIZE ( dim_grupo, dim_grupo[anio], dim_grupo[ministerio_id] ),
+			        REMOVEFILTERS ( dim_ministerio ), REMOVEFILTERS ( dim_grupo ),
+			        TREATAS ( _grupos, dim_grupo[anio], dim_grupo[grupo_id] )
+			    )
+			RETURN
+			    CALCULATE ( SUMX ( fact_ministerio_anio, fact_ministerio_anio[transferencias_de_otros_ministerios] * SWITCH ( _k, 2, RELATED ( dim_anio[factor_2025] ), 3, RELATED ( dim_anio[factor_pib] ), 4, RELATED ( dim_anio[factor_aapp] ), 1 ) ), TREATAS ( _pares, fact_ministerio_anio[anio], fact_ministerio_anio[ministerio_id] ) )
+		formatString: #,0\ €
+		displayFolder: 2 Organismos y gasto agregado
+		lineageTag: e39e1782-1613-43a7-aa99-74431776fad2
+
+	measure 'Devuelto al Estado por sus organismos' =
+			VAR _k = SELECTEDVALUE ( Euros[orden], 1 )
+			VAR _grupos = SUMMARIZE ( dim_grupo, dim_grupo[anio], dim_grupo[grupo_id] )
+			VAR _pares =
+			    CALCULATETABLE (
+			        SUMMARIZE ( dim_grupo, dim_grupo[anio], dim_grupo[ministerio_id] ),
+			        REMOVEFILTERS ( dim_ministerio ), REMOVEFILTERS ( dim_grupo ),
+			        TREATAS ( _grupos, dim_grupo[anio], dim_grupo[grupo_id] )
+			    )
+			RETURN
+			    CALCULATE ( SUMX ( fact_ministerio_anio, fact_ministerio_anio[transferencias_de_sus_organismos_al_estado] * SWITCH ( _k, 2, RELATED ( dim_anio[factor_2025] ), 3, RELATED ( dim_anio[factor_pib] ), 4, RELATED ( dim_anio[factor_aapp] ), 1 ) ), TREATAS ( _pares, fact_ministerio_anio[anio], fact_ministerio_anio[ministerio_id] ) )
+		formatString: #,0\ €
+		displayFolder: 2 Organismos y gasto agregado
+		lineageTag: 4eaa1763-2a35-4450-b554-4956a20d59bb
+
+	measure 'Gasto agregado' =
+			VAR _k = SELECTEDVALUE ( Euros[orden], 1 )
+			VAR _grupos = SUMMARIZE ( dim_grupo, dim_grupo[anio], dim_grupo[grupo_id] )
+			VAR _pares =
+			    CALCULATETABLE (
+			        SUMMARIZE ( dim_grupo, dim_grupo[anio], dim_grupo[ministerio_id] ),
+			        REMOVEFILTERS ( dim_ministerio ), REMOVEFILTERS ( dim_grupo ),
+			        TREATAS ( _grupos, dim_grupo[anio], dim_grupo[grupo_id] )
+			    )
+			VAR _excluidos =
+			    CALCULATETABLE (
+			        SUMMARIZE ( dim_grupo, dim_grupo[anio], dim_grupo[ministerio_id] ),
+			        REMOVEFILTERS ( dim_ministerio ), REMOVEFILTERS ( dim_grupo ),
+			        TREATAS ( _grupos, dim_grupo[anio], dim_grupo[grupo_id] ),
+			        dim_grupo[incluir_estado] = 0
+			    )
+			RETURN
+			    CALCULATE ( SUMX ( fact_ministerio_anio, fact_ministerio_anio[gasto_agregado_sin_doble_computo] * SWITCH ( _k, 2, RELATED ( dim_anio[factor_2025] ), 3, RELATED ( dim_anio[factor_pib] ), 4, RELATED ( dim_anio[factor_aapp] ), 1 ) ), TREATAS ( _pares, fact_ministerio_anio[anio], fact_ministerio_anio[ministerio_id] ) )
+			        - CALCULATE ( SUMX ( fact_ministerio_anio, fact_ministerio_anio[estado_obligaciones] * SWITCH ( _k, 2, RELATED ( dim_anio[factor_2025] ), 3, RELATED ( dim_anio[factor_pib] ), 4, RELATED ( dim_anio[factor_aapp] ), 1 ) ), TREATAS ( _excluidos, fact_ministerio_anio[anio], fact_ministerio_anio[ministerio_id] ) )
+		formatString: #,0\ €
+		displayFolder: 2 Organismos y gasto agregado
+		lineageTag: 415b0d2b-7c0c-408e-8a4d-df81cbb2cf4b
+
+	measure 'MRR definitivos' =
+			VAR _k = SELECTEDVALUE ( Euros[orden], 1 )
+			VAR _grupos = SUMMARIZE ( dim_grupo, dim_grupo[anio], dim_grupo[grupo_id] )
+			VAR _pares =
+			    CALCULATETABLE (
+			        SUMMARIZE ( dim_grupo, dim_grupo[anio], dim_grupo[ministerio_id] ),
+			        REMOVEFILTERS ( dim_ministerio ), REMOVEFILTERS ( dim_grupo ),
+			        TREATAS ( _grupos, dim_grupo[anio], dim_grupo[grupo_id] ),
+			        dim_grupo[incluir_estado] = 1
+			    )
+			RETURN
+			    CALCULATE ( SUMX ( fact_ministerio_anio, fact_ministerio_anio[mrr_creditos_definitivos] * SWITCH ( _k, 2, RELATED ( dim_anio[factor_2025] ), 3, RELATED ( dim_anio[factor_pib] ), 4, RELATED ( dim_anio[factor_aapp] ), 1 ) ), TREATAS ( _pares, fact_ministerio_anio[anio], fact_ministerio_anio[ministerio_id] ) )
+		formatString: #,0\ €
+		displayFolder: 3 Mecanismo de Recuperación
+		lineageTag: 06f9ffea-8bab-4afc-8f95-ea9eed450da1
+
+	measure 'MRR obligaciones' =
+			VAR _k = SELECTEDVALUE ( Euros[orden], 1 )
+			VAR _grupos = SUMMARIZE ( dim_grupo, dim_grupo[anio], dim_grupo[grupo_id] )
+			VAR _pares =
+			    CALCULATETABLE (
+			        SUMMARIZE ( dim_grupo, dim_grupo[anio], dim_grupo[ministerio_id] ),
+			        REMOVEFILTERS ( dim_ministerio ), REMOVEFILTERS ( dim_grupo ),
+			        TREATAS ( _grupos, dim_grupo[anio], dim_grupo[grupo_id] ),
+			        dim_grupo[incluir_estado] = 1
+			    )
+			RETURN
+			    CALCULATE ( SUMX ( fact_ministerio_anio, fact_ministerio_anio[mrr_obligaciones] * SWITCH ( _k, 2, RELATED ( dim_anio[factor_2025] ), 3, RELATED ( dim_anio[factor_pib] ), 4, RELATED ( dim_anio[factor_aapp] ), 1 ) ), TREATAS ( _pares, fact_ministerio_anio[anio], fact_ministerio_anio[ministerio_id] ) )
+		formatString: #,0\ €
+		displayFolder: 3 Mecanismo de Recuperación
+		lineageTag: 2864eed9-ba4f-4eac-a013-52d4666a26d7
+
+	measure 'MRR % ejecutado' = DIVIDE ( [MRR obligaciones], [MRR definitivos] )
+		formatString: 0.0\ %;-0.0\ %;0.0\ %
+		displayFolder: 3 Mecanismo de Recuperación
+		lineageTag: e1aad6d6-9add-46e7-9240-894ce2057d37
+
+	measure 'MRR peso en las obligaciones' = DIVIDE ( [MRR obligaciones], [Obligaciones] )
+		formatString: 0.0\ %;-0.0\ %;0.0\ %
+		displayFolder: 3 Mecanismo de Recuperación
+		lineageTag: 53b41db8-fc8c-409b-85ad-29ae13c26e10
+
+	measure 'Obligaciones por capítulo' =
+			VAR _k = SELECTEDVALUE ( Euros[orden], 1 )
+			VAR _grupos = SUMMARIZE ( dim_grupo, dim_grupo[anio], dim_grupo[grupo_id] )
+			VAR _pares_estado =
+			    CALCULATETABLE (
+			        SUMMARIZE ( dim_grupo, dim_grupo[anio], dim_grupo[ministerio_id] ),
+			        REMOVEFILTERS ( dim_ministerio ), REMOVEFILTERS ( dim_grupo ),
+			        TREATAS ( _grupos, dim_grupo[anio], dim_grupo[grupo_id] ),
+			        dim_grupo[incluir_estado] = 1
+			    )
+			VAR _pares =
+			    CALCULATETABLE (
+			        SUMMARIZE ( dim_grupo, dim_grupo[anio], dim_grupo[ministerio_id] ),
+			        REMOVEFILTERS ( dim_ministerio ), REMOVEFILTERS ( dim_grupo ),
+			        TREATAS ( _grupos, dim_grupo[anio], dim_grupo[grupo_id] )
+			    )
+			RETURN
+			    CALCULATE ( SUMX ( fact_capitulo, fact_capitulo[obligaciones] * SWITCH ( _k, 2, RELATED ( dim_anio[factor_2025] ), 3, RELATED ( dim_anio[factor_pib] ), 4, RELATED ( dim_anio[factor_aapp] ), 1 ) ), TREATAS ( _pares_estado, fact_capitulo[anio], fact_capitulo[ministerio_id] ), KEEPFILTERS ( fact_capitulo[ambito] = "Estado" ) )
+			        + CALCULATE ( SUMX ( fact_capitulo, fact_capitulo[obligaciones] * SWITCH ( _k, 2, RELATED ( dim_anio[factor_2025] ), 3, RELATED ( dim_anio[factor_pib] ), 4, RELATED ( dim_anio[factor_aapp] ), 1 ) ), TREATAS ( _pares, fact_capitulo[anio], fact_capitulo[ministerio_id] ), KEEPFILTERS ( fact_capitulo[ambito] <> "Estado" ) )
+		formatString: #,0\ €
+		displayFolder: 4 Capítulos
+		lineageTag: fe11da8a-0a33-4e1d-a6be-f6b0971da2c7
+
+	measure 'Definitivos por capítulo' =
+			VAR _k = SELECTEDVALUE ( Euros[orden], 1 )
+			VAR _grupos = SUMMARIZE ( dim_grupo, dim_grupo[anio], dim_grupo[grupo_id] )
+			VAR _pares_estado =
+			    CALCULATETABLE (
+			        SUMMARIZE ( dim_grupo, dim_grupo[anio], dim_grupo[ministerio_id] ),
+			        REMOVEFILTERS ( dim_ministerio ), REMOVEFILTERS ( dim_grupo ),
+			        TREATAS ( _grupos, dim_grupo[anio], dim_grupo[grupo_id] ),
+			        dim_grupo[incluir_estado] = 1
+			    )
+			VAR _pares =
+			    CALCULATETABLE (
+			        SUMMARIZE ( dim_grupo, dim_grupo[anio], dim_grupo[ministerio_id] ),
+			        REMOVEFILTERS ( dim_ministerio ), REMOVEFILTERS ( dim_grupo ),
+			        TREATAS ( _grupos, dim_grupo[anio], dim_grupo[grupo_id] )
+			    )
+			RETURN
+			    CALCULATE ( SUMX ( fact_capitulo, fact_capitulo[creditos_definitivos] * SWITCH ( _k, 2, RELATED ( dim_anio[factor_2025] ), 3, RELATED ( dim_anio[factor_pib] ), 4, RELATED ( dim_anio[factor_aapp] ), 1 ) ), TREATAS ( _pares_estado, fact_capitulo[anio], fact_capitulo[ministerio_id] ), KEEPFILTERS ( fact_capitulo[ambito] = "Estado" ) )
+			        + CALCULATE ( SUMX ( fact_capitulo, fact_capitulo[creditos_definitivos] * SWITCH ( _k, 2, RELATED ( dim_anio[factor_2025] ), 3, RELATED ( dim_anio[factor_pib] ), 4, RELATED ( dim_anio[factor_aapp] ), 1 ) ), TREATAS ( _pares, fact_capitulo[anio], fact_capitulo[ministerio_id] ), KEEPFILTERS ( fact_capitulo[ambito] <> "Estado" ) )
+		formatString: #,0\ €
+		displayFolder: 4 Capítulos
+		lineageTag: 420f4d6b-eaeb-428c-964f-32b5da6f3df0
+
+	measure 'Sin gastar por capítulo' = [Definitivos por capítulo] - [Obligaciones por capítulo]
+		formatString: #,0\ €
+		displayFolder: 4 Capítulos
+		lineageTag: 96ef1f5b-6e50-4935-ae8d-a28a052d4f49
+
+	measure '% del año' = DIVIDE ( [Obligaciones por capítulo], CALCULATE ( [Obligaciones por capítulo], REMOVEFILTERS ( dim_capitulo ) ) )
+		formatString: 0.0\ %;-0.0\ %;0.0\ %
+		displayFolder: 4 Capítulos
+		lineageTag: b8bc645a-3a4d-4501-9ccb-ef99ef3b4667
+
+	measure 'Importe ordinario' = CALCULATE ( SUM ( fact_contratacion_mes[importe_ordinario_eur] ), fact_contratacion_mes[procedimiento] = "licitación" )
+		formatString: #,0\ €
+		displayFolder: 5 Contratación
+		lineageTag: 358dd0d4-11f8-4196-8a5c-76fef5e2f653
+
+	measure 'Importe ordinario nov-dic' = CALCULATE ( [Importe ordinario], fact_contratacion_mes[nov_dic] = "sí" )
+		formatString: #,0\ €
+		displayFolder: 5 Contratación
+		lineageTag: 5d49dac5-f104-41b7-90c6-2ee0ef7dcfa6
+
+	measure 'Cuota nov-dic' = DIVIDE ( [Importe ordinario nov-dic], [Importe ordinario] )
+		formatString: 0.0\ %;-0.0\ %;0.0\ %
+		displayFolder: 5 Contratación
+		lineageTag: 95da9e1e-46fc-4c77-ae70-0ba14ddb5392
+
+	measure 'Cuota nov-dic AGE sin él' = ```
+			
+			        VAR _sel = VALUES ( dim_ministerio[ministerio_id] )
+			        VAR _resto = FILTER ( ALL ( dim_ministerio[ministerio_id] ), NOT dim_ministerio[ministerio_id] IN _sel )
+			        RETURN
+			            DIVIDE (
+			                CALCULATE ( [Importe ordinario nov-dic], REMOVEFILTERS ( dim_ministerio ), _resto ),
+			                CALCULATE ( [Importe ordinario], REMOVEFILTERS ( dim_ministerio ), _resto )
+			            )
+			```
+		formatString: 0.0\ %;-0.0\ %;0.0\ %
+		displayFolder: 5 Contratación
+		lineageTag: c73d0475-a303-430f-9c6a-a79ec49983f0
+
+	measure 'Diferencia nov-dic (pp)' = ( [Cuota nov-dic] - [Cuota nov-dic AGE sin él] ) * 100
+		formatString: 0.0
+		displayFolder: 5 Contratación
+		lineageTag: 004044d6-baf0-4af5-95eb-a092ffdd8bf5
+
+	measure Adjudicaciones = CALCULATE ( SUM ( fact_contratacion_mes[n_adjudicaciones] ), fact_contratacion_mes[procedimiento] = "licitación" )
+		formatString: #,0
+		displayFolder: 5 Contratación
+		lineageTag: a0d570d9-465f-4a60-a187-f5eb87f8b5e0
+
+	measure 'Programas especiales' = CALCULATE ( SUM ( fact_contratacion_mes[importe_programa_especial_eur] ), fact_contratacion_mes[procedimiento] = "licitación" )
+		formatString: #,0\ €
+		displayFolder: 5 Contratación
+		lineageTag: 0199d070-ef4a-4516-8f31-1f235b7cec23
+
+	measure 'Oferta única %' = CALCULATE ( DIVIDE ( SUM ( fact_contratacion_mes[n_oferta_unica] ), SUM ( fact_contratacion_mes[n_con_ofertas] ) ), fact_contratacion_mes[procedimiento] = "licitación" )
+		formatString: 0.0\ %;-0.0\ %;0.0\ %
+		displayFolder: 5 Contratación
+		lineageTag: fb9e9630-ffc1-4c07-a04d-b72dab53db10
+
+	measure 'Negociado sin publicidad %' = CALCULATE ( DIVIDE ( SUM ( fact_contratacion_mes[n_negociado_sin_publicidad] ), SUM ( fact_contratacion_mes[n_adjudicaciones] ) ), fact_contratacion_mes[procedimiento] = "licitación" )
+		formatString: 0.0\ %;-0.0\ %;0.0\ %
+		displayFolder: 5 Contratación
+		lineageTag: 6ec05934-c270-401b-a08d-428fd88b5dd2
+
+	measure 'Baja media %' = CALCULATE ( DIVIDE ( SUM ( fact_contratacion_mes[suma_baja] ), SUM ( fact_contratacion_mes[n_con_baja] ) ), fact_contratacion_mes[procedimiento] = "licitación" ) * 100
+		formatString: 0.0
+		displayFolder: 5 Contratación
+		lineageTag: 9c747475-a3db-45b1-a265-e2d22bb7fb6f
+
+	measure 'Contratos menores' = CALCULATE ( SUM ( fact_contratacion_mes[n_adjudicaciones] ), fact_contratacion_mes[procedimiento] = "contrato menor" )
+		formatString: #,0
+		displayFolder: 5 Contratación
+		lineageTag: 516b54a6-3fad-4e6c-bb59-3708bf97cfac
+
+	measure 'Contratos menores: importe' = CALCULATE ( SUM ( fact_contratacion_mes[importe_ordinario_eur] ), fact_contratacion_mes[procedimiento] = "contrato menor" )
+		formatString: #,0\ €
+		displayFolder: 5 Contratación
+		lineageTag: 0d5b1b85-855f-4a92-99db-3c77439d2a6f
+
+	measure 'Estudio: diferencia (pp)' = SELECTEDVALUE ( dim_ministerio[estudio_dif_pp] )
+		formatString: 0.0
+		displayFolder: 5 Contratación
+		lineageTag: f876108f-168d-41e8-ac4e-298eea36cf3a
+
+	measure 'Estudio: IC 95 % inferior' = SELECTEDVALUE ( dim_ministerio[estudio_ic95_inferior] )
+		formatString: 0.0
+		displayFolder: 5 Contratación
+		lineageTag: d8e0686d-3578-4972-b06b-8c116c4decd2
+
+	measure 'Estudio: IC 95 % superior' = SELECTEDVALUE ( dim_ministerio[estudio_ic95_superior] )
+		formatString: 0.0
+		displayFolder: 5 Contratación
+		lineageTag: a7ab8e91-9967-4382-aca7-9a1e1044c0ab
+
+	measure 'MRR sin gastar' = [MRR definitivos] - [MRR obligaciones]
+		formatString: #,0\ €
+		displayFolder: 3 Mecanismo de Recuperación
+		lineageTag: 6f15b9a9-69d4-5d0e-ba91-4f1f81e0ad6e
+
+	measure 'Importe del paso' =
+			SWITCH (
+			    SELECTEDVALUE ( Pasos[paso] ),
+			    "Créditos iniciales", [Iniciales],
+			    "Créd. extraordinarios y suplementos", [Créditos extraordinarios y suplementos],
+			    "Ampliaciones", [Ampliaciones],
+			    "Transferencias de crédito", [Transferencias de crédito],
+			    "Remanentes", [Remanentes],
+			    "Generaciones", [Generaciones],
+			    "Bajas y otras", [Bajas y otras],
+			    "Sin gastar", - [Sin gastar]
+			)
+		formatString: #,0\ €
+		displayFolder: 6 Cascada
+		lineageTag: 33f18507-6dab-5525-8e1b-638d8eda1a5b
+
+	measure 'Organismos: derechos reconocidos' =
+			VAR _k = SELECTEDVALUE ( Euros[orden], 1 )
+			VAR _grupos = SUMMARIZE ( dim_grupo, dim_grupo[anio], dim_grupo[grupo_id] )
+			VAR _pares =
+			    CALCULATETABLE (
+			        SUMMARIZE ( dim_grupo, dim_grupo[anio], dim_grupo[ministerio_id] ),
+			        REMOVEFILTERS ( dim_ministerio ), REMOVEFILTERS ( dim_grupo ),
+			        TREATAS ( _grupos, dim_grupo[anio], dim_grupo[grupo_id] )
+			    )
+			RETURN
+			    CALCULATE ( SUMX ( fact_ingresos_organismos, fact_ingresos_organismos[derechos_reconocidos] * SWITCH ( _k, 2, RELATED ( dim_anio[factor_2025] ), 3, RELATED ( dim_anio[factor_pib] ), 4, RELATED ( dim_anio[factor_aapp] ), 1 ) ), TREATAS ( _pares, fact_ingresos_organismos[anio], fact_ingresos_organismos[ministerio_id] ) )
+		formatString: #,0\ €
+		displayFolder: 2 Organismos y gasto agregado
+		lineageTag: 175bf6ab-6501-5de4-808e-617a61635063
+
+	measure 'MRR programa: definitivos' =
+			VAR _k = SELECTEDVALUE ( Euros[orden], 1 )
+			VAR _grupos = SUMMARIZE ( dim_grupo, dim_grupo[anio], dim_grupo[grupo_id] )
+			VAR _pares =
+			    CALCULATETABLE (
+			        SUMMARIZE ( dim_grupo, dim_grupo[anio], dim_grupo[ministerio_id] ),
+			        REMOVEFILTERS ( dim_ministerio ), REMOVEFILTERS ( dim_grupo ),
+			        TREATAS ( _grupos, dim_grupo[anio], dim_grupo[grupo_id] ),
+			        dim_grupo[incluir_estado] = 1
+			    )
+			RETURN
+			    CALCULATE ( SUMX ( fact_mrr_programa, fact_mrr_programa[creditos_definitivos] * SWITCH ( _k, 2, RELATED ( dim_anio[factor_2025] ), 3, RELATED ( dim_anio[factor_pib] ), 4, RELATED ( dim_anio[factor_aapp] ), 1 ) ), TREATAS ( _pares, fact_mrr_programa[anio], fact_mrr_programa[ministerio_id] ) )
+		formatString: #,0\ €
+		displayFolder: 3 Mecanismo de Recuperación
+		lineageTag: 613a7106-f1a9-5f9e-a5b8-14d3f05513e6
+
+	measure 'MRR programa: obligaciones' =
+			VAR _k = SELECTEDVALUE ( Euros[orden], 1 )
+			VAR _grupos = SUMMARIZE ( dim_grupo, dim_grupo[anio], dim_grupo[grupo_id] )
+			VAR _pares =
+			    CALCULATETABLE (
+			        SUMMARIZE ( dim_grupo, dim_grupo[anio], dim_grupo[ministerio_id] ),
+			        REMOVEFILTERS ( dim_ministerio ), REMOVEFILTERS ( dim_grupo ),
+			        TREATAS ( _grupos, dim_grupo[anio], dim_grupo[grupo_id] ),
+			        dim_grupo[incluir_estado] = 1
+			    )
+			RETURN
+			    CALCULATE ( SUMX ( fact_mrr_programa, fact_mrr_programa[obligaciones] * SWITCH ( _k, 2, RELATED ( dim_anio[factor_2025] ), 3, RELATED ( dim_anio[factor_pib] ), 4, RELATED ( dim_anio[factor_aapp] ), 1 ) ), TREATAS ( _pares, fact_mrr_programa[anio], fact_mrr_programa[ministerio_id] ) )
+		formatString: #,0\ €
+		displayFolder: 3 Mecanismo de Recuperación
+		lineageTag: 4435508a-ac32-58ba-96ae-907a325f5d37
+
+	measure 'Ministerio de entonces' = SELECTEDVALUE ( dim_grupo[ministerio_entonces] )
+		displayFolder: 0 Equivalencias
+		lineageTag: 3ea5c130-48b6-59e1-bb1c-e5a1b9732a00
+
+	measure Incluye = SELECTEDVALUE ( dim_grupo[compuesto_por] )
+		displayFolder: 0 Equivalencias
+		lineageTag: 57ee313a-fd40-556b-8e45-f2db21011bb1
+
+	measure 'Factor IPC' = MAX ( dim_anio[factor_2025] )
+		formatString: 0.000
+		displayFolder: 7 Valor del dinero
+		lineageTag: fd86090d-7c01-5043-87e1-7e6a1528cd09
+
+	measure 'Factor deflactor del PIB' = MAX ( dim_anio[factor_pib] )
+		formatString: 0.000
+		displayFolder: 7 Valor del dinero
+		lineageTag: a955e454-ca04-59c7-8e2f-31c4a0f9cf3b
+
+	measure 'Factor deflactor del consumo público' = MAX ( dim_anio[factor_aapp] )
+		formatString: 0.000
+		displayFolder: 7 Valor del dinero
+		lineageTag: bf34ce5e-54a4-5953-8467-ca371a844164
+
+	measure 'Obligaciones: euros corrientes' = CALCULATE ( [Obligaciones], REMOVEFILTERS ( Euros ), Euros[orden] = 1 )
+		formatString: #,0\ €
+		displayFolder: 7 Valor del dinero
+		lineageTag: 5933dc66-3d9c-534c-b274-f1ddf940b72f
+
+	measure 'Obligaciones: € de 2025 (IPC)' = CALCULATE ( [Obligaciones], REMOVEFILTERS ( Euros ), Euros[orden] = 2 )
+		formatString: #,0\ €
+		displayFolder: 7 Valor del dinero
+		lineageTag: a75fa64c-1bb4-5397-b86f-401e56b37954
+
+	measure 'Obligaciones: € de 2025 (deflactor del PIB)' = CALCULATE ( [Obligaciones], REMOVEFILTERS ( Euros ), Euros[orden] = 3 )
+		formatString: #,0\ €
+		displayFolder: 7 Valor del dinero
+		lineageTag: 60882db8-49f8-5c5a-8ce6-f1a55e97ab48
+
+	measure 'Obligaciones: € de 2025 (deflactor del consumo público)' = CALCULATE ( [Obligaciones], REMOVEFILTERS ( Euros ), Euros[orden] = 4 )
+		formatString: #,0\ €
+		displayFolder: 7 Valor del dinero
+		lineageTag: a6748d03-0bd5-5799-b2fd-45db32ef748e
+
+	measure 'Nivel de contratación' =
+			SWITCH ( SELECTEDVALUE ( dim_ministerio[nivel_contratacion] ),
+			    "A", "A · concluyente",
+			    "B", "B · solo si coinciden dos indicadores",
+			    "C", "C · no concluyente"
+			)
+		displayFolder: 0 Equivalencias
+		lineageTag: 96a3d54e-d5ca-56f6-aaef-dbea26cf55a4
+
+	measure 'Perfil de gasto' =
+			VAR _p = SELECTEDVALUE ( dim_ministerio[perfil_gasto_2024] )
+			VAR _x = SELECTEDVALUE ( dim_ministerio[perfil_pct_2024] )
+			RETURN
+			    IF ( NOT ISBLANK ( _p ), UPPER ( LEFT ( _p, 1 ) ) & MID ( _p, 2, 100 ) & " (" & FORMAT ( _x / 100, "0 %" ) & " del gasto)" )
+		displayFolder: 0 Equivalencias
+		lineageTag: be5c825b-644d-593b-b14f-9110982da04d
+
+	measure 'Días del año' = SUM ( dim_anio[dias_anio] )
+		formatString: #,0
+		displayFolder: 8 Calendario
+		lineageTag: 87af4d9b-45e6-5685-897b-d09f1242e7bf
+
+	measure 'Días con presupuesto prorrogado' = SUM ( dim_anio[dias_prorrogado] )
+		formatString: #,0
+		displayFolder: 8 Calendario
+		lineageTag: acfa24b7-cdb2-52f8-aa2d-ef264d104a33
+
+	measure 'Días con presupuesto propio' = SUM ( dim_anio[dias_presupuesto_propio] )
+		formatString: #,0
+		displayFolder: 8 Calendario
+		lineageTag: 687c4706-d096-5090-bf0b-bd7e9566f20b
+
+	measure '% del tiempo con presupuesto prorrogado' = DIVIDE ( [Días con presupuesto prorrogado], [Días del año] )
+		formatString: 0.0\ %;-0.0\ %;0.0\ %
+		displayFolder: 8 Calendario
+		lineageTag: dfd6d1b8-2289-5199-8443-2e485d5fe202
+
+	measure 'Días con el Gobierno en funciones' = SUM ( dim_anio[dias_en_funciones] )
+		formatString: #,0
+		displayFolder: 8 Calendario
+		lineageTag: 8220cd0e-f7de-5709-9e4f-bf1be5ed9829
+
+	measure 'Días en funciones y con presupuesto prorrogado' = SUM ( dim_anio[dias_en_funciones_y_prorrogado] )
+		formatString: #,0
+		displayFolder: 8 Calendario
+		lineageTag: 3f7abe86-556f-5520-9227-75e6f7f1d828
+
+	measure 'Catástrofes: definitivos' = SUM ( fact_catastrofe[creditos_definitivos] )
+		formatString: #,0\ €
+		displayFolder: 9 Catástrofes
+		lineageTag: fa281076-f910-5bdb-877d-973ceb113292
+
+	measure 'Catástrofes: obligaciones' = SUM ( fact_catastrofe[obligaciones] )
+		formatString: #,0\ €
+		displayFolder: 9 Catástrofes
+		lineageTag: 48a21cab-2245-5d5d-9a4d-ecacc6f8487a
+
+	measure 'Catástrofes: % reconocido' = DIVIDE ( [Catástrofes: obligaciones], [Catástrofes: definitivos] )
+		formatString: 0.0\ %;-0.0\ %;0.0\ %
+		displayFolder: 9 Catástrofes
+		lineageTag: 1a91dc7d-a3f9-5d0b-8efd-0689002380d3
+
+	measure 'Catástrofes por destino: obligaciones' = SUM ( fact_catastrofe_destino[obligaciones] )
+		formatString: #,0\ €
+		displayFolder: 9 Catástrofes
+		lineageTag: b2d12333-fc5e-5ba5-82f2-30a351e3b21e
+
+	measure 'Crédito nuevo: definitivos' = SUM ( fact_credito_nuevo[creditos_definitivos] )
+		formatString: #,0\ €
+		displayFolder: 10 Crédito nuevo y remanentes
+		lineageTag: 94f80efc-0557-5258-896f-f413036553b2
+
+	measure 'Crédito nuevo: obligaciones' = SUM ( fact_credito_nuevo[obligaciones] )
+		formatString: #,0\ €
+		displayFolder: 10 Crédito nuevo y remanentes
+		lineageTag: cf5dedab-696e-55fd-b692-2d2af0d6a8e1
+
+	measure 'Crédito nuevo: % reconocido' = DIVIDE ( [Crédito nuevo: obligaciones], [Crédito nuevo: definitivos] )
+		formatString: 0.0\ %;-0.0\ %;0.0\ %
+		displayFolder: 10 Crédito nuevo y remanentes
+		lineageTag: b2151735-833d-511c-b232-e84a0c1503fc
+
+	measure 'Crédito nuevo: % reconocido sin capítulo 8' = DIVIDE ( SUM ( fact_credito_nuevo[obligaciones_sin_cap8] ), SUM ( fact_credito_nuevo[creditos_definitivos_sin_cap8] ) )
+		formatString: 0.0\ %;-0.0\ %;0.0\ %
+		displayFolder: 10 Crédito nuevo y remanentes
+		lineageTag: 99b65a6c-f896-5e25-bab5-de63da12dbea
+
+	measure 'Remanentes: sin reconocer' = SUM ( fact_ejecucion[sin_reconocer] )
+		formatString: #,0\ €
+		displayFolder: 10 Crédito nuevo y remanentes
+		lineageTag: 17ff4ed5-3c28-5bf9-b2ac-5d7c3dab779b
+
+	measure 'Remanentes: incorporado al año siguiente' = SUM ( fact_ejecucion[incorporacion_anio_siguiente] )
+		formatString: #,0\ €
+		displayFolder: 10 Crédito nuevo y remanentes
+		lineageTag: 2d286de7-becb-569a-90fb-0bb07ce8499a
+
+	measure 'Remanentes: sin incorporar' = SUM ( fact_ejecucion[sin_incorporar] )
+		formatString: #,0\ €
+		displayFolder: 10 Crédito nuevo y remanentes
+		lineageTag: a28b63d2-58fd-5ef1-b78e-4000a48a3a37
+
+	measure 'Remanentes: % sin reconocer' = DIVIDE ( [Remanentes: sin reconocer], SUM ( fact_ejecucion[creditos_definitivos] ) )
+		formatString: 0.0\ %;-0.0\ %;0.0\ %
+		displayFolder: 10 Crédito nuevo y remanentes
+		lineageTag: a6b3a102-407f-52ae-a818-0ee8f205a99a
+
+	measure 'Remanentes: % incorporado' = DIVIDE ( [Remanentes: incorporado al año siguiente], [Remanentes: sin reconocer] )
+		formatString: 0.0\ %;-0.0\ %;0.0\ %
+		displayFolder: 10 Crédito nuevo y remanentes
+		lineageTag: ec9769ec-3428-57a0-9d82-aaf83cb38646
+
+	measure 'Ejecución: créditos iniciales' = SUM ( fact_ejecucion[creditos_iniciales] )
+		formatString: #,0\ €
+		displayFolder: 11 Inicial, reconocido y pagado
+		lineageTag: 2d655054-f665-55ec-a722-c6ea08202889
+
+	measure 'Ejecución: créd. extraordinarios y suplementos' = SUM ( fact_ejecucion[creditos_extraordinarios_suplementos] )
+		formatString: #,0\ €
+		displayFolder: 11 Inicial, reconocido y pagado
+		lineageTag: 35ad02ce-bf32-5a0c-bad6-62500ea5a65b
+
+	measure 'Ejecución: ampliaciones' = SUM ( fact_ejecucion[ampliaciones] )
+		formatString: #,0\ €
+		displayFolder: 11 Inicial, reconocido y pagado
+		lineageTag: 14004743-a0c1-59e4-9292-0da1a41b93be
+
+	measure 'Ejecución: transferencias de crédito' = SUM ( fact_ejecucion[transferencias] )
+		formatString: #,0\ €
+		displayFolder: 11 Inicial, reconocido y pagado
+		lineageTag: 66e36807-26cd-5300-ac9e-f5b027b72895
+
+	measure 'Ejecución: incorporación de remanentes' = SUM ( fact_ejecucion[incorporacion_remanentes] )
+		formatString: #,0\ €
+		displayFolder: 11 Inicial, reconocido y pagado
+		lineageTag: 3fa6e19f-9690-50a2-ae6d-403b2fe5c4cd
+
+	measure 'Ejecución: generaciones' = SUM ( fact_ejecucion[generaciones_ingresos] )
+		formatString: #,0\ €
+		displayFolder: 11 Inicial, reconocido y pagado
+		lineageTag: 28336a5a-c640-5603-b04c-e7492c924562
+
+	measure 'Ejecución: bajas y otras' = SUM ( fact_ejecucion[bajas_otras_modificaciones] )
+		formatString: #,0\ €
+		displayFolder: 11 Inicial, reconocido y pagado
+		lineageTag: d67a58ae-6ef0-5ff2-bb2d-a4e47374b626
+
+	measure 'Ejecución: definitivos' = SUM ( fact_ejecucion[creditos_definitivos] )
+		formatString: #,0\ €
+		displayFolder: 11 Inicial, reconocido y pagado
+		lineageTag: 2dff7b4c-49eb-5100-bbb2-4920ca01deab
+
+	measure 'Ejecución: obligaciones' = SUM ( fact_ejecucion[obligaciones] )
+		formatString: #,0\ €
+		displayFolder: 11 Inicial, reconocido y pagado
+		lineageTag: 3c0ac783-cd7e-5e6e-9b7c-6a185dc3b765
+
+	measure 'Ejecución: pagos' = SUM ( fact_ejecucion[pagos] )
+		formatString: #,0\ €
+		displayFolder: 11 Inicial, reconocido y pagado
+		lineageTag: 8c0044ca-e60a-52fe-bb7d-168b4bb219f7
+
+	measure 'Ejecución: pendiente de pago' = SUM ( fact_ejecucion[pendiente_de_pago] )
+		formatString: #,0\ €
+		displayFolder: 11 Inicial, reconocido y pagado
+		lineageTag: cc39439f-8c0b-5627-8d55-8d2cb970eb48
+
+	measure 'Ejecución: % pendiente de pago' = DIVIDE ( [Ejecución: pendiente de pago], [Ejecución: obligaciones] )
+		formatString: 0.0\ %;-0.0\ %;0.0\ %
+		displayFolder: 11 Inicial, reconocido y pagado
+		lineageTag: 5c6bee32-1ec4-50a3-b330-5ee3379e6052
+
+	measure 'Ejecución: % obligaciones sobre iniciales (años comparables)' = CALCULATE ( DIVIDE ( SUM ( fact_ejecucion[obligaciones] ), SUM ( fact_ejecucion[creditos_iniciales] ) ), fact_ejecucion[comparable] = "sí" )
+		formatString: 0.0\ %;-0.0\ %;0.0\ %
+		displayFolder: 11 Inicial, reconocido y pagado
+		lineageTag: 77b2e3a8-90b6-52a9-a749-29d0f69c739d
+
+	measure 'Contratación y gasto: gasto agregado' = SUM ( fact_contratacion_gasto[gasto_agregado] )
+		formatString: #,0\ €
+		displayFolder: 12 Contratación frente a gasto y concentración
+		lineageTag: 0bab94c6-02a6-5b9d-98ef-74aa7bc196c2
+
+	measure 'Contratación y gasto: personal' = SUM ( fact_contratacion_gasto[personal] )
+		formatString: #,0\ €
+		displayFolder: 12 Contratación frente a gasto y concentración
+		lineageTag: 5b9ce877-d646-5c7f-b709-07f6eb57a1d6
+
+	measure 'Contratación y gasto: compras e inversiones' = SUM ( fact_contratacion_gasto[compras_inversiones] )
+		formatString: #,0\ €
+		displayFolder: 12 Contratación frente a gasto y concentración
+		lineageTag: 2d2d9a8c-121b-52e7-ae80-0c666cb0add5
+
+	measure 'Contratación y gasto: préstamos y aportaciones' = SUM ( fact_contratacion_gasto[prestamos_aportaciones] )
+		formatString: #,0\ €
+		displayFolder: 12 Contratación frente a gasto y concentración
+		lineageTag: 589952ac-41c2-5b86-961e-3fc348f84e22
+
+	measure 'Contratación y gasto: transferencias y resto' = SUM ( fact_contratacion_gasto[transferencias_y_resto] )
+		formatString: #,0\ €
+		displayFolder: 12 Contratación frente a gasto y concentración
+		lineageTag: 6070669f-bafc-5c0d-8897-47af58c8ce40
+
+	measure 'Contratación y gasto: licitaciones ordinarias' = SUM ( fact_contratacion_gasto[licitaciones_ordinario] )
+		formatString: #,0\ €
+		displayFolder: 12 Contratación frente a gasto y concentración
+		lineageTag: 4484966e-c6ed-5056-a894-5e68196b0eab
+
+	measure 'Contratación y gasto: contratos menores' = SUM ( fact_contratacion_gasto[menores_ordinario] )
+		formatString: #,0\ €
+		displayFolder: 12 Contratación frente a gasto y concentración
+		lineageTag: dc29f52b-a49a-5e64-b8cc-b92da640c631
+
+	measure 'Contratación y gasto: adjudicado ordinario' = SUM ( fact_contratacion_gasto[contratacion_ordinaria] )
+		formatString: #,0\ €
+		displayFolder: 12 Contratación frente a gasto y concentración
+		lineageTag: 02dff991-7c78-5a6d-8e86-562208a950b7
+
+	measure 'Contratación y gasto: programas especiales' = SUM ( fact_contratacion_gasto[programas_especiales] )
+		formatString: #,0\ €
+		displayFolder: 12 Contratación frente a gasto y concentración
+		lineageTag: 362ff6c2-0583-5564-99c1-8ea61158bf05
+
+	measure 'Contratación y gasto: adjudicado total' = SUM ( fact_contratacion_gasto[adjudicado_total] )
+		formatString: #,0\ €
+		displayFolder: 12 Contratación frente a gasto y concentración
+		lineageTag: f231f5e7-ee68-5619-9667-e8ed690a651b
+
+	measure 'Contratación y gasto: % adjudicado ordinario sobre el gasto' = DIVIDE ( [Contratación y gasto: adjudicado ordinario], [Contratación y gasto: gasto agregado] )
+		formatString: 0.0\ %;-0.0\ %;0.0\ %
+		displayFolder: 12 Contratación frente a gasto y concentración
+		lineageTag: d408d2c9-8444-592c-87ff-2ba16248a542
+
+	measure 'Contratación y gasto: % adjudicado total sobre compras e inversiones' = CALCULATE ( DIVIDE ( SUM ( fact_contratacion_gasto[adjudicado_total] ), SUM ( fact_contratacion_gasto[compras_inversiones] ) ), fact_contratacion_gasto[composicion] = "sí" )
+		formatString: 0.0\ %;-0.0\ %;0.0\ %
+		displayFolder: 12 Contratación frente a gasto y concentración
+		lineageTag: 75e38815-aee5-5981-8af1-9d8e465582a3
+
+	measure 'Concentración: peso de la primera línea, %' = AVERAGE ( fact_concentracion[pct_primera] )
+		formatString: 0.0
+		displayFolder: 12 Contratación frente a gasto y concentración
+		lineageTag: a60c86b9-29d4-55b8-83ee-e8466aae736f
+
+	measure 'Concentración: peso de las cinco primeras líneas, %' = AVERAGE ( fact_concentracion[pct_cinco_primeras] )
+		formatString: 0.0
+		displayFolder: 12 Contratación frente a gasto y concentración
+		lineageTag: 23572da3-3a1a-50cd-b76a-11f6ef84d0ec
+
+	measure 'Concentración: líneas para el 50 %' = AVERAGE ( fact_concentracion[n50] )
+		formatString: 0.0
+		displayFolder: 12 Contratación frente a gasto y concentración
+		lineageTag: 1ec589a2-0947-50e8-a969-eb7239a79cbc
+
+	measure 'Concentración: líneas para el 80 %' = AVERAGE ( fact_concentracion[n80] )
+		formatString: 0.0
+		displayFolder: 12 Contratación frente a gasto y concentración
+		lineageTag: 37b767ac-5a29-590b-aa08-2bcfac11b86d
+
+	measure 'Concentración: líneas para el 95 %' = AVERAGE ( fact_concentracion[n95] )
+		formatString: 0.0
+		displayFolder: 12 Contratación frente a gasto y concentración
+		lineageTag: 116a0048-3bbb-5c67-bb02-1b55e9138ab7
+
+	measure 'BDNS: concesiones' = SUM ( fact_bdns[concesiones] )
+		formatString: #,0
+		displayFolder: 13 Subvenciones (BDNS)
+		lineageTag: d8917d83-164c-5c7e-a6c5-baf5726771ec
+
+	measure 'BDNS: sin importe conocido' = SUM ( fact_bdns[concesiones_sin_importe] )
+		formatString: #,0
+		displayFolder: 13 Subvenciones (BDNS)
+		lineageTag: e1686415-5695-5319-ad0d-77a2cd431aa1
+
+	measure 'BDNS: subvenciones y ayudas directas' = SUM ( fact_bdns[subvenciones_y_ayudas_directas] )
+		formatString: #,0\ €
+		displayFolder: 13 Subvenciones (BDNS)
+		lineageTag: dc06722c-04d6-5d26-9bc2-15024656f6a5
+
+	measure 'BDNS: préstamos' = SUM ( fact_bdns[prestamos] )
+		formatString: #,0\ €
+		displayFolder: 13 Subvenciones (BDNS)
+		lineageTag: beeb68e3-9dfa-5e4b-bc31-309a7bc54342
+
+	measure 'BDNS: garantías' = SUM ( fact_bdns[garantias] )
+		formatString: #,0\ €
+		displayFolder: 13 Subvenciones (BDNS)
+		lineageTag: f61718f0-cffb-52e9-8bdb-0560fecf6a96
+
+	measure 'BDNS: ventajas fiscales' = SUM ( fact_bdns[ventajas_fiscales] )
+		formatString: #,0\ €
+		displayFolder: 13 Subvenciones (BDNS)
+		lineageTag: b78470ee-cd67-59f0-ac94-9f85c7fafc04
+
+	measure 'BDNS: obligaciones de los capítulos 4 y 7 del Estado' = SUM ( fact_bdns[obligaciones_cap4_cap7_estado] )
+		formatString: #,0\ €
+		displayFolder: 13 Subvenciones (BDNS)
+		lineageTag: 7f6a4a1f-77b4-5b29-987a-cc61c54715c2
+
+	measure 'BDNS: ayudas directas sobre los capítulos 4 y 7' = DIVIDE ( [BDNS: subvenciones y ayudas directas], [BDNS: obligaciones de los capítulos 4 y 7 del Estado] )
+		formatString: 0.0\ %;-0.0\ %;0.0\ %
+		displayFolder: 13 Subvenciones (BDNS)
+		lineageTag: f985fbb8-5fb8-5743-a6a2-4e2be667992b
+
+	measure 'BDNS por instrumento: importe' = SUM ( fact_bdns_instrumento[importe] )
+		formatString: #,0\ €
+		displayFolder: 13 Subvenciones (BDNS)
+		lineageTag: 94998dc1-32da-5ee7-a05f-0eefbbda2286
+
+	measure 'BDNS por instrumento: concesiones' = SUM ( fact_bdns_instrumento[concesiones] )
+		formatString: #,0
+		displayFolder: 13 Subvenciones (BDNS)
+		lineageTag: 034a962d-6c85-5939-ae41-6d2cfd188e68
+
+	measure 'Mensual: obligaciones acumuladas' = SUM ( fact_mensual[obligaciones_acumuladas] )
+		formatString: #,0\ €
+		displayFolder: 14 Calendario mensual
+		lineageTag: 28134922-2c2d-5a0c-930f-1ba03ca966d7
+
+	measure 'Mensual: obligaciones del mes' = SUM ( fact_mensual[obligaciones_del_mes] )
+		formatString: #,0\ €
+		displayFolder: 14 Calendario mensual
+		lineageTag: 2bb29364-705e-5f97-af9e-f197e3780cb7
+
+	measure 'Mensual: pagos acumulados' = SUM ( fact_mensual[pagos_acumulados] )
+		formatString: #,0\ €
+		displayFolder: 14 Calendario mensual
+		lineageTag: 8cdc3f38-1dac-598d-86e9-0ada220d7ee5
+
+	measure 'Mensual: % acumulado del año' = DIVIDE ( SUM ( fact_mensual[obligaciones_acumuladas] ), CALCULATE ( SUM ( fact_mensual[obligaciones_acumuladas] ), REMOVEFILTERS ( fact_mensual[mes] ), fact_mensual[mes] = 12 ) )
+		formatString: 0.0\ %;-0.0\ %;0.0\ %
+		displayFolder: 14 Calendario mensual
+		lineageTag: 3d5a95d8-1053-54ab-bb5c-0b44086b83ba
+
+	measure 'Mensual: % pagado' = DIVIDE ( [Mensual: pagos acumulados], [Mensual: obligaciones acumuladas] )
+		formatString: 0.0\ %;-0.0\ %;0.0\ %
+		displayFolder: 14 Calendario mensual
+		lineageTag: f7dbc11c-044f-5558-98aa-90fae32e0625
+
+	column Columna1
+		dataType: string
+		isHidden
+		lineageTag: e0e6894d-2bf2-4aa1-82d2-1f3113049634
+		summarizeBy: none
+		sourceColumn: Columna1
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	partition _Medidas = m
+		mode: import
+		source =
+				let
+				    Origen = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("i44FAA==", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [Columna1 = _t]),
+				    #"Tipo cambiado" = Table.TransformColumnTypes(Origen,{{"Columna1", type text}})
+				in
+				    #"Tipo cambiado"
+
+	annotation PBI_ResultType = Table
+

@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "presupuesto_al_gasto"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "6fad428c-0b23-46fc-9545-ebe97c6b35c5"
+  }
+}

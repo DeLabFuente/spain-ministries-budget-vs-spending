@@ -1,0 +1,84 @@
+table fact_capitulo
+	lineageTag: 94acafdd-bbcf-4a28-b5f8-22b94d97deb4
+
+	column ministerio_id
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: c3ee4183-34a4-4fa7-a166-606f0af2eafd
+		summarizeBy: none
+		sourceColumn: ministerio_id
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column anio
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 6c62e02a-3ecb-4d93-a290-18b77f498446
+		summarizeBy: none
+		sourceColumn: anio
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column ambito
+		dataType: string
+		lineageTag: f078f791-324e-42fd-b27e-d5d3d6071394
+		summarizeBy: none
+		sourceColumn: ambito
+
+		annotation SummarizationSetBy = Automatic
+
+	column capitulo
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 14380ec1-e6c0-48ef-a93f-7e86fc240c9e
+		summarizeBy: none
+		sourceColumn: capitulo
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column creditos_definitivos
+		dataType: double
+		lineageTag: 8243fd27-c7ca-4e1f-ab7d-445c4cfd0df7
+		summarizeBy: sum
+		sourceColumn: creditos_definitivos
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column obligaciones
+		dataType: double
+		lineageTag: 487f906d-eb90-4812-ae18-fd698a746224
+		summarizeBy: sum
+		sourceColumn: obligaciones
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition fact_capitulo = m
+		mode: import
+		source =
+				let
+				    Origen = Csv.Document(File.Contents(RutaProyecto & "powerbi\fact_capitulo.csv"), [Delimiter = ";", Encoding = 65001, QuoteStyle = QuoteStyle.None]),
+				    Encabezados = Table.PromoteHeaders(Origen, [PromoteAllScalars = true]),
+				    Tipos = Table.TransformColumnTypes(Encabezados, {
+				        {"ministerio_id", Int64.Type}, {"anio", Int64.Type}, {"ambito", type text},
+				        {"capitulo", Int64.Type}, {"creditos_definitivos", type number}, {"obligaciones", type number}
+				    }, "es-ES")
+				in
+				    Tipos
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+

@@ -1,0 +1,155 @@
+suceso_nombre;medida;anio;dato;ministerio;tipo_seccion;lineas;creditos_iniciales;creditos_definitivos;obligaciones
+Covid-19;Solvencia de empresas;2020;definitivo (liquidación);Hacienda;Ministerio;1;0;10000000000;10000000000
+Covid-19;Resto;2020;definitivo (liquidación);Transportes y Movilidad Sostenible;Ministerio;1;0;14000000;9344396,94
+Covid-19;Transferencia a la Seguridad Social;2020;definitivo (liquidación);Trabajo y Economía Social;Ministerio;1;0;20002593690;20002593690
+Covid-19;Resto;2020;definitivo (liquidación);Industria y Turismo;Ministerio;1;0;11000000;10967689
+Covid-19;Resto;2020;definitivo (liquidación);Agricultura, Pesca y Alimentación;Ministerio;3;0;58383539,18;35970983,41
+Covid-19;Resto;2020;definitivo (liquidación);Cultura;Ministerio;4;0;44345033;42401276,48
+Covid-19;Resto;2020;definitivo (liquidación);Presidencia, Justicia y Relaciones con las Cortes;Ministerio;1;0;2000000;1996083,11
+Covid-19;Sanidad;2020;definitivo (liquidación);Sanidad;Ministerio;4;0;1616051391,28;1476211885,25
+Covid-19;Resto;2020;definitivo (liquidación);Economía, Comercio y Empresa;Ministerio;1;0;0;1686198,47
+Covid-19;Resto;2020;definitivo (liquidación);Ciencia, Innovación y Universidades;Ministerio;5;0;29650000;29650000
+Covid-19;Fondo COVID-19 y ayudas directas (a comunidades autónomas);2020;definitivo (liquidación);Otras relaciones financieras con entes territoriales;Sección no ministerial;1;0;16000000000;16000000000
+Covid-19;Resto;2021;definitivo (liquidación);Transportes y Movilidad Sostenible;Ministerio;1;5000000;27728,66;27728,66
+Covid-19;Solvencia de empresas;2021;definitivo (liquidación);Industria y Turismo;Ministerio;1;0;1000000000;1000000000
+Covid-19;Resto;2021;definitivo (liquidación);Agricultura, Pesca y Alimentación;Ministerio;1;1000;8419648,42;8393582
+Covid-19;Sanidad;2021;definitivo (liquidación);Sanidad;Ministerio;2;0;49768490,72;41455879,46
+Covid-19;Solvencia de empresas;2021;definitivo (liquidación);Economía, Comercio y Empresa;Ministerio;1;0;3000000000;3000000000
+Covid-19;Transferencia a la Seguridad Social;2021;definitivo (liquidación);Inclusión, Seguridad Social y Migraciones;Ministerio;1;0;5012000000;5012000000
+Covid-19;Fondo COVID-19 y ayudas directas (a comunidades autónomas);2021;definitivo (liquidación);Otras relaciones financieras con entes territoriales;Sección no ministerial;2;0;7000000000;7000000000
+Covid-19;Resto;2021;definitivo (liquidación);Otras relaciones financieras con entes territoriales;Sección no ministerial;1;0;433947599,46;405326444,12
+Covid-19;Resto;2022;definitivo (liquidación);Transportes y Movilidad Sostenible;Ministerio;1;1000000;378541,82;378541,82
+Covid-19;Resto;2022;definitivo (liquidación);Transportes y Movilidad Sostenible;Ministerio;1;0;90966,48;90966,48
+Covid-19;Resto;2022;definitivo (liquidación);Agricultura, Pesca y Alimentación;Ministerio;1;1000;303006,50;0
+Covid-19;Sanidad;2022;definitivo (liquidación);Sanidad;Ministerio;2;24000000;23838031,07;23838031,07
+Covid-19;Sanidad;2022;definitivo (liquidación);Sanidad;Ministerio;2;0;259785182,72;254097881,57
+Covid-19;Resto;2023;definitivo (liquidación);Transportes y Movilidad Sostenible;Ministerio;2;2000000;831029,07;831029,07
+Covid-19;Resto;2023;definitivo (liquidación);Agricultura, Pesca y Alimentación;Ministerio;1;1000000;470006,50;439886,20
+Covid-19;Sanidad;2023;definitivo (liquidación);Sanidad;Ministerio;3;29771700;31161320,97;30555411,11
+Covid-19;Fondo COVID-19 y ayudas directas (a comunidades autónomas);2023;definitivo (liquidación);Otras relaciones financieras con entes territoriales;Sección no ministerial;1;50000000;50000000;4575041,77
+Covid-19;Resto;2024;definitivo (liquidación);Agricultura, Pesca y Alimentación;Ministerio;1;1000000;320120,30;240257,71
+Covid-19;Resto;2024;definitivo (liquidación);Vivienda y Agenda Urbana;Ministerio;2;2000000;2000000;1055055,60
+Covid-19;Sanidad;2024;definitivo (liquidación);Sanidad;Ministerio;3;29771700;26107703,73;26107703,23
+Covid-19;Fondo COVID-19 y ayudas directas (a comunidades autónomas);2024;definitivo (liquidación);Otras relaciones financieras con entes territoriales;Sección no ministerial;1;50000000;31758808,83;2178773,79
+Covid-19;Resto;2025;provisional (mensual de diciembre);Agricultura, Pesca y Alimentación;Ministerio;1;1000000;307642,28;306542,28
+Covid-19;Resto;2025;provisional (mensual de diciembre);Vivienda y Agenda Urbana;Ministerio;2;2000000;1151078,88;1151078,88
+Covid-19;Sanidad;2025;provisional (mensual de diciembre);Sanidad;Ministerio;3;29771700;0;0
+Covid-19;Fondo COVID-19 y ayudas directas (a comunidades autónomas);2025;provisional (mensual de diciembre);Otras relaciones financieras con entes territoriales;Sección no ministerial;1;50000000;2643156,88;892603,93
+Crisis de la energía y los precios;Ayuda a rentas bajas;2022;definitivo (liquidación);Hacienda;Ministerio;1;0;160703008,83;120732684,76
+Crisis de la energía y los precios;Ayudas directas al transporte;2022;definitivo (liquidación);Hacienda;Ministerio;1;0;888000000;733136271,35
+Crisis de la energía y los precios;Bonificación de carburantes;2022;definitivo (liquidación);Hacienda;Ministerio;2;0;6359246029,32;4580998058,19
+Crisis de la energía y los precios;Industria intensiva en gas;2022;definitivo (liquidación);Hacienda;Ministerio;1;0;375000000;84605079,99
+Crisis de la energía y los precios;País Vasco y Navarra (apoyo a familias y empresas);2022;definitivo (liquidación);Hacienda;Ministerio;2;0;583986020,17;175195806,05
+Crisis de la energía y los precios;Ayudas directas al transporte;2022;definitivo (liquidación);Transportes y Movilidad Sostenible;Ministerio;2;0;2880000;2640000
+Crisis de la energía y los precios;Descuentos en transporte público y peajes;2022;definitivo (liquidación);Transportes y Movilidad Sostenible;Ministerio;4;0;462529820,92;457529820,92
+Crisis de la energía y los precios;Sector agrario y pesquero;2022;definitivo (liquidación);Agricultura, Pesca y Alimentación;Ministerio;3;0;237185491,87;189050169,67
+Crisis de la energía y los precios;Sistema eléctrico y gas (a la CNMC);2022;definitivo (liquidación);Transición Ecológica y el Reto Demográfico;Ministerio;5;0;7329960000;7329960000
+Crisis de la energía y los precios;Ayuda a rentas bajas;2023;definitivo (liquidación);Hacienda;Ministerio;2;0;334506715,24;334506715,24
+Crisis de la energía y los precios;Ayudas directas al transporte;2023;definitivo (liquidación);Hacienda;Ministerio;2;0;261870761,74;160576677,99
+Crisis de la energía y los precios;Bonificación de carburantes;2023;definitivo (liquidación);Hacienda;Ministerio;2;0;1200864994,55;1190869124,83
+Crisis de la energía y los precios;Gasóleo profesional y agrario;2023;definitivo (liquidación);Hacienda;Ministerio;2;0;701808638,72;701808638,72
+Crisis de la energía y los precios;Industria intensiva en gas;2023;definitivo (liquidación);Hacienda;Ministerio;1;0;48957594,59;38735220,59
+Crisis de la energía y los precios;País Vasco y Navarra (apoyo a familias y empresas);2023;definitivo (liquidación);Hacienda;Ministerio;2;0;340861564,96;340861564,96
+Crisis de la energía y los precios;Descuentos en transporte público y peajes;2023;definitivo (liquidación);Transportes y Movilidad Sostenible;Ministerio;3;84700000;682215314,75;682215314,75
+Crisis de la energía y los precios;Descuentos en transporte público y peajes;2023;definitivo (liquidación);Transportes y Movilidad Sostenible;Ministerio;7;0;863926842,13;743257967,20
+Crisis de la energía y los precios;Industria intensiva en gas;2023;definitivo (liquidación);Industria y Turismo;Ministerio;1;0;450000000;449914493,78
+Crisis de la energía y los precios;Sector agrario y pesquero;2023;definitivo (liquidación);Agricultura, Pesca y Alimentación;Ministerio;4;0;1089718191,97;1052972383,47
+Crisis de la energía y los precios;Sistema eléctrico y gas (a la CNMC);2023;definitivo (liquidación);Transición Ecológica y el Reto Demográfico;Ministerio;1;0;112500000;112500000
+Crisis de la energía y los precios;Ayuda a rentas bajas;2024;definitivo (liquidación);Hacienda;Ministerio;2;0;18329199,04;18329199,04
+Crisis de la energía y los precios;Ayudas directas al transporte;2024;definitivo (liquidación);Hacienda;Ministerio;2;0;42037646,40;42037646,40
+Crisis de la energía y los precios;Bonificación de carburantes;2024;definitivo (liquidación);Hacienda;Ministerio;2;0;536563,68;0
+Crisis de la energía y los precios;Gasóleo profesional y agrario;2024;definitivo (liquidación);Hacienda;Ministerio;2;0;343271435,95;343271435,95
+Crisis de la energía y los precios;Industria intensiva en gas;2024;definitivo (liquidación);Hacienda;Ministerio;1;0;3457984,49;3457984,49
+Crisis de la energía y los precios;País Vasco y Navarra (apoyo a familias y empresas);2024;definitivo (liquidación);Hacienda;Ministerio;1;0;245241,41;245241,41
+Crisis de la energía y los precios;Descuentos en transporte público y peajes;2024;definitivo (liquidación);Transportes y Movilidad Sostenible;Ministerio;3;84700000;681000000;681000000
+Crisis de la energía y los precios;Descuentos en transporte público y peajes;2024;definitivo (liquidación);Transportes y Movilidad Sostenible;Ministerio;15;0;808292928,24;800462645,95
+Crisis de la energía y los precios;Industria intensiva en gas;2024;definitivo (liquidación);Industria y Turismo;Ministerio;1;0;47849,24;47849,24
+Crisis de la energía y los precios;Sector agrario y pesquero;2024;definitivo (liquidación);Agricultura, Pesca y Alimentación;Ministerio;3;0;12450611,72;9463841,63
+Crisis de la energía y los precios;Ayuda a rentas bajas;2025;provisional (mensual de diciembre);Hacienda;Ministerio;1;0;6133,87;6133,87
+Crisis de la energía y los precios;Ayudas directas al transporte;2025;provisional (mensual de diciembre);Hacienda;Ministerio;2;0;977861,32;977861,32
+Crisis de la energía y los precios;Gasóleo profesional y agrario;2025;provisional (mensual de diciembre);Hacienda;Ministerio;2;0;17621500,42;17621500,42
+Crisis de la energía y los precios;Industria intensiva en gas;2025;provisional (mensual de diciembre);Hacienda;Ministerio;1;0;7940770,67;7940770,67
+Crisis de la energía y los precios;Descuentos en transporte público y peajes;2025;provisional (mensual de diciembre);Transportes y Movilidad Sostenible;Ministerio;3;84700000;307809000;307801809,55
+Crisis de la energía y los precios;Descuentos en transporte público y peajes;2025;provisional (mensual de diciembre);Transportes y Movilidad Sostenible;Ministerio;13;0;550000654,59;557015305,78
+Crisis de la energía y los precios;Sector agrario y pesquero;2025;provisional (mensual de diciembre);Agricultura, Pesca y Alimentación;Ministerio;2;0;2399831,47;522175,65
+DANA de 2024;Sin desglose por medida;2024;definitivo (liquidación);Presidencia, Justicia y Relaciones con las Cortes;Ministerio;15;0;0;56354,21
+DANA de 2024;Sin desglose por medida;2024;definitivo (liquidación);Presidencia, Justicia y Relaciones con las Cortes;Ministerio;7;0;79943,81;0
+DANA de 2024;Sin desglose por medida;2024;definitivo (liquidación);Defensa;Ministerio;7;0;110762271,53;16654372,56
+DANA de 2024;Sin desglose por medida;2024;definitivo (liquidación);Hacienda;Ministerio;2;0;936290000;936290000
+DANA de 2024;Sin desglose por medida;2024;definitivo (liquidación);Interior;Ministerio;96;0;0;3101306,21
+DANA de 2024;Sin desglose por medida;2024;definitivo (liquidación);Interior;Ministerio;44;0;221765744,68;79295648,88
+DANA de 2024;Sin desglose por medida;2024;definitivo (liquidación);Transportes y Movilidad Sostenible;Ministerio;1;0;0;3982,04
+DANA de 2024;Sin desglose por medida;2024;definitivo (liquidación);Transportes y Movilidad Sostenible;Ministerio;1;0;50000;1656,66
+DANA de 2024;Sin desglose por medida;2024;definitivo (liquidación);Educación, Formación Profesional y Deportes;Ministerio;1;0;600000;600000
+DANA de 2024;Sin desglose por medida;2024;definitivo (liquidación);Industria y Turismo;Ministerio;7;0;400503837,23;350410000
+DANA de 2024;Sin desglose por medida;2024;definitivo (liquidación);Agricultura, Pesca y Alimentación;Ministerio;4;0;62525000;55475882,05
+DANA de 2024;Sin desglose por medida;2024;definitivo (liquidación);Política Territorial y Memoria Democrática;Ministerio;1;0;0;8623,52
+DANA de 2024;Sin desglose por medida;2024;definitivo (liquidación);Política Territorial y Memoria Democrática;Ministerio;8;0;186375,80;170937,14
+DANA de 2024;Sin desglose por medida;2024;definitivo (liquidación);Transición Ecológica y el Reto Demográfico;Ministerio;5;0;4529000;3418425,66
+DANA de 2024;Sin desglose por medida;2024;definitivo (liquidación);Cultura;Ministerio;19;0;2800000;2100000
+DANA de 2024;Sin desglose por medida;2024;definitivo (liquidación);Ciencia, Innovación y Universidades;Ministerio;7;0;2342760,13;684660,13
+DANA de 2024;Sin desglose por medida;2024;definitivo (liquidación);Derechos Sociales, Consumo y Agenda 2030;Ministerio;93;0;56090000;39101575
+DANA de 2024;Sin desglose por medida;2024;definitivo (liquidación);Igualdad;Ministerio;2;0;672614,33;374476,93
+DANA de 2024;Sin desglose por medida;2024;definitivo (liquidación);Inclusión, Seguridad Social y Migraciones;Ministerio;1;0;724710000;724710000
+DANA de 2024;Sin desglose por medida;2025;provisional (mensual de diciembre);Presidencia, Justicia y Relaciones con las Cortes;Ministerio;17;0;0;532383,63
+DANA de 2024;Sin desglose por medida;2025;provisional (mensual de diciembre);Presidencia, Justicia y Relaciones con las Cortes;Ministerio;13;0;814998,98;0
+DANA de 2024;Sin desglose por medida;2025;provisional (mensual de diciembre);Defensa;Ministerio;7;0;166750829,55;141645159,69
+DANA de 2024;Sin desglose por medida;2025;provisional (mensual de diciembre);Hacienda;Ministerio;2;0;1514895806,31;1514895806,31
+DANA de 2024;Sin desglose por medida;2025;provisional (mensual de diciembre);Interior;Ministerio;128;0;0;12246312,13
+DANA de 2024;Sin desglose por medida;2025;provisional (mensual de diciembre);Interior;Ministerio;53;0;421093272,14;218730238,54
+DANA de 2024;Sin desglose por medida;2025;provisional (mensual de diciembre);Transportes y Movilidad Sostenible;Ministerio;1;0;0;5412,82
+DANA de 2024;Sin desglose por medida;2025;provisional (mensual de diciembre);Transportes y Movilidad Sostenible;Ministerio;2;0;157809302,92;157765784,88
+DANA de 2024;Sin desglose por medida;2025;provisional (mensual de diciembre);Educación, Formación Profesional y Deportes;Ministerio;3;0;9625060,09;4477054,54
+DANA de 2024;Sin desglose por medida;2025;provisional (mensual de diciembre);Industria y Turismo;Ministerio;7;0;1127170474,23;807927830,77
+DANA de 2024;Sin desglose por medida;2025;provisional (mensual de diciembre);Agricultura, Pesca y Alimentación;Ministerio;6;0;411857117,95;331334345,21
+DANA de 2024;Sin desglose por medida;2025;provisional (mensual de diciembre);Política Territorial y Memoria Democrática;Ministerio;11;0;0;208460,90
+DANA de 2024;Sin desglose por medida;2025;provisional (mensual de diciembre);Política Territorial y Memoria Democrática;Ministerio;33;0;1754184759,86;1748069916,55
+DANA de 2024;Sin desglose por medida;2025;provisional (mensual de diciembre);Transición Ecológica y el Reto Demográfico;Ministerio;1;0;0;3972,69
+DANA de 2024;Sin desglose por medida;2025;provisional (mensual de diciembre);Transición Ecológica y el Reto Demográfico;Ministerio;19;0;463208187,34;451210527,58
+DANA de 2024;Sin desglose por medida;2025;provisional (mensual de diciembre);Cultura;Ministerio;7;0;0;99805,40
+DANA de 2024;Sin desglose por medida;2025;provisional (mensual de diciembre);Cultura;Ministerio;15;0;1850000;1184576,80
+DANA de 2024;Sin desglose por medida;2025;provisional (mensual de diciembre);Vivienda y Agenda Urbana;Ministerio;2;0;35000000;35000000
+DANA de 2024;Sin desglose por medida;2025;provisional (mensual de diciembre);Sanidad;Ministerio;1;0;295759,90;295759,90
+DANA de 2024;Sin desglose por medida;2025;provisional (mensual de diciembre);Economía, Comercio y Empresa;Ministerio;2;0;6808313,37;6808313,37
+DANA de 2024;Sin desglose por medida;2025;provisional (mensual de diciembre);Ciencia, Innovación y Universidades;Ministerio;1;0;1646600;928800
+DANA de 2024;Sin desglose por medida;2025;provisional (mensual de diciembre);Derechos Sociales, Consumo y Agenda 2030;Ministerio;17;0;12560423;7679779
+DANA de 2024;Sin desglose por medida;2025;provisional (mensual de diciembre);Igualdad;Ministerio;1;0;125500;120000
+DANA de 2024;Sin desglose por medida;2025;provisional (mensual de diciembre);Juventud e Infancia;Ministerio;3;0;84067112,97;39920660,68
+DANA de 2024;Sin desglose por medida;2025;provisional (mensual de diciembre);Sistemas de financiación de entes territoriales;Sección no ministerial;1;0;35000000;29604484,74
+Volcán de La Palma;Sin desglose por medida;2021;definitivo (liquidación);Interior;Ministerio;2;0;10500000;10500000
+Volcán de La Palma;Sin desglose por medida;2021;definitivo (liquidación);Trabajo y Economía Social;Ministerio;1;0;63000000;0
+Volcán de La Palma;Sin desglose por medida;2021;definitivo (liquidación);Industria y Turismo;Ministerio;2;0;19625000;19625000
+Volcán de La Palma;Sin desglose por medida;2021;definitivo (liquidación);Agricultura, Pesca y Alimentación;Ministerio;2;0;18833060;18833060
+Volcán de La Palma;Sin desglose por medida;2021;definitivo (liquidación);Política Territorial y Memoria Democrática;Ministerio;1;0;500000;500000
+Volcán de La Palma;Sin desglose por medida;2021;definitivo (liquidación);Transición Ecológica y el Reto Demográfico;Ministerio;2;0;15300000;15300000
+Volcán de La Palma;Sin desglose por medida;2021;definitivo (liquidación);Cultura;Ministerio;1;0;150000;150000
+Volcán de La Palma;Sin desglose por medida;2021;definitivo (liquidación);Ciencia, Innovación y Universidades;Ministerio;9;0;2565477,59;2565477,59
+Volcán de La Palma;Sin desglose por medida;2021;definitivo (liquidación);Derechos Sociales, Consumo y Agenda 2030;Ministerio;1;0;5000000;5000000
+Volcán de La Palma;Sin desglose por medida;2022;definitivo (liquidación);Interior;Ministerio;1;0;6500000;6500000
+Volcán de La Palma;Sin desglose por medida;2022;definitivo (liquidación);Transportes y Movilidad Sostenible;Ministerio;1;0;38096360;25000000
+Volcán de La Palma;Sin desglose por medida;2022;definitivo (liquidación);Política Territorial y Memoria Democrática;Ministerio;1;0;38537874,60;38537874,60
+Volcán de La Palma;Sin desglose por medida;2023;definitivo (liquidación);Transportes y Movilidad Sostenible;Ministerio;2;7500000;7500000;6193952,54
+Volcán de La Palma;Sin desglose por medida;2023;definitivo (liquidación);Transportes y Movilidad Sostenible;Ministerio;2;0;750000;750000
+Volcán de La Palma;Sin desglose por medida;2023;definitivo (liquidación);Industria y Turismo;Ministerio;1;0;5000000;5000000
+Volcán de La Palma;Sin desglose por medida;2023;definitivo (liquidación);Agricultura, Pesca y Alimentación;Ministerio;1;0;10000000;10000000
+Volcán de La Palma;Sin desglose por medida;2023;definitivo (liquidación);Sanidad;Ministerio;1;1500000;1500000;1500000
+Volcán de La Palma;Sin desglose por medida;2023;definitivo (liquidación);Otras relaciones financieras con entes territoriales;Sección no ministerial;1;100000000;0;0
+Volcán de La Palma;Sin desglose por medida;2023;definitivo (liquidación);Otras relaciones financieras con entes territoriales;Sección no ministerial;1;0;100000000;100000000
+Volcán de La Palma;Sin desglose por medida;2024;definitivo (liquidación);Transportes y Movilidad Sostenible;Ministerio;1;1500000;1500000;1227370,53
+Volcán de La Palma;Sin desglose por medida;2024;definitivo (liquidación);Transportes y Movilidad Sostenible;Ministerio;1;0;250000;250000
+Volcán de La Palma;Sin desglose por medida;2024;definitivo (liquidación);Industria y Turismo;Ministerio;1;0;3000000;3000000
+Volcán de La Palma;Sin desglose por medida;2024;definitivo (liquidación);Política Territorial y Memoria Democrática;Ministerio;1;0;7115612,50;7115612,50
+Volcán de La Palma;Sin desglose por medida;2024;definitivo (liquidación);Vivienda y Agenda Urbana;Ministerio;1;6000000;2212460;0
+Volcán de La Palma;Sin desglose por medida;2024;definitivo (liquidación);Sanidad;Ministerio;1;1500000;0;0
+Volcán de La Palma;Sin desglose por medida;2024;definitivo (liquidación);Otras relaciones financieras con entes territoriales;Sección no ministerial;1;100000000;100000000;0
+Volcán de La Palma;Sin desglose por medida;2025;provisional (mensual de diciembre);Transportes y Movilidad Sostenible;Ministerio;1;1500000;1396385,72;293846,55
+Volcán de La Palma;Sin desglose por medida;2025;provisional (mensual de diciembre);Transportes y Movilidad Sostenible;Ministerio;1;0;140000;140000
+Volcán de La Palma;Sin desglose por medida;2025;provisional (mensual de diciembre);Política Territorial y Memoria Democrática;Ministerio;1;0;7349074,24;7349074,24
+Volcán de La Palma;Sin desglose por medida;2025;provisional (mensual de diciembre);Vivienda y Agenda Urbana;Ministerio;1;6000000;0;0
+Volcán de La Palma;Sin desglose por medida;2025;provisional (mensual de diciembre);Sanidad;Ministerio;1;1500000;1500000;0
+Volcán de La Palma;Sin desglose por medida;2025;provisional (mensual de diciembre);Otras relaciones financieras con entes territoriales;Sección no ministerial;1;100000000;50000000;0
+Borrasca Filomena;Sin desglose por medida;2021;definitivo (liquidación);Política Territorial y Memoria Democrática;Ministerio;1;0;877324,39;877324,39
+Borrasca Filomena;Sin desglose por medida;2022;definitivo (liquidación);Política Territorial y Memoria Democrática;Ministerio;1;0;89108589,39;89084372,24
+Borrasca Filomena;Sin desglose por medida;2023;definitivo (liquidación);Política Territorial y Memoria Democrática;Ministerio;1;0;23065911,16;12337440,32
+Borrasca Filomena;Sin desglose por medida;2024;definitivo (liquidación);Política Territorial y Memoria Democrática;Ministerio;1;0;8706369,29;3965960,66
+Borrasca Filomena;Sin desglose por medida;2025;provisional (mensual de diciembre);Política Territorial y Memoria Democrática;Ministerio;1;0;4740408,63;411290,94

@@ -1,0 +1,17 @@
+comprobacion;valor;esperado;resultado
+catástrofes: obligaciones por ministerio = resumen;94812192979,46;94812192979,46;OK
+catástrofes: definitivos por ministerio = resumen;99369470892,65;99369470892,65;OK
+catástrofes: obligaciones por destino = resumen;94812192979,46;94812192979,46;OK
+crédito nuevo: filas;55,00;55,00;OK
+crédito nuevo: obligaciones;929304407620,46;929304407620,46;OK
+contratación-gasto: filas;137,00;137,00;OK
+contratación-gasto: gasto agregado;1313348462547,61;1313348462547,61;OK
+concentración: obligaciones;929304407620,46;929304407620,46;OK
+concentración: obligaciones = total «22 ministerios» del origen;929304407620,46;929304407620,46;OK
+ejecución: filas;157,00;157,00;OK
+ejecución: pendiente de pago;127833557000,00;127833557000,00;OK
+ejecución: sin reconocer;190981813000,00;190981813000,00;OK
+BDNS: concesiones;14519820,00;14519820,00;OK
+BDNS por instrumento: importe;98979313776,88;98979313776,88;OK
+mensual: filas;528,00;528,00;OK
+mensual: obligaciones del mes (suma de meses = acumulado de diciembre);326303228000,00;326303228000,00;OK

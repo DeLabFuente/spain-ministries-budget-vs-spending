@@ -1,0 +1,121 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
+  "name": "7e97c2ee8606703f6dd3",
+  "position": {
+    "x": 30,
+    "y": 200,
+    "z": 4000,
+    "height": 420,
+    "width": 930,
+    "tabOrder": 4000
+  },
+  "visual": {
+    "visualType": "hundredPercentStackedBarChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_contratacion_gasto"
+                    }
+                  },
+                  "Property": "ministerio"
+                }
+              },
+              "queryRef": "fact_contratacion_gasto.ministerio",
+              "nativeQueryRef": "ministerio",
+              "active": true
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Medidas"
+                    }
+                  },
+                  "Property": "Contratación y gasto: personal"
+                }
+              },
+              "queryRef": "_Medidas.Contratación y gasto: personal",
+              "nativeQueryRef": "Contratación y gasto: personal"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Medidas"
+                    }
+                  },
+                  "Property": "Contratación y gasto: compras e inversiones"
+                }
+              },
+              "queryRef": "_Medidas.Contratación y gasto: compras e inversiones",
+              "nativeQueryRef": "Contratación y gasto: compras e inversiones"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Medidas"
+                    }
+                  },
+                  "Property": "Contratación y gasto: préstamos y aportaciones"
+                }
+              },
+              "queryRef": "_Medidas.Contratación y gasto: préstamos y aportaciones",
+              "nativeQueryRef": "Contratación y gasto: préstamos y aportaciones"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Medidas"
+                    }
+                  },
+                  "Property": "Contratación y gasto: transferencias y resto"
+                }
+              },
+              "queryRef": "_Medidas.Contratación y gasto: transferencias y resto",
+              "nativeQueryRef": "Contratación y gasto: transferencias y resto"
+            }
+          ]
+        }
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'De qué se compone el gasto agregado'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

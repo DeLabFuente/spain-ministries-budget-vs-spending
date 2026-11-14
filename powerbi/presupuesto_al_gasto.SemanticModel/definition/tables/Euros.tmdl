@@ -1,0 +1,28 @@
+table Euros
+	lineageTag: 1de265d8-13dd-5f01-95f4-2f55d0325d3b
+
+	column euros
+		dataType: string
+		lineageTag: 6bf7e643-3bdb-5271-80a1-675d329e181f
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [euros]
+		sortByColumn: orden
+
+		annotation SummarizationSetBy = Automatic
+
+	column orden
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 5d8128b8-e7ff-507b-be4a-445339d2da8c
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [orden]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Euros = calculated
+		mode: import
+		source = DATATABLE ( "euros", STRING, "orden", INTEGER, { { "Corrientes", 1 }, { "Constantes de 2025 (IPC)", 2 }, { "Constantes de 2025 (deflactor del PIB)", 3 }, { "Constantes de 2025 (deflactor del consumo público)", 4 } } )
+

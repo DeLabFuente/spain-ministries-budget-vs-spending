@@ -1,0 +1,94 @@
+codigo_seccion;seccion_igae;anio_desde;anio_hasta;tipo;ministerio_actual;continuidad;nota
+01;CASA DE SU MAJESTAD EL REY;2017;2025;Órgano constitucional;Casa de Su Majestad el Rey;directa;
+02;CORTES GENERALES;2017;2025;Órgano constitucional;Cortes Generales;directa;
+03;TRIBUNAL DE CUENTAS;2017;2025;Órgano constitucional;Tribunal de Cuentas;directa;
+04;TRIBUNAL CONSTITUCIONAL;2017;2025;Órgano constitucional;Tribunal Constitucional;directa;
+05;CONSEJO DE ESTADO;2017;2025;Órgano constitucional;Consejo de Estado;directa;
+06;DEUDA PÚBLICA;2017;2025;Sección no ministerial;Deuda pública;directa;
+07;CLASES PASIVAS;2017;2025;Sección no ministerial;Clases pasivas;directa;
+08;CONSEJO GENERAL DEL PODER JUDICIAL;2017;2025;Órgano constitucional;Consejo General del Poder Judicial;directa;
+09;APORT. MUTUALISMO ADMINISTRATIVO;2018;2019;Sección no ministerial;Aportaciones al mutualismo administrativo;directa;Sección creada en 2018 (antes, dentro de otras secciones).
+09;APORTACIONES AL MUTUALISMO ADMINISTRATIVO;2020;2025;Sección no ministerial;Aportaciones al mutualismo administrativo;directa;
+10;CONTRATACIÓN CENTRALIZADA;2018;2025;Sección no ministerial;Contratación centralizada;directa;Sección creada en 2018.
+12;ASUNTOS EXTERIORES Y DE COOPERACIÓN;2017;2018;Ministerio;Ministerio de Asuntos Exteriores, Unión Europea y Cooperación;directa;
+12;ASUNTOS EXT, U. E. Y COOPERACIÓN;2019;2019;Ministerio;Ministerio de Asuntos Exteriores, Unión Europea y Cooperación;directa;
+12;MINISTERIO DE ASUNTOS EXTERIORES, UNIÓN EUROPEA Y COOPERACIÓN;2020;2025;Ministerio;Ministerio de Asuntos Exteriores, Unión Europea y Cooperación;directa;
+13;JUSTICIA;2017;2019;Ministerio;Ministerio de la Presidencia, Justicia y Relaciones con las Cortes;con cambios;En 2024 se fusiona con Presidencia y Relaciones con las Cortes (antes sección 25).
+13;MINISTERIO DE JUSTICIA;2020;2023;Ministerio;Ministerio de la Presidencia, Justicia y Relaciones con las Cortes;con cambios;En 2024 se fusiona con Presidencia y Relaciones con las Cortes (antes sección 25).
+13;MINISTERIO DE LA PRESIDENCIA, JUSTICIA Y RELACIONES CON LAS CORTES;2024;2025;Ministerio;Ministerio de la Presidencia, Justicia y Relaciones con las Cortes;directa;
+14;DEFENSA;2017;2019;Ministerio;Ministerio de Defensa;directa;
+14;MINISTERIO DE DEFENSA;2020;2025;Ministerio;Ministerio de Defensa;directa;
+15;HACIENDA Y FUNCIÓN PÚBLICA;2017;2018;Ministerio;Ministerio de Hacienda;con cambios;"Función Pública sale en 2018 a Política Territorial y Función Pública (22); hoy está en Transformación Digital y Función Pública (33)."
+15;HACIENDA;2019;2019;Ministerio;Ministerio de Hacienda;directa;
+15;MINISTERIO DE HACIENDA;2020;2025;Ministerio;Ministerio de Hacienda;directa;
+15;MINISTERIO DE HACIENDA Y FUNCIÓN PÚBLICA;2022;2023;Ministerio;Ministerio de Hacienda;con cambios;Función Pública vuelve a Hacienda en 2022 (desde la 22) y sale en 2024 a Transformación Digital y Función Pública (33).
+16;INTERIOR;2017;2019;Ministerio;Ministerio del Interior;directa;
+16;MINISTERIO DEL INTERIOR;2020;2025;Ministerio;Ministerio del Interior;directa;
+17;FOMENTO;2017;2019;Ministerio;Ministerio de Transportes y Movilidad Sostenible;con cambios;Vivienda y agenda urbana (grupo 261 y planes de rehabilitación) salen en 2024 a Vivienda y Agenda Urbana (25).
+17;MINISTERIO DE FOMENTO;2020;2020;Ministerio;Ministerio de Transportes y Movilidad Sostenible;con cambios;Vivienda y agenda urbana salen en 2024 a Vivienda y Agenda Urbana (25).
+17;MINISTERIO DE TRANSPORTES, MOVILIDAD Y AGENDA URBANA;2021;2023;Ministerio;Ministerio de Transportes y Movilidad Sostenible;con cambios;Vivienda y agenda urbana salen en 2024 a Vivienda y Agenda Urbana (25).
+17;MINISTERIO DE TRANSPORTES Y MOVILIDAD SOSTENIBLE;2024;2025;Ministerio;Ministerio de Transportes y Movilidad Sostenible;directa;
+18;EDUCACIÓN, CULTURA Y DEPORTE;2017;2018;Ministerio;Ministerio de Educación, Formación Profesional y Deportes;con cambios;"Cultura sale en 2018 a Cultura y Deporte (24) y deportes vuelve en 2024; las universidades pasan a Ciencia (28) en 2018."
+18;EDUCACIÓN Y FORMACIÓN PROFESIONAL;2019;2019;Ministerio;Ministerio de Educación, Formación Profesional y Deportes;con cambios;Deportes se incorpora en 2024 desde Cultura y Deporte (24).
+18;MINISTERIO DE EDUCACIÓN Y FORMACIÓN PROFESIONAL;2020;2023;Ministerio;Ministerio de Educación, Formación Profesional y Deportes;con cambios;Deportes se incorpora en 2024 desde Cultura y Deporte (24).
+18;MINISTERIO DE EDUCACIÓN, FORMACIÓN PROFESIONAL Y DEPORTES;2024;2025;Ministerio;Ministerio de Educación, Formación Profesional y Deportes;directa;
+19;EMPLEO Y SEGURIDAD SOCIAL;2017;2018;Ministerio;Ministerio de Trabajo y Economía Social;con cambios;Seguridad Social y migraciones salen en 2021 (en la liquidación) a Inclusión, Seguridad Social y Migraciones (32): era la mayor parte del gasto de la sección.
+19;TRABAJO, MIGRACIONES Y S.S.;2019;2019;Ministerio;Ministerio de Trabajo y Economía Social;con cambios;Seguridad Social y migraciones salen en 2021 a Inclusión, Seguridad Social y Migraciones (32): era la mayor parte del gasto de la sección.
+19;MINISTERIO DE TRABAJO, MIGRACIONES Y SEGURIDAD SOCIAL;2020;2020;Ministerio;Ministerio de Trabajo y Economía Social;con cambios;Seguridad Social y migraciones salen en 2021 a Inclusión, Seguridad Social y Migraciones (32): era la mayor parte del gasto de la sección.
+19;MINISTERIO DE TRABAJO Y ECONOMÍA SOCIAL;2021;2025;Ministerio;Ministerio de Trabajo y Economía Social;directa;
+20;ENERGÍA, TURISMO Y AGENDA DIGITAL;2017;2018;Ministerio;Ministerio de Industria y Turismo;con cambios;"Energía sale en 2019 a Transición Ecológica (23) y telecomunicaciones y agenda digital a Economía (27); hoy, en Transformación Digital y Función Pública (33). Industria llega desde Economía, Industria y Competitividad (27)."
+20;INDUSTRIA, COMERCIO Y TURISMO;2019;2019;Ministerio;Ministerio de Industria y Turismo;con cambios;Comercio sale en 2024 a Economía, Comercio y Empresa (27).
+20;MINISTERIO DE INDUSTRIA, COMERCIO Y TURISMO;2020;2023;Ministerio;Ministerio de Industria y Turismo;con cambios;Comercio sale en 2024 a Economía, Comercio y Empresa (27).
+20;MINISTERIO DE INDUSTRIA Y TURISMO;2024;2025;Ministerio;Ministerio de Industria y Turismo;directa;
+21;AGRICULTURA, PESCA Y ALIMENTACIÓN;2019;2019;Ministerio;Ministerio de Agricultura, Pesca y Alimentación;directa;
+21;MINISTERIO DE AGRICULTURA, PESCA Y ALIMENTACIÓN;2020;2025;Ministerio;Ministerio de Agricultura, Pesca y Alimentación;directa;
+22;POLÍTICA TERRITORIAL Y FUNCIÓN PÚB.;2019;2019;Ministerio;Ministerio de Política Territorial y Memoria Democrática;con cambios;"Función Pública sale en 2022 a Hacienda (15) y hoy está en Transformación Digital y Función Pública (33); memoria democrática llega en 2024 desde Presidencia (25)."
+22;MINISTERIO DE POLÍTICA TERRITORIAL Y FUNCIÓN PÚBLICA;2020;2021;Ministerio;Ministerio de Política Territorial y Memoria Democrática;con cambios;"Función Pública sale en 2022 a Hacienda (15) y hoy está en Transformación Digital y Función Pública (33); memoria democrática llega en 2024 desde Presidencia (25)."
+22;MINISTERIO DE POLÍTICA TERRITORIAL;2022;2023;Ministerio;Ministerio de Política Territorial y Memoria Democrática;con cambios;Memoria democrática llega en 2024 desde Presidencia (25).
+22;MINISTERIO DE POLÍTICA TERRITORIAL Y MEMORIA DEMOCRÁTICA;2024;2025;Ministerio;Ministerio de Política Territorial y Memoria Democrática;directa;
+23;AGRICULT. Y PESCA, ALIM. Y MEDIO AMB.;2017;2018;Ministerio;Ministerio para la Transición Ecológica y el Reto Demográfico;con cambios;"Agricultura, pesca y alimentación (grupos de programas 41x) salen en 2019 a la nueva sección 21. El grueso del gasto directo era medio ambiente y agua (grupos 45x), que sigue en la 23; ver la ficha de Agricultura."
+23;TRANSICIÓN ECOLÓGICA;2019;2019;Ministerio;Ministerio para la Transición Ecológica y el Reto Demográfico;con cambios;"Absorbe energía (desde 20); reto demográfico se añade en 2020."
+23;MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA;2020;2020;Ministerio;Ministerio para la Transición Ecológica y el Reto Demográfico;con cambios;Reto demográfico se añade en 2020.
+23;MINISTERIO PARA LA TRANSICIÓN ECOLÓGICA Y EL RETO DEMOGRÁFICO;2021;2025;Ministerio;Ministerio para la Transición Ecológica y el Reto Demográfico;directa;
+24;CULTURA Y DEPORTE;2019;2019;Ministerio;Ministerio de Cultura;con cambios;Deportes sale en 2024 a Educación, Formación Profesional y Deportes (18).
+24;MINISTERIO DE CULTURA Y DEPORTE;2020;2023;Ministerio;Ministerio de Cultura;con cambios;Deportes sale en 2024 a Educación, Formación Profesional y Deportes (18).
+24;MINISTERIO DE CULTURA;2024;2025;Ministerio;Ministerio de Cultura;directa;
+25;PRESIDENCIA Y PARA LAS ADM. TERRIT.;2017;2018;Ministerio;Ministerio de la Presidencia, Justicia y Relaciones con las Cortes;con cambios;Administraciones territoriales salen en 2018 a Política Territorial (22). En 2024 Presidencia se fusiona con Justicia en la 13 y el código 25 pasa a Vivienda.
+25;PRESIDENCIA, REL., CORTES E IGUALDAD;2019;2019;Ministerio;Ministerio de la Presidencia, Justicia y Relaciones con las Cortes;con cambios;Igualdad sale en 2021 a Igualdad (30). En 2024 se fusiona con Justicia en la 13 y el código 25 pasa a Vivienda.
+25;MINISTERIO DE LA PRESIDENCIA, RELACIONES CON LAS CORTES E IGUALDAD;2020;2020;Ministerio;Ministerio de la Presidencia, Justicia y Relaciones con las Cortes;con cambios;Igualdad sale en 2021 a Igualdad (30). En 2024 se fusiona con Justicia en la 13 y el código 25 pasa a Vivienda.
+25;MINISTERIO DE LA PRESIDENCIA, RELACIONES CON LAS CORTES Y MEMORIA DEMOCRÁTICA;2021;2023;Ministerio;Ministerio de la Presidencia, Justicia y Relaciones con las Cortes;con cambios;"Memoria democrática sale en 2024 a Política Territorial (22); el resto se fusiona con Justicia en la 13 y el código 25 pasa a Vivienda."
+25;MINISTERIO DE VIVIENDA Y AGENDA URBANA;2024;2025;Ministerio;Ministerio de Vivienda y Agenda Urbana;directa;Nueva en 2024, con la vivienda que estaba en Transportes (17). Mismo código que la antigua Presidencia: no son la misma serie.
+26;SANIDAD, SERVICIOS SOCIALES E IGUALDAD;2017;2018;Ministerio;Ministerio de Sanidad;con cambios;"Servicios sociales e igualdad salen en 2020-2021 a Derechos Sociales (29) e Igualdad (30); consumo, a Consumo (31) y hoy a Derechos Sociales, Consumo y Agenda 2030 (29). Buena parte del gasto de la sección era de servicios sociales (Imserso)."
+26;SANIDAD, CONSUMO Y BIENESTAR SOCIAL;2019;2019;Ministerio;Ministerio de Sanidad;con cambios;Bienestar social sale en 2021 a Derechos Sociales (29) y consumo a Consumo (31).
+26;MINISTERIO DE SANIDAD, CONSUMO Y BIENESTAR SOCIAL;2020;2020;Ministerio;Ministerio de Sanidad;con cambios;Bienestar social sale en 2021 a Derechos Sociales (29) y consumo a Consumo (31).
+26;MINISTERIO DE SANIDAD;2021;2025;Ministerio;Ministerio de Sanidad;directa;
+27;ECONOMÍA, INDUSTRIA Y COMPETITIVIDAD;2017;2018;Ministerio;Ministerio de Economía, Comercio y Empresa;con cambios;Investigación (grupos 46x) sale en 2019 a Ciencia (28) e industria a Industria, Comercio y Turismo (20).
+27;ECONOMÍA Y EMPRESA;2019;2019;Ministerio;Ministerio de Economía, Comercio y Empresa;con cambios;"En 2021 asume telecomunicaciones y transformación digital; en 2024 esa parte pasa a Transformación Digital y Función Pública (33) y llega comercio desde la 20."
+27;MINISTERIO DE ECONOMÍA Y EMPRESA;2020;2020;Ministerio;Ministerio de Economía, Comercio y Empresa;con cambios;"En 2021 asume telecomunicaciones y transformación digital; en 2024 esa parte pasa a Transformación Digital y Función Pública (33) y llega comercio desde la 20."
+27;MINISTERIO DE ASUNTOS ECONÓMICOS Y TRANSFORMACIÓN DIGITAL;2021;2023;Ministerio;Ministerio de Economía, Comercio y Empresa;con cambios;"En 2024 la parte digital (conectividad, ciberseguridad, digitalización; la mayor parte del gasto de 2023) pasa a Transformación Digital y Función Pública (33) y llega comercio desde la 20."
+27;MINISTERIO DE ECONOMÍA, COMERCIO Y EMPRESA;2024;2025;Ministerio;Ministerio de Economía, Comercio y Empresa;directa;
+28;CIENCIA, INNOVACIÓN Y UNIVERSIDADES;2019;2019;Ministerio;Ministerio de Ciencia, Innovación y Universidades;con cambios;Universidades sale en 2021 a Universidades (33) y vuelve en 2024.
+28;MINISTERIO DE CIENCIA, INNOVACIÓN Y UNIVERSIDADES;2020;2025;Ministerio;Ministerio de Ciencia, Innovación y Universidades;directa;
+28;MINISTERIO DE CIENCIA E INNOVACIÓN;2021;2023;Ministerio;Ministerio de Ciencia, Innovación y Universidades;con cambios;Universidades (33) se reincorpora en 2024.
+29;MINISTERIO DE DERECHOS SOCIALES Y AGENDA 2030;2021;2023;Ministerio;Ministerio de Derechos Sociales, Consumo y Agenda 2030;con cambios;"Consumo (31) se incorpora en 2024; juventud e infancia salen a Juventud e Infancia (31)."
+29;MINISTERIO DE DERECHOS SOCIALES, CONSUMO Y AGENDA 2030;2024;2025;Ministerio;Ministerio de Derechos Sociales, Consumo y Agenda 2030;directa;
+30;MINISTERIO DE IGUALDAD;2021;2025;Ministerio;Ministerio de Igualdad;directa;
+31;GASTOS DE DIVERSOS MINISTERIOS;2017;2017;Sección no ministerial;Gastos de diversos ministerios;directa;"Solo en 2017; desde 2018 su contenido se reparte en otras secciones."
+31;MINISTERIO DE CONSUMO;2021;2023;Ministerio;Ministerio de Derechos Sociales, Consumo y Agenda 2030;con cambios;"En 2024 se integra en Derechos Sociales, Consumo y Agenda 2030 (29); el código 31 pasa a Juventud e Infancia."
+31;MINISTERIO DE JUVENTUD E INFANCIA;2024;2025;Ministerio;Ministerio de Juventud e Infancia;directa;Nueva en 2024. Mismo código que el antiguo Consumo: no son la misma serie.
+32;OTRAS RELAC. FINANC. CON ENTES TERRIT.;2017;2019;Sección no ministerial;Otras relaciones financieras con entes territoriales;directa;
+32;OTRAS RELACIONES FINANCIERAS CON ENTES TERRITORIALES;2020;2020;Sección no ministerial;Otras relaciones financieras con entes territoriales;directa;
+32;MINISTERIO DE INCLUSIÓN, SEGURIDAD SOCIAL Y MIGRACIONES;2021;2025;Ministerio;Ministerio de Inclusión, Seguridad Social y Migraciones;directa;Nueva en 2021 con la Seguridad Social y las migraciones que estaban en Trabajo (19).
+33;FONDOS DE COMPENSACIÓN INTERTERRIT.;2017;2019;Sección no ministerial;Fondos de compensación interterritorial;directa;
+33;FONDOS DE COMPENSACIÓN INTERTERRITORIAL;2020;2020;Sección no ministerial;Fondos de compensación interterritorial;directa;
+33;MINISTERIO DE UNIVERSIDADES;2021;2023;Ministerio;Ministerio de Ciencia, Innovación y Universidades;con cambios;"En 2024 se integra en Ciencia, Innovación y Universidades (28); el código 33 pasa a Transformación Digital y Función Pública."
+33;MINISTERIO PARA LA TRANSFORMACIÓN DIGITAL Y DE LA FUNCIÓN PÚBLICA;2024;2025;Ministerio;Ministerio para la Transformación Digital y de la Función Pública;directa;Nueva en 2024 con la parte digital de Asuntos Económicos (27) y la Función Pública de Hacienda (15). Mismo código que la antigua Universidades: no son la misma serie.
+34;RELACIONES FINANCIERAS CON LA U.E.;2017;2017;Sección no ministerial;Relaciones financieras con la Unión Europea;directa;
+34;RELACIONES FINANCIERAS CON LA U. E.;2018;2019;Sección no ministerial;Relaciones financieras con la Unión Europea;directa;
+34;RELACIONES FINANCIERAS CON LA UNIÓN EUROPEA;2020;2025;Sección no ministerial;Relaciones financieras con la Unión Europea;directa;
+35;FONDO DE CONTINGENCIA;2017;2025;Sección no ministerial;Fondo de contingencia;directa;
+36;SISTEMAS DE FINANC. DE ENTES TERRIT.;2017;2019;Sección no ministerial;Sistemas de financiación de entes territoriales;directa;
+36;SISTEMAS DE FINANCIACIÓN DE ENTES TERRITORIALES;2020;2020;Sección no ministerial;Sistemas de financiación de entes territoriales;directa;
+36;FONDOS DE COMPENSACIÓN INTERTERRITORIAL;2021;2025;Sección no ministerial;Fondos de compensación interterritorial;directa;
+37;OTRAS RELACIONES FINANCIERAS CON ENTES TERRITORIALES;2021;2025;Sección no ministerial;Otras relaciones financieras con entes territoriales;directa;
+38;SISTEMAS DE FINANCIACIÓN DE ENTES TERRITORIALES;2021;2025;Sección no ministerial;Sistemas de financiación de entes territoriales;directa;

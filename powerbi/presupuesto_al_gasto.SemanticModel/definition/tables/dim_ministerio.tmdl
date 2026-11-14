@@ -1,0 +1,162 @@
+table dim_ministerio
+	lineageTag: 316ace17-a5c1-42fe-ab20-51bbaa58b797
+
+	column ministerio_id
+		dataType: int64
+		formatString: 0
+		lineageTag: aaca002b-21ac-4060-9a4e-9bb546b66fd2
+		summarizeBy: none
+		sourceColumn: ministerio_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column ministerio
+		dataType: string
+		lineageTag: 4cf52511-4cc7-48fa-a2e0-d0b8f85b31b4
+		summarizeBy: none
+		sourceColumn: ministerio
+
+		annotation SummarizationSetBy = Automatic
+
+	column ministerio_corto
+		dataType: string
+		lineageTag: cab20d41-21e5-40b3-909a-0f8d803b931c
+		summarizeBy: none
+		sourceColumn: ministerio_corto
+
+		annotation SummarizationSetBy = Automatic
+
+	column es_ministerio
+		dataType: string
+		lineageTag: 77318c29-6d57-40ed-bf5f-888c39c46dc9
+		summarizeBy: none
+		sourceColumn: es_ministerio
+
+		annotation SummarizationSetBy = Automatic
+
+	column seccion_2024
+		dataType: string
+		lineageTag: a0113a09-6995-46b7-b96e-5aed42e4f29a
+		summarizeBy: none
+		sourceColumn: seccion_2024
+
+		annotation SummarizationSetBy = Automatic
+
+	column perfil_gasto_2024
+		dataType: string
+		lineageTag: 6fde887b-0c64-4ef0-934e-82fa30a281d1
+		summarizeBy: none
+		sourceColumn: perfil_gasto_2024
+
+		annotation SummarizationSetBy = Automatic
+
+	column perfil_pct_2024
+		dataType: double
+		lineageTag: 36ba931d-d444-47df-947d-87e02e709ac4
+		summarizeBy: sum
+		sourceColumn: perfil_pct_2024
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column nivel_contratacion
+		dataType: string
+		lineageTag: 96b7c0a5-1dd2-4a12-8950-06c9a9f8930d
+		summarizeBy: none
+		sourceColumn: nivel_contratacion
+
+		annotation SummarizationSetBy = Automatic
+
+	column estudio_dif_pp
+		dataType: double
+		lineageTag: 1a353a1b-9855-47e7-bf8c-f386b6e3849d
+		summarizeBy: sum
+		sourceColumn: estudio_dif_pp
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column estudio_ic95_inferior
+		dataType: double
+		lineageTag: 466ddaac-33fe-4d8c-903d-4fc6499aa8c5
+		summarizeBy: sum
+		sourceColumn: estudio_ic95_inferior
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column estudio_ic95_superior
+		dataType: double
+		lineageTag: 404ea36e-1ce5-487a-9a34-ff0194a7c722
+		summarizeBy: sum
+		sourceColumn: estudio_ic95_superior
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column estudio_distinto_tras_correccion
+		dataType: string
+		lineageTag: 435fd6af-2a7b-4751-8f27-b5e46b8a1de3
+		summarizeBy: none
+		sourceColumn: estudio_distinto_tras_correccion
+
+		annotation SummarizationSetBy = Automatic
+
+	column estudio_dif_oferta_unica_pp
+		dataType: double
+		lineageTag: d195a548-bafc-47a9-a956-b39c450edbc2
+		summarizeBy: sum
+		sourceColumn: estudio_dif_oferta_unica_pp
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column estudio_oferta_unica_distinta
+		dataType: string
+		lineageTag: b6c9621d-4227-499e-919f-a67e7a2366f5
+		summarizeBy: none
+		sourceColumn: estudio_oferta_unica_distinta
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dim_ministerio = m
+		mode: import
+		source =
+				let
+				    Origen = Csv.Document(
+				        File.Contents(RutaProyecto & "powerbi\dim_ministerio.csv"),
+				        [Delimiter = ";", Encoding = 65001, QuoteStyle = QuoteStyle.None]
+				    ),
+				    Encabezados = Table.PromoteHeaders(Origen, [PromoteAllScalars = true]),
+				    Tipos = Table.TransformColumnTypes(
+				        Encabezados,
+				        {
+				            {"ministerio_id", Int64.Type},
+				            {"ministerio", type text},
+				            {"ministerio_corto", type text},
+				            {"es_ministerio", type text},
+				            {"seccion_2024", type text},
+				            {"perfil_gasto_2024", type text},
+				            {"perfil_pct_2024", type number},
+				            {"nivel_contratacion", type text},
+				            {"estudio_dif_pp", type number},
+				            {"estudio_ic95_inferior", type number},
+				            {"estudio_ic95_superior", type number},
+				            {"estudio_distinto_tras_correccion", type text},
+				            {"estudio_dif_oferta_unica_pp", type number},
+				            {"estudio_oferta_unica_distinta", type text}
+				        },
+				        "es-ES"
+				    )
+				in
+				    Tipos
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+

@@ -1,0 +1,100 @@
+table fact_mensual
+	lineageTag: 7469d2e2-060e-59b7-81c6-7e99a534358f
+
+	column anio
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 3915d366-2b28-5720-afc7-f81af11ef919
+		summarizeBy: none
+		sourceColumn: anio
+
+		annotation SummarizationSetBy = Automatic
+
+	column mes
+		dataType: int64
+		formatString: 0
+		lineageTag: fd28565e-8113-50bf-b9e5-5418bc2627f0
+		summarizeBy: none
+		sourceColumn: mes
+
+		annotation SummarizationSetBy = Automatic
+
+	column ministerio
+		dataType: string
+		lineageTag: 86a7676e-61ba-5526-9eab-34deb3ed3ca7
+		summarizeBy: none
+		sourceColumn: ministerio
+
+		annotation SummarizationSetBy = Automatic
+
+	column dato
+		dataType: string
+		lineageTag: c126ae31-844d-5ac6-a64e-6b8442f128c2
+		summarizeBy: none
+		sourceColumn: dato
+
+		annotation SummarizationSetBy = Automatic
+
+	column obligaciones_acumuladas
+		dataType: double
+		lineageTag: 33a0c4e2-93d3-5cc7-b33f-b3a758d6d68b
+		summarizeBy: none
+		sourceColumn: obligaciones_acumuladas
+
+		annotation SummarizationSetBy = Automatic
+
+	column pagos_acumulados
+		dataType: double
+		lineageTag: 6c9acace-2374-559b-bccb-c23aa1affe05
+		summarizeBy: none
+		sourceColumn: pagos_acumulados
+
+		annotation SummarizationSetBy = Automatic
+
+	column creditos_definitivos
+		dataType: double
+		lineageTag: dda708da-38ad-5944-83d6-728d4a565b69
+		summarizeBy: none
+		sourceColumn: creditos_definitivos
+
+		annotation SummarizationSetBy = Automatic
+
+	column obligaciones_del_mes
+		dataType: double
+		lineageTag: e7600ffe-a454-5991-97ec-662e4e5ece5c
+		summarizeBy: none
+		sourceColumn: obligaciones_del_mes
+
+		annotation SummarizationSetBy = Automatic
+
+	column pct_del_anio
+		dataType: double
+		lineageTag: 0f20cb88-54e9-57f3-a283-66d43a8df4d3
+		summarizeBy: none
+		sourceColumn: pct_del_anio
+
+		annotation SummarizationSetBy = Automatic
+
+	column pct_pagado
+		dataType: double
+		lineageTag: d42dd891-5402-5c97-a635-dc0904ee47b6
+		summarizeBy: none
+		sourceColumn: pct_pagado
+
+		annotation SummarizationSetBy = Automatic
+
+	partition fact_mensual = m
+		mode: import
+		source =
+				let
+				    Origen = Csv.Document(File.Contents(RutaProyecto & "powerbi\fact_mensual.csv"), [Delimiter = ";", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Encabezados = Table.PromoteHeaders(Origen, [PromoteAllScalars = true]),
+				    Tipos = Table.TransformColumnTypes(Encabezados, {{"anio", Int64.Type}, {"mes", Int64.Type}, {"ministerio", type text}, {"dato", type text}, {"obligaciones_acumuladas", type number}, {"pagos_acumulados", type number}, {"creditos_definitivos", type number}, {"obligaciones_del_mes", type number}, {"pct_del_anio", type number}, {"pct_pagado", type number}}, "es-ES")
+				in
+				    Tipos
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+

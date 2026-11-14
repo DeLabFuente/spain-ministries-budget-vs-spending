@@ -1,0 +1,100 @@
+table fact_catastrofe
+	lineageTag: 65360631-9825-53c8-b08d-d8b93150a5fb
+
+	column suceso_nombre
+		dataType: string
+		lineageTag: 70628d1b-00fa-54d7-b6e9-81be74d4c7bf
+		summarizeBy: none
+		sourceColumn: suceso_nombre
+
+		annotation SummarizationSetBy = Automatic
+
+	column medida
+		dataType: string
+		lineageTag: 7d983d0e-a36f-571b-aef3-07ef44cc330e
+		summarizeBy: none
+		sourceColumn: medida
+
+		annotation SummarizationSetBy = Automatic
+
+	column anio
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: d5702925-8ec6-53d4-80b0-bb60f70305d4
+		summarizeBy: none
+		sourceColumn: anio
+
+		annotation SummarizationSetBy = Automatic
+
+	column dato
+		dataType: string
+		lineageTag: f776f111-ab60-5f60-b5b4-298cad74ff1f
+		summarizeBy: none
+		sourceColumn: dato
+
+		annotation SummarizationSetBy = Automatic
+
+	column ministerio
+		dataType: string
+		lineageTag: 9b65dffd-014d-503b-9932-80b354400dd9
+		summarizeBy: none
+		sourceColumn: ministerio
+
+		annotation SummarizationSetBy = Automatic
+
+	column tipo_seccion
+		dataType: string
+		lineageTag: 4c51473e-a710-5dda-b0bf-bc9dcde99a71
+		summarizeBy: none
+		sourceColumn: tipo_seccion
+
+		annotation SummarizationSetBy = Automatic
+
+	column lineas
+		dataType: int64
+		formatString: 0
+		lineageTag: 74f6a45e-2cdf-5719-87e9-dd4741853943
+		summarizeBy: none
+		sourceColumn: lineas
+
+		annotation SummarizationSetBy = Automatic
+
+	column creditos_iniciales
+		dataType: double
+		lineageTag: 6a1e515e-ba1b-5787-a43c-eef5a526c7e5
+		summarizeBy: none
+		sourceColumn: creditos_iniciales
+
+		annotation SummarizationSetBy = Automatic
+
+	column creditos_definitivos
+		dataType: double
+		lineageTag: 92771639-9c8a-5dfb-8176-1c51dfe4a235
+		summarizeBy: none
+		sourceColumn: creditos_definitivos
+
+		annotation SummarizationSetBy = Automatic
+
+	column obligaciones
+		dataType: double
+		lineageTag: 60ac6baa-b276-5b93-8251-f2a492b29e50
+		summarizeBy: none
+		sourceColumn: obligaciones
+
+		annotation SummarizationSetBy = Automatic
+
+	partition fact_catastrofe = m
+		mode: import
+		source =
+				let
+				    Origen = Csv.Document(File.Contents(RutaProyecto & "powerbi\fact_catastrofe.csv"), [Delimiter = ";", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Encabezados = Table.PromoteHeaders(Origen, [PromoteAllScalars = true]),
+				    Tipos = Table.TransformColumnTypes(Encabezados, {{"suceso_nombre", type text}, {"medida", type text}, {"anio", Int64.Type}, {"dato", type text}, {"ministerio", type text}, {"tipo_seccion", type text}, {"lineas", Int64.Type}, {"creditos_iniciales", type number}, {"creditos_definitivos", type number}, {"obligaciones", type number}}, "es-ES")
+				in
+				    Tipos
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+

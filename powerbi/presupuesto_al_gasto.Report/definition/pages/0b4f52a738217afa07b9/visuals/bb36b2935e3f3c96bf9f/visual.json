@@ -1,0 +1,161 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
+  "name": "bb36b2935e3f3c96bf9f",
+  "position": {
+    "x": 980,
+    "y": 640,
+    "z": 7000,
+    "height": 420,
+    "width": 910,
+    "tabOrder": 7000
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_concentracion"
+                    }
+                  },
+                  "Property": "ministerio"
+                }
+              },
+              "queryRef": "fact_concentracion.ministerio",
+              "nativeQueryRef": "ministerio"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_concentracion"
+                    }
+                  },
+                  "Property": "aplicaciones_con_obligaciones"
+                }
+              },
+              "queryRef": "fact_concentracion.aplicaciones_con_obligaciones",
+              "nativeQueryRef": "aplicaciones_con_obligaciones"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_concentracion"
+                    }
+                  },
+                  "Property": "pct_primera"
+                }
+              },
+              "queryRef": "fact_concentracion.pct_primera",
+              "nativeQueryRef": "pct_primera"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_concentracion"
+                    }
+                  },
+                  "Property": "pct_cinco_primeras"
+                }
+              },
+              "queryRef": "fact_concentracion.pct_cinco_primeras",
+              "nativeQueryRef": "pct_cinco_primeras"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_concentracion"
+                    }
+                  },
+                  "Property": "n50"
+                }
+              },
+              "queryRef": "fact_concentracion.n50",
+              "nativeQueryRef": "n50"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_concentracion"
+                    }
+                  },
+                  "Property": "n80"
+                }
+              },
+              "queryRef": "fact_concentracion.n80",
+              "nativeQueryRef": "n80"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_concentracion"
+                    }
+                  },
+                  "Property": "n95"
+                }
+              },
+              "queryRef": "fact_concentracion.n95",
+              "nativeQueryRef": "n95"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "fact_concentracion"
+                  }
+                },
+                "Property": "pct_primera"
+              }
+            },
+            "direction": "Descending"
+          }
+        ]
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Concentración: líneas con obligaciones, peso de la primera y de las cinco primeras (%) y líneas hasta el 50, 80 y 95 %'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

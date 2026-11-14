@@ -1,0 +1,44 @@
+table dim_capitulo
+	lineageTag: bcf98bd0-1c67-4cd3-97cf-cca84d7867ca
+
+	column capitulo
+		dataType: int64
+		formatString: 0
+		lineageTag: 26c67375-2791-47e4-8aab-86136e575b97
+		summarizeBy: none
+		sourceColumn: capitulo
+
+		annotation SummarizationSetBy = Automatic
+
+	column capitulo_nombre
+		dataType: string
+		lineageTag: 6fcf7c7e-dd64-490f-88b0-0a0bd2a26291
+		summarizeBy: none
+		sourceColumn: capitulo_nombre
+
+		annotation SummarizationSetBy = Automatic
+
+	column tipo
+		dataType: string
+		lineageTag: 048b35ae-2e33-4305-9f79-4e9c0077bab2
+		summarizeBy: none
+		sourceColumn: tipo
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dim_capitulo = m
+		mode: import
+		source =
+				let
+				    Origen = Csv.Document(File.Contents(RutaProyecto & "powerbi\dim_capitulo.csv"), [Delimiter = ";", Encoding = 65001, QuoteStyle = QuoteStyle.None]),
+				    Encabezados = Table.PromoteHeaders(Origen, [PromoteAllScalars = true]),
+				    Tipos = Table.TransformColumnTypes(Encabezados, {
+				        {"capitulo", Int64.Type}, {"capitulo_nombre", type text}, {"tipo", type text}
+				    }, "es-ES")
+				in
+				    Tipos
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+

@@ -1,0 +1,123 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
+  "name": "e0585c07e3463bd95cba",
+  "position": {
+    "x": 30,
+    "y": 690,
+    "z": 7000,
+    "height": 370,
+    "width": 930,
+    "tabOrder": 7000
+  },
+  "visual": {
+    "visualType": "pivotTable",
+    "query": {
+      "queryState": {
+        "Columns": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_catastrofe_destino"
+                    }
+                  },
+                  "Property": "suceso_nombre"
+                }
+              },
+              "queryRef": "fact_catastrofe_destino.suceso_nombre",
+              "nativeQueryRef": "suceso_nombre",
+              "active": true
+            }
+          ]
+        },
+        "Rows": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_catastrofe_destino"
+                    }
+                  },
+                  "Property": "destino"
+                }
+              },
+              "queryRef": "fact_catastrofe_destino.destino",
+              "nativeQueryRef": "destino",
+              "active": true
+            }
+          ]
+        },
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Medidas"
+                    }
+                  },
+                  "Property": "Catástrofes por destino: obligaciones"
+                }
+              },
+              "queryRef": "_Medidas.Catástrofes por destino: obligaciones",
+              "nativeQueryRef": "Catástrofes por destino: obligaciones"
+            }
+          ]
+        }
+      }
+    },
+    "objects": {
+      "columnFormatting": [
+        {
+          "properties": {
+            "labelDisplayUnits": {
+              "expr": {
+                "Literal": {
+                  "Value": "1000000D"
+                }
+              }
+            },
+            "labelPrecision": {
+              "expr": {
+                "Literal": {
+                  "Value": "0L"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "_Medidas.Catástrofes por destino: obligaciones"
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'A quién va: obligaciones por tipo de destino y suceso (sumados los años)'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

@@ -1,0 +1,7 @@
+expression RutaProyecto = "C:\RUTA\A\LA\CARPETA\" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+	lineageTag: 503c5e38-3f54-418e-a376-88f32cc93fdf
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Text
+

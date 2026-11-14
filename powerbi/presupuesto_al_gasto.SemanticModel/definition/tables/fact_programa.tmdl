@@ -1,0 +1,91 @@
+table fact_programa
+	lineageTag: 531550b3-d53a-493f-af9e-8a1f13b67380
+
+	column ministerio_id
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 663063b8-52c4-4609-b247-40acc24d3f0f
+		summarizeBy: none
+		sourceColumn: ministerio_id
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column anio
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 1a228b70-2a23-4a46-91ec-15731b569764
+		summarizeBy: none
+		sourceColumn: anio
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column programa
+		dataType: string
+		lineageTag: d101a915-2d25-4397-be74-f85898c11764
+		summarizeBy: none
+		sourceColumn: programa
+
+		annotation SummarizationSetBy = Automatic
+
+	column programa_nombre
+		dataType: string
+		lineageTag: 64716b24-f83d-42d1-984b-373e3405e9e7
+		summarizeBy: none
+		sourceColumn: programa_nombre
+
+		annotation SummarizationSetBy = Automatic
+
+	column creditos_iniciales
+		dataType: double
+		lineageTag: 81893c8d-b75e-4b95-92e8-793828548bae
+		summarizeBy: sum
+		sourceColumn: creditos_iniciales
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column creditos_definitivos
+		dataType: double
+		lineageTag: 0c9df147-9173-4cb1-a450-367778fbf3d1
+		summarizeBy: sum
+		sourceColumn: creditos_definitivos
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column obligaciones
+		dataType: double
+		lineageTag: b86d5ff2-3733-4ce4-852d-b8da7f3e5eb3
+		summarizeBy: sum
+		sourceColumn: obligaciones
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition fact_programa = m
+		mode: import
+		source =
+				let
+				    Origen = Csv.Document(File.Contents(RutaProyecto & "powerbi\fact_programa.csv"), [Delimiter = ";", Encoding = 65001, QuoteStyle = QuoteStyle.None]),
+				    Encabezados = Table.PromoteHeaders(Origen, [PromoteAllScalars = true]),
+				    Tipos = Table.TransformColumnTypes(Encabezados, {
+				        {"ministerio_id", Int64.Type}, {"anio", Int64.Type},
+				        {"programa", type text}, {"programa_nombre", type text},
+				        {"creditos_iniciales", type number}, {"creditos_definitivos", type number}, {"obligaciones", type number}
+				    }, "es-ES")
+				in
+				    Tipos
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+

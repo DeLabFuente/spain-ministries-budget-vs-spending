@@ -1,0 +1,20 @@
+# Texto extraído de los PDF (se regenera con los scripts)
+fuentes/igae/_texto/
+# Detalle por aplicación: nombra a entidades beneficiarias; solo se publican agregados
+fuentes/igae/_intermedios/
+__pycache__/
+*.pyc
+# Fuentes pesadas de la IGAE (PDF, Excel): se descargan de la web de la IGAE; ver README
+fuentes/igae/liquidacion_estado/
+fuentes/igae/liquidacion_estado_excel/
+fuentes/igae/liquidacion_organismos/
+fuentes/igae/organismos_excel/
+fuentes/igae/mensual/
+# Power BI: caché y ajustes locales
+powerbi/**/.pbi/
+# Archivos de trabajo personales, no se publican
+INSTRUCCIONES_PROYECTO.md
+CONTINUAR.md
+FASE0_fuentes.md
+# Power BI: consultas DAX de trabajo (vista de consultas DAX de Desktop)
+powerbi/**/DAXQueries/

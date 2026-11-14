@@ -1,0 +1,68 @@
+table fact_catastrofe_destino
+	lineageTag: 6ae079cd-0cb2-5d78-8ed0-1a32e9e6403e
+
+	column suceso_nombre
+		dataType: string
+		lineageTag: 077f970f-4f75-5375-8bef-2e39ddce8fbe
+		summarizeBy: none
+		sourceColumn: suceso_nombre
+
+		annotation SummarizationSetBy = Automatic
+
+	column destino
+		dataType: string
+		lineageTag: 0bddee41-b219-5d41-8205-6a08eb5399c0
+		summarizeBy: none
+		sourceColumn: destino
+
+		annotation SummarizationSetBy = Automatic
+
+	column anio
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 04579d44-9857-58f4-bb80-337036246c63
+		summarizeBy: none
+		sourceColumn: anio
+
+		annotation SummarizationSetBy = Automatic
+
+	column lineas
+		dataType: int64
+		formatString: 0
+		lineageTag: 95fdb051-d4cd-5ab2-8abd-dccdf76d4c89
+		summarizeBy: none
+		sourceColumn: lineas
+
+		annotation SummarizationSetBy = Automatic
+
+	column creditos_definitivos
+		dataType: double
+		lineageTag: d62e53ac-e1dc-5cb2-b593-75cd9fd9540c
+		summarizeBy: none
+		sourceColumn: creditos_definitivos
+
+		annotation SummarizationSetBy = Automatic
+
+	column obligaciones
+		dataType: double
+		lineageTag: 95a35ac4-c345-5af1-9e02-805535371a33
+		summarizeBy: none
+		sourceColumn: obligaciones
+
+		annotation SummarizationSetBy = Automatic
+
+	partition fact_catastrofe_destino = m
+		mode: import
+		source =
+				let
+				    Origen = Csv.Document(File.Contents(RutaProyecto & "powerbi\fact_catastrofe_destino.csv"), [Delimiter = ";", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Encabezados = Table.PromoteHeaders(Origen, [PromoteAllScalars = true]),
+				    Tipos = Table.TransformColumnTypes(Encabezados, {{"suceso_nombre", type text}, {"destino", type text}, {"anio", Int64.Type}, {"lineas", Int64.Type}, {"creditos_definitivos", type number}, {"obligaciones", type number}}, "es-ES")
+				in
+				    Tipos
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+

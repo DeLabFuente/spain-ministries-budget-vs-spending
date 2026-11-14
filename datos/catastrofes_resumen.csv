@@ -1,0 +1,23 @@
+suceso;suceso_nombre;anio;dato;lineas;secciones;creditos_iniciales;creditos_definitivos;creditos_definitivos_anexo_ii;pct_credito_anexo_ii;obligaciones;obligaciones_anexo_ii;obligaciones_por_regla;pct_obligaciones_sobre_definitivos
+covid;Covid-19;2020;definitivo (liquidación);23;11;0;47778023653,46;47778023653,46;100;47610822202,66;47609136004,19;10000000000;99,70
+covid;Covid-19;2021;definitivo (liquidación);10;7;5001000;16504163467,26;16495716090,18;99,90;16467203634,24;16458782323,58;0;99,80
+covid;Covid-19;2022;definitivo (liquidación);7;3;25001000;284395728,59;259876149,20;91,40;278405420,94;254188848,05;0;97,90
+covid;Covid-19;2023;definitivo (liquidación);7;4;82771700;82462356,54;0;0;36401368,15;0;0;44,10
+covid;Covid-19;2024;definitivo (liquidación);7;4;82771700;60186632,86;0;0;29581790,33;0;0;49,20
+covid;Covid-19;2025;provisional (mensual de diciembre);7;3;82771700;4101878,04;0;0;2350225,09;0;0;57,30
+energia;Crisis de la energía y los precios;2022;definitivo (liquidación);21;4;0;16399490371,11;16399490371,11;100;13673847890,93;13673847890,93;13673847890,93;83,40
+energia;Crisis de la energía y los precios;2023;definitivo (liquidación);27;5;84700000;6087230618,65;5405015303,90;88,80;5808218101,53;5126002786,78;5808218101,53;95,40
+energia;Crisis de la energía y los precios;2024;definitivo (liquidación);32;4;84700000;1909669460,17;1228669460,17;64,30;1898315844,11;1217315844,11;1898315844,11;99,40
+energia;Crisis de la energía y los precios;2025;provisional (mensual de diciembre);24;3;84700000;886755752,34;578946752,34;65,30;891885557,26;584083747,71;891885557,26;100,60
+dana;DANA de 2024;2024;definitivo (liquidación);321;15;0;2523907547,51;2523907547,51;100;2212457900,99;2209287635,01;0;87,70
+dana;DANA de 2024;2025;provisional (mensual de diciembre);353;19;0;6204763518,61;6204763518,61;100;5510695386,13;5497599038,56;0;88,80
+palma;Volcán de La Palma;2021;definitivo (liquidación);21;9;0;135473537,59;135473537,59;100;72473537,59;72473537,59;24625000;53,50
+palma;Volcán de La Palma;2022;definitivo (liquidación);3;3;0;83134234,60;83134234,60;100;70037874,60;70037874,60;25000000;84,20
+palma;Volcán de La Palma;2023;definitivo (liquidación);9;5;109000000;124750000;115750000;92,80;123443952,54;115750000;111943952,54;99
+palma;Volcán de La Palma;2024;definitivo (liquidación);7;5;109000000;114078072,50;10365612,50;9,10;11592983,03;10365612,50;4477370,53;10,20
+palma;Volcán de La Palma;2025;provisional (mensual de diciembre);6;4;109000000;60385459,96;7489074,24;12,40;7782920,79;7489074,24;433846,55;12,90
+filomena;Borrasca Filomena;2021;definitivo (liquidación);1;1;0;877324,39;877324,39;100;877324,39;877324,39;0;100
+filomena;Borrasca Filomena;2022;definitivo (liquidación);1;1;0;89108589,39;89108589,39;100;89084372,24;89084372,24;0;100
+filomena;Borrasca Filomena;2023;definitivo (liquidación);1;1;0;23065911,16;23065911,16;100;12337440,32;12337440,32;0;53,50
+filomena;Borrasca Filomena;2024;definitivo (liquidación);1;1;0;8706369,29;8706369,29;100;3965960,66;3965960,66;0;45,60
+filomena;Borrasca Filomena;2025;provisional (mensual de diciembre);1;1;0;4740408,63;4740408,63;100;411290,94;411290,94;0;8,70

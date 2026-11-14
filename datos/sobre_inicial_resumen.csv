@@ -1,0 +1,24 @@
+ministerio_actual;anios_comparables;primer_anio;ultimo_anio;anios_por_encima_de_100;pct_minimo;pct_maximo;pct_acumulado;sistematico;pct_creditos_extraordinarios_suplementos;pct_ampliaciones;pct_transferencias;pct_incorporacion_remanentes;pct_generaciones_ingresos;pct_bajas_otras_modificaciones
+Ministerio de Agricultura, Pesca y Alimentación;7;2019;2025;5;89,12;183,78;125,36;no;24,89;4,20;2,22;2,44;1,77;-1,73
+Ministerio de Asuntos Exteriores, Unión Europea y Cooperación;9;2017;2025;0;76,27;93,70;83,76;no;0,07;1,61;0,19;2,46;0,20;-0,35
+Ministerio de Ciencia, Innovación y Universidades;3;2020;2025;0;51,16;62,89;56,15;menos de 5 años comparables;0,15;0,03;-10,20;3,79;0,63;-1,26
+Ministerio de Cultura;2;2024;2025;0;95,15;99,57;97,36;menos de 5 años comparables;0;0,43;1,56;7,82;1,93;-0,31
+Ministerio de Defensa;9;2017;2025;9;108,22;146,61;119,69;sí;1,53;11,05;6,85;0,93;2,74;-0,45
+Ministerio de Derechos Sociales, Consumo y Agenda 2030;2;2024;2025;2;125,66;128,88;127,27;menos de 5 años comparables;7,54;8,33;0,13;15,29;0,36;0
+Ministerio de Economía, Comercio y Empresa;2;2024;2025;2;199,92;203,06;201,49;menos de 5 años comparables;0,14;7,21;87,41;0,20;230,72;-0,08
+Ministerio de Educación, Formación Profesional y Deportes;2;2024;2025;0;70,20;75,34;72,77;menos de 5 años comparables;0,33;0,30;-16,54;3,20;2,39;-0,30
+Ministerio de Hacienda;5;2019;2025;2;25,50;153,07;73,33;no;11,10;1,67;-3,25;0,01;1,96;-0,25
+Ministerio de Igualdad;5;2021;2025;0;95,33;97,85;96,13;no;0;0,17;0,74;1,27;3,62;-0,17
+Ministerio de Inclusión, Seguridad Social y Migraciones;5;2021;2025;5;100,29;120,14;109,09;sí;4,62;0;4,90;0,23;0,28;0
+Ministerio de Industria y Turismo;2;2024;2025;1;77,44;118,45;97,94;menos de 5 años comparables;6,69;0,02;2,25;30,36;1,39;-13,25
+Ministerio de Juventud e Infancia;2;2024;2025;2;131,98;183,72;157,90;menos de 5 años comparables;58,51;0,20;60,12;0,96;6,21;-7,71
+Ministerio de Política Territorial y Memoria Democrática;2;2024;2025;2;113;549,25;331,13;menos de 5 años comparables;231,49;1,63;1,15;45,06;4,85;-0,80
+Ministerio de Sanidad;5;2021;2025;2;67,02;127,77;93,33;no;2,44;0,21;0,32;11,16;7,02;-0,21
+Ministerio de Trabajo y Economía Social;5;2021;2025;2;90,88;141,86;96,54;no;0,59;0,11;1,92;17,10;0,20;-0,26
+Ministerio de Transportes y Movilidad Sostenible;2;2024;2025;1;92,24;100,48;96,36;menos de 5 años comparables;4,96;6,38;-4,84;7,71;0,80;-4,84
+Ministerio de Vivienda y Agenda Urbana;2;2024;2025;1;39,27;137,21;88,26;menos de 5 años comparables;0,55;0,04;-21,85;52,79;0,07;-0,02
+Ministerio de la Presidencia, Justicia y Relaciones con las Cortes;2;2024;2025;2;105,68;112,21;108,94;menos de 5 años comparables;3,69;1,38;5,75;1,31;0,77;-0,48
+Ministerio del Interior;9;2017;2025;5;98,81;111,73;103,62;no;1,03;2,35;1,06;0,98;3,45;-0,54
+Ministerio para la Transformación Digital y de la Función Pública;2;2024;2025;2;110,69;116,76;113,73;menos de 5 años comparables;0;0,06;-11,06;24,53;42,78;-24,26
+Ministerio para la Transición Ecológica y el Reto Demográfico;5;2021;2025;2;79,06;179,90;108,10;no;12,45;5,21;-3,33;1,96;6,92;-0,59
+22 ministerios;9;2017;2025;3;80,82;152,73;100,40;no;7,72;3,20;0,88;2,73;3,05;-0,87

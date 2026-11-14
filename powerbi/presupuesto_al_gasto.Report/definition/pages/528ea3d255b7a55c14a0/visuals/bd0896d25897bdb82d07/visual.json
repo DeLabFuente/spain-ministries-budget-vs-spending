@@ -1,0 +1,209 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
+  "name": "bd0896d25897bdb82d07",
+  "position": {
+    "x": 950,
+    "y": 200,
+    "z": 4000,
+    "height": 560,
+    "width": 940,
+    "tabOrder": 4000
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "dim_ministerio"
+                    }
+                  },
+                  "Property": "ministerio_corto"
+                }
+              },
+              "queryRef": "dim_ministerio.ministerio_corto",
+              "nativeQueryRef": "ministerio_corto"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "dim_ministerio"
+                    }
+                  },
+                  "Property": "nivel_contratacion"
+                }
+              },
+              "queryRef": "dim_ministerio.nivel_contratacion",
+              "nativeQueryRef": "nivel_contratacion"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Medidas"
+                    }
+                  },
+                  "Property": "Diferencia nov-dic (pp)"
+                }
+              },
+              "queryRef": "_Medidas.Diferencia nov-dic (pp)",
+              "nativeQueryRef": "Diferencia nov-dic (pp)"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Medidas"
+                    }
+                  },
+                  "Property": "Estudio: diferencia (pp)"
+                }
+              },
+              "queryRef": "_Medidas.Estudio: diferencia (pp)",
+              "nativeQueryRef": "Estudio: diferencia (pp)"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Medidas"
+                    }
+                  },
+                  "Property": "Estudio: IC 95 % inferior"
+                }
+              },
+              "queryRef": "_Medidas.Estudio: IC 95 % inferior",
+              "nativeQueryRef": "Estudio: IC 95 % inferior"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Medidas"
+                    }
+                  },
+                  "Property": "Estudio: IC 95 % superior"
+                }
+              },
+              "queryRef": "_Medidas.Estudio: IC 95 % superior",
+              "nativeQueryRef": "Estudio: IC 95 % superior"
+            }
+          ]
+        }
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Contraste con el estudio de viabilidad (intervalo de confianza del 95 %)'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true,
+    "objects": {
+      "total": [
+        {
+          "properties": {
+            "totals": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "f6ab2",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "dim_ministerio"
+              }
+            },
+            "Property": "nivel_contratacion"
+          }
+        },
+        "type": "Categorical",
+        "filter": {
+          "Version": 2,
+          "From": [
+            {
+              "Name": "x",
+              "Entity": "dim_ministerio",
+              "Type": 0
+            }
+          ],
+          "Where": [
+            {
+              "Condition": {
+                "In": {
+                  "Expressions": [
+                    {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Source": "x"
+                          }
+                        },
+                        "Property": "nivel_contratacion"
+                      }
+                    }
+                  ],
+                  "Values": [
+                    [
+                      {
+                        "Literal": {
+                          "Value": "'A'"
+                        }
+                      }
+                    ],
+                    [
+                      {
+                        "Literal": {
+                          "Value": "'B'"
+                        }
+                      }
+                    ]
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

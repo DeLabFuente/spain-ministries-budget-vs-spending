@@ -1,0 +1,78 @@
+table fact_ingresos_organismos
+	lineageTag: c729177a-cf9c-4648-b64a-901ad030da0c
+
+	column ministerio_id
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 28488f36-808a-40e2-a0cb-3e78be09566e
+		summarizeBy: none
+		sourceColumn: ministerio_id
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column anio
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: d9dedcfc-8114-4f19-b07c-0841e7a281b2
+		summarizeBy: none
+		sourceColumn: anio
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column organismo
+		dataType: string
+		lineageTag: d81ca9d4-8f55-4dc7-980f-a02f0e743329
+		summarizeBy: none
+		sourceColumn: organismo
+
+		annotation SummarizationSetBy = Automatic
+
+	column origen
+		dataType: string
+		lineageTag: 9c0aebe3-0c08-4b3d-955a-7e459049fc75
+		summarizeBy: none
+		sourceColumn: origen
+
+		annotation SummarizationSetBy = Automatic
+
+	column origen_grupo
+		dataType: string
+		lineageTag: e7c7d527-b24d-47d5-b8cf-a9ca12cf939f
+		summarizeBy: none
+		sourceColumn: origen_grupo
+
+		annotation SummarizationSetBy = Automatic
+
+	column derechos_reconocidos
+		dataType: double
+		lineageTag: 89ec0883-9e6b-4ffc-b9a1-299aeb1618a5
+		summarizeBy: sum
+		sourceColumn: derechos_reconocidos
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition fact_ingresos_organismos = m
+		mode: import
+		source =
+				let
+				    Origen = Csv.Document(File.Contents(RutaProyecto & "powerbi\fact_ingresos_organismos.csv"), [Delimiter = ";", Encoding = 65001, QuoteStyle = QuoteStyle.None]),
+				    Encabezados = Table.PromoteHeaders(Origen, [PromoteAllScalars = true]),
+				    Tipos = Table.TransformColumnTypes(Encabezados, {
+				        {"ministerio_id", Int64.Type}, {"anio", Int64.Type}, {"organismo", type text},
+				        {"origen", type text}, {"origen_grupo", type text}, {"derechos_reconocidos", type number}
+				    }, "es-ES")
+				in
+				    Tipos
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+

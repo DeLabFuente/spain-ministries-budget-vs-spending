@@ -1,0 +1,144 @@
+table fact_concentracion
+	lineageTag: c5a40171-5663-56f3-8201-78e3b00b9dc9
+
+	column anio
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 194365e2-c640-55d2-b264-2fcaa89f7e75
+		summarizeBy: none
+		sourceColumn: anio
+
+		annotation SummarizationSetBy = Automatic
+
+	column dato
+		dataType: string
+		lineageTag: 72be6b1d-287b-5623-b5c8-0e11c74863c8
+		summarizeBy: none
+		sourceColumn: dato
+
+		annotation SummarizationSetBy = Automatic
+
+	column ministerio
+		dataType: string
+		lineageTag: 9b5b1f04-08dc-5289-af12-217c16d965dc
+		summarizeBy: none
+		sourceColumn: ministerio
+
+		annotation SummarizationSetBy = Automatic
+
+	column continuidad
+		dataType: string
+		lineageTag: a1ab732c-6735-5c4c-a8bb-6414ee5b1e23
+		summarizeBy: none
+		sourceColumn: continuidad
+
+		annotation SummarizationSetBy = Automatic
+
+	column aplicaciones_con_obligaciones
+		dataType: int64
+		formatString: 0
+		lineageTag: 3729df22-0ebe-5ff2-9049-31a97017a40a
+		summarizeBy: none
+		sourceColumn: aplicaciones_con_obligaciones
+
+		annotation SummarizationSetBy = Automatic
+
+	column obligaciones
+		dataType: double
+		lineageTag: 9f85d003-2908-5447-95e7-c9e80aea23c5
+		summarizeBy: none
+		sourceColumn: obligaciones
+
+		annotation SummarizationSetBy = Automatic
+
+	column pct_primera
+		dataType: double
+		lineageTag: a3ad3ddd-d432-5bc1-813b-9e3a7872395b
+		summarizeBy: none
+		sourceColumn: pct_primera
+
+		annotation SummarizationSetBy = Automatic
+
+	column pct_cinco_primeras
+		dataType: double
+		lineageTag: e192ad5e-d676-54d8-b358-e28e113c9aca
+		summarizeBy: none
+		sourceColumn: pct_cinco_primeras
+
+		annotation SummarizationSetBy = Automatic
+
+	column n50
+		dataType: int64
+		formatString: 0
+		lineageTag: 7186e7eb-955b-5a49-94ab-1fac39d7378b
+		summarizeBy: none
+		sourceColumn: n50
+
+		annotation SummarizationSetBy = Automatic
+
+	column n80
+		dataType: int64
+		formatString: 0
+		lineageTag: a61e9f1f-c1e1-5e94-acce-4382ca555751
+		summarizeBy: none
+		sourceColumn: n80
+
+		annotation SummarizationSetBy = Automatic
+
+	column n95
+		dataType: int64
+		formatString: 0
+		lineageTag: 28cf726f-f4e7-5ae8-9483-16afa2cf30ea
+		summarizeBy: none
+		sourceColumn: n95
+
+		annotation SummarizationSetBy = Automatic
+
+	column primera_obligaciones
+		dataType: double
+		lineageTag: c48b1dfc-0d41-544b-9a8e-c9bb0a6554c3
+		summarizeBy: none
+		sourceColumn: primera_obligaciones
+
+		annotation SummarizationSetBy = Automatic
+
+	column primera_programa
+		dataType: string
+		lineageTag: 1374940e-9a94-53a4-aa35-11637ac9b21f
+		summarizeBy: none
+		sourceColumn: primera_programa
+
+		annotation SummarizationSetBy = Automatic
+
+	column primera_capitulo
+		dataType: int64
+		formatString: 0
+		lineageTag: 134ac95c-502a-5577-9328-68ffdf99d4b6
+		summarizeBy: none
+		sourceColumn: primera_capitulo
+
+		annotation SummarizationSetBy = Automatic
+
+	column primera_destino
+		dataType: string
+		lineageTag: cb420411-b87c-580b-b2c4-14295eb5aaa0
+		summarizeBy: none
+		sourceColumn: primera_destino
+
+		annotation SummarizationSetBy = Automatic
+
+	partition fact_concentracion = m
+		mode: import
+		source =
+				let
+				    Origen = Csv.Document(File.Contents(RutaProyecto & "powerbi\fact_concentracion.csv"), [Delimiter = ";", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Encabezados = Table.PromoteHeaders(Origen, [PromoteAllScalars = true]),
+				    Tipos = Table.TransformColumnTypes(Encabezados, {{"anio", Int64.Type}, {"dato", type text}, {"ministerio", type text}, {"continuidad", type text}, {"aplicaciones_con_obligaciones", Int64.Type}, {"obligaciones", type number}, {"pct_primera", type number}, {"pct_cinco_primeras", type number}, {"n50", Int64.Type}, {"n80", Int64.Type}, {"n95", Int64.Type}, {"primera_obligaciones", type number}, {"primera_programa", type text}, {"primera_capitulo", Int64.Type}, {"primera_destino", type text}}, "es-ES")
+				in
+				    Tipos
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+
