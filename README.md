@@ -109,6 +109,100 @@ Ver [`comparativa.md`](comparativa.md) (apartados 1 a 6) y [`preguntas.md`](preg
 - Calendario de ejecución (apartado 17, 2024 y 2025): los 22 ministerios reconocieron el 55,0 % de sus obligaciones de 2025 hasta septiembre y el 39,0 % en noviembre y diciembre (28,9 % en 2024); ocho ministerios reconocen en diciembre el 30 % o más de su año.
 - Contratación: con datos suficientes, Hacienda y Defensa concentran más importe en noviembre-diciembre que la AGE sin ellos, y Transportes menos. En Hacienda es por las compras centralizadas de toda la AGE, que entran en su serie en 2021.
 
+## El informe en Power BI
+
+Capturas de las 15 páginas de [`powerbi/presupuesto_al_gasto.pbip`](powerbi/) (Power BI Desktop, 14/11/2026; 2025 provisional). La guía del modelo está en [`powerbi/MODELO.md`](powerbi/MODELO.md).
+
+### 1. Los 22
+
+Presupuesto y gasto de cada ministerio, con el gasto agregado sin doble cómputo.
+
+![1. Los 22](docs/img/01_los_22.png)
+
+### 2. Ficha de un ministerio
+
+Del presupuesto inicial a las obligaciones, capítulos, ingresos de los organismos y contratación (se elige el ministerio).
+
+![2. Ficha de un ministerio](docs/img/02_ficha.png)
+
+### 3. Calendario de prórroga
+
+Días de cada año con presupuesto prorrogado y con el Gobierno en funciones.
+
+![3. Calendario de prórroga](docs/img/03_calendario_prorroga.png)
+
+### 4. Presupuesto prorrogado
+
+Ejecución de 2024 y 2025 sobre créditos iniciales y modificaciones de crédito en 2025.
+
+![4. Presupuesto prorrogado](docs/img/04_prorrogado.png)
+
+### 5. Lo que no se gasta
+
+Crédito definitivo menos obligaciones, por capítulo y por ministerio.
+
+![5. Lo que no se gasta](docs/img/05_sin_gastar.png)
+
+### 6. Mecanismo de Recuperación
+
+Obligaciones del Mecanismo 2021-2025, peso en cada ministerio y programas.
+
+![6. Mecanismo de Recuperación](docs/img/06_mecanismo.png)
+
+### 7. Contratación al cierre del ejercicio
+
+Diferencia entre la cuota de noviembre-diciembre de cada ministerio y la del resto de la AGE.
+
+![7. Contratación al cierre del ejercicio](docs/img/07_cierre.png)
+
+### 8. Valor del dinero
+
+Euros corrientes y constantes de 2025 (IPC, deflactor del PIB y del consumo público).
+
+![8. Valor del dinero](docs/img/08_valor_dinero.png)
+
+### 9. Respuesta a las catástrofes
+
+Líneas de crédito de covid-19, crisis de la energía, DANA, La Palma y Filomena.
+
+![9. Respuesta a las catástrofes](docs/img/09_catastrofes.png)
+
+### 10. Crédito nuevo y remanentes
+
+Crédito del presupuesto frente a crédito creado durante el año, y remanentes.
+
+![10. Crédito nuevo y remanentes](docs/img/10_credito_nuevo.png)
+
+### 11. Del crédito inicial al pagado
+
+Obligaciones sobre créditos iniciales y obligaciones sin pagar a 31 de diciembre.
+
+![11. Del crédito inicial al pagado](docs/img/11_inicial_pagado.png)
+
+### 12. Contratación frente a gasto
+
+Qué parte del gasto agregado pasa por contratos y concentración por líneas.
+
+![12. Contratación frente a gasto](docs/img/12_contratacion_gasto.png)
+
+### 13. Subvenciones (BDNS)
+
+Ayudas concedidas por instrumento y ministerio, 2022-2025, solo agregados.
+
+![13. Subvenciones (BDNS)](docs/img/13_subvenciones.png)
+
+### 14. Calendario mensual
+
+Obligaciones acumuladas mes a mes, 2024 y 2025.
+
+![14. Calendario mensual](docs/img/14_calendario_mensual.png)
+
+### 15. Método y registro
+
+Perímetro, doble cómputo, años comparables, euros constantes y avisos.
+
+![15. Método y registro](docs/img/15_metodo_registro.png)
+
 ## Registro
 
 [`REGISTRO.md`](REGISTRO.md) separa lo que viene así en las fuentes (anotado tal cual), los ajustes e interpretaciones nuestras y los errores nuestros corregidos. Reasignar una cifra es criterio nuestro: no significa que la fuente esté mal.
