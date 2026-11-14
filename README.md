@@ -245,6 +245,10 @@ python scripts/08_fichas_md.py               # tablas de fichas/*.md
 
 Necesita Python 3 y `openpyxl`. Los PDF y Excel de la IGAE (liquidación del Presupuesto del Estado y de organismos, estadísticas mensuales de 2025; unos 220 MB) no se publican en el repositorio: se descargan de la web de la IGAE (Intervención General de la Administración del Estado, ejecución presupuestaria) y se colocan en `fuentes/igae/` con la misma estructura (`liquidacion_estado/`, `liquidacion_estado_excel/`, `liquidacion_organismos/`, `organismos_excel/` y `mensual/`). El texto de los PDF se extrae a `fuentes/igae/_texto/` con `pdftotext` (Poppler). Los scripts 16 y 29 leen además los registros de licitaciones de la PLACSP del proyecto de Defensa (`registros/sector_publico/`, gigas de datos que no se publican); el resto de la contratación sale de `fuentes/contratacion/linea_base_cierre.csv`, que sí está.
 
+## Licencia
+
+[MIT](LICENSE). Los datos proceden de fuentes públicas (IGAE, SEPG, PLACSP, BDNS, INE), cada una con sus propias condiciones de reutilización; se citan en [`datos/LEEME.md`](datos/LEEME.md).
+
 ## Autor
 
 [DeLabFuente](https://github.com/DeLabFuente) · Analista de datos (IBM Data Analyst; preparando el PL-300). Proyecto personal de análisis de datos abiertos; no representa la posición de ninguna institución.
