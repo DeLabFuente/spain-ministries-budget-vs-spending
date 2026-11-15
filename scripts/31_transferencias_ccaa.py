@@ -18,8 +18,9 @@ mayor parte del artículo 45 y quedan fuera de los 22 ministerios: se muestran a
 Entradas:
   fuentes/igae/mensual/mensual_01-25.pdf … mensual_12-25.pdf (texto en fuentes/igae/_texto/, con pdftotext -layout;
       la variable de entorno IGAE_TEXTO cambia la carpeta del texto)
+  fuentes/igae/_intermedios/liquidacion_aplicaciones.csv (script 01; aplicaciones 2020-2024 para la serie anual)
   datos/secciones_ministerio_actual.csv, datos/mensual_ministerio_mes.csv, datos/mensual_resumen.csv
-Salidas:  datos/transferencias_ccaa_mes.csv, datos/transferencias_ccaa_resumen.csv, datos/transferencias_ccaa_lineas.csv,
+Salidas:  datos/transferencias_ccaa_anual.csv (2020-2025 por ministerio), datos/transferencias_ccaa_mes.csv, datos/transferencias_ccaa_resumen.csv, datos/transferencias_ccaa_lineas.csv,
           datos/transferencias_ccaa_estado.csv, datos/controles_transferencias_ccaa.csv,
           preguntas.md (marcas <!-- tabla:transf_… -->)
 Uso: python scripts/31_transferencias_ccaa.py   (ejecutar después del 18 y del 28)
@@ -264,6 +265,49 @@ def main():
         if gasto.get(g):
             control(f"{corto(g)} · transferencias a CCAA no superan el gasto total del ministerio", min(gasto[g] - acum[(g, '45+75', 12)], 0), 0)
 
+    # ---- serie anual 2020-2025 (liquidación 2020-2024: anexos por aplicación; 2025: la mensual de diciembre) ---
+    maa = {(int(r["anio"]), r["codigo_seccion"]): r for r in leer(DATOS / "secciones_ministerio_actual.csv")}
+    anual = defaultdict(float)
+    for r in leer(s18.APLIC):
+        art = r["economica"][:2]
+        if art not in ARTS:
+            continue
+        x = maa.get((int(r["anio"]), r["seccion"]))
+        g = x["ministerio_actual"] if x else f"Sección {r['seccion']} (sin equivalencia)"
+        tipo = x["tipo"] if x else "Sección no ministerial"
+        anual[(int(r["anio"]), g, art)] += f(r["obligaciones"])
+        if tipo == "Ministerio":
+            anual[(int(r["anio"]), TODOS, art)] += f(r["obligaciones"])
+        anual[(int(r["anio"]), "Estado", art)] += f(r["obligaciones"])
+    for g in orden_g + ["Estado"]:
+        for art in ARTS:
+            anual[(2025, g, art)] = acum[(g, art, 12)] if g != "Estado" else sum(acum[(h, art, 12)] for h in grupos)
+    gasto_anio = defaultdict(float)
+    for (anio, cod), r in maa.items():
+        if r["tipo"] == "Ministerio":
+            gasto_anio[(anio, r["ministerio_actual"])] += f(r["obligaciones"])
+            gasto_anio[(anio, TODOS)] += f(r["obligaciones"])
+    ANIOS = list(range(2020, 2026))
+    cambios = {(anio, r["ministerio_actual"]) for (anio, cod), r in maa.items() if r["tipo"] == "Ministerio" and r["continuidad"] != "directa"}
+    gr_anual = sorted({k[1] for k in anual if k[1] != "Estado"}, key=lambda g: (g not in mins and g != TODOS, g))
+    out_a = []
+    for anio in ANIOS:
+        for g in gr_anual + ["Estado"]:
+            a45, a75 = anual.get((anio, g, "45"), 0.0), anual.get((anio, g, "75"), 0.0)
+            gt = gasto_anio.get((anio, g))
+            out_a.append(dict(anio=anio, grupo=g, tipo="Ministerio" if (g in mins or g == TODOS) else ("Estado" if g == "Estado" else "Sección no ministerial"),
+                              art45=a45, art75=a75, transferencias=a45 + a75, gasto_total=gt if gt else "",
+                              pct_del_gasto=round(100 * (a45 + a75) / gt, 2) if gt else "",
+                              dato="provisional (mensual de diciembre)" if anio == 2025 else "definitivo (liquidación)"))
+    escribir(DATOS / "transferencias_ccaa_anual.csv", out_a,
+             ["anio", "grupo", "tipo", "art45", "art75", "transferencias", "gasto_total", "pct_del_gasto", "dato"])
+    for art in ARTS:
+        control(f"2024 · art. {art} · suma de las aplicaciones de la liquidación = TOTALES (comparativo de 2024) de la tabla de la mensual de diciembre",
+                anual[(2024, "Estado", art)], estado[(art, 12)]["obl24"], 10000, "liquidación de 2024 (euros) frente al comparativo publicado en la edición de 2025 (miles redondeados); diferencia de menos de 8.000 €")
+    for g in gr_anual:
+        control(f"2025 · {corto(g)} · serie anual = obligaciones de diciembre del calendario (45+75)",
+                anual[(2025, g, "45")] + anual[(2025, g, "75")], acum[(g, "45+75", 12)] if g in grupos or g == TODOS else 0.0, 1)
+
     # ---- tablas ----------------------------------------------------------------------------------------------
     pcs = lambda x: "—" if x in (None, "") else f"{float(x):.1f}".replace(".", ",")
     T = {}
@@ -313,6 +357,19 @@ def main():
     for r in top:
         t.append(f"| {corto(r['grupo'])} | {r['programa']} · {r['economica']} | {r['descripcion'][:90]} | {m(r['aumento_dic'])} | {pcs(r['pct_en_dic'])} |")
     T["transf_lineas"] = "\n".join(t)
+
+    A = {(r["anio"], r["grupo"]): r for r in out_a}
+    ordm = sorted([g for g in mins if any(A[(a, g)]["transferencias"] > 0 for a in ANIOS)], key=lambda g: -A[(2024, g)]["transferencias"])
+    t = ["| Ministerio actual | " + " | ".join(f"{a}, M€" for a in ANIOS) + " | % de su gasto 2024 | % de su gasto 2025 |",
+         "| --- |" + " ---: |" * (len(ANIOS) + 2)]
+    for g in ordm + [TODOS]:
+        b = "**" if g == TODOS else ""
+        t.append(f"| {b}{corto(g) if g != TODOS else g}{b} | " + " | ".join(m(A[(a, g)]["transferencias"]) + ("*" if (a, g) in cambios and A[(a, g)]["transferencias"] else "") for a in ANIOS)
+                 + f" | {pcs(A[(2024, g)]['pct_del_gasto'])} | {pcs(A[(2025, g)]['pct_del_gasto'])} |")
+    for g, nom in (("Sistemas de financiación de entes territoriales", None), ("Estado", "**Estado (artículos 45 y 75)**")):
+        if (2024, g) in A:
+            t.append(f"| {nom or g} | " + " | ".join(m(A[(a, g)]["transferencias"]) for a in ANIOS) + " | | |")
+    T["transf_anual"] = "\n".join(t)
 
     texto_doc = DOC.read_text(encoding="utf-8")
     hechas = 0
