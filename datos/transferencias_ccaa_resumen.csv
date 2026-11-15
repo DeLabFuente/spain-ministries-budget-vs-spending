@@ -1,0 +1,25 @@
+grupo;tipo;art45_2025;art75_2025;transferencias_2025;gasto_total_2025;pct_del_gasto;lineas_con_obligaciones;pct_hasta_jun;pct_hasta_sep;pct_hasta_oct;pct_hasta_nov;pct_nov_dic;pct_dic;pct_dic_art45;pct_dic_art75;pct_dic_gasto_total;pct_nov_dic_gasto_total;pct_lineas_solo_dic
+Ministerio de Agricultura, Pesca y Alimentación;Ministerio;0;241929727,01;241929727,01;1565816000;15,45;12;69,93;84,60;89,46;95,17;10,54;4,83;;4,83;21,27;30,10;0,08
+Ministerio de Ciencia, Innovación y Universidades;Ministerio;214649131,85;155623101,10;370272232,95;4684018000;7,91;19;0,55;5,63;68,93;71,71;31,07;28,29;47,65;1,57;22,15;34,79;27,93
+Ministerio de Cultura;Ministerio;13016183,07;333000;13349183,07;1038904000;1,28;27;37,88;67,29;71,61;89,15;28,39;10,85;8,57;100;14,26;31,97;10,85
+Ministerio de Defensa;Ministerio;16323308,20;0;16323308,20;18806148000;0,09;4;18,96;19,19;62,43;72,27;37,57;27,73;27,73;;34,31;43,45;9,87
+Ministerio de Derechos Sociales, Consumo y Agenda 2030;Ministerio;665079953,11;114858862,66;779938815,77;5329423000;14,63;23;30,48;40,67;40,69;91,38;59,31;8,62;10,11;0;3,91;23,70;4,72
+Ministerio de Economía, Comercio y Empresa;Ministerio;500000;0;500000;5021641000;0,01;1;0;0;0;0;100;100;100;;42,65;49,61;100
+Ministerio de Educación, Formación Profesional y Deportes;Ministerio;1208310725,77;4102185,96;1212412911,73;4725331000;25,66;21;0;23,58;37,56;98,73;62,44;1,27;0,94;100;19,35;50,33;0,67
+Ministerio de Igualdad;Ministerio;312300000;10000000;322300000;481332000;66,96;7;0;0,10;0,95;56,56;99,05;43,44;42,20;82,09;35,95;80,31;0
+Ministerio de Inclusión, Seguridad Social y Migraciones;Ministerio;15600;0;15600;54800710000;0;1;0;0;0;0;100;100;100;;3,77;29,24;100
+Ministerio de Industria y Turismo;Ministerio;0;17055186,86;17055186,86;9975997000;0,17;5;21,32;66,95;66,95;67,92;33,05;32,08;;32,08;70,32;74,90;18,24
+Ministerio de Juventud e Infancia;Ministerio;229633725;0;229633725;296525000;77,44;3;0;0;0;9,58;100;90,42;90,42;;71,95;80,37;84,76
+Ministerio de Política Territorial y Memoria Democrática;Ministerio;3554375,89;37110000;40664375,89;2259491000;1,80;7;0;4,40;5,99;6,73;94,01;93,27;22,99;100;5,99;7,49;93,27
+Ministerio de Sanidad;Ministerio;355698522,79;111624220,11;467322742,90;1235082000;37,84;33;0,43;41,48;51,90;90,76;48,10;9,24;10,04;6,67;22,64;43,73;5,50
+Ministerio de Trabajo y Economía Social;Ministerio;11378473,92;0;11378473,92;636434000;1,79;2;0;74,88;99,84;99,84;0,16;0,16;0,16;;18,58;24,76;0,16
+Ministerio de Transportes y Movilidad Sostenible;Ministerio;1204281807,25;317710642,70;1521992449,95;11506088000;13,23;26;2,57;22,88;22,88;26,37;77,12;73,63;77,82;57,73;38,55;47,92;68,84
+Ministerio de Vivienda y Agenda Urbana;Ministerio;0;949430808,60;949430808,60;4780983000;19,86;12;31,09;38,96;39,14;77,39;60,86;22,61;;22,61;13,21;21;20,33
+Ministerio de la Presidencia, Justicia y Relaciones con las Cortes;Ministerio;6652961,51;6153846;12806807,51;2790855000;0,46;3;0;0;0;0;100;100;100;100;17,31;24,89;100
+Ministerio del Interior;Ministerio;2435000;0;2435000;11144365000;0,02;2;75,15;87,05;87,05;87,05;12,95;12,95;12,95;;17,12;24,80;0
+Ministerio para la Transformación Digital y de la Función Pública;Ministerio;0;108468369,41;108468369,41;6394245000;1,70;21;48,02;72,61;92,35;93,87;7,65;6,13;;6,13;73,78;74,55;6,13
+Ministerio para la Transición Ecológica y el Reto Demográfico;Ministerio;331098829,19;179391648,27;510490477,46;8974251000;5,69;17;0,02;8,24;12,92;74,32;87,08;25,68;2,57;68,33;25,31;40,74;25,58
+22 ministerios;Ministerio;4574928597,55;2253791598,68;6828720196,23;167485677000;4,08;246;11,88;27,79;35,48;68,87;64,52;31,13;33,13;27,08;23,95;38,96;26,42
+Fondos de compensación interterritorial;Sección no ministerial;0;457909091,83;457909091,83;;;45;10,65;19,15;24,16;24,60;75,84;75,40;;75,40;;;66,79
+Otras relaciones financieras con entes territoriales;Sección no ministerial;55655467,05;169471015;225126482,05;;;7;0,77;0,98;95,34;95,34;4,66;4,66;0,90;5,89;;;4,44
+Sistemas de financiación de entes territoriales;Sección no ministerial;28657410924,27;0;28657410924,27;;;24;9,41;46,65;48,62;50,41;51,38;49,59;49,59;;;;46,32

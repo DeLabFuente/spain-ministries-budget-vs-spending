@@ -1,4 +1,4 @@
-# Preguntas adicionales sobre la ejecución de los 22 ministerios (apartados 7–17)
+# Preguntas adicionales sobre la ejecución de los 22 ministerios (apartados 7–18)
 
 Continuación de [`comparativa.md`](comparativa.md), que tiene los apartados 1 a 6 (tamaño y ejecución, prórroga, en qué se gasta, serie de ejecución, Mecanismo de Recuperación y contratación al cierre). Mismas reglas para los 22 ministerios. Millones de euros corrientes salvo que se diga otra cosa. 2025 es provisional (estadística mensual de diciembre) y solo tiene el Estado.
 
@@ -17,6 +17,7 @@ Análisis de la ejecución presupuestaria con datos públicos; no es una auditor
 - **Cambiar la asignación de competencias no corrige ninguna cifra, solo añade años** (apartado 15). Donde un ministerio actual tiene continuidad directa, las dos vistas coinciden al euro. Con la de entonces, Inclusión deja de cumplir la definición de gastar siempre más que el crédito inicial (7 años de 9) y solo queda Defensa; cinco ministerios cambian de lado del 100 % en el acumulado.
 - **Las subvenciones y ayudas del Estado que registra la BDNS están muy concentradas y, desde 2025, son mucho más numerosas** (apartado 16). Subvenciones y otras ayudas directas concedidas: 18.944 M€ en 2022, 17.999 M€ en 2023, 15.708 M€ en 2024 y 20.232 M€ en 2025 (este último incompleto). Transición Ecológica se lleva entre el 32 % y el 42 % cada año y cinco ministerios suman entre el 72 % y el 81 %. Las concesiones pasan de 358.685 en 2024 a 13.514.744 en 2025, y de ellas 6.461.534 (Transportes casi todas) no se han podido leer y no tienen importe en este análisis.
 - **El gasto de 2025 se dejó más para el final que el de 2024** (apartado 17). Los 22 ministerios reconocieron el 55,0 % de sus obligaciones del año hasta septiembre (57,4 % en 2024) y el 39,0 % en noviembre y diciembre (28,9 % en 2024). Solo en diciembre: 40.118 M€ en 2025 (23,9 % del año) frente a 28.969 M€ en 2024 (18,2 %). Ocho ministerios reconocen en diciembre el 30 % o más de su año; Industria, Defensa, Transformación Digital, Transportes y Hacienda suman el 66,8 % de lo reconocido ese mes.
+- **Las transferencias a las comunidades autónomas se reconocen más tarde que el resto del gasto** (apartado 18). El Estado reconoce 36.169 M€ en 2025 en los artículos 45 y 75; el 79,2 % sale de la sección de sistemas de financiación y solo 6.829 M€ (18,9 %) de los 22 ministerios. En el Estado en conjunto, el 46,2 % se reconoce en diciembre, sobre todo por una línea (la aportación al Fondo de Garantía, 13.271 M€); sin ella, el 14,9 %. Los 22 ministerios reconocen en noviembre y diciembre el 64,5 % de sus transferencias a comunidades (39,0 % de su gasto total) y solo en diciembre el 31,1 % (23,9 %). Doce líneas suman el 72,3 % de lo que reconocen en diciembre.
 
 ## 7. Respuesta a las catástrofes (2020–2025)
 
@@ -1117,8 +1118,99 @@ Las estadísticas mensuales de ejecución de la IGAE dan, cada mes, las obligaci
 
 **Límites.** (1) Es el momento en que se reconoce la obligación, no el pago ni la llegada al destinatario final; el apartado 12 mide lo reconocido y no pagado al cierre. (2) El peso de cada tramo es sobre el total del año de cada ministerio: si el total cambia mucho entre años (Hacienda, Política Territorial), las comparaciones de porcentaje mezclan calendario y tamaño. (3) Las partidas del Mecanismo de Recuperación y las grandes transferencias puntuales pesan mucho en un mes y no se han separado. (4) 2025 es provisional y 2024 viene del comparativo de las ediciones de 2025. (5) Concentrar el reconocimiento en diciembre es un patrón del calendario; no es una irregularidad ni dice por sí mismo si el gasto fue bueno o malo. (6) Los doce meses de 2026 (hasta octubre están publicados) y el detalle por artículo (la idea de medir qué parte de lo que se transfiere a comunidades autónomas se reconoce en diciembre) no se han tratado.
 
+## 18. Transferencias a las comunidades autónomas: cuánto se reconoce en diciembre (2025)
+
+Las transferencias del Estado a las comunidades autónomas son el artículo 45 (corrientes) y el 75 (de capital) de la clasificación económica. La pregunta nace del caso de Canarias (REGISTRO A19): dos subvenciones directas que se conceden a finales de diciembre. ¿Es un calendario excepcional o es lo habitual en estas transferencias? Cada edición mensual de 2025 de la IGAE trae, línea a línea (anexos I y II), las obligaciones reconocidas netas acumuladas hasta ese mes. Con las doce ediciones se reconstruye el calendario de 2025 por ministerio y por línea. Las tablas de los artículos 45 y 75 de cada edición traen también la cifra del mismo mes de 2024, pero solo para el Estado en conjunto: 2024 no se puede abrir por ministerio (REGISTRO B34).
+
+**Quién reconoce las transferencias** (2025, provisional)
+
+<!-- tabla:transf_perimetro -->
+| Quién lo reconoce (2025) | Art. 45, M€ | Art. 75, M€ | Total, M€ | Hasta septiembre, % | Noviembre-diciembre, % | Solo diciembre, % |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| **22 ministerios** | 4.575 | 2.254 | 6.829 | 27,8 | 64,5 | 31,1 |
+| Fondos de compensación interterritorial | — | 458 | 458 | 19,1 | 75,8 | 75,4 |
+| Otras relaciones financieras con entes territoriales | 55,7 | 169 | 225 | 1,0 | 4,7 | 4,7 |
+| Sistemas de financiación de entes territoriales | 28.657 | — | 28.657 | 46,6 | 51,4 | 49,6 |
+| **Estado (artículos 45 y 75)** | 33.288 | 2.881 | 36.169 | 42,5 | 53,9 | 46,2 |
+<!-- /tabla -->
+
+**El Estado en conjunto, mes a mes, en 2025 y 2024** (acumulado al fin del mes)
+
+<!-- tabla:transf_estado -->
+| Mes (acumulado al fin del mes) | Art. 45 · 2025, M€ | % del año 2025 | % del año 2024 | Art. 75 · 2025, M€ | % del año 2025 | % del año 2024 |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| Ene | 480 | 1,4 | 1,2 | — | 0,0 | 0,0 |
+| Feb | 906 | 2,7 | 2,4 | 24,2 | 0,8 | 0,6 |
+| Mar | 1.348 | 4,1 | 3,5 | 29,9 | 1,0 | 0,6 |
+| Abr | 1.826 | 5,5 | 4,8 | 450 | 15,6 | 9,7 |
+| May | 2.258 | 6,8 | 6,0 | 684 | 23,7 | 15,9 |
+| Jun | 2.835 | 8,5 | 7,1 | 723 | 25,1 | 20,1 |
+| Jul | 12.693 | 38,1 | 38,3 | 881 | 30,6 | 23,6 |
+| Ago | 13.104 | 39,4 | 40,4 | 1.029 | 35,7 | 32,1 |
+| Sep | 14.288 | 42,9 | 49,0 | 1.068 | 37,1 | 41,3 |
+| Oct | 15.206 | 45,7 | 52,2 | 1.475 | 51,2 | 70,0 |
+| Nov | 17.560 | 52,8 | 58,8 | 1.916 | 66,5 | 81,8 |
+| Dic | 33.288 | 100,0 | 100,0 | 2.881 | 100,0 | 100,0 |
+<!-- /tabla -->
+
+**Por ministerio** (2025; % de las transferencias a comunidades del año de cada ministerio, ordenado por importe). La penúltima columna es el peso de diciembre en todo el gasto del ministerio (apartado 17), para comparar. La última es la parte de sus transferencias que está en líneas sin obligaciones hasta noviembre
+
+<!-- tabla:transf_ministerio -->
+| Ministerio actual | Transferencias a CCAA 2025, M€ | % de su gasto | Hasta septiembre, % | Noviembre-diciembre, % | Solo diciembre, % | Solo diciembre, su gasto total, % | Líneas que aparecen en diciembre, % |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| Transportes y Movilidad Sostenible | 1.522 | 13,2 | 22,9 | 77,1 | 73,6 | 38,5 | 68,8 |
+| Educación, Formación Profesional y Deportes | 1.212 | 25,7 | 23,6 | 62,4 | 1,3 | 19,4 | 0,7 |
+| Vivienda y Agenda Urbana | 949 | 19,9 | 39,0 | 60,9 | 22,6 | 13,2 | 20,3 |
+| Derechos Sociales, Consumo y Agenda 2030 | 780 | 14,6 | 40,7 | 59,3 | 8,6 | 3,9 | 4,7 |
+| Transición Ecológica y el Reto Demográfico | 510 | 5,7 | 8,2 | 87,1 | 25,7 | 25,3 | 25,6 |
+| Sanidad | 467 | 37,8 | 41,5 | 48,1 | 9,2 | 22,6 | 5,5 |
+| Ciencia, Innovación y Universidades | 370 | 7,9 | 5,6 | 31,1 | 28,3 | 22,1 | 27,9 |
+| Igualdad | 322 | 67,0 | 0,1 | 99,0 | 43,4 | 36,0 | 0,0 |
+| Agricultura, Pesca y Alimentación | 242 | 15,4 | 84,6 | 10,5 | 4,8 | 21,3 | 0,1 |
+| Juventud e Infancia | 230 | 77,4 | 0,0 | 100,0 | 90,4 | 72,0 | 84,8 |
+| Transformación Digital y de la Función Pública | 108 | 1,7 | 72,6 | 7,7 | 6,1 | 73,8 | 6,1 |
+| Política Territorial y Memoria Democrática | 40,7 | 1,8 | 4,4 | 94,0 | 93,3 | 6,0 | 93,3 |
+| Industria y Turismo | 17,1 | 0,2 | 67,0 | 33,0 | 32,1 | 70,3 | 18,2 |
+| Defensa | 16,3 | 0,1 | 19,2 | 37,6 | 27,7 | 34,3 | 9,9 |
+| Cultura | 13,3 | 1,3 | 67,3 | 28,4 | 10,8 | 14,3 | 10,8 |
+| Presidencia, Justicia y Relaciones con las Cortes | 12,8 | 0,5 | 0,0 | 100,0 | 100,0 | 17,3 | 100,0 |
+| Trabajo y Economía Social | 11,4 | 1,8 | 74,9 | 0,2 | 0,2 | 18,6 | 0,2 |
+| Interior | 2,4 | 0,0 | 87,0 | 12,9 | 12,9 | 17,1 | 0,0 |
+| Economía, Comercio y Empresa | 0,5 | 0,0 | 0,0 | 100,0 | 100,0 | 42,6 | 100,0 |
+| Inclusión, Seguridad Social y Migraciones | 0,0 | 0,0 | 0,0 | 100,0 | 100,0 | 3,8 | 100,0 |
+| **22 ministerios** | 6.829 | 4,1 | 27,8 | 64,5 | 31,1 | 23,9 | 26,4 |
+<!-- /tabla -->
+
+**Las líneas que más se reconocen en diciembre** (los 22 ministerios, 2025)
+
+<!-- tabla:transf_lineas -->
+| Ministerio | Línea (programa · económica) | Descripción en la IGAE | Reconocido en diciembre, M€ | % de la línea en diciembre |
+| --- | --- | --- | ---: | ---: |
+| Transportes y Movilidad Sostenible | 441M · 45701 | A Generalitat Catalunya.Rodalies.Compensar servic transte cercanías y region prestados REN | 301 | 100,0 |
+| Vivienda y Agenda Urbana | 261N · 754 | Bono alquiler joven | 187 | 100,0 |
+| Transportes y Movilidad Sostenible | 441M · 45101 | A la autoridad del Transporte Metropolitano de Barcelona | 149 | 100,0 |
+| Transportes y Movilidad Sostenible | 441M · 450 | A Comunidades Autónomas para cofinanciar servicios de transporte colectivo | 138 | 100,0 |
+| Transportes y Movilidad Sostenible | 441M · 45102 | Al Consorcio Regional de Transportes de Madrid | 127 | 100,0 |
+| Igualdad | 232C · 450 | Para el desarrollo de nuevas o ampliadas competencias reservadas a las Comunidades Autónom | 123 | 82,1 |
+| Juventud e Infancia | 231G · 451 | [descripción no publicada; REGISTRO A38] | 100 | 100,0 |
+| Ciencia, Innovación y Universidades | 322C · 450 | Programa de Incorporación de Talento Docente e Investigador | 100,0 | 100,0 |
+| Juventud e Infancia | 231G · 452 | Fondo para la atención a niños, niñas y adolescentes migrantes no acompañados | 94,6 | 100,0 |
+| Transportes y Movilidad Sostenible | 441M · 45301 | A la CCAA Canarias para descuento del 100% usuarios recurrentes abono tte tit multiviaje t | 78,0 | 100,0 |
+| Transportes y Movilidad Sostenible | 453B · 755 | Convenio con la Comunidad Autónoma de Canarias | 69,9 | 39,5 |
+| Transición Ecológica y el Reto Demográfico | 929D · 756 | Ayudas directas a comunidades autónomas gestoras d servicios d abast. y saneam RD ley 7/24 | 69,8 | 100,0 |
+<!-- /tabla -->
+
+- **El grueso de las transferencias a comunidades no sale de los ministerios.** En 2025 el Estado reconoce 36.169 M€ en los artículos 45 (33.288 M€) y 75 (2.881 M€). Los 22 ministerios reconocen 6.829 M€ (18,9 %), el 4,1 % de sus obligaciones; la sección de sistemas de financiación de entes territoriales, 28.657 M€ (79,2 %). Hacienda y Asuntos Exteriores no tienen líneas en estos artículos.
+- **En el Estado en conjunto, diciembre pesa mucho, y casi todo es una línea.** El 46,2 % de lo reconocido en el año se reconoce en diciembre (artículo 45: 47,2 % frente a 41,2 % en 2024; artículo 75: 33,5 % frente a 18,2 %). La aportación del Estado al Fondo de Garantía (13.271 M€, sección 38) no tiene obligaciones hasta noviembre y se reconoce entera en diciembre: es el 36,7 % del año y el 79,5 % de lo de diciembre. Sin ella, diciembre pesaría el 14,9 %. En 2024 el artículo 45 también sube más de 13.000 M€ en diciembre (de 19.840 a 33.723 M€), así que no es propio de 2025. No se ha comprobado la regla que fija cuándo se reconoce: se anota tal cual.
+- **Los 22 ministerios reconocen sus transferencias a comunidades más tarde que el resto de su gasto.** Hasta septiembre llevan el 27,8 % de sus 6.829 M€ (55,0 % del gasto total de los 22), el 64,5 % se reconoce en noviembre y diciembre (39,0 %) y el 31,1 % solo en diciembre (23,9 %), 2.126 M€.
+- **Pasa en la mayoría de los grandes, pero no en todos.** De los 11 ministerios con 100 M€ o más en estos artículos, ocho tienen un peso de noviembre-diciembre mayor en sus transferencias que en su gasto total, y siete lo tienen mayor en solo diciembre. La diferencia es mayor en Transportes (73,6 % de sus transferencias en diciembre frente a 38,5 % de su gasto) y en Juventud e Infancia (90,4 % frente a 72,0 %). Educación reconoce el 62,4 % en noviembre y diciembre, pero solo el 1,3 % en diciembre: lo hace en noviembre. Agricultura (84,6 %) y Transformación Digital (72,6 %) las reconocen casi todas hasta septiembre.
+- **Pocas líneas concentran diciembre.** Doce líneas suman 1.538 M€, el 72,3 % de lo que los ministerios reconocen en diciembre; las cinco primeras, 902 M€ (42,4 %), y cuatro son de Transportes (compensaciones y cofinanciación de transporte colectivo). 105 de las 246 líneas con obligaciones, 1.804 M€ (26,4 % del año), no habían reconocido nada hasta noviembre.
+- **El caso de Canarias encaja en el patrón, sin que se pueda ligar.** El fondo para niños, niñas y adolescentes migrantes no acompañados (programa 231G, aplicación 452, Juventud e Infancia) reconoce en diciembre 94,6 M€, el 100 % de la línea. La descripción no nombra a ninguna comunidad, así que no se afirma que sea la concesión de REGISTRO A19.
+
+**Límites.** (1) Es el momento en que se reconoce la obligación, no el pago ni la llegada a la comunidad: el apartado 12 mide lo reconocido y no pagado. (2) Solo los artículos 45 y 75 del Estado: no entran los préstamos a comunidades (capítulo 8), ni lo que llega a ellas por organismos, por la Seguridad Social o por los artículos de entidades locales, y no se ha separado el Mecanismo de Recuperación. (3) Solo 2025, provisional; 2024 solo en conjunto. (4) Una línea sin obligaciones hasta noviembre puede serlo porque su crédito se abre tarde o porque la ley fija un pago único al cierre; los datos no distinguen. (5) Reconocer en diciembre es una práctica legal y habitual en las transferencias a comunidades; no es una irregularidad ni se atribuye a ningún Gobierno. (6) La descripción de una línea (la aplicación 451 del programa 231G, REGISTRO A38) no se publica por dudosa.
+
 ## Cómo se ha hecho
 
-Datos y scripts de cada apartado: El apartado 7 (`datos/catastrofes_*.csv`) se genera con `python scripts/18_catastrofes.py`. El apartado 8 (`datos/credito_nuevo_*.csv`), con `python scripts/19_credito_nuevo.py`. El apartado 9 (`datos/contratacion_gasto.csv`), con `python scripts/20_contratacion_gasto.py`. El apartado 10 (`datos/concentracion_ministerio.csv`), con `python scripts/21_concentracion.py`. El apartado 11 (`datos/remanentes_ministerio.csv`), con `python scripts/22_remanentes.py`. Los apartados 12 (`datos/pendiente_pago_*.csv`) y 13 (`datos/sobre_inicial_*.csv`), con `python scripts/23_pendiente_pago.py` y `python scripts/24_sobre_inicial.py`. El apartado 14 (`datos/euros_constantes_*.csv`), con `python scripts/26_euros_constantes.py` (después del 14, que genera el deflactor). El apartado 15 (`datos/vista_entonces_*.csv`), con `python scripts/25_vista_entonces.py` (después del 13, el 24 y el 26). El apartado 16 (`datos/bdns_*.csv`), con `python scripts/27_bdns.py` (después del 18; lee `fuentes/bdns/bdns_agregados.json`, que se obtuvo de la API de la BDNS el 13-14/11/2026 sin guardar registros individuales). El apartado 17 (`datos/mensual_*.csv`), con `python scripts/28_mensual_2025.py` (después del 18; lee las doce ediciones mensuales de 2025 de `fuentes/igae/mensual/`).
+Datos y scripts de cada apartado: El apartado 7 (`datos/catastrofes_*.csv`) se genera con `python scripts/18_catastrofes.py`. El apartado 8 (`datos/credito_nuevo_*.csv`), con `python scripts/19_credito_nuevo.py`. El apartado 9 (`datos/contratacion_gasto.csv`), con `python scripts/20_contratacion_gasto.py`. El apartado 10 (`datos/concentracion_ministerio.csv`), con `python scripts/21_concentracion.py`. El apartado 11 (`datos/remanentes_ministerio.csv`), con `python scripts/22_remanentes.py`. Los apartados 12 (`datos/pendiente_pago_*.csv`) y 13 (`datos/sobre_inicial_*.csv`), con `python scripts/23_pendiente_pago.py` y `python scripts/24_sobre_inicial.py`. El apartado 14 (`datos/euros_constantes_*.csv`), con `python scripts/26_euros_constantes.py` (después del 14, que genera el deflactor). El apartado 15 (`datos/vista_entonces_*.csv`), con `python scripts/25_vista_entonces.py` (después del 13, el 24 y el 26). El apartado 16 (`datos/bdns_*.csv`), con `python scripts/27_bdns.py` (después del 18; lee `fuentes/bdns/bdns_agregados.json`, que se obtuvo de la API de la BDNS el 13-14/11/2026 sin guardar registros individuales). El apartado 17 (`datos/mensual_*.csv`), con `python scripts/28_mensual_2025.py` (después del 18; lee las doce ediciones mensuales de 2025 de `fuentes/igae/mensual/`). El apartado 18 (`datos/transferencias_ccaa_*.csv`), con `python scripts/31_transferencias_ccaa.py` (después del 18 y del 28; lee las mismas doce ediciones mensuales, y la variable de entorno `IGAE_TEXTO` cambia la carpeta donde guarda su texto).
 
 Fuentes: IGAE, Liquidación del Presupuesto del Estado (vol. I) 2017–2024 y de organismos (vol. II) 2017–2024; Estadísticas mensuales de ejecución (art. 135 LGP), enero a diciembre de 2025; PLACSP (línea base del proyecto de Defensa) y estudio de viabilidad del 30/10/2026; BOE (leyes de presupuestos, órdenes de creación de Deuda del Estado y reales decretos de nombramiento, cese y disolución, para el calendario; reales decretos-ley de respuesta a cada catástrofe, para las reglas del apartado 7).

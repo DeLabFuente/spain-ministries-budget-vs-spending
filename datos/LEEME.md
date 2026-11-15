@@ -72,6 +72,11 @@ Todos los CSV usan separador `;`, decimales con coma, UTF-8 e importes en euros.
 | `contratacion_organos_principales.csv` | Órganos de la AGE con más licitaciones adjudicadas o resueltas en 2022-2025 (40 + la Junta de Contratación Centralizada): órgano, ministerio en la plataforma, recuento por año y total. Script 29, REGISTRO B32 |
 | `controles_organos_centrales.csv` | 8 cuadres, correctos: peso de la Junta en las adjudicaciones de la AGE y suma de órganos guardados + resto = total |
 | `controles_powerbi_apartados.csv` | 16 cuadres, correctos, de las tablas que el script 30 prepara para Power BI (`powerbi/fact_*.csv`): filas y sumas frente a los CSV de origen, sin las filas de total «22 ministerios» |
+| `transferencias_ccaa_mes.csv` | Transferencias a comunidades autónomas (artículos 45, 75 y los dos juntos): ministerio actual (y «22 ministerios») o sección no ministerial × mes, con obligaciones acumuladas, del mes, créditos definitivos y % del año. Solo el Estado; 2025 provisional | 2025 | 31 |
+| `transferencias_ccaa_resumen.csv` | Por ministerio o sección no ministerial: transferencias del año, % del gasto del ministerio, % hasta junio, septiembre, octubre y noviembre, % en noviembre-diciembre y en diciembre (también por artículo y frente al gasto total del ministerio) y parte de las líneas que aparecen en diciembre | 2025 | 31 |
+| `transferencias_ccaa_lineas.csv` | Línea a línea (servicio, programa, económica): obligaciones hasta noviembre y diciembre, aumento de diciembre, % de la línea en diciembre y primer mes con obligaciones. Con la descripción de la IGAE salvo la de la aplicación 451 del programa 231G (REGISTRO A38) | 2025 | 31 |
+| `transferencias_ccaa_estado.csv` | Estado en conjunto, por artículo (45 y 75) y mes: obligaciones y créditos de 2025 y del mismo mes de 2024, de la fila TOTALES de las tablas de cada artículo | 2024-2025 | 31 |
+| `controles_transferencias_ccaa.csv` | 154 cuadres, todos correctos: suma de las aplicaciones de los anexos = TOTALES de la tabla de cada artículo (hasta 5.000 €, REGISTRO A41), grupos = aplicaciones, acumulados que no bajan y gasto total de los 22 contra `mensual_ministerio_mes.csv` | 2025 | 31 |
 
 ## Cómo leerlos
 
