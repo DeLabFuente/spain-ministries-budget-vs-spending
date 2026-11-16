@@ -1,5 +1,21 @@
 # Del presupuesto al gasto: los ministerios de España (2017–2026)
 
+> **🇬🇧 In 30 seconds**
+>
+> **Question:** How much is budgeted for each of Spain's 22 ministries, how much is actually spent, how is it funded and what is it spent on? (2017–2026)
+>
+> **Data:** Official budget execution (IGAE), budgets (SEPG), procurement (PLACSP) and grants (BDNS). Public data only, aggregated, with 2,589 reconciliation checks.
+>
+> **Key findings**
+> - From 2017 to late 2026, Spain ran on an **extended (unapproved) budget 59.4 % of the days**.
+> - **Defence** spent **18,806 M€ in 2025** (provisional): **147 % of its initial budget** and almost double 2017, all through in-year budget changes.
+> - **Defence is the only ministry, with Inclusion, that always spends more than its initial budget** (119.7 % over nine years).
+> - Unspent money is mostly loans and capital contributions (chapter 8) and, since 2023, EU Recovery funds: only **52.6 %** of 2025 Recovery credits were executed.
+> - **Recognised is not paid:** by end-2024, only 25.5 % of what Digital Transformation recognised had been paid.
+>
+> **Includes:** a 15-page **Power BI report** (amounts in constant 2025 euros), one fact sheet per ministry and a reproducible Python pipeline.
+>
+> *An analysis of budget execution, not an audit.*
 ¿Cuánto se presupuesta para cada ministerio, cuánto se gasta de verdad, con qué se paga y en qué se gasta? Este proyecto lo mide para los 22 ministerios con datos públicos, empezando por tres (Defensa, Interior y Agricultura) y añadiendo los demás a una comparativa común.
 
 Es un **análisis de la ejecución presupuestaria con datos públicos**, no una auditoría: no tiene acceso a la contabilidad ni a los expedientes, que es lo que revisan la IGAE y el Tribunal de Cuentas.
